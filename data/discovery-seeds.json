@@ -1,0 +1,75 @@
+{
+  "updatedAt": "2026-08-02",
+  "description": "Candidate feeds and search routes for the discovery agent. These are scored before being promoted to the main source lists.",
+  "tabs": {
+    "updates": [
+      {
+        "id": "colossal",
+        "name": "Colossal",
+        "field": "art-design",
+        "feedUrl": "https://www.thisiscolossal.com/feed/",
+        "focus": "art, photography, craft, visual culture"
+      },
+      {
+        "id": "design-milk",
+        "name": "Design Milk",
+        "field": "design",
+        "feedUrl": "https://design-milk.com/feed/",
+        "focus": "product design, interiors, lifestyle design"
+      },
+      {
+        "id": "aiga-eye-on-design",
+        "name": "AIGA Eye on Design",
+        "field": "graphic-design",
+        "feedUrl": "https://eyeondesign.aiga.org/feed/",
+        "focus": "graphic design, visual identity, criticism"
+      }
+    ],
+    "koreanCode": [
+      {
+        "id": "korean-design-global-awards",
+        "name": "Korean Design Global Awards",
+        "field": "디자인/광고",
+        "feedUrl": "https://news.google.com/rss/search?q=Korean%20design%20award%20branding%20graphic%20identity%20interview&hl=en-US&gl=US&ceid=US:en",
+        "focus": "graphic design, awards, identity, global recognition"
+      },
+      {
+        "id": "korean-ad-campaign-analysis",
+        "name": "Korean Advertising Campaign Analysis",
+        "field": "디자인/광고",
+        "feedUrl": "https://news.google.com/rss/search?q=Korean%20advertising%20campaign%20creative%20director%20Cannes%20Lions%20case%20study&hl=en-US&gl=US&ceid=US:en",
+        "focus": "advertising, campaign case study, creative director"
+      },
+      {
+        "id": "korean-cultural-form-hybrid",
+        "name": "Korean Cultural Form Hybrid",
+        "field": "문화코드",
+        "feedUrl": "https://news.google.com/rss/search?q=Korean%20traditional%20contemporary%20design%20fashion%20architecture%20global%20feature&hl=en-US&gl=US&ceid=US:en",
+        "focus": "traditional form, contemporary remix, global code"
+      }
+    ],
+    "cinema": [
+      {
+        "id": "criterion-current",
+        "name": "Criterion Current",
+        "field": "영화비평",
+        "feedUrl": "https://www.criterion.com/current/rss",
+        "focus": "film history, auteur, essays, restoration"
+      },
+      {
+        "id": "mubi-notebook",
+        "name": "MUBI Notebook",
+        "field": "시네마 저널",
+        "feedUrl": "https://mubi.com/notebook/rss",
+        "focus": "cinema essays, festivals, film language"
+      },
+      {
+        "id": "bfi-sight-and-sound",
+        "name": "BFI Sight and Sound",
+        "field": "영화문화",
+        "feedUrl": "https://www.bfi.org.uk/sight-and-sound/rss.xml",
+        "focus": "film criticism, canon, interviews, cinema culture"
+      }
+    ]
+  }
+}

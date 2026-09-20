@@ -1,0 +1,372 @@
+{
+  "generatedAt": "2026-08-03T00:48:02.452Z",
+  "mode": "proposal-only",
+  "archive": {
+    "updates": {
+      "dates": 35,
+      "referenceLenses": {
+        "moving-image-language": 5,
+        "exhibition-space": 32,
+        "brand-advertising": 12,
+        "short-film-story": 3,
+        "production-craft": 1,
+        "strategy-planning": 15,
+        "culture-signal": 454
+      },
+      "weakLenses": [
+        {
+          "field": "production-craft",
+          "count": 1,
+          "target": 15
+        },
+        {
+          "field": "short-film-story",
+          "count": 3,
+          "target": 15
+        },
+        {
+          "field": "moving-image-language",
+          "count": 5,
+          "target": 15
+        },
+        {
+          "field": "brand-advertising",
+          "count": 12,
+          "target": 15
+        }
+      ],
+      "items": 522,
+      "uniqueUrls": 522,
+      "duplicates": 0
+    },
+    "koreanCode": {
+      "dates": 3,
+      "fields": {
+        "콘텐츠/음악": 9,
+        "영화": 7,
+        "건축": 9,
+        "사진": 9,
+        "미술": 9,
+        "디자인/광고": 2
+      },
+      "weakFields": [
+        {
+          "field": "디자인/광고",
+          "count": 2,
+          "target": 5
+        }
+      ],
+      "items": 45,
+      "uniqueUrls": 45,
+      "duplicates": 0
+    },
+    "cinema": {
+      "dates": 3,
+      "items": 45,
+      "uniqueUrls": 45,
+      "duplicates": 0
+    }
+  },
+  "immuneSystem": {
+    "duplicateUrls": 0,
+    "lowKoreanDesignAdvertising": true,
+    "autoPromotion": false
+  },
+  "discovery": {
+    "runs": [],
+    "sourcePromotions": [
+      {
+        "kind": "source",
+        "tab": "updates",
+        "id": "design-milk",
+        "name": "Design Milk",
+        "feedUrl": "https://design-milk.com/feed/",
+        "novel": 12,
+        "score": 170,
+        "reason": "high novelty source candidate"
+      },
+      {
+        "kind": "source",
+        "tab": "updates",
+        "id": "colossal",
+        "name": "Colossal",
+        "feedUrl": "https://www.thisiscolossal.com/feed/",
+        "novel": 10,
+        "score": 150,
+        "reason": "high novelty source candidate"
+      },
+      {
+        "kind": "source",
+        "tab": "koreanCode",
+        "id": "korean-cultural-form-hybrid",
+        "name": "Korean Cultural Form Hybrid",
+        "feedUrl": "https://news.google.com/rss/search?q=Korean%20traditional%20contemporary%20design%20fashion%20architecture%20global%20feature&hl=en-US&gl=US&ceid=US:en",
+        "novel": 36,
+        "score": 410,
+        "reason": "high novelty source candidate"
+      },
+      {
+        "kind": "source",
+        "tab": "koreanCode",
+        "id": "korean-design-global-awards",
+        "name": "Korean Design Global Awards",
+        "feedUrl": "https://news.google.com/rss/search?q=Korean%20design%20award%20branding%20graphic%20identity%20interview&hl=en-US&gl=US&ceid=US:en",
+        "novel": 32,
+        "score": 370,
+        "reason": "high novelty source candidate"
+      },
+      {
+        "kind": "source",
+        "tab": "koreanCode",
+        "id": "korean-ad-campaign-analysis",
+        "name": "Korean Advertising Campaign Analysis",
+        "feedUrl": "https://news.google.com/rss/search?q=Korean%20advertising%20campaign%20creative%20director%20Cannes%20Lions%20case%20study&hl=en-US&gl=US&ceid=US:en",
+        "novel": 17,
+        "score": 220,
+        "reason": "high novelty source candidate"
+      }
+    ],
+    "socialWatch": [
+      {
+        "kind": "social-route",
+        "tab": "cinema",
+        "id": "bsky-korean-cinema",
+        "platform": "bluesky",
+        "query": "Korean cinema",
+        "novel": 19,
+        "sample": [
+          {
+            "title": "Lee Chang-dong becomes first Korean to win TIFF Ebert Director Award - The Korea Times",
+            "url": "https://www.koreatimes.co.kr/entertainment/films/20260730/lee-chang-dong-becomes-first-korean-to-win-tiff-ebert-director-award",
+            "score": 99
+          },
+          {
+            "title": "Oldboy The Corridor Fight Scene",
+            "url": "https://www.youtube.com/watch?v=VwIIDzrVVdc",
+            "score": 92
+          },
+          {
+            "title": "‘Pachinko’ Star Kim Minha to Host Busan Film Festival’s Opening Ceremony",
+            "url": "https://bit.ly/4bnNAN7",
+            "score": 89
+          }
+        ],
+        "reason": "live social signal worth repeated observation"
+      },
+      {
+        "kind": "social-route",
+        "tab": "updates",
+        "id": "bsky-creative-trends",
+        "platform": "bluesky",
+        "query": "creative coding",
+        "novel": 8,
+        "sample": [
+          {
+            "title": "G'MIC 4.0: Squaring the Pixel, Easier Than Ever!",
+            "url": "https://gmic.eu/gmic40/",
+            "score": 108
+          },
+          {
+            "title": "Artificial Life in Music",
+            "url": "https://research.helenbledsoe.com/artificial-life-in-music/",
+            "score": 95
+          },
+          {
+            "title": "Orientation to netnet.studio: Creative Coding and the Open Web",
+            "url": "https://youtu.be/WGezS6K-XMo?is=zI2u7uWwuilz-nJs",
+            "score": 85
+          }
+        ],
+        "reason": "live social signal worth repeated observation"
+      },
+      {
+        "kind": "social-route",
+        "tab": "updates",
+        "id": "bsky-motion-design",
+        "platform": "bluesky",
+        "query": "motion design",
+        "novel": 5,
+        "sample": [
+          {
+            "title": "Amelia Yukihana (@wolfieamel)",
+            "url": "https://vgen.co/wolfieamel",
+            "score": 82
+          },
+          {
+            "title": "Introducing Caddis V1",
+            "url": "https://www.youtube.com/watch?v=zjIr-0Mfm6Q",
+            "score": 76
+          },
+          {
+            "title": "MiniMax: A World-Leading General AI Technology Company | Product Hunt",
+            "url": "https://www.producthunt.com/products/minimax",
+            "score": 75
+          }
+        ],
+        "reason": "live social signal worth repeated observation"
+      },
+      {
+        "kind": "social-route",
+        "tab": "koreanCode",
+        "id": "bsky-korean-branding",
+        "platform": "bluesky",
+        "query": "Korean branding",
+        "novel": 2,
+        "sample": [
+          {
+            "title": "The Kknekki story: What Haaland's hair tie teaches about global branding",
+            "url": "https://www.koreaherald.com/article/10825212",
+            "score": 83
+          },
+          {
+            "title": "The Kknekki story: What Haaland's hair tie teaches about global branding - EUROPE SAYS",
+            "url": "https://www.europesays.com/3162138/",
+            "score": 78
+          }
+        ],
+        "reason": "live social signal worth repeated observation"
+      },
+      {
+        "kind": "social-route",
+        "tab": "koreanCode",
+        "id": "bsky-korean-design",
+        "platform": "bluesky",
+        "query": "Korean design",
+        "novel": 1,
+        "sample": [
+          {
+            "title": "Korean performance fabric supplier",
+            "url": "https://woodatex.com/korean-performance-fabric-supplier/?utm_source=bluesky&utm_medium=jetpack_social",
+            "score": 75
+          }
+        ],
+        "reason": "live social signal worth repeated observation"
+      }
+    ]
+  },
+  "reproduction": {
+    "mutations": [
+      {
+        "kind": "query-mutation",
+        "tab": "koreanCode",
+        "field": "디자인/광고",
+        "id": "mutation-korean-design-advertising-studio",
+        "query": "Korean creative studio branding identity campaign interview",
+        "reason": "Korean Code design/advertising remains under target"
+      },
+      {
+        "kind": "query-mutation",
+        "tab": "koreanCode",
+        "field": "디자인/광고",
+        "id": "mutation-korean-graphic-design-global",
+        "query": "Korean graphic designer identity exhibition global profile",
+        "reason": "Need more creator-led Korean graphic design references"
+      },
+      {
+        "kind": "query-mutation",
+        "tab": "updates",
+        "field": "production-craft",
+        "id": "mutation-video-practice-production-craft",
+        "query": "film production making of VFX edit sound design workflow",
+        "reason": "Video practice reference lens remains under target (1/15)"
+      },
+      {
+        "kind": "query-mutation",
+        "tab": "updates",
+        "field": "short-film-story",
+        "id": "mutation-video-practice-short-film-story",
+        "query": "short film director interview screenplay visual storytelling production",
+        "reason": "Video practice reference lens remains under target (3/15)"
+      },
+      {
+        "kind": "query-mutation",
+        "tab": "updates",
+        "field": "moving-image-language",
+        "id": "mutation-video-practice-moving-image-language",
+        "query": "director cinematographer visual language lighting camera movement breakdown",
+        "reason": "Video practice reference lens remains under target (5/15)"
+      },
+      {
+        "kind": "query-mutation",
+        "tab": "updates",
+        "field": "brand-advertising",
+        "id": "mutation-video-practice-brand-advertising",
+        "query": "advertising film director campaign craft brand film case study",
+        "reason": "Video practice reference lens remains under target (12/15)"
+      },
+      {
+        "kind": "promotion-review",
+        "tab": "updates",
+        "id": "design-milk",
+        "feedUrl": "https://design-milk.com/feed/",
+        "reason": "high novelty source candidate"
+      },
+      {
+        "kind": "promotion-review",
+        "tab": "updates",
+        "id": "colossal",
+        "feedUrl": "https://www.thisiscolossal.com/feed/",
+        "reason": "high novelty source candidate"
+      },
+      {
+        "kind": "promotion-review",
+        "tab": "koreanCode",
+        "id": "korean-cultural-form-hybrid",
+        "feedUrl": "https://news.google.com/rss/search?q=Korean%20traditional%20contemporary%20design%20fashion%20architecture%20global%20feature&hl=en-US&gl=US&ceid=US:en",
+        "reason": "high novelty source candidate"
+      },
+      {
+        "kind": "promotion-review",
+        "tab": "koreanCode",
+        "id": "korean-design-global-awards",
+        "feedUrl": "https://news.google.com/rss/search?q=Korean%20design%20award%20branding%20graphic%20identity%20interview&hl=en-US&gl=US&ceid=US:en",
+        "reason": "high novelty source candidate"
+      },
+      {
+        "kind": "social-watch-review",
+        "tab": "cinema",
+        "id": "bsky-korean-cinema",
+        "platform": "bluesky",
+        "query": "Korean cinema",
+        "reason": "live social signal worth repeated observation"
+      },
+      {
+        "kind": "social-watch-review",
+        "tab": "updates",
+        "id": "bsky-creative-trends",
+        "platform": "bluesky",
+        "query": "creative coding",
+        "reason": "live social signal worth repeated observation"
+      },
+      {
+        "kind": "social-watch-review",
+        "tab": "updates",
+        "id": "bsky-motion-design",
+        "platform": "bluesky",
+        "query": "motion design",
+        "reason": "live social signal worth repeated observation"
+      },
+      {
+        "kind": "social-watch-review",
+        "tab": "koreanCode",
+        "id": "bsky-korean-branding",
+        "platform": "bluesky",
+        "query": "Korean branding",
+        "reason": "live social signal worth repeated observation"
+      },
+      {
+        "kind": "social-watch-review",
+        "tab": "koreanCode",
+        "id": "bsky-korean-design",
+        "platform": "bluesky",
+        "query": "Korean design",
+        "reason": "live social signal worth repeated observation"
+      }
+    ],
+    "nextTick": [
+      "Review promotion-review candidates before editing source lists.",
+      "Keep social routes as watch-only until repeated quality is confirmed.",
+      "Prioritize Korean Code design/advertising mutations."
+    ]
+  }
+}

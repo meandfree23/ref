@@ -1,0 +1,803 @@
+{
+  "version": 1,
+  "events": [
+    {
+      "id": "publication-1788338533130",
+      "startedAt": "2026-09-02T08:42:13.130Z",
+      "today": "2026-09-02",
+      "status": "failed",
+      "recovery": {
+        "command": {
+          "id": "recover",
+          "ok": true,
+          "status": 0,
+          "elapsedMs": 4429,
+          "outputTail": "{\n  \"ok\": true,\n  \"status\": \"verified\",\n  \"today\": \"2026-09-02\",\n  \"knownIncident\": null,\n  \"restored\": false,\n  \"archiveDebt\": {\n    \"updates\": {\n      \"underfilledCount\": 2,\n      \"dates\": [\n        {\n          \"date\": \"2026-07-28\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-06-26\",\n          \"count\": 6,\n          \"missing\": 9\n        }\n      ]\n    },\n    \"koreanCode\": {\n      \"underfilledCount\": 16,\n      \"dates\": [\n        {\n          \"date\": \"2026-08-26\",\n          \"count\": 13,\n          \"missing\": 2\n        },\n        {\n          \"date\": \"2026-08-25\",\n          \"count\": 13,\n          \"missing\": 2\n        },\n        {\n          \"date\": \"2026-08-24\",\n          \"count\": 11,\n          \"missing\": 4\n        },\n        {\n          \"date\": \"2026-08-23\",\n          \"count\": 12,\n          \"missing\": 3\n        },\n        {\n          \"date\": \"2026-08-22\",\n          \"count\": 9,\n          \"missing\": 6\n        },\n        {\n          \"date\": \"2026-08-20\",\n          \"count\": 12,\n          \"missing\": 3\n        },\n        {\n          \"date\": \"2026-08-18\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-08-16\",\n          \"count\": 9,\n          \"missing\": 6\n        },\n        {\n          \"date\": \"2026-08-15\",\n          \"count\": 13,\n          \"missing\": 2\n        },\n        {\n          \"date\": \"2026-08-13\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-08-12\",\n          \"count\": 13,\n          \"missing\": 2\n        },\n        {\n          \"date\": \"2026-08-11\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-08-09\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-08-05\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-08-04\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-07-31\",\n          \"count\": 14,\n          \"missing\": 1\n        }\n      ]\n    },\n    \"cinema\": {\n      \"underfilledCount\": 0,\n      \"dates\": []\n    }\n  },\n  \"steps\": [\n    {\n      \"id\": \"daily-update\",\n      \"ok\": true,\n      \"status\": 0,\n      \"elapsedMs\": 517\n    },\n    {\n      \"id\": \"bookmark-history\",\n      \"ok\": true,\n      \"status\": 0,\n      \"elapsedMs\": 1309\n    },\n    {\n      \"id\": \"export\",\n      \"ok\": true,\n      \"status\": 0,\n      \"elapsedMs\": 519\n    },\n    {\n      \"id\": \"verify\",\n      \"ok\": true,\n      \"status\": 0,\n      \"elapsedMs\": 1959\n    }\n  ],\n  \"state\": \"/Users/kk/Documents/ref/data/recovery-state.json\",\n  \"history\": \"/Users/kk/Documents/ref/data/recovery-history.json\"\n}"
+        },
+        "status": "verified",
+        "knownIncident": null,
+        "restored": false
+      },
+      "deployment": [
+        {
+          "id": "deploy",
+          "ok": false,
+          "status": 1,
+          "elapsedMs": 7506,
+          "outputTail": "{\n  \"status\": \"error\",\n  \"reason\": \"deploy_failed\",\n  \"message\": \"fetch failed\",\n  \"next\": [\n    {\n      \"command\": \"vercel deploy\",\n      \"when\": \"retry deploy\"\n    }\n  ]\n}\n\nVercel CLI 58.9.0 (Node.js 24.11.0)\nError: Failed to get package info: Error: EPERM: operation not permitted, open '/Users/kk/Library/Caches/com.vercel.cli/package-updates/vercel-latest.lock'\n    at async open (node:internal/fs/promises:642:25)\n    at async writeFile (node:internal/fs/promises:1249:14)\n    at async process.<anonymous> (/Users/kk/.npm/_npx/69f9afb961c37556/node_modules/vercel/dist/get-latest-worker.cjs:119:5) {\n  errno: -1,\n  code: 'EPERM',\n  syscall: 'open',\n  path: '/Users/kk/Library/Caches/com.vercel.cli/package-updates/vercel-latest.lock'\n}\nError: Exiting worker due to unhandled rejection: Error: EPERM: operation not permitted, open '/Users/kk/Library/Caches/com.vercel.cli/package-updates/vercel-latest.log'\n    at writeFileSync (node:fs:2415:20)\n    at process.<anonymous> (/Users/kk/.npm/_npx/69f9afb961c37556/node_modules/vercel/dist/get-latest-worker.cjs:66:11)\n    at process.emit (node:events:508:28)\n    at process.exit (node:internal/process/per_thread:236:15)\n    at process.<anonymous> (/Users/kk/.npm/_npx/69f9afb961c37556/node_modules/vercel/dist/get-latest-worker.cjs:159:13) {\n  errno: -1,\n  code: 'EPERM',\n  syscall: 'open',\n  path: '/Users/kk/Library/Caches/com.vercel.cli/package-updates/vercel-latest.log'\n}\nDeploying ref\nError: fetch failed"
+        }
+      ],
+      "publicVerification": null,
+      "failureFingerprint": "440b489dc3de5e5a",
+      "error": "production deployment failed: {\n  \"status\": \"error\",\n  \"reason\": \"deploy_failed\",\n  \"message\": \"fetch failed\",\n  \"next\": [\n    {\n      \"command\": \"vercel deploy\",\n      \"when\": \"retry deploy\"\n    }\n  ]\n}\n\nVercel CLI 58.9.0 (Node.js 24.11.0)\nError: Failed to get package info: Error: EPERM: operation not permitted, open '/Users/kk/Library/Caches/com.vercel.cli/package-updates/vercel-latest.lock'\n    at async open (node:internal/fs/promises:642:25)\n    at async writeFile (node:internal/fs/promises:1249:14)\n    at async process.<anonymous> (/Users/kk/.npm/_npx/69f9afb961c37556/node_modules/vercel/dist/get-latest-worker.cjs:119:5) {\n  errno: -1,\n  code: 'EPERM',\n  syscall: 'open',\n  path: '/Users/kk/Library/Caches/com.vercel.cli/package-updates/vercel-latest.lock'\n}\nError: Exiting worker due to unhandled rejection: Error: EPERM: operation not permitted, open '/Users/kk/Library/Caches/com.vercel.cli/package-updates/vercel-latest.log'\n    at writeFileSync (node:fs:2415:20)\n    at process.<anonymous> (/Users/kk/.npm/_npx/69f9afb961c37556/node_modules/vercel/dist/get-latest-worker.cjs:66:11)\n    at process.emit (node:events:508:28)\n    at process.exit (node:internal/process/per_thread:236:15)\n    at process.<anonymous> (/Users/kk/.npm/_npx/69f9afb961c37556/node_modules/vercel/dist/get-latest-worker.cjs:159:13) {\n  errno: -1,\n  code: 'EPERM',\n  syscall: 'open',\n  path: '/Users/kk/Library/Caches/com.vercel.cli/package-updates/vercel-latest.log'\n}\nDeploying ref\nError: fetch failed",
+      "finishedAt": "2026-09-02T08:42:25.080Z"
+    },
+    {
+      "id": "publication-1788338625184",
+      "startedAt": "2026-09-02T08:43:45.184Z",
+      "today": "2026-09-02",
+      "status": "published",
+      "recovery": {
+        "command": {
+          "id": "recover",
+          "ok": true,
+          "status": 0,
+          "elapsedMs": 14905,
+          "outputTail": "{\n  \"ok\": true,\n  \"status\": \"verified\",\n  \"today\": \"2026-09-02\",\n  \"knownIncident\": null,\n  \"restored\": false,\n  \"archiveDebt\": {\n    \"updates\": {\n      \"underfilledCount\": 2,\n      \"dates\": [\n        {\n          \"date\": \"2026-07-28\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-06-26\",\n          \"count\": 6,\n          \"missing\": 9\n        }\n      ]\n    },\n    \"koreanCode\": {\n      \"underfilledCount\": 16,\n      \"dates\": [\n        {\n          \"date\": \"2026-08-26\",\n          \"count\": 13,\n          \"missing\": 2\n        },\n        {\n          \"date\": \"2026-08-25\",\n          \"count\": 13,\n          \"missing\": 2\n        },\n        {\n          \"date\": \"2026-08-24\",\n          \"count\": 11,\n          \"missing\": 4\n        },\n        {\n          \"date\": \"2026-08-23\",\n          \"count\": 12,\n          \"missing\": 3\n        },\n        {\n          \"date\": \"2026-08-22\",\n          \"count\": 9,\n          \"missing\": 6\n        },\n        {\n          \"date\": \"2026-08-20\",\n          \"count\": 12,\n          \"missing\": 3\n        },\n        {\n          \"date\": \"2026-08-18\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-08-16\",\n          \"count\": 9,\n          \"missing\": 6\n        },\n        {\n          \"date\": \"2026-08-15\",\n          \"count\": 13,\n          \"missing\": 2\n        },\n        {\n          \"date\": \"2026-08-13\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-08-12\",\n          \"count\": 13,\n          \"missing\": 2\n        },\n        {\n          \"date\": \"2026-08-11\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-08-09\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-08-05\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-08-04\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-07-31\",\n          \"count\": 14,\n          \"missing\": 1\n        }\n      ]\n    },\n    \"cinema\": {\n      \"underfilledCount\": 0,\n      \"dates\": []\n    }\n  },\n  \"steps\": [\n    {\n      \"id\": \"daily-update\",\n      \"ok\": true,\n      \"status\": 0,\n      \"elapsedMs\": 526\n    },\n    {\n      \"id\": \"bookmark-history\",\n      \"ok\": true,\n      \"status\": 0,\n      \"elapsedMs\": 11652\n    },\n    {\n      \"id\": \"export\",\n      \"ok\": true,\n      \"status\": 0,\n      \"elapsedMs\": 611\n    },\n    {\n      \"id\": \"verify\",\n      \"ok\": true,\n      \"status\": 0,\n      \"elapsedMs\": 1971\n    }\n  ],\n  \"state\": \"/Users/kk/Documents/ref/data/recovery-state.json\",\n  \"history\": \"/Users/kk/Documents/ref/data/recovery-history.json\"\n}"
+        },
+        "status": "verified",
+        "knownIncident": null,
+        "restored": false
+      },
+      "deployment": [
+        {
+          "id": "deploy",
+          "ok": true,
+          "status": 0,
+          "elapsedMs": 20936,
+          "outputTail": "{\n  \"status\": \"ok\",\n  \"deployment\": {\n    \"id\": \"dpl_8rEcLq8FdX6JD9KqDcFBfW2aAEKm\",\n    \"url\": \"https://ref-hkhlj1jxs-meandfree23-9417s-projects.vercel.app\",\n    \"inspectorUrl\": \"https://vercel.com/meandfree23-9417s-projects/ref/8rEcLq8FdX6JD9KqDcFBfW2aAEKm\",\n    \"readyState\": \"READY\",\n    \"target\": \"production\",\n    \"deploymentApiUrl\": \"https://api.vercel.com/v13/deployments/dpl_8rEcLq8FdX6JD9KqDcFBfW2aAEKm\"\n  },\n  \"message\": \"Deployment ref-hkhlj1jxs-meandfree23-9417s-projects.vercel.app ready.\",\n  \"next\": [\n    {\n      \"command\": \"vercel curl https://ref-hkhlj1jxs-meandfree23-9417s-projects.vercel.app\",\n      \"when\": \"Verify deployment, including when Deployment Protection is enabled\"\n    },\n    {\n      \"command\": \"vercel inspect ref-hkhlj1jxs-meandfree23-9417s-projects.vercel.app\",\n      \"when\": \"Inspect deployment\"\n    },\n    {\n      \"command\": \"vercel deploy --prod\",\n      \"when\": \"Promote to production\"\n    }\n  ]\n}\n\nVercel CLI 58.9.0 (Node.js 24.11.0)\nDeploying ref\nUploading [--------------------] (0.0B/24.5MB)\nUploading [=====---------------] (6.1MB/24.5MB)\nUploading [==========----------] (12.3MB/24.5MB)\nUploading [===============-----] (18.4MB/24.5MB)\nUploading [====================] (24.5MB/24.5MB)\n  Inspect         https://vercel.com/meandfree23-9417s-projects/ref/8rEcLq8FdX6JD9KqDcFBfW2aAEKm\n  Production      https://ref-hkhlj1jxs-meandfree23-9417s-projects.vercel.app\nBuilding…\nBuilding…\nRunning build in Washington, D.C., USA (East) – iad1\nBuild machine configuration: 2 cores, 8 GB\nRetrieving list of deployment files...\nDownloading 78 deployment files...\nRestored build cache from previous deployment (CddBsX7XYwSAyrpgSzcc9h9hV5qY)\nRunning \"vercel build\"\nVercel CLI 59.3.0\nWARNING! Due to `builds` existing in your configuration file, the Build and Development Settings defined in your Project Settings will not apply. Learn More: https://vercel.link/unused-build-settings\nInstalling dependencies...\nup to date in 529ms\n16 packages are looking for funding\nrun `npm fund` for details\nBuild Completed in /vercel/output [2s]\nDeploying outputs...\n\u001b[2K\u001b[1A\u001b[2K\u001b[G  Production      https://ref-hkhlj1jxs-meandfree23-9417s-projects.vercel.app\nCompleting…\n▲ Aliased         https://ref-smoky.vercel.app"
+        }
+      ],
+      "publicVerification": {
+        "ok": true,
+        "tabs": {
+          "updates": {
+            "topDate": "2026-09-02",
+            "todayCount": 15,
+            "itemCount": 1040,
+            "dateCount": 70,
+            "duplicateUrls": 0,
+            "ok": true
+          },
+          "koreanCode": {
+            "topDate": "2026-09-02",
+            "todayCount": 15,
+            "itemCount": 473,
+            "dateCount": 34,
+            "duplicateUrls": 0,
+            "ok": true
+          },
+          "cinema": {
+            "topDate": "2026-09-02",
+            "todayCount": 15,
+            "itemCount": 510,
+            "dateCount": 34,
+            "duplicateUrls": 0,
+            "ok": true
+          }
+        },
+        "attempts": 1
+      },
+      "failureFingerprint": null,
+      "finishedAt": "2026-09-02T08:44:23.599Z"
+    },
+    {
+      "id": "publication-1788386749615",
+      "startedAt": "2026-09-02T22:05:49.615Z",
+      "today": "2026-09-03",
+      "status": "failed",
+      "recovery": {
+        "command": {
+          "id": "recover",
+          "ok": false,
+          "status": 1,
+          "elapsedMs": 208808,
+          "outputTail": "{\n  \"ok\": false,\n  \"status\": \"deferred-known\",\n  \"today\": \"2026-09-03\",\n  \"knownIncident\": \"daily-underfilled\",\n  \"restored\": true,\n  \"archiveDebt\": {\n    \"updates\": {\n      \"underfilledCount\": 3,\n      \"dates\": [\n        {\n          \"date\": \"2026-09-03\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-07-28\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-06-26\",\n          \"count\": 6,\n          \"missing\": 9\n        }\n      ]\n    },\n    \"koreanCode\": {\n      \"underfilledCount\": 17,\n      \"dates\": [\n        {\n          \"date\": \"2026-09-03\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-08-26\",\n          \"count\": 13,\n          \"missing\": 2\n        },\n        {\n          \"date\": \"2026-08-25\",\n          \"count\": 13,\n          \"missing\": 2\n        },\n        {\n          \"date\": \"2026-08-24\",\n          \"count\": 11,\n          \"missing\": 4\n        },\n        {\n          \"date\": \"2026-08-23\",\n          \"count\": 12,\n          \"missing\": 3\n        },\n        {\n          \"date\": \"2026-08-22\",\n          \"count\": 9,\n          \"missing\": 6\n        },\n        {\n          \"date\": \"2026-08-20\",\n          \"count\": 12,\n          \"missing\": 3\n        },\n        {\n          \"date\": \"2026-08-18\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-08-16\",\n          \"count\": 9,\n          \"missing\": 6\n        },\n        {\n          \"date\": \"2026-08-15\",\n          \"count\": 13,\n          \"missing\": 2\n        },\n        {\n          \"date\": \"2026-08-13\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-08-12\",\n          \"count\": 13,\n          \"missing\": 2\n        },\n        {\n          \"date\": \"2026-08-11\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-08-09\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-08-05\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-08-04\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-07-31\",\n          \"count\": 14,\n          \"missing\": 1\n        }\n      ]\n    },\n    \"cinema\": {\n      \"underfilledCount\": 1,\n      \"dates\": [\n        {\n          \"date\": \"2026-09-03\",\n          \"count\": 0,\n          \"missing\": 15\n        }\n      ]\n    }\n  },\n  \"steps\": [\n    {\n      \"id\": \"daily-update\",\n      \"ok\": false,\n      \"status\": 1,\n      \"elapsedMs\": 104320\n    },\n    {\n      \"id\": \"daily-update-retry\",\n      \"ok\": false,\n      \"status\": 1,\n      \"elapsedMs\": 104316\n    }\n  ],\n  \"state\": \"/Users/kk/Documents/ref/data/recovery-state.json\",\n  \"history\": \"/Users/kk/Documents/ref/data/recovery-history.json\"\n}"
+        },
+        "status": "deferred-known",
+        "knownIncident": "daily-underfilled",
+        "restored": true
+      },
+      "deployment": [],
+      "publicVerification": null,
+      "failureFingerprint": "709be6059a56cbe2",
+      "error": "recovery not verified: deferred-known",
+      "finishedAt": "2026-09-02T22:09:18.450Z"
+    },
+    {
+      "id": "publication-1788403819993",
+      "startedAt": "2026-09-03T02:50:19.993Z",
+      "today": "2026-09-03",
+      "status": "failed",
+      "recovery": {
+        "command": {
+          "id": "recover",
+          "ok": false,
+          "status": 1,
+          "elapsedMs": 481465,
+          "outputTail": "{\n  \"ok\": false,\n  \"status\": \"blocked-unknown\",\n  \"today\": \"2026-09-03\",\n  \"knownIncident\": \"unknown\",\n  \"restored\": true,\n  \"archiveDebt\": {\n    \"updates\": {\n      \"underfilledCount\": 3,\n      \"dates\": [\n        {\n          \"date\": \"2026-09-03\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-07-28\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-06-26\",\n          \"count\": 6,\n          \"missing\": 9\n        }\n      ]\n    },\n    \"koreanCode\": {\n      \"underfilledCount\": 17,\n      \"dates\": [\n        {\n          \"date\": \"2026-09-03\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-08-26\",\n          \"count\": 13,\n          \"missing\": 2\n        },\n        {\n          \"date\": \"2026-08-25\",\n          \"count\": 13,\n          \"missing\": 2\n        },\n        {\n          \"date\": \"2026-08-24\",\n          \"count\": 11,\n          \"missing\": 4\n        },\n        {\n          \"date\": \"2026-08-23\",\n          \"count\": 12,\n          \"missing\": 3\n        },\n        {\n          \"date\": \"2026-08-22\",\n          \"count\": 9,\n          \"missing\": 6\n        },\n        {\n          \"date\": \"2026-08-20\",\n          \"count\": 12,\n          \"missing\": 3\n        },\n        {\n          \"date\": \"2026-08-18\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-08-16\",\n          \"count\": 9,\n          \"missing\": 6\n        },\n        {\n          \"date\": \"2026-08-15\",\n          \"count\": 13,\n          \"missing\": 2\n        },\n        {\n          \"date\": \"2026-08-13\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-08-12\",\n          \"count\": 13,\n          \"missing\": 2\n        },\n        {\n          \"date\": \"2026-08-11\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-08-09\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-08-05\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-08-04\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-07-31\",\n          \"count\": 14,\n          \"missing\": 1\n        }\n      ]\n    },\n    \"cinema\": {\n      \"underfilledCount\": 1,\n      \"dates\": [\n        {\n          \"date\": \"2026-09-03\",\n          \"count\": 0,\n          \"missing\": 15\n        }\n      ]\n    }\n  },\n  \"steps\": [\n    {\n      \"id\": \"bookmark-history\",\n      \"ok\": true,\n      \"status\": 0,\n      \"elapsedMs\": 1284\n    },\n    {\n      \"id\": \"daily-update\",\n      \"ok\": false,\n      \"status\": null,\n      \"elapsedMs\": 480018\n    }\n  ],\n  \"state\": \"/Users/kk/Documents/ref/data/recovery-state.json\",\n  \"history\": \"/Users/kk/Documents/ref/data/recovery-history.json\"\n}"
+        },
+        "status": "blocked-unknown",
+        "knownIncident": "unknown",
+        "restored": true
+      },
+      "deployment": [],
+      "publicVerification": null,
+      "failureFingerprint": "dccdb094c9760caf",
+      "error": "recovery not verified: blocked-unknown",
+      "finishedAt": "2026-09-03T02:58:21.472Z"
+    },
+    {
+      "id": "publication-1788404349724",
+      "startedAt": "2026-09-03T02:59:09.724Z",
+      "today": "2026-09-03",
+      "status": "failed",
+      "recovery": {
+        "command": {
+          "id": "recover",
+          "ok": false,
+          "status": 1,
+          "elapsedMs": 703625,
+          "outputTail": "{\n  \"ok\": false,\n  \"status\": \"deferred-known\",\n  \"today\": \"2026-09-03\",\n  \"knownIncident\": \"daily-underfilled\",\n  \"restored\": true,\n  \"archiveDebt\": {\n    \"updates\": {\n      \"underfilledCount\": 3,\n      \"dates\": [\n        {\n          \"date\": \"2026-09-03\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-07-28\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-06-26\",\n          \"count\": 6,\n          \"missing\": 9\n        }\n      ]\n    },\n    \"koreanCode\": {\n      \"underfilledCount\": 17,\n      \"dates\": [\n        {\n          \"date\": \"2026-09-03\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-08-26\",\n          \"count\": 13,\n          \"missing\": 2\n        },\n        {\n          \"date\": \"2026-08-25\",\n          \"count\": 13,\n          \"missing\": 2\n        },\n        {\n          \"date\": \"2026-08-24\",\n          \"count\": 11,\n          \"missing\": 4\n        },\n        {\n          \"date\": \"2026-08-23\",\n          \"count\": 12,\n          \"missing\": 3\n        },\n        {\n          \"date\": \"2026-08-22\",\n          \"count\": 9,\n          \"missing\": 6\n        },\n        {\n          \"date\": \"2026-08-20\",\n          \"count\": 12,\n          \"missing\": 3\n        },\n        {\n          \"date\": \"2026-08-18\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-08-16\",\n          \"count\": 9,\n          \"missing\": 6\n        },\n        {\n          \"date\": \"2026-08-15\",\n          \"count\": 13,\n          \"missing\": 2\n        },\n        {\n          \"date\": \"2026-08-13\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-08-12\",\n          \"count\": 13,\n          \"missing\": 2\n        },\n        {\n          \"date\": \"2026-08-11\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-08-09\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-08-05\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-08-04\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-07-31\",\n          \"count\": 14,\n          \"missing\": 1\n        }\n      ]\n    },\n    \"cinema\": {\n      \"underfilledCount\": 1,\n      \"dates\": [\n        {\n          \"date\": \"2026-09-03\",\n          \"count\": 0,\n          \"missing\": 15\n        }\n      ]\n    }\n  },\n  \"steps\": [\n    {\n      \"id\": \"bookmark-history\",\n      \"ok\": true,\n      \"status\": 0,\n      \"elapsedMs\": 1256\n    },\n    {\n      \"id\": \"daily-update\",\n      \"ok\": false,\n      \"status\": 1,\n      \"elapsedMs\": 506861\n    },\n    {\n      \"id\": \"daily-update-retry\",\n      \"ok\": false,\n      \"status\": 1,\n      \"elapsedMs\": 195337\n    }\n  ],\n  \"state\": \"/Users/kk/Documents/ref/data/recovery-state.json\",\n  \"history\": \"/Users/kk/Documents/ref/data/recovery-history.json\"\n}"
+        },
+        "status": "deferred-known",
+        "knownIncident": "daily-underfilled",
+        "restored": true
+      },
+      "deployment": [],
+      "publicVerification": null,
+      "failureFingerprint": "709be6059a56cbe2",
+      "error": "recovery not verified: deferred-known",
+      "finishedAt": "2026-09-03T03:10:53.363Z"
+    },
+    {
+      "id": "publication-1788405305759",
+      "startedAt": "2026-09-03T03:15:05.759Z",
+      "today": "2026-09-03",
+      "status": "failed",
+      "recovery": {
+        "command": {
+          "id": "recover",
+          "ok": true,
+          "status": 0,
+          "elapsedMs": 328998,
+          "outputTail": "{\n  \"ok\": true,\n  \"status\": \"verified\",\n  \"today\": \"2026-09-03\",\n  \"knownIncident\": null,\n  \"restored\": false,\n  \"archiveDebt\": {\n    \"updates\": {\n      \"underfilledCount\": 2,\n      \"dates\": [\n        {\n          \"date\": \"2026-07-28\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-06-26\",\n          \"count\": 6,\n          \"missing\": 9\n        }\n      ]\n    },\n    \"koreanCode\": {\n      \"underfilledCount\": 16,\n      \"dates\": [\n        {\n          \"date\": \"2026-08-26\",\n          \"count\": 13,\n          \"missing\": 2\n        },\n        {\n          \"date\": \"2026-08-25\",\n          \"count\": 13,\n          \"missing\": 2\n        },\n        {\n          \"date\": \"2026-08-24\",\n          \"count\": 11,\n          \"missing\": 4\n        },\n        {\n          \"date\": \"2026-08-23\",\n          \"count\": 12,\n          \"missing\": 3\n        },\n        {\n          \"date\": \"2026-08-22\",\n          \"count\": 9,\n          \"missing\": 6\n        },\n        {\n          \"date\": \"2026-08-20\",\n          \"count\": 12,\n          \"missing\": 3\n        },\n        {\n          \"date\": \"2026-08-18\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-08-16\",\n          \"count\": 9,\n          \"missing\": 6\n        },\n        {\n          \"date\": \"2026-08-15\",\n          \"count\": 13,\n          \"missing\": 2\n        },\n        {\n          \"date\": \"2026-08-13\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-08-12\",\n          \"count\": 13,\n          \"missing\": 2\n        },\n        {\n          \"date\": \"2026-08-11\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-08-09\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-08-05\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-08-04\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-07-31\",\n          \"count\": 14,\n          \"missing\": 1\n        }\n      ]\n    },\n    \"cinema\": {\n      \"underfilledCount\": 0,\n      \"dates\": []\n    }\n  },\n  \"steps\": [\n    {\n      \"id\": \"bookmark-history\",\n      \"ok\": true,\n      \"status\": 0,\n      \"elapsedMs\": 1345\n    },\n    {\n      \"id\": \"daily-update\",\n      \"ok\": true,\n      \"status\": 0,\n      \"elapsedMs\": 325117\n    },\n    {\n      \"id\": \"export\",\n      \"ok\": true,\n      \"status\": 0,\n      \"elapsedMs\": 641\n    },\n    {\n      \"id\": \"verify\",\n      \"ok\": true,\n      \"status\": 0,\n      \"elapsedMs\": 1766\n    }\n  ],\n  \"state\": \"/Users/kk/Documents/ref/data/recovery-state.json\",\n  \"history\": \"/Users/kk/Documents/ref/data/recovery-history.json\"\n}"
+        },
+        "status": "verified",
+        "knownIncident": null,
+        "restored": false
+      },
+      "deployment": [
+        {
+          "id": "deploy",
+          "ok": false,
+          "status": 1,
+          "elapsedMs": 7459,
+          "outputTail": "{\n  \"status\": \"error\",\n  \"reason\": \"deploy_failed\",\n  \"message\": \"fetch failed\",\n  \"next\": [\n    {\n      \"command\": \"vercel deploy\",\n      \"when\": \"retry deploy\"\n    }\n  ]\n}\n\nVercel CLI 58.9.0 (Node.js 24.11.0)\nDeploying ref\nError: fetch failed"
+        },
+        {
+          "id": "deploy-transient-retry",
+          "ok": false,
+          "status": 1,
+          "elapsedMs": 7365,
+          "outputTail": "{\n  \"status\": \"error\",\n  \"reason\": \"deploy_failed\",\n  \"message\": \"fetch failed\",\n  \"next\": [\n    {\n      \"command\": \"vercel deploy\",\n      \"when\": \"retry deploy\"\n    }\n  ]\n}\n\nVercel CLI 58.9.0 (Node.js 24.11.0)\nDeploying ref\nError: fetch failed"
+        }
+      ],
+      "publicVerification": null,
+      "failureFingerprint": "5dbb26816073d114",
+      "error": "production deployment failed: {\n  \"status\": \"error\",\n  \"reason\": \"deploy_failed\",\n  \"message\": \"fetch failed\",\n  \"next\": [\n    {\n      \"command\": \"vercel deploy\",\n      \"when\": \"retry deploy\"\n    }\n  ]\n}\n\nVercel CLI 58.9.0 (Node.js 24.11.0)\nDeploying ref\nError: fetch failed",
+      "finishedAt": "2026-09-03T03:21:04.601Z"
+    },
+    {
+      "id": "publication-1788405786890",
+      "startedAt": "2026-09-03T03:23:06.890Z",
+      "today": "2026-09-03",
+      "status": "failed",
+      "recovery": {
+        "command": {
+          "id": "recover",
+          "ok": true,
+          "status": 0,
+          "elapsedMs": 4855,
+          "outputTail": "{\n  \"ok\": true,\n  \"status\": \"verified\",\n  \"today\": \"2026-09-03\",\n  \"knownIncident\": null,\n  \"restored\": false,\n  \"archiveDebt\": {\n    \"updates\": {\n      \"underfilledCount\": 2,\n      \"dates\": [\n        {\n          \"date\": \"2026-07-28\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-06-26\",\n          \"count\": 6,\n          \"missing\": 9\n        }\n      ]\n    },\n    \"koreanCode\": {\n      \"underfilledCount\": 16,\n      \"dates\": [\n        {\n          \"date\": \"2026-08-26\",\n          \"count\": 13,\n          \"missing\": 2\n        },\n        {\n          \"date\": \"2026-08-25\",\n          \"count\": 13,\n          \"missing\": 2\n        },\n        {\n          \"date\": \"2026-08-24\",\n          \"count\": 11,\n          \"missing\": 4\n        },\n        {\n          \"date\": \"2026-08-23\",\n          \"count\": 12,\n          \"missing\": 3\n        },\n        {\n          \"date\": \"2026-08-22\",\n          \"count\": 9,\n          \"missing\": 6\n        },\n        {\n          \"date\": \"2026-08-20\",\n          \"count\": 12,\n          \"missing\": 3\n        },\n        {\n          \"date\": \"2026-08-18\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-08-16\",\n          \"count\": 9,\n          \"missing\": 6\n        },\n        {\n          \"date\": \"2026-08-15\",\n          \"count\": 13,\n          \"missing\": 2\n        },\n        {\n          \"date\": \"2026-08-13\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-08-12\",\n          \"count\": 13,\n          \"missing\": 2\n        },\n        {\n          \"date\": \"2026-08-11\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-08-09\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-08-05\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-08-04\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-07-31\",\n          \"count\": 14,\n          \"missing\": 1\n        }\n      ]\n    },\n    \"cinema\": {\n      \"underfilledCount\": 0,\n      \"dates\": []\n    }\n  },\n  \"steps\": [\n    {\n      \"id\": \"bookmark-history\",\n      \"ok\": true,\n      \"status\": 0,\n      \"elapsedMs\": 1503\n    },\n    {\n      \"id\": \"daily-update\",\n      \"ok\": true,\n      \"status\": 0,\n      \"elapsedMs\": 495\n    },\n    {\n      \"id\": \"export\",\n      \"ok\": true,\n      \"status\": 0,\n      \"elapsedMs\": 603\n    },\n    {\n      \"id\": \"verify\",\n      \"ok\": true,\n      \"status\": 0,\n      \"elapsedMs\": 2095\n    }\n  ],\n  \"state\": \"/Users/kk/Documents/ref/data/recovery-state.json\",\n  \"history\": \"/Users/kk/Documents/ref/data/recovery-history.json\"\n}"
+        },
+        "status": "verified",
+        "knownIncident": null,
+        "restored": false
+      },
+      "deployment": [
+        {
+          "id": "deploy",
+          "ok": false,
+          "status": 1,
+          "elapsedMs": 7521,
+          "outputTail": "{\n  \"status\": \"error\",\n  \"reason\": \"deploy_failed\",\n  \"message\": \"fetch failed\",\n  \"next\": [\n    {\n      \"command\": \"vercel deploy\",\n      \"when\": \"retry deploy\"\n    }\n  ]\n}\n\nVercel CLI 58.9.0 (Node.js 24.11.0)\nDeploying ref\nError: fetch failed"
+        },
+        {
+          "id": "deploy-transient-retry-1",
+          "ok": false,
+          "status": 1,
+          "elapsedMs": 7380,
+          "outputTail": "{\n  \"status\": \"error\",\n  \"reason\": \"deploy_failed\",\n  \"message\": \"fetch failed\",\n  \"next\": [\n    {\n      \"command\": \"vercel deploy\",\n      \"when\": \"retry deploy\"\n    }\n  ]\n}\n\nVercel CLI 58.9.0 (Node.js 24.11.0)\nDeploying ref\nError: fetch failed"
+        },
+        {
+          "id": "deploy-transient-retry-2",
+          "ok": false,
+          "status": 1,
+          "elapsedMs": 7411,
+          "outputTail": "{\n  \"status\": \"error\",\n  \"reason\": \"deploy_failed\",\n  \"message\": \"fetch failed\",\n  \"next\": [\n    {\n      \"command\": \"vercel deploy\",\n      \"when\": \"retry deploy\"\n    }\n  ]\n}\n\nVercel CLI 58.9.0 (Node.js 24.11.0)\nDeploying ref\nError: fetch failed"
+        },
+        {
+          "id": "deploy-transient-retry-3",
+          "ok": false,
+          "status": 1,
+          "elapsedMs": 7524,
+          "outputTail": "{\n  \"status\": \"error\",\n  \"reason\": \"deploy_failed\",\n  \"message\": \"fetch failed\",\n  \"next\": [\n    {\n      \"command\": \"vercel deploy\",\n      \"when\": \"retry deploy\"\n    }\n  ]\n}\n\nVercel CLI 58.9.0 (Node.js 24.11.0)\nDeploying ref\nError: fetch failed"
+        }
+      ],
+      "publicVerification": null,
+      "failureFingerprint": "5dbb26816073d114",
+      "error": "production deployment failed: {\n  \"status\": \"error\",\n  \"reason\": \"deploy_failed\",\n  \"message\": \"fetch failed\",\n  \"next\": [\n    {\n      \"command\": \"vercel deploy\",\n      \"when\": \"retry deploy\"\n    }\n  ]\n}\n\nVercel CLI 58.9.0 (Node.js 24.11.0)\nDeploying ref\nError: fetch failed",
+      "finishedAt": "2026-09-03T03:25:11.611Z"
+    },
+    {
+      "id": "publication-1788406547476",
+      "startedAt": "2026-09-03T03:35:47.476Z",
+      "today": "2026-09-03",
+      "status": "published",
+      "recovery": {
+        "command": {
+          "id": "recover",
+          "ok": true,
+          "status": 0,
+          "elapsedMs": 48721,
+          "outputTail": "{\n  \"ok\": true,\n  \"status\": \"verified\",\n  \"today\": \"2026-09-03\",\n  \"knownIncident\": null,\n  \"restored\": false,\n  \"archiveDebt\": {\n    \"updates\": {\n      \"underfilledCount\": 2,\n      \"dates\": [\n        {\n          \"date\": \"2026-07-28\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-06-26\",\n          \"count\": 6,\n          \"missing\": 9\n        }\n      ]\n    },\n    \"koreanCode\": {\n      \"underfilledCount\": 16,\n      \"dates\": [\n        {\n          \"date\": \"2026-08-26\",\n          \"count\": 13,\n          \"missing\": 2\n        },\n        {\n          \"date\": \"2026-08-25\",\n          \"count\": 13,\n          \"missing\": 2\n        },\n        {\n          \"date\": \"2026-08-24\",\n          \"count\": 11,\n          \"missing\": 4\n        },\n        {\n          \"date\": \"2026-08-23\",\n          \"count\": 12,\n          \"missing\": 3\n        },\n        {\n          \"date\": \"2026-08-22\",\n          \"count\": 9,\n          \"missing\": 6\n        },\n        {\n          \"date\": \"2026-08-20\",\n          \"count\": 12,\n          \"missing\": 3\n        },\n        {\n          \"date\": \"2026-08-18\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-08-16\",\n          \"count\": 9,\n          \"missing\": 6\n        },\n        {\n          \"date\": \"2026-08-15\",\n          \"count\": 13,\n          \"missing\": 2\n        },\n        {\n          \"date\": \"2026-08-13\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-08-12\",\n          \"count\": 13,\n          \"missing\": 2\n        },\n        {\n          \"date\": \"2026-08-11\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-08-09\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-08-05\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-08-04\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-07-31\",\n          \"count\": 14,\n          \"missing\": 1\n        }\n      ]\n    },\n    \"cinema\": {\n      \"underfilledCount\": 0,\n      \"dates\": []\n    }\n  },\n  \"steps\": [\n    {\n      \"id\": \"bookmark-history\",\n      \"ok\": true,\n      \"status\": 0,\n      \"elapsedMs\": 45713\n    },\n    {\n      \"id\": \"daily-update\",\n      \"ok\": true,\n      \"status\": 0,\n      \"elapsedMs\": 459\n    },\n    {\n      \"id\": \"export\",\n      \"ok\": true,\n      \"status\": 0,\n      \"elapsedMs\": 568\n    },\n    {\n      \"id\": \"verify\",\n      \"ok\": true,\n      \"status\": 0,\n      \"elapsedMs\": 1834\n    }\n  ],\n  \"state\": \"/Users/kk/Documents/ref/data/recovery-state.json\",\n  \"history\": \"/Users/kk/Documents/ref/data/recovery-history.json\"\n}"
+        },
+        "status": "verified",
+        "knownIncident": null,
+        "restored": false
+      },
+      "deployment": [],
+      "publicVerification": {
+        "ok": true,
+        "tabs": {
+          "updates": {
+            "topDate": "2026-09-03",
+            "todayCount": 15,
+            "itemCount": 1055,
+            "dateCount": 71,
+            "duplicateUrls": 0,
+            "ok": true
+          },
+          "koreanCode": {
+            "topDate": "2026-09-03",
+            "todayCount": 15,
+            "itemCount": 488,
+            "dateCount": 35,
+            "duplicateUrls": 0,
+            "ok": true
+          },
+          "cinema": {
+            "topDate": "2026-09-03",
+            "todayCount": 15,
+            "itemCount": 525,
+            "dateCount": 35,
+            "duplicateUrls": 0,
+            "ok": true
+          }
+        },
+        "attempts": 1,
+        "deploymentSkipped": true
+      },
+      "failureFingerprint": null,
+      "finishedAt": "2026-09-03T03:36:38.284Z"
+    },
+    {
+      "id": "publication-1789025508130",
+      "startedAt": "2026-09-10T07:31:48.130Z",
+      "today": "2026-09-10",
+      "status": "published",
+      "recovery": {
+        "command": {
+          "id": "recover",
+          "ok": true,
+          "status": 0,
+          "elapsedMs": 191777,
+          "outputTail": "{\n  \"ok\": true,\n  \"status\": \"verified\",\n  \"today\": \"2026-09-10\",\n  \"knownIncident\": null,\n  \"restored\": false,\n  \"archiveDebt\": {\n    \"updates\": {\n      \"underfilledCount\": 2,\n      \"dates\": [\n        {\n          \"date\": \"2026-07-28\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-06-26\",\n          \"count\": 6,\n          \"missing\": 9\n        }\n      ]\n    },\n    \"koreanCode\": {\n      \"underfilledCount\": 16,\n      \"dates\": [\n        {\n          \"date\": \"2026-08-26\",\n          \"count\": 13,\n          \"missing\": 2\n        },\n        {\n          \"date\": \"2026-08-25\",\n          \"count\": 13,\n          \"missing\": 2\n        },\n        {\n          \"date\": \"2026-08-24\",\n          \"count\": 11,\n          \"missing\": 4\n        },\n        {\n          \"date\": \"2026-08-23\",\n          \"count\": 12,\n          \"missing\": 3\n        },\n        {\n          \"date\": \"2026-08-22\",\n          \"count\": 9,\n          \"missing\": 6\n        },\n        {\n          \"date\": \"2026-08-20\",\n          \"count\": 12,\n          \"missing\": 3\n        },\n        {\n          \"date\": \"2026-08-18\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-08-16\",\n          \"count\": 9,\n          \"missing\": 6\n        },\n        {\n          \"date\": \"2026-08-15\",\n          \"count\": 13,\n          \"missing\": 2\n        },\n        {\n          \"date\": \"2026-08-13\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-08-12\",\n          \"count\": 13,\n          \"missing\": 2\n        },\n        {\n          \"date\": \"2026-08-11\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-08-09\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-08-05\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-08-04\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-07-31\",\n          \"count\": 14,\n          \"missing\": 1\n        }\n      ]\n    },\n    \"cinema\": {\n      \"underfilledCount\": 0,\n      \"dates\": []\n    }\n  },\n  \"steps\": [\n    {\n      \"id\": \"bookmark-history\",\n      \"ok\": true,\n      \"status\": 0,\n      \"elapsedMs\": 111967\n    },\n    {\n      \"id\": \"daily-update\",\n      \"ok\": true,\n      \"status\": 0,\n      \"elapsedMs\": 77140\n    },\n    {\n      \"id\": \"export\",\n      \"ok\": true,\n      \"status\": 0,\n      \"elapsedMs\": 572\n    },\n    {\n      \"id\": \"verify\",\n      \"ok\": true,\n      \"status\": 0,\n      \"elapsedMs\": 1963\n    }\n  ],\n  \"state\": \"/Users/kk/Documents/ref/data/recovery-state.json\",\n  \"history\": \"/Users/kk/Documents/ref/data/recovery-history.json\"\n}"
+        },
+        "status": "verified",
+        "knownIncident": null,
+        "restored": false
+      },
+      "deployment": [
+        {
+          "id": "deploy",
+          "ok": false,
+          "status": 1,
+          "elapsedMs": 1475,
+          "outputTail": "{\n  \"status\": \"error\",\n  \"reason\": \"deploy_failed\",\n  \"message\": \"Not authorized\",\n  \"next\": [\n    {\n      \"command\": \"vercel deploy\",\n      \"when\": \"retry deploy\"\n    }\n  ]\n}\n\nVercel CLI 58.9.0 (Node.js 24.11.0)\nDeploying ref"
+        },
+        {
+          "id": "deploy-transient-retry-1",
+          "ok": true,
+          "status": 0,
+          "elapsedMs": 24584,
+          "outputTail": "{\n  \"status\": \"ok\",\n  \"deployment\": {\n    \"id\": \"dpl_ELptxiGVSpjthurm5DUkS2h9sDo1\",\n    \"url\": \"https://ref-n87z7w0gl-meandfree23-9417s-projects.vercel.app\",\n    \"inspectorUrl\": \"https://vercel.com/meandfree23-9417s-projects/ref/ELptxiGVSpjthurm5DUkS2h9sDo1\",\n    \"readyState\": \"READY\",\n    \"target\": \"production\",\n    \"deploymentApiUrl\": \"https://api.vercel.com/v13/deployments/dpl_ELptxiGVSpjthurm5DUkS2h9sDo1\"\n  },\n  \"message\": \"Deployment ref-n87z7w0gl-meandfree23-9417s-projects.vercel.app ready.\",\n  \"next\": [\n    {\n      \"command\": \"vercel curl https://ref-n87z7w0gl-meandfree23-9417s-projects.vercel.app\",\n      \"when\": \"Verify deployment, including when Deployment Protection is enabled\"\n    },\n    {\n      \"command\": \"vercel inspect ref-n87z7w0gl-meandfree23-9417s-projects.vercel.app\",\n      \"when\": \"Inspect deployment\"\n    },\n    {\n      \"command\": \"vercel deploy --prod\",\n      \"when\": \"Promote to production\"\n    }\n  ]\n}\n\nVercel CLI 58.9.0 (Node.js 24.11.0)\nDeploying ref\nUploading [--------------------] (0.0B/34.2MB)\nUploading [=====---------------] (8.6MB/34.2MB)\nUploading [==========----------] (17.1MB/34.2MB)\nUploading [===============-----] (25.7MB/34.2MB)\nUploading [====================] (34.2MB/34.2MB)\n  Inspect         https://vercel.com/meandfree23-9417s-projects/ref/ELptxiGVSpjthurm5DUkS2h9sDo1\n  Production      https://ref-n87z7w0gl-meandfree23-9417s-projects.vercel.app\nBuilding…\nRunning build in Washington, D.C., USA (East) – iad1\nBuild machine configuration: 2 cores, 8 GB\nRetrieving list of deployment files...\nDownloading 79 deployment files...\nDownloading 79 deployment files...\nRestored build cache from previous deployment (JDwGdH57APorLBeA1QhfPj17ABtm)\nRunning \"vercel build\"\nVercel CLI 59.11.7\nWARNING! Due to `builds` existing in your configuration file, the Build and Development Settings defined in your Project Settings will not apply. Learn More: https://vercel.link/unused-build-settings\nInstalling dependencies...\nup to date in 530ms\n16 packages are looking for funding\nrun `npm fund` for details\nBuild Completed in /vercel/output [2s]\nDeploying outputs...\n\u001b[2K\u001b[1A\u001b[2K\u001b[G  Production      https://ref-n87z7w0gl-meandfree23-9417s-projects.vercel.app\nCompleting…\n▲ Aliased         https://ref-smoky.vercel.app"
+        }
+      ],
+      "publicVerification": {
+        "ok": true,
+        "tabs": {
+          "updates": {
+            "topDate": "2026-09-10",
+            "todayCount": 15,
+            "itemCount": 1070,
+            "dateCount": 72,
+            "duplicateUrls": 0,
+            "ok": true
+          },
+          "koreanCode": {
+            "topDate": "2026-09-10",
+            "todayCount": 15,
+            "itemCount": 503,
+            "dateCount": 36,
+            "duplicateUrls": 0,
+            "ok": true
+          },
+          "cinema": {
+            "topDate": "2026-09-10",
+            "todayCount": 15,
+            "itemCount": 540,
+            "dateCount": 36,
+            "duplicateUrls": 0,
+            "ok": true
+          }
+        },
+        "attempts": 1
+      },
+      "failureFingerprint": null,
+      "finishedAt": "2026-09-10T07:35:45.846Z"
+    },
+    {
+      "id": "publication-1789025577035",
+      "startedAt": "2026-09-10T07:32:57.035Z",
+      "today": "2026-09-10",
+      "status": "published",
+      "recovery": {
+        "command": {
+          "id": "recover",
+          "ok": true,
+          "status": 0,
+          "elapsedMs": 122322,
+          "outputTail": "{\n  \"ok\": true,\n  \"status\": \"verified\",\n  \"today\": \"2026-09-10\",\n  \"knownIncident\": null,\n  \"restored\": false,\n  \"archiveDebt\": {\n    \"updates\": {\n      \"underfilledCount\": 2,\n      \"dates\": [\n        {\n          \"date\": \"2026-07-28\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-06-26\",\n          \"count\": 6,\n          \"missing\": 9\n        }\n      ]\n    },\n    \"koreanCode\": {\n      \"underfilledCount\": 16,\n      \"dates\": [\n        {\n          \"date\": \"2026-08-26\",\n          \"count\": 13,\n          \"missing\": 2\n        },\n        {\n          \"date\": \"2026-08-25\",\n          \"count\": 13,\n          \"missing\": 2\n        },\n        {\n          \"date\": \"2026-08-24\",\n          \"count\": 11,\n          \"missing\": 4\n        },\n        {\n          \"date\": \"2026-08-23\",\n          \"count\": 12,\n          \"missing\": 3\n        },\n        {\n          \"date\": \"2026-08-22\",\n          \"count\": 9,\n          \"missing\": 6\n        },\n        {\n          \"date\": \"2026-08-20\",\n          \"count\": 12,\n          \"missing\": 3\n        },\n        {\n          \"date\": \"2026-08-18\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-08-16\",\n          \"count\": 9,\n          \"missing\": 6\n        },\n        {\n          \"date\": \"2026-08-15\",\n          \"count\": 13,\n          \"missing\": 2\n        },\n        {\n          \"date\": \"2026-08-13\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-08-12\",\n          \"count\": 13,\n          \"missing\": 2\n        },\n        {\n          \"date\": \"2026-08-11\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-08-09\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-08-05\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-08-04\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-07-31\",\n          \"count\": 14,\n          \"missing\": 1\n        }\n      ]\n    },\n    \"cinema\": {\n      \"underfilledCount\": 0,\n      \"dates\": []\n    }\n  },\n  \"steps\": [\n    {\n      \"id\": \"bookmark-history\",\n      \"ok\": true,\n      \"status\": 0,\n      \"elapsedMs\": 54561\n    },\n    {\n      \"id\": \"daily-update\",\n      \"ok\": true,\n      \"status\": 0,\n      \"elapsedMs\": 64957\n    },\n    {\n      \"id\": \"export\",\n      \"ok\": true,\n      \"status\": 0,\n      \"elapsedMs\": 693\n    },\n    {\n      \"id\": \"verify\",\n      \"ok\": true,\n      \"status\": 0,\n      \"elapsedMs\": 1967\n    }\n  ],\n  \"state\": \"/Users/kk/Documents/ref/data/recovery-state.json\",\n  \"history\": \"/Users/kk/Documents/ref/data/recovery-history.json\"\n}"
+        },
+        "status": "verified",
+        "knownIncident": null,
+        "restored": false
+      },
+      "deployment": [
+        {
+          "id": "deploy",
+          "ok": false,
+          "status": 1,
+          "elapsedMs": 1471,
+          "outputTail": "{\n  \"status\": \"error\",\n  \"reason\": \"deploy_failed\",\n  \"message\": \"Not authorized\",\n  \"next\": [\n    {\n      \"command\": \"vercel deploy\",\n      \"when\": \"retry deploy\"\n    }\n  ]\n}\n\nVercel CLI 58.9.0 (Node.js 24.11.0)\nDeploying ref"
+        },
+        {
+          "id": "deploy-transient-retry-1",
+          "ok": true,
+          "status": 0,
+          "elapsedMs": 39114,
+          "outputTail": "{\n  \"status\": \"ok\",\n  \"deployment\": {\n    \"id\": \"dpl_2XZFWQfWdGSyBK9amt4EjwFeRbVH\",\n    \"url\": \"https://ref-5x47vc0rz-meandfree23-9417s-projects.vercel.app\",\n    \"inspectorUrl\": \"https://vercel.com/meandfree23-9417s-projects/ref/2XZFWQfWdGSyBK9amt4EjwFeRbVH\",\n    \"readyState\": \"READY\",\n    \"target\": \"production\",\n    \"deploymentApiUrl\": \"https://api.vercel.com/v13/deployments/dpl_2XZFWQfWdGSyBK9amt4EjwFeRbVH\"\n  },\n  \"message\": \"Deployment ref-5x47vc0rz-meandfree23-9417s-projects.vercel.app ready.\",\n  \"next\": [\n    {\n      \"command\": \"vercel curl https://ref-5x47vc0rz-meandfree23-9417s-projects.vercel.app\",\n      \"when\": \"Verify deployment, including when Deployment Protection is enabled\"\n    },\n    {\n      \"command\": \"vercel inspect ref-5x47vc0rz-meandfree23-9417s-projects.vercel.app\",\n      \"when\": \"Inspect deployment\"\n    },\n    {\n      \"command\": \"vercel deploy --prod\",\n      \"when\": \"Promote to production\"\n    }\n  ]\n}\n\nVercel CLI 58.9.0 (Node.js 24.11.0)\nDeploying ref\nUploading [--------------------] (0.0B/34.2MB)\nUploading [=====---------------] (8.6MB/34.2MB)\nUploading [==========----------] (17.1MB/34.2MB)\nUploading [===============-----] (25.7MB/34.2MB)\nUploading [====================] (34.2MB/34.2MB)\n  Inspect         https://vercel.com/meandfree23-9417s-projects/ref/2XZFWQfWdGSyBK9amt4EjwFeRbVH\n  Production      https://ref-5x47vc0rz-meandfree23-9417s-projects.vercel.app\nBuilding…\nBuilding…\nRunning build in Washington, D.C., USA (East) – iad1\nBuild machine configuration: 2 cores, 8 GB\nRetrieving list of deployment files...\nDownloading 79 deployment files...\nRestored build cache from previous deployment (JDwGdH57APorLBeA1QhfPj17ABtm)\nRunning \"vercel build\"\nVercel CLI 59.11.7\nWARNING! Due to `builds` existing in your configuration file, the Build and Development Settings defined in your Project Settings will not apply. Learn More: https://vercel.link/unused-build-settings\nInstalling dependencies...\nup to date in 522ms\n16 packages are looking for funding\nrun `npm fund` for details\nBuild Completed in /vercel/output [2s]\nDeploying outputs...\n\u001b[2K\u001b[1A\u001b[2K\u001b[G  Production      https://ref-5x47vc0rz-meandfree23-9417s-projects.vercel.app\nCompleting…\n▲ Aliased         https://ref-smoky.vercel.app"
+        }
+      ],
+      "publicVerification": {
+        "ok": true,
+        "tabs": {
+          "updates": {
+            "topDate": "2026-09-10",
+            "todayCount": 15,
+            "itemCount": 1070,
+            "dateCount": 72,
+            "duplicateUrls": 0,
+            "ok": true
+          },
+          "koreanCode": {
+            "topDate": "2026-09-10",
+            "todayCount": 15,
+            "itemCount": 503,
+            "dateCount": 36,
+            "duplicateUrls": 0,
+            "ok": true
+          },
+          "cinema": {
+            "topDate": "2026-09-10",
+            "todayCount": 15,
+            "itemCount": 540,
+            "dateCount": 36,
+            "duplicateUrls": 0,
+            "ok": true
+          }
+        },
+        "attempts": 1
+      },
+      "failureFingerprint": null,
+      "finishedAt": "2026-09-10T07:36:00.272Z"
+    },
+    {
+      "id": "publication-1789078290295",
+      "startedAt": "2026-09-10T22:11:30.295Z",
+      "today": "2026-09-11",
+      "status": "published",
+      "recovery": {
+        "command": {
+          "id": "recover",
+          "ok": true,
+          "status": 0,
+          "elapsedMs": 151445,
+          "outputTail": "{\n  \"ok\": true,\n  \"status\": \"verified\",\n  \"today\": \"2026-09-11\",\n  \"knownIncident\": null,\n  \"restored\": false,\n  \"archiveDebt\": {\n    \"updates\": {\n      \"underfilledCount\": 2,\n      \"dates\": [\n        {\n          \"date\": \"2026-07-28\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-06-26\",\n          \"count\": 6,\n          \"missing\": 9\n        }\n      ]\n    },\n    \"koreanCode\": {\n      \"underfilledCount\": 16,\n      \"dates\": [\n        {\n          \"date\": \"2026-08-26\",\n          \"count\": 13,\n          \"missing\": 2\n        },\n        {\n          \"date\": \"2026-08-25\",\n          \"count\": 13,\n          \"missing\": 2\n        },\n        {\n          \"date\": \"2026-08-24\",\n          \"count\": 11,\n          \"missing\": 4\n        },\n        {\n          \"date\": \"2026-08-23\",\n          \"count\": 12,\n          \"missing\": 3\n        },\n        {\n          \"date\": \"2026-08-22\",\n          \"count\": 9,\n          \"missing\": 6\n        },\n        {\n          \"date\": \"2026-08-20\",\n          \"count\": 12,\n          \"missing\": 3\n        },\n        {\n          \"date\": \"2026-08-18\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-08-16\",\n          \"count\": 9,\n          \"missing\": 6\n        },\n        {\n          \"date\": \"2026-08-15\",\n          \"count\": 13,\n          \"missing\": 2\n        },\n        {\n          \"date\": \"2026-08-13\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-08-12\",\n          \"count\": 13,\n          \"missing\": 2\n        },\n        {\n          \"date\": \"2026-08-11\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-08-09\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-08-05\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-08-04\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-07-31\",\n          \"count\": 14,\n          \"missing\": 1\n        }\n      ]\n    },\n    \"cinema\": {\n      \"underfilledCount\": 0,\n      \"dates\": []\n    }\n  },\n  \"steps\": [\n    {\n      \"id\": \"bookmark-history\",\n      \"ok\": true,\n      \"status\": 0,\n      \"elapsedMs\": 71885\n    },\n    {\n      \"id\": \"daily-update\",\n      \"ok\": true,\n      \"status\": 0,\n      \"elapsedMs\": 76817\n    },\n    {\n      \"id\": \"export\",\n      \"ok\": true,\n      \"status\": 0,\n      \"elapsedMs\": 645\n    },\n    {\n      \"id\": \"verify\",\n      \"ok\": true,\n      \"status\": 0,\n      \"elapsedMs\": 1954\n    }\n  ],\n  \"state\": \"/Users/kk/Documents/ref/data/recovery-state.json\",\n  \"history\": \"/Users/kk/Documents/ref/data/recovery-history.json\"\n}"
+        },
+        "status": "verified",
+        "knownIncident": null,
+        "restored": false
+      },
+      "deployment": [
+        {
+          "id": "deploy",
+          "ok": false,
+          "status": 1,
+          "elapsedMs": 1299,
+          "outputTail": "{\n  \"status\": \"error\",\n  \"reason\": \"deploy_failed\",\n  \"message\": \"Not authorized\",\n  \"next\": [\n    {\n      \"command\": \"vercel deploy\",\n      \"when\": \"retry deploy\"\n    }\n  ]\n}\n\nVercel CLI 58.9.0 (Node.js 24.11.0)\nDeploying ref"
+        },
+        {
+          "id": "deploy-transient-retry-1",
+          "ok": true,
+          "status": 0,
+          "elapsedMs": 20248,
+          "outputTail": "{\n  \"status\": \"ok\",\n  \"deployment\": {\n    \"id\": \"dpl_5Pi4CNGjVVrDmmzxhmXiipCNTBFH\",\n    \"url\": \"https://ref-2xgauyi42-meandfree23-9417s-projects.vercel.app\",\n    \"inspectorUrl\": \"https://vercel.com/meandfree23-9417s-projects/ref/5Pi4CNGjVVrDmmzxhmXiipCNTBFH\",\n    \"readyState\": \"READY\",\n    \"target\": \"production\",\n    \"deploymentApiUrl\": \"https://api.vercel.com/v13/deployments/dpl_5Pi4CNGjVVrDmmzxhmXiipCNTBFH\"\n  },\n  \"message\": \"Deployment ref-2xgauyi42-meandfree23-9417s-projects.vercel.app ready.\",\n  \"next\": [\n    {\n      \"command\": \"vercel curl https://ref-2xgauyi42-meandfree23-9417s-projects.vercel.app\",\n      \"when\": \"Verify deployment, including when Deployment Protection is enabled\"\n    },\n    {\n      \"command\": \"vercel inspect ref-2xgauyi42-meandfree23-9417s-projects.vercel.app\",\n      \"when\": \"Inspect deployment\"\n    },\n    {\n      \"command\": \"vercel deploy --prod\",\n      \"when\": \"Promote to production\"\n    }\n  ]\n}\n\nVercel CLI 58.9.0 (Node.js 24.11.0)\nDeploying ref\nUploading [--------------------] (0.0B/35.7MB)\nUploading [=====---------------] (8.9MB/35.7MB)\nUploading [==========----------] (17.8MB/35.7MB)\nUploading [===============-----] (26.7MB/35.7MB)\nUploading [====================] (35.7MB/35.7MB)\n  Inspect         https://vercel.com/meandfree23-9417s-projects/ref/5Pi4CNGjVVrDmmzxhmXiipCNTBFH\n  Production      https://ref-2xgauyi42-meandfree23-9417s-projects.vercel.app\nBuilding…\nBuilding…\nRunning build in Washington, D.C., USA (East) – iad1\nBuild machine configuration: 2 cores, 8 GB\nRetrieving list of deployment files...\nDownloading 79 deployment files...\nRestored build cache from previous deployment (2XZFWQfWdGSyBK9amt4EjwFeRbVH)\nRunning \"vercel build\"\nVercel CLI 59.11.7\nWARNING! Due to `builds` existing in your configuration file, the Build and Development Settings defined in your Project Settings will not apply. Learn More: https://vercel.link/unused-build-settings\nInstalling dependencies...\nup to date in 517ms\n16 packages are looking for funding\nrun `npm fund` for details\nBuild Completed in /vercel/output [2s]\nDeploying outputs...\n\u001b[2K\u001b[1A\u001b[2K\u001b[G  Production      https://ref-2xgauyi42-meandfree23-9417s-projects.vercel.app\nCompleting…\n▲ Aliased         https://ref-smoky.vercel.app"
+        }
+      ],
+      "publicVerification": {
+        "ok": true,
+        "tabs": {
+          "updates": {
+            "topDate": "2026-09-11",
+            "todayCount": 15,
+            "itemCount": 1085,
+            "dateCount": 73,
+            "duplicateUrls": 0,
+            "ok": true
+          },
+          "koreanCode": {
+            "topDate": "2026-09-11",
+            "todayCount": 15,
+            "itemCount": 518,
+            "dateCount": 37,
+            "duplicateUrls": 0,
+            "ok": true
+          },
+          "cinema": {
+            "topDate": "2026-09-11",
+            "todayCount": 15,
+            "itemCount": 555,
+            "dateCount": 37,
+            "duplicateUrls": 0,
+            "ok": true
+          }
+        },
+        "attempts": 1
+      },
+      "failureFingerprint": null,
+      "finishedAt": "2026-09-10T22:14:42.729Z"
+    },
+    {
+      "id": "publication-1789167872708",
+      "startedAt": "2026-09-11T23:04:32.708Z",
+      "today": "2026-09-12",
+      "status": "failed",
+      "recovery": {
+        "command": {
+          "id": "recover",
+          "ok": false,
+          "status": 1,
+          "elapsedMs": 124597,
+          "outputTail": "{\n  \"ok\": false,\n  \"status\": \"deferred-known\",\n  \"today\": \"2026-09-12\",\n  \"knownIncident\": \"daily-underfilled\",\n  \"restored\": true,\n  \"archiveDebt\": {\n    \"updates\": {\n      \"underfilledCount\": 3,\n      \"dates\": [\n        {\n          \"date\": \"2026-09-12\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-07-28\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-06-26\",\n          \"count\": 6,\n          \"missing\": 9\n        }\n      ]\n    },\n    \"koreanCode\": {\n      \"underfilledCount\": 17,\n      \"dates\": [\n        {\n          \"date\": \"2026-09-12\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-08-26\",\n          \"count\": 13,\n          \"missing\": 2\n        },\n        {\n          \"date\": \"2026-08-25\",\n          \"count\": 13,\n          \"missing\": 2\n        },\n        {\n          \"date\": \"2026-08-24\",\n          \"count\": 11,\n          \"missing\": 4\n        },\n        {\n          \"date\": \"2026-08-23\",\n          \"count\": 12,\n          \"missing\": 3\n        },\n        {\n          \"date\": \"2026-08-22\",\n          \"count\": 9,\n          \"missing\": 6\n        },\n        {\n          \"date\": \"2026-08-20\",\n          \"count\": 12,\n          \"missing\": 3\n        },\n        {\n          \"date\": \"2026-08-18\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-08-16\",\n          \"count\": 9,\n          \"missing\": 6\n        },\n        {\n          \"date\": \"2026-08-15\",\n          \"count\": 13,\n          \"missing\": 2\n        },\n        {\n          \"date\": \"2026-08-13\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-08-12\",\n          \"count\": 13,\n          \"missing\": 2\n        },\n        {\n          \"date\": \"2026-08-11\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-08-09\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-08-05\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-08-04\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-07-31\",\n          \"count\": 14,\n          \"missing\": 1\n        }\n      ]\n    },\n    \"cinema\": {\n      \"underfilledCount\": 1,\n      \"dates\": [\n        {\n          \"date\": \"2026-09-12\",\n          \"count\": 0,\n          \"missing\": 15\n        }\n      ]\n    }\n  },\n  \"steps\": [\n    {\n      \"id\": \"bookmark-history\",\n      \"ok\": true,\n      \"status\": 0,\n      \"elapsedMs\": 22922\n    },\n    {\n      \"id\": \"daily-update\",\n      \"ok\": false,\n      \"status\": 1,\n      \"elapsedMs\": 98035\n    },\n    {\n      \"id\": \"daily-update-retry\",\n      \"ok\": false,\n      \"status\": 1,\n      \"elapsedMs\": 3439\n    }\n  ],\n  \"state\": \"/Users/kk/Documents/ref/data/recovery-state.json\",\n  \"history\": \"/Users/kk/Documents/ref/data/recovery-history.json\"\n}"
+        },
+        "status": "deferred-known",
+        "knownIncident": "daily-underfilled",
+        "restored": true
+      },
+      "deployment": [],
+      "publicVerification": null,
+      "failureFingerprint": "709be6059a56cbe2",
+      "error": "recovery not verified: deferred-known",
+      "finishedAt": "2026-09-11T23:06:37.333Z"
+    },
+    {
+      "id": "publication-1789168700103",
+      "startedAt": "2026-09-11T23:18:20.103Z",
+      "today": "2026-09-12",
+      "status": "published",
+      "recovery": {
+        "command": {
+          "id": "recover",
+          "ok": true,
+          "status": 0,
+          "elapsedMs": 58066,
+          "outputTail": "{\n  \"ok\": true,\n  \"status\": \"verified\",\n  \"today\": \"2026-09-12\",\n  \"knownIncident\": null,\n  \"restored\": false,\n  \"archiveDebt\": {\n    \"updates\": {\n      \"underfilledCount\": 2,\n      \"dates\": [\n        {\n          \"date\": \"2026-07-28\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-06-26\",\n          \"count\": 6,\n          \"missing\": 9\n        }\n      ]\n    },\n    \"koreanCode\": {\n      \"underfilledCount\": 16,\n      \"dates\": [\n        {\n          \"date\": \"2026-08-26\",\n          \"count\": 13,\n          \"missing\": 2\n        },\n        {\n          \"date\": \"2026-08-25\",\n          \"count\": 13,\n          \"missing\": 2\n        },\n        {\n          \"date\": \"2026-08-24\",\n          \"count\": 11,\n          \"missing\": 4\n        },\n        {\n          \"date\": \"2026-08-23\",\n          \"count\": 12,\n          \"missing\": 3\n        },\n        {\n          \"date\": \"2026-08-22\",\n          \"count\": 9,\n          \"missing\": 6\n        },\n        {\n          \"date\": \"2026-08-20\",\n          \"count\": 12,\n          \"missing\": 3\n        },\n        {\n          \"date\": \"2026-08-18\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-08-16\",\n          \"count\": 9,\n          \"missing\": 6\n        },\n        {\n          \"date\": \"2026-08-15\",\n          \"count\": 13,\n          \"missing\": 2\n        },\n        {\n          \"date\": \"2026-08-13\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-08-12\",\n          \"count\": 13,\n          \"missing\": 2\n        },\n        {\n          \"date\": \"2026-08-11\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-08-09\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-08-05\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-08-04\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-07-31\",\n          \"count\": 14,\n          \"missing\": 1\n        }\n      ]\n    },\n    \"cinema\": {\n      \"underfilledCount\": 0,\n      \"dates\": []\n    }\n  },\n  \"steps\": [\n    {\n      \"id\": \"bookmark-history\",\n      \"ok\": true,\n      \"status\": 0,\n      \"elapsedMs\": 12190\n    },\n    {\n      \"id\": \"daily-update\",\n      \"ok\": true,\n      \"status\": 0,\n      \"elapsedMs\": 43084\n    },\n    {\n      \"id\": \"export\",\n      \"ok\": true,\n      \"status\": 0,\n      \"elapsedMs\": 666\n    },\n    {\n      \"id\": \"verify\",\n      \"ok\": true,\n      \"status\": 0,\n      \"elapsedMs\": 1989\n    }\n  ],\n  \"state\": \"/Users/kk/Documents/ref/data/recovery-state.json\",\n  \"history\": \"/Users/kk/Documents/ref/data/recovery-history.json\"\n}"
+        },
+        "status": "verified",
+        "knownIncident": null,
+        "restored": false
+      },
+      "deployment": [
+        {
+          "id": "deploy",
+          "ok": false,
+          "status": 1,
+          "elapsedMs": 1430,
+          "outputTail": "{\n  \"status\": \"error\",\n  \"reason\": \"deploy_failed\",\n  \"message\": \"Not authorized\",\n  \"next\": [\n    {\n      \"command\": \"vercel deploy\",\n      \"when\": \"retry deploy\"\n    }\n  ]\n}\n\nVercel CLI 58.9.0 (Node.js 24.11.0)\nDeploying ref"
+        },
+        {
+          "id": "deploy-transient-retry-1",
+          "ok": true,
+          "status": 0,
+          "elapsedMs": 21925,
+          "outputTail": "{\n  \"status\": \"ok\",\n  \"deployment\": {\n    \"id\": \"dpl_9HoETzXAReCy1rK6MroJLNtyMej2\",\n    \"url\": \"https://ref-o3bie3165-meandfree23-9417s-projects.vercel.app\",\n    \"inspectorUrl\": \"https://vercel.com/meandfree23-9417s-projects/ref/9HoETzXAReCy1rK6MroJLNtyMej2\",\n    \"readyState\": \"READY\",\n    \"target\": \"production\",\n    \"deploymentApiUrl\": \"https://api.vercel.com/v13/deployments/dpl_9HoETzXAReCy1rK6MroJLNtyMej2\"\n  },\n  \"message\": \"Deployment ref-o3bie3165-meandfree23-9417s-projects.vercel.app ready.\",\n  \"next\": [\n    {\n      \"command\": \"vercel curl https://ref-o3bie3165-meandfree23-9417s-projects.vercel.app\",\n      \"when\": \"Verify deployment, including when Deployment Protection is enabled\"\n    },\n    {\n      \"command\": \"vercel inspect ref-o3bie3165-meandfree23-9417s-projects.vercel.app\",\n      \"when\": \"Inspect deployment\"\n    },\n    {\n      \"command\": \"vercel deploy --prod\",\n      \"when\": \"Promote to production\"\n    }\n  ]\n}\n\nVercel CLI 58.9.0 (Node.js 24.11.0)\nDeploying ref\nUploading [--------------------] (0.0B/36.5MB)\nUploading [=====---------------] (9.1MB/36.5MB)\nUploading [==========----------] (18.3MB/36.5MB)\nUploading [===============-----] (27.4MB/36.5MB)\nUploading [====================] (36.5MB/36.5MB)\n  Inspect         https://vercel.com/meandfree23-9417s-projects/ref/9HoETzXAReCy1rK6MroJLNtyMej2\n  Production      https://ref-o3bie3165-meandfree23-9417s-projects.vercel.app\nBuilding…\nRunning build in Washington, D.C., USA (East) – iad1\nBuild machine configuration: 2 cores, 8 GB\nRetrieving list of deployment files...\nRetrieving list of deployment files...\nDownloading 79 deployment files...\nRestored build cache from previous deployment (5Pi4CNGjVVrDmmzxhmXiipCNTBFH)\nRunning \"vercel build\"\nVercel CLI 59.11.7\nWARNING! Due to `builds` existing in your configuration file, the Build and Development Settings defined in your Project Settings will not apply. Learn More: https://vercel.link/unused-build-settings\nInstalling dependencies...\nup to date in 545ms\n16 packages are looking for funding\nrun `npm fund` for details\nBuild Completed in /vercel/output [2s]\nDeploying outputs...\n\u001b[2K\u001b[1A\u001b[2K\u001b[G  Production      https://ref-o3bie3165-meandfree23-9417s-projects.vercel.app\nCompleting…\n▲ Aliased         https://ref-smoky.vercel.app"
+        }
+      ],
+      "publicVerification": {
+        "ok": true,
+        "tabs": {
+          "updates": {
+            "topDate": "2026-09-12",
+            "todayCount": 15,
+            "itemCount": 1100,
+            "dateCount": 74,
+            "duplicateUrls": 0,
+            "ok": true
+          },
+          "koreanCode": {
+            "topDate": "2026-09-12",
+            "todayCount": 15,
+            "itemCount": 533,
+            "dateCount": 38,
+            "duplicateUrls": 0,
+            "ok": true
+          },
+          "cinema": {
+            "topDate": "2026-09-12",
+            "todayCount": 15,
+            "itemCount": 570,
+            "dateCount": 38,
+            "duplicateUrls": 0,
+            "ok": true
+          }
+        },
+        "attempts": 3
+      },
+      "failureFingerprint": null,
+      "finishedAt": "2026-09-11T23:20:16.709Z"
+    },
+    {
+      "id": "publication-1789250757409",
+      "startedAt": "2026-09-12T22:05:57.409Z",
+      "today": "2026-09-13",
+      "status": "failed",
+      "recovery": {
+        "command": {
+          "id": "recover",
+          "ok": false,
+          "status": 1,
+          "elapsedMs": 134412,
+          "outputTail": "  \"date\": \"2026-08-25\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-07-28\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-07-26\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-07-19\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-07-12\",\n          \"count\": 7,\n          \"missing\": 8\n        }\n      ]\n    },\n    \"koreanCode\": {\n      \"underfilledCount\": 12,\n      \"dates\": [\n        {\n          \"date\": \"2026-09-13\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-09-09\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-09-08\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-09-07\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-09-06\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-09-05\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-09-04\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-08-26\",\n          \"count\": 13,\n          \"missing\": 2\n        },\n        {\n          \"date\": \"2026-08-25\",\n          \"count\": 13,\n          \"missing\": 2\n        },\n        {\n          \"date\": \"2026-08-24\",\n          \"count\": 11,\n          \"missing\": 4\n        },\n        {\n          \"date\": \"2026-08-23\",\n          \"count\": 12,\n          \"missing\": 3\n        },\n        {\n          \"date\": \"2026-08-22\",\n          \"count\": 10,\n          \"missing\": 5\n        }\n      ]\n    },\n    \"cinema\": {\n      \"underfilledCount\": 7,\n      \"dates\": [\n        {\n          \"date\": \"2026-09-13\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-09-09\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-09-08\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-09-07\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-09-06\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-09-05\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-09-04\",\n          \"count\": 0,\n          \"missing\": 15\n        }\n      ]\n    }\n  },\n  \"steps\": [\n    {\n      \"id\": \"bookmark-history\",\n      \"ok\": true,\n      \"status\": 0,\n      \"elapsedMs\": 47258\n    },\n    {\n      \"id\": \"daily-update\",\n      \"ok\": false,\n      \"status\": 1,\n      \"elapsedMs\": 75870\n    },\n    {\n      \"id\": \"daily-update-retry\",\n      \"ok\": false,\n      \"status\": 1,\n      \"elapsedMs\": 11104\n    }\n  ],\n  \"state\": \"/Users/kk/Documents/ref/data/recovery-state.json\",\n  \"history\": \"/Users/kk/Documents/ref/data/recovery-history.json\"\n}"
+        },
+        "status": "deferred-known",
+        "knownIncident": "daily-underfilled",
+        "restored": true
+      },
+      "deployment": [],
+      "publicVerification": null,
+      "failureFingerprint": "709be6059a56cbe2",
+      "error": "recovery not verified: deferred-known",
+      "finishedAt": "2026-09-12T22:08:11.852Z"
+    },
+    {
+      "id": "publication-1789337462994",
+      "startedAt": "2026-09-13T22:11:02.994Z",
+      "today": "2026-09-14",
+      "status": "failed",
+      "recovery": {
+        "command": {
+          "id": "recover",
+          "ok": false,
+          "status": 1,
+          "elapsedMs": 933770,
+          "outputTail": "\"date\": \"2026-07-28\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-07-26\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-07-19\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-07-12\",\n          \"count\": 7,\n          \"missing\": 8\n        }\n      ]\n    },\n    \"koreanCode\": {\n      \"underfilledCount\": 13,\n      \"dates\": [\n        {\n          \"date\": \"2026-09-14\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-09-13\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-09-09\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-09-08\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-09-07\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-09-06\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-09-05\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-09-04\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-08-26\",\n          \"count\": 13,\n          \"missing\": 2\n        },\n        {\n          \"date\": \"2026-08-25\",\n          \"count\": 13,\n          \"missing\": 2\n        },\n        {\n          \"date\": \"2026-08-24\",\n          \"count\": 11,\n          \"missing\": 4\n        },\n        {\n          \"date\": \"2026-08-23\",\n          \"count\": 12,\n          \"missing\": 3\n        },\n        {\n          \"date\": \"2026-08-22\",\n          \"count\": 10,\n          \"missing\": 5\n        }\n      ]\n    },\n    \"cinema\": {\n      \"underfilledCount\": 8,\n      \"dates\": [\n        {\n          \"date\": \"2026-09-14\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-09-13\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-09-09\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-09-08\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-09-07\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-09-06\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-09-05\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-09-04\",\n          \"count\": 0,\n          \"missing\": 15\n        }\n      ]\n    }\n  },\n  \"steps\": [\n    {\n      \"id\": \"bookmark-history\",\n      \"ok\": false,\n      \"status\": null,\n      \"elapsedMs\": 933609\n    },\n    {\n      \"id\": \"bookmark-history\",\n      \"ok\": false,\n      \"status\": null,\n      \"elapsedMs\": 933609\n    }\n  ],\n  \"state\": \"/Users/kk/Documents/ref/data/recovery-state.json\",\n  \"history\": \"/Users/kk/Documents/ref/data/recovery-history.json\"\n}"
+        },
+        "status": "deferred-known",
+        "knownIncident": "daily-timeout",
+        "restored": true
+      },
+      "deployment": [],
+      "publicVerification": null,
+      "failureFingerprint": "709be6059a56cbe2",
+      "error": "recovery not verified: deferred-known",
+      "finishedAt": "2026-09-13T22:26:36.798Z"
+    },
+    {
+      "id": "publication-1789365718236",
+      "startedAt": "2026-09-14T06:01:58.236Z",
+      "today": "2026-09-14",
+      "status": "published",
+      "recovery": {
+        "command": {
+          "id": "recover",
+          "ok": true,
+          "status": 0,
+          "elapsedMs": 38196,
+          "outputTail": "},\n        {\n          \"date\": \"2026-08-25\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-07-28\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-07-26\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-07-19\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-07-12\",\n          \"count\": 7,\n          \"missing\": 8\n        }\n      ]\n    },\n    \"koreanCode\": {\n      \"underfilledCount\": 12,\n      \"dates\": [\n        {\n          \"date\": \"2026-09-10\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-09-09\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-09-08\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-09-07\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-09-06\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-09-05\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-09-04\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-08-26\",\n          \"count\": 13,\n          \"missing\": 2\n        },\n        {\n          \"date\": \"2026-08-25\",\n          \"count\": 13,\n          \"missing\": 2\n        },\n        {\n          \"date\": \"2026-08-24\",\n          \"count\": 11,\n          \"missing\": 4\n        },\n        {\n          \"date\": \"2026-08-23\",\n          \"count\": 12,\n          \"missing\": 3\n        },\n        {\n          \"date\": \"2026-08-22\",\n          \"count\": 10,\n          \"missing\": 5\n        }\n      ]\n    },\n    \"cinema\": {\n      \"underfilledCount\": 6,\n      \"dates\": [\n        {\n          \"date\": \"2026-09-09\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-09-08\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-09-07\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-09-06\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-09-05\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-09-04\",\n          \"count\": 0,\n          \"missing\": 15\n        }\n      ]\n    }\n  },\n  \"steps\": [\n    {\n      \"id\": \"bookmark-history\",\n      \"ok\": true,\n      \"status\": 0,\n      \"elapsedMs\": 34723\n    },\n    {\n      \"id\": \"daily-update\",\n      \"ok\": true,\n      \"status\": 0,\n      \"elapsedMs\": 555\n    },\n    {\n      \"id\": \"export\",\n      \"ok\": true,\n      \"status\": 0,\n      \"elapsedMs\": 694\n    },\n    {\n      \"id\": \"verify\",\n      \"ok\": true,\n      \"status\": 0,\n      \"elapsedMs\": 2028\n    }\n  ],\n  \"state\": \"/Users/kk/Documents/ref/data/recovery-state.json\",\n  \"history\": \"/Users/kk/Documents/ref/data/recovery-history.json\"\n}"
+        },
+        "status": "verified",
+        "knownIncident": null,
+        "restored": false
+      },
+      "deployment": [],
+      "publicVerification": {
+        "ok": true,
+        "tabs": {
+          "updates": {
+            "topDate": "2026-09-14",
+            "todayCount": 15,
+            "itemCount": 1191,
+            "dateCount": 80,
+            "duplicateUrls": 0,
+            "ok": true
+          },
+          "koreanCode": {
+            "topDate": "2026-09-14",
+            "todayCount": 15,
+            "itemCount": 583,
+            "dateCount": 40,
+            "duplicateUrls": 0,
+            "ok": true
+          },
+          "cinema": {
+            "topDate": "2026-09-14",
+            "todayCount": 15,
+            "itemCount": 600,
+            "dateCount": 40,
+            "duplicateUrls": 0,
+            "ok": true
+          }
+        },
+        "attempts": 1,
+        "deploymentSkipped": true
+      },
+      "failureFingerprint": null,
+      "finishedAt": "2026-09-14T06:02:38.428Z"
+    },
+    {
+      "id": "publication-1789423573975",
+      "startedAt": "2026-09-14T22:06:13.975Z",
+      "today": "2026-09-15",
+      "status": "failed",
+      "recovery": {
+        "command": {
+          "id": "recover",
+          "ok": false,
+          "status": 1,
+          "elapsedMs": 138830,
+          "outputTail": "   \"date\": \"2026-07-28\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-07-26\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-07-19\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-07-12\",\n          \"count\": 7,\n          \"missing\": 8\n        }\n      ]\n    },\n    \"koreanCode\": {\n      \"underfilledCount\": 13,\n      \"dates\": [\n        {\n          \"date\": \"2026-09-15\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-09-10\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-09-09\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-09-08\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-09-07\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-09-06\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-09-05\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-09-04\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-08-26\",\n          \"count\": 13,\n          \"missing\": 2\n        },\n        {\n          \"date\": \"2026-08-25\",\n          \"count\": 13,\n          \"missing\": 2\n        },\n        {\n          \"date\": \"2026-08-24\",\n          \"count\": 11,\n          \"missing\": 4\n        },\n        {\n          \"date\": \"2026-08-23\",\n          \"count\": 12,\n          \"missing\": 3\n        },\n        {\n          \"date\": \"2026-08-22\",\n          \"count\": 10,\n          \"missing\": 5\n        }\n      ]\n    },\n    \"cinema\": {\n      \"underfilledCount\": 7,\n      \"dates\": [\n        {\n          \"date\": \"2026-09-15\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-09-09\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-09-08\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-09-07\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-09-06\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-09-05\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-09-04\",\n          \"count\": 0,\n          \"missing\": 15\n        }\n      ]\n    }\n  },\n  \"steps\": [\n    {\n      \"id\": \"bookmark-history\",\n      \"ok\": true,\n      \"status\": 0,\n      \"elapsedMs\": 49744\n    },\n    {\n      \"id\": \"daily-update\",\n      \"ok\": false,\n      \"status\": 1,\n      \"elapsedMs\": 82220\n    },\n    {\n      \"id\": \"daily-update-retry\",\n      \"ok\": false,\n      \"status\": 1,\n      \"elapsedMs\": 6676\n    }\n  ],\n  \"state\": \"/Users/kk/Documents/ref/data/recovery-state.json\",\n  \"history\": \"/Users/kk/Documents/ref/data/recovery-history.json\"\n}"
+        },
+        "status": "deferred-known",
+        "knownIncident": "daily-underfilled",
+        "restored": true
+      },
+      "deployment": [],
+      "publicVerification": null,
+      "failureFingerprint": "709be6059a56cbe2",
+      "error": "recovery not verified: deferred-known",
+      "finishedAt": "2026-09-14T22:08:32.834Z"
+    },
+    {
+      "id": "publication-1789454406431",
+      "startedAt": "2026-09-15T06:40:06.431Z",
+      "today": "2026-09-15",
+      "status": "published",
+      "recovery": {
+        "command": {
+          "id": "recover",
+          "ok": true,
+          "status": 0,
+          "elapsedMs": 202274,
+          "outputTail": "        {\n          \"date\": \"2026-08-25\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-07-28\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-07-26\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-07-19\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-07-12\",\n          \"count\": 7,\n          \"missing\": 8\n        }\n      ]\n    },\n    \"koreanCode\": {\n      \"underfilledCount\": 12,\n      \"dates\": [\n        {\n          \"date\": \"2026-09-10\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-09-09\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-09-08\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-09-07\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-09-06\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-09-05\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-09-04\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-08-26\",\n          \"count\": 13,\n          \"missing\": 2\n        },\n        {\n          \"date\": \"2026-08-25\",\n          \"count\": 13,\n          \"missing\": 2\n        },\n        {\n          \"date\": \"2026-08-24\",\n          \"count\": 11,\n          \"missing\": 4\n        },\n        {\n          \"date\": \"2026-08-23\",\n          \"count\": 12,\n          \"missing\": 3\n        },\n        {\n          \"date\": \"2026-08-22\",\n          \"count\": 10,\n          \"missing\": 5\n        }\n      ]\n    },\n    \"cinema\": {\n      \"underfilledCount\": 6,\n      \"dates\": [\n        {\n          \"date\": \"2026-09-09\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-09-08\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-09-07\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-09-06\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-09-05\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-09-04\",\n          \"count\": 0,\n          \"missing\": 15\n        }\n      ]\n    }\n  },\n  \"steps\": [\n    {\n      \"id\": \"bookmark-history\",\n      \"ok\": true,\n      \"status\": 0,\n      \"elapsedMs\": 48171\n    },\n    {\n      \"id\": \"daily-update\",\n      \"ok\": true,\n      \"status\": 0,\n      \"elapsedMs\": 151260\n    },\n    {\n      \"id\": \"export\",\n      \"ok\": true,\n      \"status\": 0,\n      \"elapsedMs\": 717\n    },\n    {\n      \"id\": \"verify\",\n      \"ok\": true,\n      \"status\": 0,\n      \"elapsedMs\": 1995\n    }\n  ],\n  \"state\": \"/Users/kk/Documents/ref/data/recovery-state.json\",\n  \"history\": \"/Users/kk/Documents/ref/data/recovery-history.json\"\n}"
+        },
+        "status": "verified",
+        "knownIncident": null,
+        "restored": false
+      },
+      "deployment": [
+        {
+          "id": "deploy",
+          "ok": false,
+          "status": 1,
+          "elapsedMs": 1566,
+          "outputTail": "{\n  \"status\": \"error\",\n  \"reason\": \"deploy_failed\",\n  \"message\": \"Not authorized\",\n  \"next\": [\n    {\n      \"command\": \"vercel deploy\",\n      \"when\": \"retry deploy\"\n    }\n  ]\n}\n\nVercel CLI 58.9.0 (Node.js 24.11.0)\nDeploying ref"
+        },
+        {
+          "id": "deploy-transient-retry-1",
+          "ok": true,
+          "status": 0,
+          "elapsedMs": 19955,
+          "outputTail": "{\n  \"status\": \"ok\",\n  \"deployment\": {\n    \"id\": \"dpl_CgiwSQCifZj5KF3XYWGhdzsBv2cN\",\n    \"url\": \"https://ref-mlj4j1sfm-meandfree23-9417s-projects.vercel.app\",\n    \"inspectorUrl\": \"https://vercel.com/meandfree23-9417s-projects/ref/CgiwSQCifZj5KF3XYWGhdzsBv2cN\",\n    \"readyState\": \"READY\",\n    \"target\": \"production\",\n    \"deploymentApiUrl\": \"https://api.vercel.com/v13/deployments/dpl_CgiwSQCifZj5KF3XYWGhdzsBv2cN\"\n  },\n  \"message\": \"Deployment ref-mlj4j1sfm-meandfree23-9417s-projects.vercel.app ready.\",\n  \"next\": [\n    {\n      \"command\": \"vercel curl https://ref-mlj4j1sfm-meandfree23-9417s-projects.vercel.app\",\n      \"when\": \"Verify deployment, including when Deployment Protection is enabled\"\n    },\n    {\n      \"command\": \"vercel inspect ref-mlj4j1sfm-meandfree23-9417s-projects.vercel.app\",\n      \"when\": \"Inspect deployment\"\n    },\n    {\n      \"command\": \"vercel deploy --prod\",\n      \"when\": \"Promote to production\"\n    }\n  ]\n}\n\nVercel CLI 58.9.0 (Node.js 24.11.0)\nDeploying ref\nUploading [--------------------] (0.0B/39.2MB)\nUploading [=====---------------] (9.8MB/39.2MB)\nUploading [==========----------] (19.6MB/39.2MB)\nUploading [===============-----] (29.4MB/39.2MB)\nUploading [====================] (39.2MB/39.2MB)\n  Inspect         https://vercel.com/meandfree23-9417s-projects/ref/CgiwSQCifZj5KF3XYWGhdzsBv2cN\n  Production      https://ref-mlj4j1sfm-meandfree23-9417s-projects.vercel.app\nBuilding…\nBuilding…\nRunning build in Washington, D.C., USA (East) – iad1\nBuild machine configuration: 2 cores, 8 GB\nRetrieving list of deployment files...\nDownloading 79 deployment files...\nRestored build cache from previous deployment (BqNrjX7y13AfFzbDtgUMUBScN5D5)\nRunning \"vercel build\"\nVercel CLI 59.17.0\nWARNING! Due to `builds` existing in your configuration file, the Build and Development Settings defined in your Project Settings will not apply. Learn More: https://vercel.link/unused-build-settings\nInstalling dependencies...\nup to date in 633ms\n16 packages are looking for funding\nrun `npm fund` for details\nBuild Completed in /vercel/output [3s]\nDeploying outputs...\n\u001b[2K\u001b[1A\u001b[2K\u001b[G  Production      https://ref-mlj4j1sfm-meandfree23-9417s-projects.vercel.app\nCompleting…\n▲ Aliased         https://ref-smoky.vercel.app"
+        }
+      ],
+      "publicVerification": {
+        "ok": true,
+        "tabs": {
+          "updates": {
+            "topDate": "2026-09-15",
+            "todayCount": 15,
+            "itemCount": 1206,
+            "dateCount": 81,
+            "duplicateUrls": 0,
+            "ok": true
+          },
+          "koreanCode": {
+            "topDate": "2026-09-15",
+            "todayCount": 15,
+            "itemCount": 598,
+            "dateCount": 41,
+            "duplicateUrls": 0,
+            "ok": true
+          },
+          "cinema": {
+            "topDate": "2026-09-15",
+            "todayCount": 15,
+            "itemCount": 615,
+            "dateCount": 41,
+            "duplicateUrls": 0,
+            "ok": true
+          }
+        },
+        "attempts": 3
+      },
+      "failureFingerprint": null,
+      "finishedAt": "2026-09-15T06:44:24.493Z"
+    },
+    {
+      "id": "publication-1789510907618",
+      "startedAt": "2026-09-15T22:21:47.618Z",
+      "today": "2026-09-16",
+      "status": "failed",
+      "recovery": {
+        "command": {
+          "id": "recover",
+          "ok": false,
+          "status": 1,
+          "elapsedMs": 215772,
+          "outputTail": "  \"date\": \"2026-07-28\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-07-26\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-07-19\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-07-12\",\n          \"count\": 7,\n          \"missing\": 8\n        }\n      ]\n    },\n    \"koreanCode\": {\n      \"underfilledCount\": 13,\n      \"dates\": [\n        {\n          \"date\": \"2026-09-16\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-09-10\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-09-09\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-09-08\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-09-07\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-09-06\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-09-05\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-09-04\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-08-26\",\n          \"count\": 13,\n          \"missing\": 2\n        },\n        {\n          \"date\": \"2026-08-25\",\n          \"count\": 13,\n          \"missing\": 2\n        },\n        {\n          \"date\": \"2026-08-24\",\n          \"count\": 11,\n          \"missing\": 4\n        },\n        {\n          \"date\": \"2026-08-23\",\n          \"count\": 12,\n          \"missing\": 3\n        },\n        {\n          \"date\": \"2026-08-22\",\n          \"count\": 10,\n          \"missing\": 5\n        }\n      ]\n    },\n    \"cinema\": {\n      \"underfilledCount\": 7,\n      \"dates\": [\n        {\n          \"date\": \"2026-09-16\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-09-09\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-09-08\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-09-07\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-09-06\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-09-05\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-09-04\",\n          \"count\": 0,\n          \"missing\": 15\n        }\n      ]\n    }\n  },\n  \"steps\": [\n    {\n      \"id\": \"bookmark-history\",\n      \"ok\": true,\n      \"status\": 0,\n      \"elapsedMs\": 66800\n    },\n    {\n      \"id\": \"daily-update\",\n      \"ok\": false,\n      \"status\": 1,\n      \"elapsedMs\": 140788\n    },\n    {\n      \"id\": \"daily-update-retry\",\n      \"ok\": false,\n      \"status\": 1,\n      \"elapsedMs\": 7967\n    }\n  ],\n  \"state\": \"/Users/kk/Documents/ref/data/recovery-state.json\",\n  \"history\": \"/Users/kk/Documents/ref/data/recovery-history.json\"\n}"
+        },
+        "status": "deferred-known",
+        "knownIncident": "daily-underfilled",
+        "restored": true
+      },
+      "deployment": [],
+      "publicVerification": null,
+      "failureFingerprint": "709be6059a56cbe2",
+      "error": "recovery not verified: deferred-known",
+      "finishedAt": "2026-09-15T22:25:23.405Z"
+    }
+  ]
+}

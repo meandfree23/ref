@@ -1,0 +1,52 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/*.mjs",
+      "use": "@vercel/node",
+      "config": {
+        "maxDuration": 60,
+        "includeFiles": ["data/**"]
+      }
+    },
+    {
+      "src": "public/**",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/status",
+      "dest": "/api/status.mjs"
+    },
+    {
+      "src": "/api/search",
+      "dest": "/api/search.mjs"
+    },
+    {
+      "src": "/api/updates",
+      "dest": "/api/updates.mjs"
+    },
+    {
+      "src": "/api/korean-code",
+      "dest": "/api/korean-code.mjs"
+    },
+    {
+      "src": "/api/cinema",
+      "dest": "/api/cinema.mjs"
+    },
+    {
+      "src": "/api/daily-update",
+      "dest": "/api/daily-update.mjs"
+    },
+    {
+      "src": "/",
+      "dest": "/public/index.html"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/public/$1"
+    }
+  ]
+}

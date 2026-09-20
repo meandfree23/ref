@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "updatedAt": "2026-09-01",
+  "principle": "Known failures may be repaired automatically only by previously verified, bounded actions. Unknown failures stop publication and preserve the last verified archive.",
+  "incidents": [
+    {
+      "id": "daily-timeout",
+      "signals": ["ETIMEDOUT", "daily update exceeded its bounded runtime"],
+      "actions": ["prepare candidates in batches of 15", "stop enrichment as soon as the tab reaches 15 valid items", "preserve strict localization and insight validation"],
+      "onFailure": "restore snapshot and report the slow stage"
+    },
+    {
+      "id": "daily-underfilled",
+      "signals": ["Daily static archive did not reach the target", "today count is not 15"],
+      "actions": ["exclude only dates before today from novelty history so same-day retry candidates remain reusable", "retry daily update once with the bounded recovery candidate pool", "accept documented craft cases only when the summary contains a concrete making decision, evidence language and at least two transferable creative signals", "keep the strict source cap at 3 and allow the verified up-folder fallback cap of 6 only if the strict pass is underfilled", "keep trust, Korean relevance and content-value gates active", "re-export and verify"],
+      "onFailure": "restore snapshot and defer publication"
+    },
+    {
+      "id": "insight-contract",
+      "signals": ["repeated insight", "role-mismatched", "without content insight"],
+      "actions": ["regenerate role-aware insights", "re-export and verify"],
+      "onFailure": "restore snapshot and report unknown content defect"
+    },
+    {
+      "id": "creative-quality",
+      "signals": ["creative selection policy", "four-part creative insight"],
+      "actions": ["discard today's invalid update items", "refill only from candidates that pass creative-update-v1", "re-export and verify"],
+      "onFailure": "restore snapshot and defer publication"
+    },
+    {
+      "id": "korean-image-assets",
+      "signals": ["related fallback images", "image ratio too low", "page-preview"],
+      "actions": ["repair today's Korean Code article metadata", "remove blocked page previews", "re-export and verify"],
+      "onFailure": "restore snapshot and retain the last verified public archive"
+    },
+    {
+      "id": "localization-degraded",
+      "signals": ["degraded translations", "translation leakage", "without Korean titleKo", "without Korean summaryKo", "429"],
+      "actions": ["validate titleKo, summaryKo and focusKo with the same degradation rules", "discard only today's invalid localized items while keeping valid items", "translate with the local qwen3:1.7b Ollama model", "use remote providers only when the local service is unavailable", "do not publish fallback-prefixed or prompt-leaking copy", "re-export and verify"],
+      "onFailure": "restore snapshot and defer publication"
+    },
+    {
+      "id": "canonical-duplicates",
+      "signals": ["duplicate curation URLs", "semantic title duplicates", "duplicate URLs"],
+      "actions": ["apply the shared canonical URL normalization to bookmark history", "remove canonical duplicates", "re-export and verify"],
+      "onFailure": "restore snapshot and require a new deduplication rule"
+    },
+    {
+      "id": "deployment-auth-race",
+      "signals": ["Not authorized", "fetch failed", "ECONNRESET", "ETIMEDOUT"],
+      "actions": ["disable the Vercel CLI update notifier in the child process", "retry only transient network or authorization failures", "use bounded 15/30/45 second cooldowns with at most four total attempts"],
+      "onFailure": "stop further deployments and report authentication failure"
+    },
+    {
+      "id": "public-archive-stale",
+      "signals": ["local recovery is verified but the public top date is stale", "public tab count is not 15 after deployment"],
+      "actions": ["treat local verification and public publication as separate states", "verify all three public APIs up to six times during alias propagation", "record a publication failure fingerprint if the public contract remains stale"],
+      "onFailure": "do not report success; preserve verified local data so the next publication run can redeploy without recollecting"
+    }
+  ]
+}

@@ -1,0 +1,289 @@
+{
+  "generatedAt": "2026-08-02T05:20:46.552Z",
+  "criteria": {
+    "promote": "High novelty and reliable feed response. Candidate can be reviewed for source promotion.",
+    "watch": "Potentially useful but needs repeated checks or narrower query tuning.",
+    "reject": "Low novelty, failed feed, or too little useful material."
+  },
+  "tabs": [
+    {
+      "tab": "updates",
+      "archive": {
+        "items": 522,
+        "dates": 35,
+        "uniqueUrls": 522
+      },
+      "candidates": [
+        {
+          "id": "design-milk",
+          "name": "Design Milk",
+          "field": "design",
+          "focus": "product design, interiors, lifestyle design",
+          "feedUrl": "https://design-milk.com/feed/",
+          "ok": true,
+          "error": "",
+          "fetched": 12,
+          "unique": 12,
+          "novel": 12,
+          "noveltyRatio": 1,
+          "score": 170,
+          "recommendation": "promote",
+          "sample": [
+            {
+              "title": "6 Sustainable Home Furnishings for Healthy Living",
+              "url": "https://design-milk.com/sustainable-home-furnishings-healthy-living/"
+            },
+            {
+              "title": "Lauren Rottet Shares the Places, Projects, and Inspirations That Shape Her Design",
+              "url": "https://design-milk.com/lauren-rottet-friday-five/"
+            },
+            {
+              "title": "Jackery’s FridgeGuard Makes Backup Power Kitchen-Friendly",
+              "url": "https://design-milk.com/jackery-fridgeguard-refrigerator-backup-battery/"
+            },
+            {
+              "title": "What If the Bathroom Was the Center of the Home?",
+              "url": "https://design-milk.com/sigla-studio-barcelona-apartment-open-bathroom/"
+            },
+            {
+              "title": "MB&#038;F Has a New Home in Manhattan—and a New Watch to Mark the Occasion",
+              "url": "https://design-milk.com/mbf-new-york-lounge-lm101-evo-nyc-edition/"
+            }
+          ]
+        },
+        {
+          "id": "colossal",
+          "name": "Colossal",
+          "field": "art-design",
+          "focus": "art, photography, craft, visual culture",
+          "feedUrl": "https://www.thisiscolossal.com/feed/",
+          "ok": true,
+          "error": "",
+          "fetched": 10,
+          "unique": 10,
+          "novel": 10,
+          "noveltyRatio": 1,
+          "score": 150,
+          "recommendation": "promote",
+          "sample": [
+            {
+              "title": "Heritage Bookbinding Elements Transform in Contemporary Sculptures by Adelene Koh",
+              "url": "https://www.thisiscolossal.com/2026/07/adelene-koh-bookbinding-paper-sewing-sculpture-loewe-craft-prize/"
+            },
+            {
+              "title": "The Top Photos in the CWAS David Malin Awards Highlight Astronomical Wonders",
+              "url": "https://www.thisiscolossal.com/2026/07/winning-photos-cwas-astrofest-space-astrophotography/"
+            },
+            {
+              "title": "Reflections Dazzle in the Hyperrealistic Chrome Faces of Kip Omolade&#8217;s Vivid Portraits",
+              "url": "https://www.thisiscolossal.com/2026/07/kip-omolade-chrome-portraits-hyperrealism-paintings/"
+            },
+            {
+              "title": "Lifelike Birds Emerge from Foliage in Painted Paper Reliefs by The Paper Ark",
+              "url": "https://www.thisiscolossal.com/2026/07/the-paper-ark-birds-relief-nature-watercolors/"
+            },
+            {
+              "title": "Zac Henderson Venerates Devil&#8217;s Tower in Bold Black-and-White Photos",
+              "url": "https://www.thisiscolossal.com/2026/07/zac-henderson-devils-tower-photographs/"
+            }
+          ]
+        },
+        {
+          "id": "aiga-eye-on-design",
+          "name": "AIGA Eye on Design",
+          "field": "graphic-design",
+          "focus": "graphic design, visual identity, criticism",
+          "feedUrl": "https://eyeondesign.aiga.org/feed/",
+          "ok": false,
+          "error": "HTTP 404",
+          "fetched": 0,
+          "unique": 0,
+          "novel": 0,
+          "noveltyRatio": 0,
+          "score": -20,
+          "recommendation": "reject",
+          "sample": []
+        }
+      ]
+    },
+    {
+      "tab": "koreanCode",
+      "archive": {
+        "items": 45,
+        "dates": 3,
+        "uniqueUrls": 45
+      },
+      "candidates": [
+        {
+          "id": "korean-cultural-form-hybrid",
+          "name": "Korean Cultural Form Hybrid",
+          "field": "문화코드",
+          "focus": "traditional form, contemporary remix, global code",
+          "feedUrl": "https://news.google.com/rss/search?q=Korean%20traditional%20contemporary%20design%20fashion%20architecture%20global%20feature&hl=en-US&gl=US&ceid=US:en",
+          "ok": true,
+          "error": "",
+          "fetched": 36,
+          "unique": 36,
+          "novel": 36,
+          "noveltyRatio": 1,
+          "score": 410,
+          "recommendation": "promote",
+          "sample": [
+            {
+              "title": "The New Trend of Korean “Goldong”: Dapsimni Antique Art Market — Beyond Vintage, Toward Antique - K-ARTNOW",
+              "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5mTzFhUEkzbG9qcEJiWjdqVUVNZTIyMUJsMGxVVnlLeVk5Y190VzJXczZEZmJFa0pHUHBiclIzajQ3cjNZcDJRODFSSXFmNGo5dG1KY3hFYkhHYXM?oc=5"
+            },
+            {
+              "title": "Korean craft, clothing take center stage as Busan welcomes UNESCO officials - The Korea Times",
+              "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPakJoSFM2bW9VbXFwY1lmWDlDVmo1VUJtOHhfMDhmdzYzNVVFUGpzYlRveW5acUpEME5fcVBzZmRnbmtxVEYyMXMtS1JVZTh1VThDUF9aQ214Q3RaQi1sdkNhTFVaNkh3Uk8wRm5rbHF0aDA4THBPcGRNOEdnTkxEVmc5QWp6T3k1SHhuNTlna0FSZG01a3JJTFJud19ONDFHbzV6UjFqc0Jkc3l6NERVWEU3NFdLdUpxTlJkTnpzZ3ZMcURnczNHMFpVX3VrWjFEbkHSAdcBQVVfeXFMUFNrdnNLZzZ0SXA1SWZ3NU9WR1FkRkNDOFdlR0hlZGRmU1NSWUk1dE5FRzFjU3F5N0syeXo1RF9QbDdwa0VpWjQyWXZQSWY5YU1TY2p0WjFBcllGc0xaRE0wdVBMbUpoWE5iT1NNN0VRMUZFend0aDZJZ01wYUR4MEdxX1l1dDd6M2JmdDBYZXc3NjBpRmFBYU1kVGNObEJ4LXA5b3UzOGlheWZOaG50RmRLaXUwemhKZUdVTEF6THRtbjRlMFEwWTVHVE51eDZUTFRGSVdnVU0?oc=5"
+            },
+            {
+              "title": "31 of the best Korean fashion brands to shop in 2026 - RUSSH",
+              "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE8yOWg5UHV3emhQMmxfRmV0QWZnWmtNUzBFeEJMVzZXeUxHdVBXemVUdWo1Rk5lMUZSck9qa2ZqZEJSSHptY05fYUVzTDA3cUczUGQzWkMxWQ?oc=5"
+            },
+            {
+              "title": "A Matter of Salone: Key Themes from Milan Design Week 2026 - Parametric Architecture",
+              "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE81bHNTY0JXNlNIVS1kckMzYjJNN2dRUGQ5dFo4dm1rWEJjTE9MODdZV2JJU3M2NXVYOXNvQjF4SFN0YzNwTllVcU1QakJPZVFoTzJDWWJQTVJtNHY0XzUwOXBQRUVhZ002c21z?oc=5"
+            },
+            {
+              "title": "Adidas blends running culture with heritage at pop-up store - The Korea Herald",
+              "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9aazZxcW5OeWZNazAyY1NuMWlSVXFzTkRKWlR2Y3lOb3RBRWpKQlJvMGFTTDZ1Sk1zVmxxSW4zMzhyTEtLM3dROUZpNXlyY3ZiT0NuS013RQ?oc=5"
+            }
+          ]
+        },
+        {
+          "id": "korean-design-global-awards",
+          "name": "Korean Design Global Awards",
+          "field": "디자인/광고",
+          "focus": "graphic design, awards, identity, global recognition",
+          "feedUrl": "https://news.google.com/rss/search?q=Korean%20design%20award%20branding%20graphic%20identity%20interview&hl=en-US&gl=US&ceid=US:en",
+          "ok": true,
+          "error": "",
+          "fetched": 32,
+          "unique": 32,
+          "novel": 32,
+          "noveltyRatio": 1,
+          "score": 370,
+          "recommendation": "promote",
+          "sample": [
+            {
+              "title": "Studio explains Hallyu branding, K-pop visuals, creative process - KOREA.net",
+              "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE12Tm5zYVNUeVJudzN2eS1vWVZYUGZvSXdKcEo5NkYycDBxTW0tVHFDcjdpNWo5RWxjNnBoN0RIMXZRTjdfSnpoWGRGTUtnaVBaN0g5U2RncVBDbHBzSHRjUHR3VG52VFE1bmduclYxblZYV0g4ZXBnT3Jjcw?oc=5"
+            },
+            {
+              "title": "Aespa’s 'Dirty Work' wins Red Dot Design Award - The Korea Herald",
+              "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1ibGRELXc4M1piUW9tb3g3SkFUc0VUUDd1aGMwWnJQTVUzWjJyVTg0cjRhMGtPM3JkbmVISUNiTkhhWDQ3UWF4X2h2SkFzMkpxdWJveHFDVQ?oc=5"
+            },
+            {
+              "title": "How are NOX’s sustainable solutions a groundbreaking innovation in flooring? - The Worldfolio",
+              "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPY1hjWWZaNk9mTU1tU2lUVGRTTmJ3ekRZVTJjOUxsU3JoQ29SMHVTT2Z3VG9ybnRVbnRGd2pfQjNZSmUwX0JKQS1GdTdmcTNxVlI5SElfeE82RnU3ekQ2dW1MT2hJb3pFb3dlbVYxdzJ1UEU0V0hnQjdsVFZTTlhKOVpDdm4wNlMzbkpWV3hlSlcxbWpmWkEzOGNqSWE4QnNGRkVETW9NZ2lnUUxsUmUwODN6NEFKeUNmd1hV?oc=5"
+            },
+            {
+              "title": "Taj Mahal Inspires Korean Designer Baek JinJoo’s Big India Foray - Asian Community News",
+              "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZXRPdVFFQWN6YlF2MDc5dFJGWTFmcUdLZmJBRW82V2tWRmZSWDBHQnNxT2FRVEw0N1QwdEl3LWV4aVdEei1uV1BPOUNuZndicTNpWGlyVVhJU0xZSk5oNkhSUk96d2p4cDEwTFpHLU9OUDNZSkhiRTFmNzVpMEVwTkp3ODBtN0hhOEpaeTB4SGRiZ05jZTV2OEszVDhra3dE?oc=5"
+            },
+            {
+              "title": "Carol Lim's MoMo Camp Fosters Korean Identity - 조선일보",
+              "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQeENQZHVtNE9XYnYzOHBMVjlHckF2TndRTDlManBPM0hSeXl5SnpuVmIxdTV4OGlWNUlRSjlrNWdYY2RGMGxDUFdPQ1h2bGFFM1dITzU3NnZqQ3R5cE1GbU9tOTRxTVdlTlNjcVhRbVVKSzFJRUdjUkZVRVZPbUtiS0NheHU1eVp1eWJSRQ?oc=5"
+            }
+          ]
+        },
+        {
+          "id": "korean-ad-campaign-analysis",
+          "name": "Korean Advertising Campaign Analysis",
+          "field": "디자인/광고",
+          "focus": "advertising, campaign case study, creative director",
+          "feedUrl": "https://news.google.com/rss/search?q=Korean%20advertising%20campaign%20creative%20director%20Cannes%20Lions%20case%20study&hl=en-US&gl=US&ceid=US:en",
+          "ok": true,
+          "error": "",
+          "fetched": 17,
+          "unique": 17,
+          "novel": 17,
+          "noveltyRatio": 1,
+          "score": 220,
+          "recommendation": "promote",
+          "sample": [
+            {
+              "title": "Starbucks Korea's Tank Day Firestorm: Did Speed Outrun Common Sense? - PRovoke Media",
+              "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPN0lkYUpaOTc3VFgzc3gwZkNZZ1pNSGdrQUJ5X2lhYkRwVU04WTZqU1NIQllobEJCU3hGR1dEQnNESXJvR1dXdXVUWXVCNE44TGI0dGxlWFk0c3p5RHNlajgtQ2Rjc20wQXQ3TEJPU1NVZl9fWHNyUFI3MFhkRmZib3F3RndFWkk5WlpqUXV4SlExMFN3Yll6X1JDazRaZC1BeVZsbVR1LVBaZWxjM1dncHRsTXM?oc=5"
+            },
+            {
+              "title": "Hyundai Motor Group Shines at Cannes Lions, Connecting with the World through Branded Content - Hyundai Motor Group",
+              "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBiYW9fVHotaHRadXA3TGxxM2ZlTlh2SDV1MGNZRjU1RmswRzdYR1Zyc3pwYjgwR2M3bmx6WXhmN3VTaHF1QmpGRFdfQncxNHE0Y0ZlNDZleWVjV3NSQ18xTFZtRkJNcmVIN0JfbU9GZmo?oc=5"
+            },
+            {
+              "title": "Ulka's Rakesh Menon on what Creative Business Transformation actually means - Exchange4Media",
+              "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPNU5hdU00ZG1jXzJBanozUDd1ZGp5SVRndGI0aUVTQ1R3YVE0TEs5LUctcWFQYjJTd0E5ekQxYVMweENvQ1JDUWdtbzZ4a2NReVFLaTQ3SFVCTl9FejVMcWd0TkVaZHJ4NG4zYmhKSk5oUVYwZFRzNVVCa3RoN2tNb0JoaWlsWTJ2bGpuLWtLelBqYUNOdEdvMWVNbDNGUE4yYndXUktEcFFkc1c2MlJ4eDhwMnJOWEdnODlhWVN1aHBkYWNmT0I3VWFkVjZxY1VZUEtIQXNkV0NOSGs?oc=5"
+            },
+            {
+              "title": "Hyundai Motor Wins Grand Prix and Two Gold Lions at Cannes Lions with ‘Night Fishing’ and ‘Tree Correspondents’ - hyundai.news",
+              "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQWVlvcmFjNHJtNHdoRjBfdG5ROHlKVmYwZlZ2TVdoWUpucjhhQUZoTkZtUl9vTzhhNlUxajQzZFBoSWYwazNFRFlsSWxsY2d2WlZuYzE2ZldWTXZCWnFTUGt4dEJxZGN3eW9ZWEl6OFAxRWxTZXYzSU8yNm5YMk9sV1VDZGdCalowZXFfb2J2NjZueGdDNTI3ZkstbHhnaG9sY3RBMTRLSWZtNGwx?oc=5"
+            },
+            {
+              "title": "System1 at Cannes - System1 Group",
+              "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE94TFNOcEgwYy1zZGRkbXlpaHB4cFBwQVRxdDh1dWUyc1ZMUFNNYk1GX3RhQzQtcDN6WWx3ZTlSNUFZdGpzU2dVWFplc0d6bHpPb2RjZw?oc=5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tab": "cinema",
+      "archive": {
+        "items": 45,
+        "dates": 3,
+        "uniqueUrls": 45
+      },
+      "candidates": [
+        {
+          "id": "criterion-current",
+          "name": "Criterion Current",
+          "field": "영화비평",
+          "focus": "film history, auteur, essays, restoration",
+          "feedUrl": "https://www.criterion.com/current/rss",
+          "ok": false,
+          "error": "HTTP 403",
+          "fetched": 0,
+          "unique": 0,
+          "novel": 0,
+          "noveltyRatio": 0,
+          "score": -20,
+          "recommendation": "reject",
+          "sample": []
+        },
+        {
+          "id": "mubi-notebook",
+          "name": "MUBI Notebook",
+          "field": "시네마 저널",
+          "focus": "cinema essays, festivals, film language",
+          "feedUrl": "https://mubi.com/notebook/rss",
+          "ok": false,
+          "error": "HTTP 404",
+          "fetched": 0,
+          "unique": 0,
+          "novel": 0,
+          "noveltyRatio": 0,
+          "score": -20,
+          "recommendation": "reject",
+          "sample": []
+        },
+        {
+          "id": "bfi-sight-and-sound",
+          "name": "BFI Sight and Sound",
+          "field": "영화문화",
+          "focus": "film criticism, canon, interviews, cinema culture",
+          "feedUrl": "https://www.bfi.org.uk/sight-and-sound/rss.xml",
+          "ok": false,
+          "error": "HTTP 404",
+          "fetched": 0,
+          "unique": 0,
+          "novel": 0,
+          "noveltyRatio": 0,
+          "score": -20,
+          "recommendation": "reject",
+          "sample": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "generatedAt": "2026-08-03T00:48:02.452Z",
+  "mode": "proposal-only",
+  "candidates": [
+    {
+      "kind": "query-mutation",
+      "tab": "koreanCode",
+      "field": "디자인/광고",
+      "id": "mutation-korean-design-advertising-studio",
+      "query": "Korean creative studio branding identity campaign interview",
+      "reason": "Korean Code design/advertising remains under target"
+    },
+    {
+      "kind": "query-mutation",
+      "tab": "koreanCode",
+      "field": "디자인/광고",
+      "id": "mutation-korean-graphic-design-global",
+      "query": "Korean graphic designer identity exhibition global profile",
+      "reason": "Need more creator-led Korean graphic design references"
+    },
+    {
+      "kind": "query-mutation",
+      "tab": "updates",
+      "field": "production-craft",
+      "id": "mutation-video-practice-production-craft",
+      "query": "film production making of VFX edit sound design workflow",
+      "reason": "Video practice reference lens remains under target (1/15)"
+    },
+    {
+      "kind": "query-mutation",
+      "tab": "updates",
+      "field": "short-film-story",
+      "id": "mutation-video-practice-short-film-story",
+      "query": "short film director interview screenplay visual storytelling production",
+      "reason": "Video practice reference lens remains under target (3/15)"
+    },
+    {
+      "kind": "query-mutation",
+      "tab": "updates",
+      "field": "moving-image-language",
+      "id": "mutation-video-practice-moving-image-language",
+      "query": "director cinematographer visual language lighting camera movement breakdown",
+      "reason": "Video practice reference lens remains under target (5/15)"
+    },
+    {
+      "kind": "query-mutation",
+      "tab": "updates",
+      "field": "brand-advertising",
+      "id": "mutation-video-practice-brand-advertising",
+      "query": "advertising film director campaign craft brand film case study",
+      "reason": "Video practice reference lens remains under target (12/15)"
+    },
+    {
+      "kind": "promotion-review",
+      "tab": "updates",
+      "id": "design-milk",
+      "feedUrl": "https://design-milk.com/feed/",
+      "reason": "high novelty source candidate"
+    },
+    {
+      "kind": "promotion-review",
+      "tab": "updates",
+      "id": "colossal",
+      "feedUrl": "https://www.thisiscolossal.com/feed/",
+      "reason": "high novelty source candidate"
+    },
+    {
+      "kind": "promotion-review",
+      "tab": "koreanCode",
+      "id": "korean-cultural-form-hybrid",
+      "feedUrl": "https://news.google.com/rss/search?q=Korean%20traditional%20contemporary%20design%20fashion%20architecture%20global%20feature&hl=en-US&gl=US&ceid=US:en",
+      "reason": "high novelty source candidate"
+    },
+    {
+      "kind": "promotion-review",
+      "tab": "koreanCode",
+      "id": "korean-design-global-awards",
+      "feedUrl": "https://news.google.com/rss/search?q=Korean%20design%20award%20branding%20graphic%20identity%20interview&hl=en-US&gl=US&ceid=US:en",
+      "reason": "high novelty source candidate"
+    },
+    {
+      "kind": "social-watch-review",
+      "tab": "cinema",
+      "id": "bsky-korean-cinema",
+      "platform": "bluesky",
+      "query": "Korean cinema",
+      "reason": "live social signal worth repeated observation"
+    },
+    {
+      "kind": "social-watch-review",
+      "tab": "updates",
+      "id": "bsky-creative-trends",
+      "platform": "bluesky",
+      "query": "creative coding",
+      "reason": "live social signal worth repeated observation"
+    },
+    {
+      "kind": "social-watch-review",
+      "tab": "updates",
+      "id": "bsky-motion-design",
+      "platform": "bluesky",
+      "query": "motion design",
+      "reason": "live social signal worth repeated observation"
+    },
+    {
+      "kind": "social-watch-review",
+      "tab": "koreanCode",
+      "id": "bsky-korean-branding",
+      "platform": "bluesky",
+      "query": "Korean branding",
+      "reason": "live social signal worth repeated observation"
+    },
+    {
+      "kind": "social-watch-review",
+      "tab": "koreanCode",
+      "id": "bsky-korean-design",
+      "platform": "bluesky",
+      "query": "Korean design",
+      "reason": "live social signal worth repeated observation"
+    }
+  ]
+}

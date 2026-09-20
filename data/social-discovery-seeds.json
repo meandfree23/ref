@@ -1,0 +1,112 @@
+{
+  "updatedAt": "2026-08-03",
+  "description": "Social discovery routes for early signals. Results are reported as candidates and are not promoted automatically.",
+  "queries": [
+    {
+      "id": "bsky-korean-design",
+      "platform": "bluesky",
+      "tab": "koreanCode",
+      "field": "디자인/광고",
+      "query": "Korean design",
+      "focus": "design, branding, creative identity, Korean visual language"
+    },
+    {
+      "id": "bsky-korean-branding",
+      "platform": "bluesky",
+      "tab": "koreanCode",
+      "field": "디자인/광고",
+      "query": "Korean branding",
+      "focus": "branding, identity, campaign language"
+    },
+    {
+      "id": "bsky-korean-cinema",
+      "platform": "bluesky",
+      "tab": "cinema",
+      "field": "영화담론",
+      "query": "Korean cinema",
+      "focus": "critic reactions, cinephile discourse, film culture"
+    },
+    {
+      "id": "bsky-bong-park-cinema",
+      "platform": "bluesky",
+      "tab": "cinema",
+      "field": "영화담론",
+      "query": "Bong Joon Ho Park Chan-wook",
+      "focus": "auteur discussion, global Korean film reception"
+    },
+    {
+      "id": "bsky-creative-trends",
+      "platform": "bluesky",
+      "tab": "updates",
+      "field": "creative-culture",
+      "query": "creative coding",
+      "focus": "live creative culture, visual trends, interaction references"
+    },
+    {
+      "id": "bsky-motion-design",
+      "platform": "bluesky",
+      "tab": "updates",
+      "field": "creative-culture",
+      "query": "motion design",
+      "focus": "motion references, animation, visual systems"
+    },
+    {
+      "id": "bsky-moving-image-installation",
+      "platform": "bluesky",
+      "tab": "updates",
+      "field": "전시·공간",
+      "query": "moving image installation",
+      "focus": "projection, exhibition film, immersive space, audience experience"
+    },
+    {
+      "id": "bsky-commercial-film-craft",
+      "platform": "bluesky",
+      "tab": "updates",
+      "field": "광고·브랜드",
+      "query": "commercial director cinematography",
+      "focus": "advertising film, directing, cinematography, production craft"
+    },
+    {
+      "id": "reddit-design-discussion",
+      "platform": "reddit",
+      "tab": "updates",
+      "field": "design-discussion",
+      "subreddit": "graphic_design",
+      "query": "identity OR branding OR campaign OR typography",
+      "focus": "community critique, practical design signals"
+    },
+    {
+      "id": "reddit-cinema-discussion",
+      "platform": "reddit",
+      "tab": "cinema",
+      "field": "영화담론",
+      "subreddit": "TrueFilm",
+      "query": "Korean cinema OR auteur OR cinematography",
+      "focus": "long-form cinephile discussion"
+    },
+    {
+      "id": "youtube-korean-creative",
+      "platform": "youtube",
+      "tab": "koreanCode",
+      "field": "영상/인터뷰",
+      "query": "Korean designer interview OR Korean artist studio visit OR Korean cinema interview",
+      "focus": "creator interviews, talks, studio visits, moving-image references"
+    },
+    {
+      "id": "youtube-exhibition-moving-image",
+      "platform": "youtube",
+      "tab": "updates",
+      "field": "전시·공간",
+      "query": "moving image exhibition installation artist curator interview",
+      "focus": "exhibition documentation, projection design, spatial narrative, audience experience"
+    },
+    {
+      "id": "youtube-ad-film-case-study",
+      "platform": "youtube",
+      "tab": "updates",
+      "field": "마케팅·기획",
+      "query": "advertising film campaign case study creative director production behind the scenes",
+      "focus": "campaign objective, audience insight, film craft, production decision, effectiveness"
+    }
+  ]
+}

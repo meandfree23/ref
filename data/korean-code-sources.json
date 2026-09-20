@@ -1,0 +1,291 @@
+{
+  "updatedAt": "2026-09-15",
+  "description": "Article-first sources and queries for Korean Code research.",
+  "queries": [
+    {
+      "id": "korean-current-creative-practice",
+      "name": "Korean Current Creative Practice",
+      "field": "디자인/광고",
+      "url": "https://news.google.com/",
+      "feedUrls": [
+        "https://news.google.com/rss/search?q=South%20Korean%20creative%20director%20interview%20design%20process&hl=en-US&gl=US&ceid=US:en",
+        "https://news.google.com/rss/search?q=Seoul%20artist%20studio%20practice%20interview&hl=en-US&gl=US&ceid=US:en",
+        "https://news.google.com/rss/search?q=Korean%20brand%20campaign%20creative%20strategy%20case%20study&hl=en-US&gl=US&ceid=US:en",
+        "https://news.google.com/rss/search?q=Korean%20architecture%20design%20project%20process%20interview&hl=en-US&gl=US&ceid=US:en"
+      ],
+      "focus": "current creator methods, studio practice, campaign strategy and spatial ideas"
+    },
+    {
+      "id": "korean-film-analysis",
+      "name": "Korean Film Analysis",
+      "field": "영화",
+      "url": "https://news.google.com/",
+      "feedUrls": [
+        "https://news.google.com/rss/search?q=Korean%20cinema%20director%20interview%20analysis%20OR%20Bong%20Joon%20Ho%20OR%20Park%20Chan-wook&hl=en-US&gl=US&ceid=US:en"
+      ],
+      "focus": "film, auteur, social mood, genre translation"
+    },
+    {
+      "id": "korean-art-interview",
+      "name": "Korean Art Interview",
+      "field": "미술",
+      "url": "https://news.google.com/",
+      "feedUrls": [
+        "https://news.google.com/rss/search?q=Korean%20contemporary%20artist%20interview%20painting%20installation&hl=en-US&gl=US&ceid=US:en",
+        "https://news.google.com/rss/search?q=Haegue%20Yang%20Lee%20Bul%20Do%20Ho%20Suh%20Korean%20artist%20interview&hl=en-US&gl=US&ceid=US:en",
+        "https://news.google.com/rss/search?q=Korean%20artist%20exhibition%20practice%20studio%20profile&hl=en-US&gl=US&ceid=US:en"
+      ],
+      "focus": "artist method, painting, installation, contemporary art"
+    },
+    {
+      "id": "korean-photography-insight",
+      "name": "Korean Photography Insight",
+      "field": "사진",
+      "url": "https://news.google.com/",
+      "feedUrls": [
+        "https://news.google.com/rss/search?q=Korean%20photographer%20interview%20photography%20Koo%20Bohnchang&hl=en-US&gl=US&ceid=US:en",
+        "https://news.google.com/rss/search?q=Korean%20photography%20exhibition%20interview%20artist&hl=en-US&gl=US&ceid=US:en",
+        "https://news.google.com/rss/search?q=Korean%20photographer%20profile%20visual%20culture&hl=en-US&gl=US&ceid=US:en"
+      ],
+      "focus": "photography, silence, memory, material culture"
+    },
+    {
+      "id": "korean-architecture-global",
+      "name": "Korean Architecture Global",
+      "field": "건축",
+      "url": "https://news.google.com/",
+      "feedUrls": [
+        "https://news.google.com/rss/search?q=Korean%20architecture%20Minsuk%20Cho%20Mass%20Studies%20interview%20Dezeen&hl=en-US&gl=US&ceid=US:en",
+        "https://news.google.com/rss/search?q=Korean%20architect%20interview%20hanok%20Seoul%20architecture&hl=en-US&gl=US&ceid=US:en",
+        "https://news.google.com/rss/search?q=Korean%20architecture%20studio%20public%20space%20profile&hl=en-US&gl=US&ceid=US:en"
+      ],
+      "focus": "architecture, city, hanok, public space"
+    },
+    {
+      "id": "korean-design-advertising",
+      "name": "Korean Design Advertising",
+      "field": "디자인/광고",
+      "url": "https://news.google.com/",
+      "feedUrls": [
+        "https://news.google.com/rss/search?q=Korean%20design%20branding%20advertising%20Cannes%20Lions%20interview&hl=en-US&gl=US&ceid=US:en",
+        "https://news.google.com/rss/search?q=Korean%20creative%20agency%20campaign%20design%20interview&hl=en-US&gl=US&ceid=US:en",
+        "https://news.google.com/rss/search?q=Korean%20graphic%20design%20identity%20global%20profile&hl=en-US&gl=US&ceid=US:en"
+      ],
+      "focus": "branding, advertising, local-to-global storytelling"
+    },
+    {
+      "id": "korean-content-music",
+      "name": "Korean Content Music",
+      "field": "콘텐츠/음악",
+      "url": "https://news.google.com/",
+      "feedUrls": [
+        "https://news.google.com/rss/search?q=Korean%20culture%20creator%20interview%20K-pop%20Netflix%20global&hl=en-US&gl=US&ceid=US:en",
+        "https://news.google.com/rss/search?q=Korean%20content%20creator%20fandom%20music%20interview&hl=en-US&gl=US&ceid=US:en",
+        "https://news.google.com/rss/search?q=Korean%20series%20director%20creator%20global%20culture%20interview&hl=en-US&gl=US&ceid=US:en"
+      ],
+      "focus": "content, music, fandom, global format"
+    },
+    {
+      "id": "korean-fashion-beauty",
+      "name": "Korean Fashion and Beauty",
+      "field": "패션/뷰티",
+      "url": "https://news.google.com/",
+      "feedUrls": [
+        "https://news.google.com/rss/search?q=Korean%20fashion%20designer%20interview%20Seoul%20global%20Vogue&hl=en-US&gl=US&ceid=US:en",
+        "https://news.google.com/rss/search?q=Korean%20beauty%20creative%20director%20brand%20design%20interview&hl=en-US&gl=US&ceid=US:en",
+        "https://news.google.com/rss/search?q=K-fashion%20designer%20studio%20profile%20Business%20of%20Fashion&hl=en-US&gl=US&ceid=US:en"
+      ],
+      "focus": "fashion, beauty, material, styling, identity, global taste"
+    },
+    {
+      "id": "korean-craft-food",
+      "name": "Korean Craft and Food Culture",
+      "field": "공예/음식",
+      "url": "https://news.google.com/",
+      "feedUrls": [
+        "https://news.google.com/rss/search?q=Korean%20ceramics%20craft%20artist%20interview%20exhibition&hl=en-US&gl=US&ceid=US:en",
+        "https://news.google.com/rss/search?q=Korean%20food%20chef%20creative%20process%20culture%20interview&hl=en-US&gl=US&ceid=US:en",
+        "https://news.google.com/rss/search?q=Korean%20traditional%20craft%20contemporary%20design%20profile&hl=en-US&gl=US&ceid=US:en"
+      ],
+      "focus": "craft, ceramics, food, tactility, ritual, contemporary reinterpretation"
+    },
+    {
+      "id": "korean-literature-performance",
+      "name": "Korean Literature and Performance",
+      "field": "문학/공연",
+      "url": "https://news.google.com/",
+      "feedUrls": [
+        "https://news.google.com/rss/search?q=Korean%20author%20interview%20literature%20translation%20global&hl=en-US&gl=US&ceid=US:en",
+        "https://news.google.com/rss/search?q=Korean%20choreographer%20theatre%20performance%20artist%20interview&hl=en-US&gl=US&ceid=US:en",
+        "https://news.google.com/rss/search?q=Korean%20dance%20performance%20creative%20process%20profile&hl=en-US&gl=US&ceid=US:en"
+      ],
+      "focus": "literature, translation, theatre, dance, body, narrative, performance"
+    },
+    {
+      "id": "korean-digital-games",
+      "name": "Korean Digital and Games",
+      "field": "디지털/게임",
+      "url": "https://news.google.com/",
+      "feedUrls": [
+        "https://news.google.com/rss/search?q=Korean%20game%20developer%20creative%20director%20interview%20design&hl=en-US&gl=US&ceid=US:en",
+        "https://news.google.com/rss/search?q=Korean%20webtoon%20creator%20animation%20interview%20global&hl=en-US&gl=US&ceid=US:en",
+        "https://news.google.com/rss/search?q=Korean%20digital%20artist%20AI%20interactive%20studio%20profile&hl=en-US&gl=US&ceid=US:en"
+      ],
+      "focus": "games, webtoon, animation, digital art, interaction, technology culture"
+    },
+    {
+      "id": "korean-creative-methods",
+      "name": "Korean Creative Methods",
+      "field": "디자인/광고",
+      "url": "https://news.google.com/",
+      "feedUrls": [
+        "https://news.google.com/rss/search?q=Korean%20creative%20director%20interview%20visual%20storytelling%20campaign&hl=en-US&gl=US&ceid=US:en",
+        "https://news.google.com/rss/search?q=South%20Korea%20design%20studio%20founder%20interview%20identity%20branding&hl=en-US&gl=US&ceid=US:en",
+        "https://news.google.com/rss/search?q=Seoul%20graphic%20designer%20creative%20process%20profile%20international&hl=en-US&gl=US&ceid=US:en",
+        "https://news.google.com/rss/search?q=Korean%20advertising%20director%20commercial%20film%20interview%20campaign&hl=en-US&gl=US&ceid=US:en",
+        "https://news.google.com/rss/search?q=Korean%20production%20designer%20cinematographer%20visual%20style%20interview&hl=en-US&gl=US&ceid=US:en"
+      ],
+      "focus": "creative method, visual direction, branding, campaign, production craft"
+    },
+    {
+      "id": "korean-global-critical-view",
+      "name": "Korean Global Critical View",
+      "field": "미술",
+      "url": "https://news.google.com/",
+      "feedUrls": [
+        "https://news.google.com/rss/search?q=Korean%20artist%20interview%20Artforum%20Frieze%20ArtReview&hl=en-US&gl=US&ceid=US:en",
+        "https://news.google.com/rss/search?q=Korean%20contemporary%20art%20curator%20biennale%20critical%20essay&hl=en-US&gl=US&ceid=US:en",
+        "https://news.google.com/rss/search?q=South%20Korean%20photographer%20director%20studio%20practice%20interview&hl=en-US&gl=US&ceid=US:en",
+        "https://news.google.com/rss/search?q=Korean%20architecture%20design%20Wallpaper%20Dezeen%20interview&hl=en-US&gl=US&ceid=US:en",
+        "https://news.google.com/rss/search?q=Korean%20culture%20aesthetics%20global%20critical%20analysis%20creator&hl=en-US&gl=US&ceid=US:en"
+      ],
+      "focus": "critical reception, creator method, Korean aesthetics, global translation"
+    },
+    {
+      "id": "korean-trusted-editorial",
+      "name": "Korean Trusted Editorial",
+      "field": "디자인/광고",
+      "url": "https://news.google.com/",
+      "feedUrls": [
+        "https://news.google.com/rss/search?q=Korean%20designer%20interview%20site%3Awallpaper.com&hl=en-US&gl=US&ceid=US:en",
+        "https://news.google.com/rss/search?q=Korean%20architecture%20interview%20site%3Adezeen.com&hl=en-US&gl=US&ceid=US:en",
+        "https://news.google.com/rss/search?q=Korean%20creative%20campaign%20interview%20site%3Acreativeboom.com&hl=en-US&gl=US&ceid=US:en",
+        "https://news.google.com/rss/search?q=Seoul%20branding%20graphic%20design%20profile%20site%3Adesignboom.com&hl=en-US&gl=US&ceid=US:en",
+        "https://news.google.com/rss/search?q=Korean%20fashion%20designer%20interview%20site%3Avogue.com&hl=en-US&gl=US&ceid=US:en"
+      ],
+      "focus": "trusted editorial, design method, architecture, branding, fashion"
+    },
+    {
+      "id": "korean-creator-deep-dives",
+      "name": "Korean Creator Deep Dives",
+      "field": "사진",
+      "url": "https://news.google.com/",
+      "feedUrls": [
+        "https://news.google.com/rss/search?q=Korean%20artist%20interview%20site%3Aartsy.net&hl=en-US&gl=US&ceid=US:en",
+        "https://news.google.com/rss/search?q=Korean%20artist%20studio%20practice%20site%3Afrieze.com&hl=en-US&gl=US&ceid=US:en",
+        "https://news.google.com/rss/search?q=Korean%20photographer%20interview%20site%3Alensculture.com&hl=en-US&gl=US&ceid=US:en",
+        "https://news.google.com/rss/search?q=Korean%20filmmaker%20director%20interview%20site%3Avariety.com&hl=en-US&gl=US&ceid=US:en",
+        "https://news.google.com/rss/search?q=Seoul%20biennale%20curator%20artist%20critical%20essay&hl=en-US&gl=US&ceid=US:en"
+      ],
+      "focus": "creator interview, studio practice, photography, film, curatorial insight"
+    },
+    {
+      "id": "korean-institutions-critical",
+      "name": "Korean Institutions and Critical Practice",
+      "field": "미술",
+      "url": "https://news.google.com/",
+      "feedUrls": [
+        "https://news.google.com/rss/search?q=Korean%20artist%20interview%20MMCA%20Leeum%20museum%20practice&hl=en-US&gl=US&ceid=US:en",
+        "https://news.google.com/rss/search?q=Gwangju%20Biennale%20Korean%20artist%20curator%20interview%20analysis&hl=en-US&gl=US&ceid=US:en",
+        "https://news.google.com/rss/search?q=Korea%20Artist%20Prize%20studio%20practice%20interview&hl=en-US&gl=US&ceid=US:en",
+        "https://news.google.com/rss/search?q=Korean%20contemporary%20art%20interview%20site%3Aartasiapacific.com&hl=en-US&gl=US&ceid=US:en",
+        "https://news.google.com/rss/search?q=Korean%20artist%20curator%20essay%20site%3Ae-flux.com&hl=en-US&gl=US&ceid=US:en"
+      ],
+      "focus": "museum practice, biennale, curatorial method, critical context"
+    },
+    {
+      "id": "korean-visual-production",
+      "name": "Korean Visual Production Practice",
+      "field": "디자인/광고",
+      "url": "https://news.google.com/",
+      "feedUrls": [
+        "https://news.google.com/rss/search?q=Korean%20cinematographer%20interview%20visual%20style%20lighting&hl=en-US&gl=US&ceid=US:en",
+        "https://news.google.com/rss/search?q=Korean%20production%20designer%20interview%20film%20set%20craft&hl=en-US&gl=US&ceid=US:en",
+        "https://news.google.com/rss/search?q=Korean%20commercial%20director%20campaign%20interview%20site%3Ashots.net&hl=en-US&gl=US&ceid=US:en",
+        "https://news.google.com/rss/search?q=South%20Korea%20advertising%20creative%20director%20interview%20site%3Albbonline.com&hl=en-US&gl=US&ceid=US:en",
+        "https://news.google.com/rss/search?q=Seoul%20motion%20design%20studio%20founder%20interview&hl=en-US&gl=US&ceid=US:en"
+      ],
+      "focus": "cinematography, production design, commercial film, motion, campaign craft"
+    },
+    {
+      "id": "korean-living-culture-deep-dives",
+      "name": "Korean Living Culture Deep Dives",
+      "field": "공예/음식",
+      "url": "https://news.google.com/",
+      "feedUrls": [
+        "https://news.google.com/rss/search?q=Korean%20ceramic%20artist%20studio%20practice%20interview%20museum&hl=en-US&gl=US&ceid=US:en",
+        "https://news.google.com/rss/search?q=Korean%20chef%20fermentation%20creative%20process%20interview%20culture&hl=en-US&gl=US&ceid=US:en",
+        "https://news.google.com/rss/search?q=Korean%20author%20translator%20craft%20interview%20literary%20review&hl=en-US&gl=US&ceid=US:en",
+        "https://news.google.com/rss/search?q=Korean%20traditional%20textile%20craft%20contemporary%20artist%20profile&hl=en-US&gl=US&ceid=US:en",
+        "https://news.google.com/rss/search?q=Korean%20food%20design%20ritual%20critical%20essay%20culture&hl=en-US&gl=US&ceid=US:en"
+      ],
+      "focus": "ceramics, fermentation, literature, textile, ritual, material culture"
+    },
+    {
+      "id": "korean-visual-language-methods",
+      "name": "Korean Visual Language Methods",
+      "field": "디자인/광고",
+      "url": "https://news.google.com/",
+      "feedUrls": [
+        "https://news.google.com/rss/search?q=Korean%20typographer%20interview%20typeface%20design%20process&hl=en-US&gl=US&ceid=US:en",
+        "https://news.google.com/rss/search?q=Seoul%20editorial%20designer%20book%20design%20studio%20interview&hl=en-US&gl=US&ceid=US:en",
+        "https://news.google.com/rss/search?q=Korean%20graphic%20designer%20poster%20visual%20identity%20interview&hl=en-US&gl=US&ceid=US:en",
+        "https://news.google.com/rss/search?q=Korean%20motion%20graphics%20creative%20studio%20process%20interview&hl=en-US&gl=US&ceid=US:en",
+        "https://news.google.com/rss/search?q=South%20Korean%20illustrator%20creative%20process%20interview%20art&hl=en-US&gl=US&ceid=US:en"
+      ],
+      "focus": "typography, editorial design, posters, motion and illustration methods"
+    },
+    {
+      "id": "korean-screen-image-makers",
+      "name": "Korean Screen Image Makers",
+      "field": "영상/콘텐츠",
+      "url": "https://news.google.com/",
+      "feedUrls": [
+        "https://news.google.com/rss/search?q=Korean%20music%20video%20director%20visual%20concept%20interview&hl=en-US&gl=US&ceid=US:en",
+        "https://news.google.com/rss/search?q=Korean%20commercial%20film%20director%20production%20process%20interview&hl=en-US&gl=US&ceid=US:en",
+        "https://news.google.com/rss/search?q=Korean%20cinematographer%20lighting%20camera%20visual%20language%20interview&hl=en-US&gl=US&ceid=US:en",
+        "https://news.google.com/rss/search?q=Korean%20production%20designer%20set%20design%20art%20direction%20interview&hl=en-US&gl=US&ceid=US:en",
+        "https://news.google.com/rss/search?q=Seoul%20video%20artist%20moving%20image%20practice%20interview&hl=en-US&gl=US&ceid=US:en"
+      ],
+      "focus": "music video, commercial film, cinematography, production design and moving image"
+    },
+    {
+      "id": "korean-material-object-practice",
+      "name": "Korean Material and Object Practice",
+      "field": "공예/산업디자인",
+      "url": "https://news.google.com/",
+      "feedUrls": [
+        "https://news.google.com/rss/search?q=Korean%20furniture%20designer%20studio%20practice%20interview&hl=en-US&gl=US&ceid=US:en",
+        "https://news.google.com/rss/search?q=Korean%20industrial%20designer%20product%20design%20process%20interview&hl=en-US&gl=US&ceid=US:en",
+        "https://news.google.com/rss/search?q=Korean%20ceramic%20artist%20material%20process%20studio%20interview&hl=en-US&gl=US&ceid=US:en",
+        "https://news.google.com/rss/search?q=Korean%20textile%20designer%20traditional%20craft%20contemporary%20interview&hl=en-US&gl=US&ceid=US:en",
+        "https://news.google.com/rss/search?q=Korean%20spatial%20designer%20installation%20material%20practice%20interview&hl=en-US&gl=US&ceid=US:en"
+      ],
+      "focus": "furniture, industrial design, ceramics, textile and spatial material practice"
+    },
+    {
+      "id": "korean-performance-narrative-methods",
+      "name": "Korean Performance and Narrative Methods",
+      "field": "공연/서사",
+      "url": "https://news.google.com/",
+      "feedUrls": [
+        "https://news.google.com/rss/search?q=Korean%20choreographer%20creative%20process%20interview%20dance&hl=en-US&gl=US&ceid=US:en",
+        "https://news.google.com/rss/search?q=Korean%20theatre%20director%20staging%20method%20interview&hl=en-US&gl=US&ceid=US:en",
+        "https://news.google.com/rss/search?q=Korean%20novelist%20writing%20process%20translation%20interview&hl=en-US&gl=US&ceid=US:en",
+        "https://news.google.com/rss/search?q=Korean%20sound%20artist%20composer%20creative%20practice%20interview&hl=en-US&gl=US&ceid=US:en",
+        "https://news.google.com/rss/search?q=Korean%20museum%20curator%20exhibition%20making%20interview&hl=en-US&gl=US&ceid=US:en"
+      ],
+      "focus": "choreography, theatre, writing, sound and curatorial narrative methods"
+    }
+  ]
+}

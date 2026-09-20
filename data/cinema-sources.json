@@ -1,0 +1,102 @@
+{
+  "updatedAt": "2026-08-05",
+  "description": "Direct editorial feeds for cinema as moving-image art, humanities, criticism, and film culture.",
+  "sources": [
+    {
+      "id": "roger-ebert",
+      "name": "RogerEbert.com",
+      "field": "영화비평",
+      "url": "https://www.rogerebert.com/",
+      "feedUrls": ["https://www.rogerebert.com/feed"],
+      "focus": "criticism, interviews, auteur practice, film language"
+    },
+    {
+      "id": "film-comment",
+      "name": "Film Comment",
+      "field": "시네마 저널",
+      "url": "https://www.filmcomment.com/",
+      "feedUrls": ["https://www.filmcomment.com/feed/"],
+      "focus": "film criticism, history, humanities, close reading"
+    },
+    {
+      "id": "little-white-lies",
+      "name": "Little White Lies",
+      "field": "영상문화",
+      "url": "https://lwlies.com/",
+      "feedUrls": ["https://lwlies.com/feed/"],
+      "focus": "visual culture, film essays, directors, cinema craft"
+    },
+    {
+      "id": "indiewire-film",
+      "name": "IndieWire Film",
+      "field": "영화산업/창작",
+      "url": "https://www.indiewire.com/",
+      "feedUrls": ["https://www.indiewire.com/c/film/feed/"],
+      "focus": "filmmaking, interviews, contemporary cinema, production culture"
+    },
+    {
+      "id": "directors-notes",
+      "name": "Directors Notes",
+      "field": "연출/영상제작",
+      "url": "https://www.directorsnotes.com/",
+      "feedUrls": ["https://www.directorsnotes.com/feed/"],
+      "focus": "director interviews, short films, commercials, visual storytelling, production craft"
+    },
+    {
+      "id": "filmmaker-magazine",
+      "name": "Filmmaker Magazine",
+      "field": "독립영화/제작",
+      "url": "https://filmmakermagazine.com/",
+      "feedUrls": ["https://filmmakermagazine.com/feed/"],
+      "focus": "independent filmmaking, director interviews, cinematography, editing, production practice"
+    },
+    {
+      "id": "no-film-school",
+      "name": "No Film School",
+      "field": "영화제작/기술",
+      "url": "https://nofilmschool.com/",
+      "feedUrls": ["https://nofilmschool.com/rss.xml"],
+      "focus": "filmmaking craft, cinematography, directing, screenwriting, sound, production strategy"
+    },
+    {
+      "id": "senses-of-cinema",
+      "name": "Senses of Cinema",
+      "field": "영화비평/역사",
+      "url": "https://www.sensesofcinema.com/",
+      "feedUrls": ["https://www.sensesofcinema.com/feed/"],
+      "focus": "film criticism, cinema history, auteur studies, close reading"
+    },
+    {
+      "id": "film-shortage",
+      "name": "Film Shortage",
+      "field": "숏필름/영상제작",
+      "url": "https://filmshortage.com/",
+      "feedUrls": ["https://filmshortage.com/feed/"],
+      "focus": "short films, director interviews, visual storytelling, production craft"
+    },
+    {
+      "id": "art-of-the-title",
+      "name": "Art of the Title",
+      "field": "타이틀/모션디자인",
+      "url": "https://www.artofthetitle.com/",
+      "feedUrls": ["https://www.artofthetitle.com/feed/"],
+      "focus": "title design, motion graphics, filmmaking craft, visual culture"
+    },
+    {
+      "id": "the-film-stage",
+      "name": "The Film Stage",
+      "field": "영화비평/인터뷰",
+      "url": "https://thefilmstage.com/",
+      "feedUrls": ["https://thefilmstage.com/feed/"],
+      "focus": "film criticism, director interviews, festivals, cinematography, contemporary cinema"
+    },
+    {
+      "id": "slant-film",
+      "name": "Slant Magazine Film",
+      "field": "영화비평/문화",
+      "url": "https://www.slantmagazine.com/film/",
+      "feedUrls": ["https://www.slantmagazine.com/category/film/feed/"],
+      "focus": "film criticism, reviews, visual analysis, genre, contemporary culture"
+    }
+  ]
+}

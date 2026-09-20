@@ -1,0 +1,23 @@
+{
+  "id": "publication-1789510907618",
+  "startedAt": "2026-09-15T22:21:47.618Z",
+  "today": "2026-09-16",
+  "status": "failed",
+  "recovery": {
+    "command": {
+      "id": "recover",
+      "ok": false,
+      "status": 1,
+      "elapsedMs": 215772,
+      "outputTail": "  \"date\": \"2026-07-28\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-07-26\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-07-19\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-07-12\",\n          \"count\": 7,\n          \"missing\": 8\n        }\n      ]\n    },\n    \"koreanCode\": {\n      \"underfilledCount\": 13,\n      \"dates\": [\n        {\n          \"date\": \"2026-09-16\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-09-10\",\n          \"count\": 14,\n          \"missing\": 1\n        },\n        {\n          \"date\": \"2026-09-09\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-09-08\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-09-07\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-09-06\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-09-05\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-09-04\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-08-26\",\n          \"count\": 13,\n          \"missing\": 2\n        },\n        {\n          \"date\": \"2026-08-25\",\n          \"count\": 13,\n          \"missing\": 2\n        },\n        {\n          \"date\": \"2026-08-24\",\n          \"count\": 11,\n          \"missing\": 4\n        },\n        {\n          \"date\": \"2026-08-23\",\n          \"count\": 12,\n          \"missing\": 3\n        },\n        {\n          \"date\": \"2026-08-22\",\n          \"count\": 10,\n          \"missing\": 5\n        }\n      ]\n    },\n    \"cinema\": {\n      \"underfilledCount\": 7,\n      \"dates\": [\n        {\n          \"date\": \"2026-09-16\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-09-09\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-09-08\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-09-07\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-09-06\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-09-05\",\n          \"count\": 0,\n          \"missing\": 15\n        },\n        {\n          \"date\": \"2026-09-04\",\n          \"count\": 0,\n          \"missing\": 15\n        }\n      ]\n    }\n  },\n  \"steps\": [\n    {\n      \"id\": \"bookmark-history\",\n      \"ok\": true,\n      \"status\": 0,\n      \"elapsedMs\": 66800\n    },\n    {\n      \"id\": \"daily-update\",\n      \"ok\": false,\n      \"status\": 1,\n      \"elapsedMs\": 140788\n    },\n    {\n      \"id\": \"daily-update-retry\",\n      \"ok\": false,\n      \"status\": 1,\n      \"elapsedMs\": 7967\n    }\n  ],\n  \"state\": \"/Users/kk/Documents/ref/data/recovery-state.json\",\n  \"history\": \"/Users/kk/Documents/ref/data/recovery-history.json\"\n}"
+    },
+    "status": "deferred-known",
+    "knownIncident": "daily-underfilled",
+    "restored": true
+  },
+  "deployment": [],
+  "publicVerification": null,
+  "failureFingerprint": "709be6059a56cbe2",
+  "error": "recovery not verified: deferred-known",
+  "finishedAt": "2026-09-15T22:25:23.405Z"
+}

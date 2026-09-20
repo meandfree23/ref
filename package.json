@@ -1,0 +1,33 @@
+{
+  "name": "reference-selector",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/local-server.mjs",
+    "update:bookmarks": "node scripts/extract-bookmarks.mjs",
+    "audit:bookmarks": "node scripts/audit-bookmarks.mjs --live",
+    "index:bookmark-history": "node scripts/index-bookmark-history.mjs",
+    "repair:bookmark-history": "node scripts/repair-bookmark-history.mjs",
+    "enrich:insights": "node scripts/enrich-existing-insights.mjs",
+    "backfill:updates": "node scripts/backfill-updates.mjs",
+    "backfill:consistent-tabs": "node scripts/backfill-consistent-tabs.mjs",
+    "repair:korean-images": "node scripts/repair-korean-code-images.mjs",
+    "repair:korean-localization": "node scripts/repair-korean-localization.mjs",
+    "discover:sources": "node scripts/discovery-agent.mjs",
+    "discover:social": "node scripts/social-discovery-agent.mjs",
+    "life:tick": "node scripts/life-cycle-agent.mjs",
+    "recover:daily": "node scripts/self-heal-daily.mjs",
+    "publish:daily": "node scripts/publish-daily.mjs",
+    "update:daily-static": "node scripts/update-daily-static.mjs",
+    "rebuild:today-updates": "node scripts/rebuild-today-updates.mjs",
+    "export:archive": "node scripts/export-static-archive.mjs",
+    "migrate:compact-archive": "node scripts/migrate-compact-archive.mjs",
+    "quality:check": "node scripts/check-research-quality.mjs",
+    "verify": "node scripts/extract-bookmarks.mjs --check && node --check public/app.js && node --check public/korean-code.js && node --check scripts/local-server.mjs && node --check api/status.mjs && node --check api/search.mjs && node --check api/updates.mjs && node --check api/korean-code.mjs && node --check api/cinema.mjs && node --check api/daily-update.mjs && node --check scripts/bookmarks-core.mjs && node --check scripts/bookmark-history-core.mjs && node --check scripts/content-insight-core.mjs && node --check scripts/enrich-existing-insights.mjs && node --check scripts/index-bookmark-history.mjs && node --check scripts/sources-core.mjs && node --check scripts/curation-core.mjs && node --check scripts/curation-policy.mjs && node --check scripts/reference-lenses.mjs && node --check scripts/search-core.mjs && node --check scripts/korean-translation-core.mjs && node --check scripts/updates-core.mjs && node --check scripts/korean-code-core.mjs && node --check scripts/cinema-core.mjs && node --check scripts/research-policy.mjs && node --check scripts/daily-update-core.mjs && node --check scripts/update-archive.mjs && node --check scripts/update-daily-static.mjs && node --check scripts/self-heal-daily.mjs && node --check scripts/publish-daily.mjs && node --check scripts/backfill-updates.mjs && node --check scripts/backfill-consistent-tabs.mjs && node --check scripts/repair-korean-code-images.mjs && node --check scripts/repair-korean-localization.mjs && node --check scripts/discovery-agent.mjs && node --check scripts/social-discovery-agent.mjs && node --check scripts/life-cycle-agent.mjs && node --check scripts/migrate-compact-archive.mjs && node --check scripts/audit-bookmarks.mjs && node --check scripts/export-static-archive.mjs && node --check scripts/check-research-quality.mjs && node --check scripts/extract-bookmarks.mjs && npm run quality:check"
+  },
+  "dependencies": {
+    "@vercel/blob": "^2.4.1",
+    "google-news-url-decoder": "^1.2.2"
+  }
+}

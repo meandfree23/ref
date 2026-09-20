@@ -1,0 +1,102 @@
+{
+  "updatedAt": "2026-06-11",
+  "description": "Curated external sources that extend the user's core bookmark network without replacing it.",
+  "sources": [
+    {
+      "id": "verified-nowness",
+      "name": "NOWNESS",
+      "url": "https://www.nowness.com/",
+      "category": "motion",
+      "region": "global",
+      "trustReason": "Curated film, fashion, art, and culture platform with a strong contemporary visual signal."
+    },
+    {
+      "id": "verified-dezeen",
+      "name": "Dezeen",
+      "url": "https://www.dezeen.com/",
+      "category": "design-culture",
+      "region": "global",
+      "trustReason": "High-quality architecture, design, interiors, and product culture coverage."
+    },
+    {
+      "id": "verified-designboom",
+      "name": "designboom",
+      "url": "https://www.designboom.com/",
+      "category": "design-culture",
+      "region": "global",
+      "trustReason": "Long-running global design and art publication with broad cultural coverage."
+    },
+    {
+      "id": "verified-the-brand-identity",
+      "name": "The Brand Identity",
+      "url": "https://the-brandidentity.com/",
+      "category": "brand",
+      "region": "global",
+      "trustReason": "Focused editorial source for contemporary branding and visual identity systems."
+    },
+    {
+      "id": "verified-search-system",
+      "name": "SearchSystem",
+      "url": "https://www.searchsystem.co/",
+      "category": "visual-reference",
+      "region": "global",
+      "trustReason": "Curated visual reference system for design, art direction, and image research."
+    },
+    {
+      "id": "verified-fonts-in-use",
+      "name": "Fonts In Use",
+      "url": "https://fontsinuse.com/",
+      "category": "typography",
+      "region": "global",
+      "trustReason": "Documented typography examples with source context and historical continuity."
+    },
+    {
+      "id": "verified-product-hunt",
+      "name": "Product Hunt",
+      "url": "https://www.producthunt.com/",
+      "category": "product-tech",
+      "region": "global",
+      "trustReason": "Useful signal for new tools, products, AI interfaces, and startup culture."
+    },
+    {
+      "id": "verified-rest-of-world",
+      "name": "Rest of World",
+      "url": "https://restofworld.org/",
+      "category": "technology-culture",
+      "region": "global",
+      "trustReason": "Strong reporting on technology and culture outside the most common Western lens."
+    },
+    {
+      "id": "verified-wired",
+      "name": "WIRED",
+      "url": "https://www.wired.com/",
+      "category": "technology-culture",
+      "region": "global",
+      "trustReason": "Broad technology, science, AI, and culture reporting with current discourse value."
+    },
+    {
+      "id": "verified-dazed",
+      "name": "Dazed",
+      "url": "https://www.dazeddigital.com/",
+      "category": "youth-culture",
+      "region": "global",
+      "trustReason": "Youth culture, fashion, art, music, identity, and subculture coverage."
+    },
+    {
+      "id": "verified-highsnobiety",
+      "name": "Highsnobiety",
+      "url": "https://www.highsnobiety.com/",
+      "category": "fashion-culture",
+      "region": "global",
+      "trustReason": "Fashion, street culture, luxury, and youth-adjacent consumer signals."
+    },
+    {
+      "id": "verified-vogue-business",
+      "name": "Vogue Business",
+      "url": "https://www.voguebusiness.com/",
+      "category": "fashion-business",
+      "region": "global",
+      "trustReason": "Fashion, luxury, beauty, technology, and consumer behavior analysis."
+    }
+  ]
+}

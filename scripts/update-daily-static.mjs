@@ -15,9 +15,14 @@ if (!report.allTabsComplete) {
   // publish whatever genuinely new items were actually found today instead of
   // discarding real progress and leaving the date missing entirely. The first
   // (non-recovery) pass still throws so self-heal knows to trigger that retry.
+  // Use archivedToday (existing-plus-added total for today), not addedToday:
+  // once the first pass already wrote some of today's items to disk, a retry
+  // with nothing left to add for an already-satisfied tab correctly reports
+  // addedToday=0 even though that tab (e.g. cinema reaching its full 15) has
+  // real, valid content sitting in the archive right now.
   const tabs = [report, report.koreanCode, report.cinema];
-  const hasAnyNewContent = tabs.some((tab) => (tab?.addedToday ?? 0) > 0);
-  if (!recoveryMode || !hasAnyNewContent) {
+  const hasAnyPublishableContent = tabs.some((tab) => (tab?.archivedToday ?? 0) > 0);
+  if (!recoveryMode || !hasAnyPublishableContent) {
     throw new Error("Daily static archive did not reach the target for every tab.");
   }
   console.error(

@@ -5665,6 +5665,228 @@
           "dates": []
         }
       }
+    },
+    {
+      "id": "recovery-1789959380557",
+      "startedAt": "2026-09-21T02:56:20.557Z",
+      "today": "2026-09-21",
+      "status": "verified",
+      "knownIncident": "daily-underfilled",
+      "restored": false,
+      "steps": [
+        {
+          "id": "bookmark-history",
+          "ok": true,
+          "status": 0,
+          "elapsedMs": 34352,
+          "outputFingerprint": null,
+          "outputTail": ""
+        },
+        {
+          "id": "daily-update",
+          "ok": false,
+          "status": 1,
+          "elapsedMs": 64934,
+          "outputFingerprint": null,
+          "outputTail": ""
+        },
+        {
+          "id": "daily-update-retry",
+          "ok": true,
+          "status": 0,
+          "elapsedMs": 6312,
+          "outputFingerprint": null,
+          "outputTail": ""
+        },
+        {
+          "id": "export",
+          "ok": true,
+          "status": 0,
+          "elapsedMs": 1100,
+          "outputFingerprint": null,
+          "outputTail": ""
+        },
+        {
+          "id": "verify",
+          "ok": true,
+          "status": 0,
+          "elapsedMs": 2425,
+          "outputFingerprint": null,
+          "outputTail": ""
+        }
+      ],
+      "finishedAt": "2026-09-21T02:58:09.716Z",
+      "archiveDebt": {
+        "updates": {
+          "underfilledCount": 16,
+          "dates": [
+            {
+              "date": "2026-09-21",
+              "count": 4,
+              "missing": 11
+            },
+            {
+              "date": "2026-09-19",
+              "count": 0,
+              "missing": 15
+            },
+            {
+              "date": "2026-09-18",
+              "count": 0,
+              "missing": 15
+            },
+            {
+              "date": "2026-09-17",
+              "count": 0,
+              "missing": 15
+            },
+            {
+              "date": "2026-09-16",
+              "count": 0,
+              "missing": 15
+            },
+            {
+              "date": "2026-09-09",
+              "count": 0,
+              "missing": 15
+            },
+            {
+              "date": "2026-09-08",
+              "count": 0,
+              "missing": 15
+            },
+            {
+              "date": "2026-09-07",
+              "count": 0,
+              "missing": 15
+            },
+            {
+              "date": "2026-09-06",
+              "count": 0,
+              "missing": 15
+            },
+            {
+              "date": "2026-09-05",
+              "count": 0,
+              "missing": 15
+            },
+            {
+              "date": "2026-09-04",
+              "count": 0,
+              "missing": 15
+            },
+            {
+              "date": "2026-08-25",
+              "count": 0,
+              "missing": 15
+            },
+            {
+              "date": "2026-07-28",
+              "count": 14,
+              "missing": 1
+            },
+            {
+              "date": "2026-07-26",
+              "count": 0,
+              "missing": 15
+            },
+            {
+              "date": "2026-07-19",
+              "count": 11,
+              "missing": 4
+            },
+            {
+              "date": "2026-07-12",
+              "count": 7,
+              "missing": 8
+            }
+          ]
+        },
+        "koreanCode": {
+          "underfilledCount": 15,
+          "dates": [
+            {
+              "date": "2026-09-21",
+              "count": 9,
+              "missing": 6
+            },
+            {
+              "date": "2026-09-19",
+              "count": 0,
+              "missing": 15
+            },
+            {
+              "date": "2026-09-18",
+              "count": 0,
+              "missing": 15
+            },
+            {
+              "date": "2026-09-17",
+              "count": 0,
+              "missing": 15
+            },
+            {
+              "date": "2026-09-16",
+              "count": 0,
+              "missing": 15
+            },
+            {
+              "date": "2026-09-10",
+              "count": 14,
+              "missing": 1
+            },
+            {
+              "date": "2026-09-09",
+              "count": 0,
+              "missing": 15
+            },
+            {
+              "date": "2026-09-08",
+              "count": 0,
+              "missing": 15
+            },
+            {
+              "date": "2026-09-07",
+              "count": 0,
+              "missing": 15
+            },
+            {
+              "date": "2026-09-06",
+              "count": 8,
+              "missing": 7
+            },
+            {
+              "date": "2026-08-26",
+              "count": 13,
+              "missing": 2
+            },
+            {
+              "date": "2026-08-25",
+              "count": 13,
+              "missing": 2
+            },
+            {
+              "date": "2026-08-24",
+              "count": 11,
+              "missing": 4
+            },
+            {
+              "date": "2026-08-23",
+              "count": 12,
+              "missing": 3
+            },
+            {
+              "date": "2026-08-22",
+              "count": 10,
+              "missing": 5
+            }
+          ]
+        },
+        "cinema": {
+          "underfilledCount": 0,
+          "dates": []
+        }
+      }
     }
   ]
 }

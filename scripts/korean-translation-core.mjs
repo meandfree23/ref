@@ -265,6 +265,12 @@ async function requestLocalTranslation(text) {
       detached: true,
       stdio: "ignore",
     });
+    // Without this handler, a missing `ollama` binary (ENOENT) or any other
+    // spawn failure fires an unhandled 'error' event, which crashes the whole
+    // Node process (not just this translation attempt). That silently wiped
+    // out an entire day's collection run whenever the remote translation
+    // circuit opened on a machine without ollama installed (e.g. CI runners).
+    service.on("error", () => {});
     service.unref();
     await sleep(1800);
     try {

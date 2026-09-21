@@ -226,6 +226,30 @@ report.finishedAt = new Date().toISOString();
 report.archiveDebt = readArchiveDebt();
 writeReport(report);
 
+// The per-source fetch diagnostics (sourceCount, failedSources, etc.) that
+// update-daily-static.mjs prints to its own stdout/stderr never reach the
+// workflow's visible log otherwise, because spawnSync captures them silently
+// into `output` and the step summary below only kept id/ok/status/elapsedMs.
+// Surface a compact extract here so a failed run is diagnosable from the
+// Actions log alone, without needing a local reproduction every time.
+function extractDiagnostics(output = "") {
+  const grab = (pattern) => {
+    const match = output.match(pattern);
+    return match ? match[1] : null;
+  };
+  const sourceCount = grab(/"sourceCount":\s*(\d+)/);
+  if (sourceCount === null) return null;
+  return {
+    sourceCount: Number(sourceCount),
+    okSourceCount: Number(grab(/"okSourceCount":\s*(\d+)/) || 0),
+    failedSources: (() => {
+      try { return JSON.parse(grab(/"failedSources":\s*(\[[^\]]*\])/) || "[]"); } catch { return null; }
+    })(),
+    recoveredFromFeeds: Number(grab(/"recoveredFromFeeds":\s*(\d+)/) || 0),
+    addedToday: Number(grab(/"addedToday":\s*(\d+)/) || 0),
+  };
+}
+
 console.log(JSON.stringify({
   ok: report.status === "verified",
   status: report.status,
@@ -233,7 +257,14 @@ console.log(JSON.stringify({
   knownIncident: report.knownIncident,
   restored: report.restored,
   archiveDebt: report.archiveDebt,
-  steps: report.steps.map(({ id, ok, status, elapsedMs }) => ({ id, ok, status, elapsedMs })),
+  steps: report.steps.map(({ id, ok, status, elapsedMs, output }) => ({
+    id,
+    ok,
+    status,
+    elapsedMs,
+    diagnostics: ["daily-update", "daily-update-retry"].includes(id) ? extractDiagnostics(output) : undefined,
+    outputTail: !ok ? String(output || "").slice(-1500) : undefined,
+  })),
   state: statePath,
   history: historyPath,
 }, null, 2));

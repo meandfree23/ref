@@ -1,0 +1,37 @@
+{
+  "generatedAt": "2026-09-25T15:00:30.947Z",
+  "model": "gemini-embedding-001",
+  "dimensions": 256,
+  "shards": [
+    {
+      "name": "archive-2026-09",
+      "count": 758,
+      "vectorised": 751
+    },
+    {
+      "name": "archive-2026-08",
+      "count": 1364,
+      "vectorised": 1104
+    },
+    {
+      "name": "archive-2026-07",
+      "count": 467,
+      "vectorised": 0
+    },
+    {
+      "name": "archive-2026-06",
+      "count": 195,
+      "vectorised": 0
+    },
+    {
+      "name": "history",
+      "count": 15037,
+      "vectorised": 0
+    },
+    {
+      "name": "instagram",
+      "count": 8629,
+      "vectorised": 0
+    }
+  ]
+}

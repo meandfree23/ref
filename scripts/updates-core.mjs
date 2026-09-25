@@ -12,6 +12,8 @@ import {
 import { readBookmarkHistoryIndex } from "./bookmark-history-core.mjs";
 import { getHistoryReserveCandidates } from "./history-reserve-core.mjs";
 import { canonicalCurationUrl } from "./curation-policy.mjs";
+import { isBlockedItem, resolveGoogleNewsSourceItems } from "./source-policy.mjs";
+import { cleanFeedText } from "./article-text.mjs";
 
 const updateSourcesPath = path.resolve("data/update-sources.json");
 const requestTimeoutMs = 8000;
@@ -300,7 +302,7 @@ function parseFeed(xml, source, feedUrl) {
     const title = getTag(block, "title");
     const link = getTag(block, "link") || getTag(block, "guid");
     const date = normalizeDate(getTag(block, "pubDate") || getTag(block, "dc:date"));
-    const summary = stripHtml(getTag(block, "description") || getTag(block, "content:encoded")).slice(0, 280);
+    const summary = cleanFeedText(stripHtml(getTag(block, "description") || getTag(block, "content:encoded"))).slice(0, 280);
     const image = getFirstImageUrl(block);
     const publisherName = getTag(block, "source");
     return { title, url: link, date, summary, image, publisherName };
@@ -311,7 +313,7 @@ function parseFeed(xml, source, feedUrl) {
     const title = getTag(block, "title");
     const link = getAtomLink(block) || getTag(block, "id");
     const date = normalizeDate(getTag(block, "updated") || getTag(block, "published"));
-    const summary = stripHtml(getTag(block, "summary") || getTag(block, "content")).slice(0, 280);
+    const summary = cleanFeedText(stripHtml(getTag(block, "summary") || getTag(block, "content"))).slice(0, 280);
     const image = getFirstImageUrl(block);
     return { title, url: link, date, summary, image };
   });
@@ -470,8 +472,10 @@ export async function getLatestUpdates({ limit = 15, enrich = true, excludeItems
   const excludedUrls = new Set(excludeItems.flatMap((item) => [item?.url, item?.googleNewsUrl])
     .filter(Boolean)
     .map(canonicalCurationUrl));
-  const editorialCandidates = dedupe(results.flatMap((result) => result.items))
+  const resolvedItems = await resolveGoogleNewsSourceItems(results.flatMap((result) => result.items), data.sources);
+  const editorialCandidates = dedupe(resolvedItems)
     .filter((item) => !excludedUrls.has(canonicalCurationUrl(item.url)))
+    .filter((item) => !isBlockedItem(item))
     .filter(isEditorialUpdate)
     .map(withCreativeSelection)
     .filter((item) => item.creativeSelection.eligible)
@@ -490,6 +494,7 @@ export async function getLatestUpdates({ limit = 15, enrich = true, excludeItems
   });
   const bookmarkCandidates = dedupe([...upCandidates, ...historyReserve])
     .filter((item) => !excludedUrls.has(canonicalCurationUrl(item.url)))
+    .filter((item) => !isBlockedItem(item))
     .map(withCreativeSelection)
     .filter((item) => item.creativeSelection.eligible)
     .sort((a, b) => b.creativeSelection.score - a.creativeSelection.score);

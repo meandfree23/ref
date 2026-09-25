@@ -26,7 +26,9 @@
 - `.env.local`의 값은 읽거나 출력하지 않는다.
 - Vercel Blob, 배포, 백필처럼 외부 상태가 바뀌는 작업은 사용자 요청 또는 명확한 승인 없이 실행하지 않는다.
 - 검색/업데이트 API 변경 시 `api/*.mjs`, `scripts/*-core.mjs`, `public/app.js`의 계약을 함께 확인한다.
-- 정적 출력물 `public/static-updates.js`를 바꾸면 생성 스크립트와 검증 결과를 같이 확인한다.
+- 정적 출력물은 `public/data/*.json`이다(`npm run export:archive` = `scripts/export-site-data.mjs`). 옛 `public/static-updates.js`는 더 이상 커밋하지 않는다.
+- 판독 층(`deep-insight-agent`, `signal-agent`, `search-index-agent`)은 `GEMINI_API_KEY`가 없으면 조용히 건너뛴다. 로컬 실행 시 환경변수로만 넘기고 파일에 쓰지 않는다.
+- 분류/연출 축 어휘는 `scripts/insight-taxonomy.mjs`에서만 바꾼다. 프론트 `public/app.js`의 CATEGORIES와 같아야 한다.
 - 반복되는 데이터 품질 문제는 수동 메모가 아니라 검증 스크립트 또는 데이터 검사로 승격한다.
 
 ## 효율 규칙

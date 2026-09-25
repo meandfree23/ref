@@ -1,843 +1,535 @@
-const state = {
-  items: [],
-  latestUpdates: [],
-  koreanCodeItems: [],
-  cinemaItems: [],
-  latestUpdateDate: null,
-  latestKoreanCodeDate: null,
-  latestCinemaDate: null,
-  folderFilter: "all",
-  kindFilter: "all",
-  sourceScope: "expanded",
-  query: "",
-  status: null,
-  abortController: null,
-  searchTimer: null,
-  liveRefreshing: false,
-  dailyRecoveryPromise: null,
-  currentView: "updates",
-};
+/* Reference Selector v2 front end. Static JSON + two small API calls. */
+const CATEGORIES = ["영상·연출", "광고·브랜드", "디자인·타이포", "사진·이미지", "공간·전시", "미술·물성", "패션·뷰티", "기술·AI", "영화·비평", "문화·신호"];
+const TAB_VIEWS = ["updates", "korean-code", "cinema"];
+const LS_KEY = "refsel.taste.v1";
+const DATA_VERSION = Date.now().toString(36).slice(0, 6);
 
-const researchVersionLabel = "ver.1";
+const state = {
+  view: "today",
+  category: "all",
+  axis: "",
+  signal: "",
+  date: "all",
+  showAll: false,
+  query: "",
+  meta: null,
+  today: null,
+  signals: null,
+  curator: null,
+  tabs: {},        // view -> { recent:{dates,items}, all:{dates,items}|null, loadingAll:Promise|null }
+  brief: { query: "", results: [], mode: "", board: null, loading: false, composing: false, layers: { archive: true, history: true, instagram: true } },
+  taste: loadTaste(),
+  briefPending: null,
+};
 
 const els = {
-  query: document.querySelector("#queryInput"),
-  results: document.querySelector("#results"),
-  resultCount: document.querySelector("#resultCount"),
-  generatedAt: document.querySelector("#generatedAt"),
-  networkPanel: document.querySelector("#networkPanel"),
-  cardTemplate: document.querySelector("#cardTemplate"),
-  chips: document.querySelectorAll(".chip"),
-  viewTabs: document.querySelectorAll(".view-tab"),
-  updatesPanel: document.querySelector("#updatesPanel"),
-  updatesMeta: document.querySelector("#updatesMeta"),
-  updatesList: document.querySelector("#updatesList"),
-  koreanCodePanel: document.querySelector("#koreanCodePanel"),
-  koreanCodeMeta: document.querySelector("#koreanCodeMeta"),
-  koreanCodeList: document.querySelector("#koreanCodeList"),
-  cinemaPanel: document.querySelector("#cinemaPanel"),
-  cinemaMeta: document.querySelector("#cinemaMeta"),
-  cinemaList: document.querySelector("#cinemaList"),
+  panel: document.querySelector("#panel"),
+  tabs: document.querySelectorAll(".view-tab"),
+  filterBar: document.querySelector("#filterBar"),
+  chips: document.querySelector("#categoryChips"),
+  localFilter: document.querySelector("#localFilter"),
+  dateSelect: document.querySelector("#dateSelect"),
+  toggleAll: document.querySelector("#toggleAll"),
+  briefForm: document.querySelector("#briefForm"),
+  briefInput: document.querySelector("#briefInput"),
+  footMeta: document.querySelector("#footMeta"),
+  mastheadNote: document.querySelector("#mastheadNote"),
 };
 
-function mergeLatestUpdates(existing, incoming) {
-  const seen = new Set();
-  const merged = [];
-  for (const item of [...incoming, ...existing]) {
-    if (seen.has(item.url)) continue;
-    seen.add(item.url);
-    merged.push(item);
+/* ---------- utilities ---------- */
+const fmtDay = (key) => {
+  if (!key) return "";
+  const [y, m, d] = key.split("-").map(Number);
+  return `${y}. ${m}. ${d}.`;
+};
+const fmtDate = (iso) => {
+  if (!iso) return "";
+  const date = new Date(iso);
+  if (Number.isNaN(date.getTime())) return "";
+  return new Intl.DateTimeFormat("ko-KR", { timeZone: "Asia/Seoul", year: "numeric", month: "numeric", day: "numeric" }).format(date);
+};
+const el = (tag, attrs = {}, ...children) => {
+  const node = document.createElement(tag);
+  for (const [key, value] of Object.entries(attrs)) {
+    if (value == null || value === false) continue;
+    if (key === "class") node.className = value;
+    else if (key === "html") node.innerHTML = value;
+    else if (key.startsWith("on")) node.addEventListener(key.slice(2), value);
+    else if (key === "dataset") Object.assign(node.dataset, value);
+    else node.setAttribute(key, value === true ? "" : value);
   }
-  return merged.sort((a, b) => {
-    const aTime = a.date ? new Date(a.date).getTime() : 0;
-    const bTime = b.date ? new Date(b.date).getTime() : 0;
-    return bTime - aTime;
-  });
-}
-
-function formatKoreanDate(value) {
-  const date = value ? new Date(value) : null;
-  if (!date || Number.isNaN(date.getTime())) return "날짜 미확인";
-  return new Intl.DateTimeFormat("ko-KR", {
-    timeZone: "Asia/Seoul",
-    year: "numeric",
-    month: "numeric",
-    day: "numeric",
-  }).format(date);
-}
-
-function groupUpdates(items) {
-  const groups = [];
-  for (const item of items) {
-    const dateLabel = formatKoreanDate(item.date || item.archivedAt);
-    let group = groups.find((entry) => entry.dateLabel === dateLabel);
-    if (!group) {
-      group = { dateLabel, items: [] };
-      groups.push(group);
-    }
-    group.items.push(item);
+  for (const child of children.flat()) {
+    if (child == null || child === false) continue;
+    node.append(child.nodeType ? child : document.createTextNode(String(child)));
   }
-  return groups;
+  return node;
+};
+async function getJson(path) {
+  const response = await fetch(`${path}${path.includes("?") ? "&" : "?"}v=${DATA_VERSION}`, { cache: "no-cache" });
+  if (!response.ok) throw new Error(`${path} HTTP ${response.status}`);
+  return response.json();
 }
 
-function faviconFor(url) {
-  const parsed = new URL(url);
-  return `https://www.google.com/s2/favicons?domain=${encodeURIComponent(parsed.hostname)}&sz=64`;
-}
-
-function setView(view) {
-  state.currentView = view;
-  document.body.classList.toggle("is-korean-code-view", view === "korean-code");
-  document.body.classList.toggle("is-cinema-view", view === "cinema");
-  els.viewTabs.forEach((tab) => {
-    tab.classList.toggle("is-active", tab.dataset.view === view);
-  });
-  els.updatesPanel.hidden = view !== "updates";
-  els.koreanCodePanel.hidden = view !== "korean-code";
-  els.cinemaPanel.hidden = view !== "cinema";
-  if (view === "korean-code") loadKoreanCodeUpdates();
-  if (view === "cinema") loadCinemaUpdates();
-}
-
-function renderKoreanCode() {
-  renderArchivePanel({
-    panel: els.koreanCodePanel,
-    meta: els.koreanCodeMeta,
-    list: els.koreanCodeList,
-    emptyText: "Korean Code 스크랩을 찾지 못했습니다.",
-    payload: {
-      sourceCount: 0,
-      okSourceCount: 0,
-      archive: {
-        enabled: false,
-        itemCount: state.koreanCodeItems.length,
-        dateCount: groupUpdates(state.koreanCodeItems).length,
-      },
-      items: state.koreanCodeItems,
-    },
-  });
-}
-
-function renderArchivePanel({ panel, meta, list, payload, emptyText }) {
-  const archiveLabel = payload.archive?.enabled
-    ? `${payload.archive.dateCount}개 날짜 · 총 ${payload.archive.itemCount}개 보관`
-    : `${payload.items.length}개 스크랩`;
-  meta.textContent = `${archiveLabel} · ${payload.okSourceCount}/${payload.sourceCount}개 소스`;
-  list.innerHTML = "";
-
-  if (!payload.items.length) {
-    const empty = document.createElement("p");
-    empty.className = "empty-state";
-    empty.textContent = emptyText;
-    list.append(empty);
-    return;
-  }
-
-  groupUpdates(payload.items).forEach((group) => {
-    const section = document.createElement("section");
-    section.className = "update-day";
-    const heading = document.createElement("h2");
-    heading.textContent = `${researchVersionLabel} · ${group.dateLabel}`;
-    const items = document.createElement("div");
-    items.className = "update-items";
-
-    group.items.forEach((item, index) => {
-      items.append(createArchiveItem(item, index));
-    });
-
-    section.append(heading, items);
-    list.append(section);
-  });
-}
-
-function createArchiveItem(item, index) {
-  const article = document.createElement("article");
-  article.className = "update-item";
-  const displayImage = ["related", "page-preview"].includes(item.imageKind) ? "" : item.image;
-  if (!displayImage) article.classList.add("has-no-image");
-  if (item.originalDate) article.classList.add("is-scrap-item");
-  article.style.setProperty("--delay", `${index * 45}ms`);
-  if (displayImage) {
-    const media = document.createElement("a");
-    media.className = "update-media";
-    media.href = item.url;
-    media.target = "_blank";
-    media.rel = "noreferrer";
-
-    const image = document.createElement("img");
-    image.alt = item.title || item.articleTitle || "";
-    image.loading = "lazy";
-    image.src = displayImage;
-    image.addEventListener("error", () => {
-      article.classList.add("has-no-image");
-      media.remove();
-    }, { once: true });
-
-    media.append(image);
-    if (item.imageLabel) {
-      const badge = document.createElement("span");
-      badge.className = "update-image-badge";
-      badge.textContent = item.imageLabel;
-      media.append(badge);
-    }
-    article.append(media);
-  }
-
-  const meta = document.createElement("div");
-  meta.className = "update-meta";
-  const source = document.createElement("span");
-  source.className = "update-source";
-  source.textContent = `${item.sourceName || item.field || "Source"} · ${item.field || item.referenceLensKo || item.focusKo || item.focus || "reference"}`;
-  if (item.originalDate) {
-    const originalDate = document.createElement("span");
-    originalDate.className = "update-original-date";
-    originalDate.textContent = `원문 ${formatKoreanDate(item.originalDate)}`;
-    source.append(" · ", originalDate);
-  }
-  const link = document.createElement("a");
-  link.href = item.url;
-  link.target = "_blank";
-  link.rel = "noreferrer";
-  link.textContent = item.titleKo || item.articleTitle || item.title;
-  const summary = document.createElement("p");
-  summary.textContent = item.summaryKo || item.insight || item.summary || "요약이 제공되지 않은 업데이트입니다.";
-  meta.append(source, link, summary);
-
-  if (item.contentInsight?.insight) {
-    const insightBlock = document.createElement("div");
-    insightBlock.className = "content-insight";
-    const insight = document.createElement("p");
-    insight.className = "content-insight-point";
-    insight.textContent = item.contentInsight.role === "updates" && item.contentInsight.whatIsNew
-      ? `한눈에 · ${item.contentInsight.whatIsNew}`
-      : `${item.contentInsight.confidence === "title-only" ? "먼저 확인" : "읽을 포인트"} · ${item.contentInsight.insight}`;
-    const creativeUse = document.createElement("p");
-    creativeUse.className = "content-insight-use";
-    creativeUse.textContent = item.contentInsight.role === "updates" && item.contentInsight.creativePrinciple
-      ? `가져올 점 · ${item.contentInsight.creativePrinciple}`
-      : `내 작업에 쓰기 · ${item.contentInsight.creativeUse}`;
-    insightBlock.append(insight);
-    if (item.contentInsight.role === "updates" && item.contentInsight.whyItMatters) {
-      const why = document.createElement("p");
-      why.className = "content-insight-use";
-      why.textContent = `왜 볼까 · ${item.contentInsight.whyItMatters}`;
-      insightBlock.append(why);
-    }
-    insightBlock.append(creativeUse);
-    if (item.contentInsight.role === "updates" && item.contentInsight.applicationQuestion) {
-      const question = document.createElement("p");
-      question.className = "content-insight-use";
-      question.textContent = `바로 해보기 · ${item.contentInsight.applicationQuestion}`;
-      insightBlock.append(question);
-    }
-    meta.append(insightBlock);
-  }
-
-  if (displayImage && item.imageSourceName && item.imageSourceUrl) {
-    const imageSource = document.createElement("a");
-    imageSource.className = "update-image-source";
-    imageSource.href = item.imageSourceUrl;
-    imageSource.target = "_blank";
-    imageSource.rel = "noreferrer";
-    imageSource.textContent = `${item.imageKind === "related" ? "관련 이미지" : "이미지"} · ${item.imageSourceName}`;
-    meta.append(imageSource);
-  }
-
-  if (!item.originalDate && (item.code || item.mixCode || item.creativeUse)) {
-    const note = document.createElement("p");
-    note.className = "update-code-note";
-    note.textContent = [item.code, item.mixCode, item.creativeUse].filter(Boolean).slice(0, 2).join(" / ");
-    meta.append(note);
-  }
-
-  article.append(meta);
-  return article;
-}
-
-function matches(item) {
-  const folderOk = state.folderFilter === "all" || item.sourceFolder === state.folderFilter;
-  const kindOk = state.kindFilter === "all" || item.kind === state.kindFilter;
-  return folderOk && kindOk;
-}
-
-function renderNetworkPanel() {
-  const meta = state.lastMeta;
-  if (!meta?.network || state.status !== "done") {
-    els.networkPanel.hidden = true;
-    els.networkPanel.innerHTML = "";
-    return;
-  }
-
-  const axes = meta.intent?.axes?.map((axis) => axis.label).slice(0, 3) || [];
-  const sourceMix = meta.network.layers?.length ? meta.network.layers.slice(0, 4) : meta.network.roles.slice(0, 4);
-  const uses = meta.network.uses.slice(0, 4);
-  els.networkPanel.hidden = false;
-  els.networkPanel.innerHTML = "";
-
-  [
-    ["검색 의도", axes.map((label) => ({ label }))],
-    ["소스 구성", sourceMix.map((role) => ({ label: role.label, count: role.count }))],
-    ["활용 방향", uses.map((use) => ({ label: use.label, count: use.count }))],
-  ].forEach(([title, rows]) => {
-    const column = document.createElement("section");
-    column.className = "network-column";
-    const heading = document.createElement("h2");
-    heading.textContent = title;
-    const list = document.createElement("ul");
-    rows.forEach((row) => {
-      const item = document.createElement("li");
-      const label = document.createElement("span");
-      label.textContent = row.label;
-      item.append(label);
-      if (row.count) {
-        const count = document.createElement("strong");
-        count.textContent = row.count;
-        item.append(count);
-      }
-      list.append(item);
-    });
-    column.append(heading, list);
-    els.networkPanel.append(column);
-  });
-}
-
-function renderResults() {
-  document.body.classList.toggle("has-active-search", Boolean(state.query.trim()));
-  if (state.currentView === "korean-code" && state.query.trim()) setView("updates");
-  const filtered = state.items.filter(matches);
-  if (state.status === "loading") {
-    els.resultCount.textContent = "북마크 인덱스에서 바로 찾는 중입니다...";
-  } else if (state.status === "idle") {
-    els.resultCount.textContent = "검색어를 입력하면 북마크와 큐레이션 소스에서 바로 찾습니다.";
-  } else if (state.status === "done") {
-    const modeLabel = state.lastMeta?.mode === "visual" ? "이미지 우선" : state.lastMeta?.mode === "live" ? "원본 검토" : "빠른 검색";
-    const refreshLabel = state.liveRefreshing ? " · 대표 이미지 확인 중" : "";
-    els.resultCount.textContent = `${filtered.length}개 결과 · ${modeLabel} · ${state.lastMeta?.scanned || 0}/${state.lastMeta?.totalBookmarks || 0}개 소스${refreshLabel}`;
-  }
-  els.results.innerHTML = "";
-  renderNetworkPanel();
-
-  if (state.status === "loading") {
-    els.networkPanel.hidden = true;
-    const loading = document.createElement("p");
-    loading.className = "empty-state";
-    loading.textContent = "저장된 북마크 제목, 폴더, 소스 성격을 기준으로 관련도를 계산하고 있습니다.";
-    els.results.append(loading);
-    return;
-  }
-
-  if (state.status === "idle") {
-    els.networkPanel.hidden = true;
-    const idle = document.createElement("p");
-    idle.className = "empty-state";
-    idle.textContent = "예: \"네이티브 코딩 같은 인터랙션\", \"광고 캠페인 인사이트\", \"패션 필름 무드\", \"작가 포트폴리오 이미지\"";
-    els.results.append(idle);
-    return;
-  }
-
-  if (!filtered.length) {
-    const empty = document.createElement("p");
-    empty.className = "empty-state";
-    empty.textContent = "관련 결과가 없습니다. 조금 더 일상적인 문장이나 넓은 표현으로 다시 검색해보세요.";
-    els.results.append(empty);
-    return;
-  }
-
-  const firstMediaId = filtered.find((item) => item.image)?.id;
-  filtered.forEach((item) => {
-    const node = els.cardTemplate.content.cloneNode(true);
-    const card = node.querySelector(".ref-card");
-    const title = node.querySelector("h3");
-    const favicon = node.querySelector(".favicon");
-    const mediaPreview = node.querySelector(".media-preview");
-    const mediaImage = node.querySelector(".media-preview img");
-    const kind = node.querySelector(".kind");
-    const path = node.querySelector(".path");
-    const curation = node.querySelector(".curation");
-    const snippet = node.querySelector(".snippet");
-    const host = node.querySelector(".host");
-    const layer = node.querySelector(".layer");
-    const hostName = node.querySelector(".host-name");
-    const origin = node.querySelector(".origin");
-    const images = node.querySelector(".images");
-    const videos = node.querySelector(".videos");
-
-    card.dataset.id = item.id;
-    if (item.image) card.classList.add("has-media");
-    if (item.id === firstMediaId) card.classList.add("is-featured");
-    title.textContent = item.title;
-    favicon.src = faviconFor(item.url);
-    if (item.image) {
-      mediaPreview.href = item.image;
-      mediaImage.src = item.image;
-      mediaImage.alt = `${item.title} preview`;
-    } else if (state.liveRefreshing) {
-      mediaPreview.removeAttribute("href");
-      mediaPreview.classList.add("is-loading");
-      mediaImage.removeAttribute("src");
-      mediaImage.alt = "";
-    } else {
-      mediaPreview.hidden = true;
-    }
-    kind.textContent = item.kind;
-    path.textContent = item.path;
-    curation.innerHTML = "";
-    const role = document.createElement("p");
-    role.className = "curation-role";
-    role.textContent = item.curation?.role || "Reference Source";
-    const uses = document.createElement("p");
-    uses.className = "curation-use";
-    uses.textContent = (item.curation?.uses || []).slice(0, 2).join(" · ");
-    const reason = document.createElement("p");
-    reason.className = "curation-reason";
-    reason.textContent = (item.curation?.reasons || []).slice(0, 2).join(" / ");
-    curation.append(role, uses, reason);
-    if (item.contentInsight?.insight) {
-      const insight = document.createElement("p");
-      insight.className = "curation-insight";
-      insight.textContent = `${item.contentInsight.confidence === "title-only" ? "먼저 확인" : "읽을 포인트"} · ${item.contentInsight.insight}`;
-      const creativeUse = document.createElement("p");
-      creativeUse.className = "curation-creative-use";
-      creativeUse.textContent = `내 작업에 쓰기 · ${item.contentInsight.creativeUse}`;
-      curation.append(insight, creativeUse);
-    }
-    snippet.textContent = item.snippet || item.description || "";
-    layer.textContent = item.sourceLayer === "verified"
-      ? "큐레이션"
-      : item.sourceLayer === "history"
-        ? "과거 아카이브"
-        : "북마크";
-    hostName.textContent = item.host;
-    origin.href = item.url;
-    if (item.images?.length) {
-      images.href = item.images[0];
-      images.textContent = `이미지 ${item.images.length}`;
-    } else {
-      images.hidden = true;
-    }
-    if (item.videos?.length) {
-      videos.href = item.videos[0];
-      videos.textContent = `영상 ${item.videos.length}`;
-    } else {
-      videos.hidden = true;
-    }
-
-    els.results.append(node);
-  });
-}
-
-function renderUpdates(payload) {
-  renderArchivePanel({
-    panel: els.updatesPanel,
-    meta: els.updatesMeta,
-    list: els.updatesList,
-    emptyText: "최근 업데이트를 찾지 못했습니다.",
-    payload,
-  });
-}
-
-function renderStaticUpdatesIfAvailable() {
-  const fallback = window.__STATIC_UPDATE_ARCHIVE__;
-  if (!fallback?.items?.length) return false;
-
-  state.latestUpdates = mergeLatestUpdates(state.latestUpdates, fallback.items);
-  state.latestUpdateDate = fallback.archive?.dates?.[0] || "";
-  renderUpdates({
-    fetchedAt: fallback.generatedAt,
-    sourceCount: fallback.sourceCount || 0,
-    okSourceCount: fallback.okSourceCount || fallback.sourceCount || 0,
-    archive: fallback.archive,
-    items: state.latestUpdates,
-  });
-  return true;
-}
-
-function renderStaticKoreanCodeIfAvailable() {
-  const fallback = window.__STATIC_UPDATE_ARCHIVE__?.koreanCode || window.__KOREAN_CODE_RESEARCH__;
-  if (!fallback?.items?.length) return false;
-
-  state.koreanCodeItems = mergeLatestUpdates(state.koreanCodeItems, fallback.items);
-  state.latestKoreanCodeDate = fallback.archive?.dates?.[0] || "";
-  renderArchivePanel({
-    panel: els.koreanCodePanel,
-    meta: els.koreanCodeMeta,
-    list: els.koreanCodeList,
-    emptyText: "Korean Code 스크랩을 찾지 못했습니다.",
-    payload: {
-      fetchedAt: fallback.generatedAt || fallback.updatedAt,
-      sourceCount: fallback.sourceCount || 0,
-      okSourceCount: fallback.okSourceCount || fallback.sourceCount || 0,
-      archive: fallback.archive || {
-        enabled: false,
-        itemCount: fallback.items.length,
-        dateCount: groupUpdates(fallback.items).length,
-      },
-      items: state.koreanCodeItems,
-    },
-  });
-  return true;
-}
-
-function renderStaticCinemaIfAvailable() {
-  const fallback = window.__STATIC_UPDATE_ARCHIVE__?.cinema;
-  if (!fallback?.items?.length) return false;
-
-  state.cinemaItems = mergeLatestUpdates(state.cinemaItems, fallback.items);
-  state.latestCinemaDate = fallback.archive?.dates?.[0] || "";
-  renderArchivePanel({
-    panel: els.cinemaPanel,
-    meta: els.cinemaMeta,
-    list: els.cinemaList,
-    emptyText: "Cinema 스크랩을 찾지 못했습니다.",
-    payload: {
-      fetchedAt: fallback.generatedAt,
-      sourceCount: fallback.sourceCount || 0,
-      okSourceCount: fallback.okSourceCount || fallback.sourceCount || 0,
-      archive: fallback.archive || {
-        enabled: false,
-        itemCount: fallback.items.length,
-        dateCount: groupUpdates(fallback.items).length,
-      },
-      items: state.cinemaItems,
-    },
-  });
-  return true;
-}
-
-async function loadLatestUpdates() {
-  els.updatesPanel.hidden = state.currentView !== "updates";
-  const renderedStaticArchive = renderStaticUpdatesIfAvailable();
-  if (!renderedStaticArchive) {
-    els.updatesMeta.textContent = "업데이트 확인 중...";
-    els.updatesList.innerHTML = `<p class="empty-state">최신 업데이트를 불러오는 중입니다.</p>`;
-  }
-
+/* ---------- taste (localStorage) ---------- */
+function loadTaste() {
   try {
-    const response = await fetch("/api/updates?limit=15");
-    if (!response.ok) throw new Error(`HTTP ${response.status}`);
-    const payload = await response.json();
-    state.latestUpdates = mergeLatestUpdates(state.latestUpdates, payload.items || []);
-    state.latestUpdateDate = payload.archive?.dates?.[0] || "";
-    renderUpdates({
-      ...payload,
-      items: state.latestUpdates,
-    });
-    els.updatesPanel.hidden = state.currentView !== "updates";
-  } catch (error) {
-    if (renderedStaticArchive || renderStaticUpdatesIfAvailable()) return;
-    els.updatesMeta.textContent = "실패";
-    els.updatesList.innerHTML = `<p class="empty-state">업데이트를 불러오지 못했습니다: ${error.message}</p>`;
-  }
-}
-
-async function loadKoreanCodeUpdates() {
-  els.koreanCodePanel.hidden = state.currentView !== "korean-code";
-  const renderedStaticArchive = renderStaticKoreanCodeIfAvailable();
-  if (!renderedStaticArchive) {
-    els.koreanCodeMeta.textContent = "Korean Code 확인 중...";
-    els.koreanCodeList.innerHTML = `<p class="empty-state">Korean Code 스크랩을 불러오는 중입니다.</p>`;
-  }
-
-  try {
-    const response = await fetch("/api/korean-code?limit=30");
-    if (!response.ok) throw new Error(`HTTP ${response.status}`);
-    const payload = await response.json();
-    state.koreanCodeItems = mergeLatestUpdates(state.koreanCodeItems, payload.items || []);
-    state.latestKoreanCodeDate = payload.archive?.dates?.[0] || "";
-    renderArchivePanel({
-      panel: els.koreanCodePanel,
-      meta: els.koreanCodeMeta,
-      list: els.koreanCodeList,
-      emptyText: "Korean Code 스크랩을 찾지 못했습니다.",
-      payload: {
-        ...payload,
-        items: state.koreanCodeItems,
-      },
-    });
-    els.koreanCodePanel.hidden = state.currentView !== "korean-code";
-  } catch (error) {
-    if (renderedStaticArchive || renderStaticKoreanCodeIfAvailable()) return;
-    els.koreanCodeMeta.textContent = "실패";
-    els.koreanCodeList.innerHTML = `<p class="empty-state">Korean Code를 불러오지 못했습니다: ${error.message}</p>`;
-  }
-}
-
-async function loadCinemaUpdates() {
-  els.cinemaPanel.hidden = state.currentView !== "cinema";
-  const renderedStaticArchive = renderStaticCinemaIfAvailable();
-  if (!renderedStaticArchive) {
-    els.cinemaMeta.textContent = "Cinema 확인 중...";
-    els.cinemaList.innerHTML = `<p class="empty-state">Cinema 스크랩을 불러오는 중입니다.</p>`;
-  }
-
-  try {
-    const response = await fetch("/api/cinema?limit=30");
-    if (!response.ok) throw new Error(`HTTP ${response.status}`);
-    const payload = await response.json();
-    state.cinemaItems = mergeLatestUpdates(state.cinemaItems, payload.items || []);
-    state.latestCinemaDate = payload.archive?.dates?.[0] || "";
-    renderArchivePanel({
-      panel: els.cinemaPanel,
-      meta: els.cinemaMeta,
-      list: els.cinemaList,
-      emptyText: "Cinema 스크랩을 찾지 못했습니다.",
-      payload: {
-        ...payload,
-        items: state.cinemaItems,
-      },
-    });
-    els.cinemaPanel.hidden = state.currentView !== "cinema";
-  } catch (error) {
-    if (renderedStaticArchive || renderStaticCinemaIfAvailable()) return;
-    els.cinemaMeta.textContent = "실패";
-    els.cinemaList.innerHTML = `<p class="empty-state">Cinema를 불러오지 못했습니다: ${error.message}</p>`;
-  }
-}
-
-async function loadStatus() {
-  try {
-    const response = await fetch("/api/status");
-    const status = await response.json();
-    els.generatedAt.textContent = `북마크 ${status.bookmarkCount}개 · 큐레이션 소스 ${status.verifiedCount}개`;
+    const parsed = JSON.parse(localStorage.getItem(LS_KEY) || "{}");
+    return { saved: {}, hidden: {}, views: {}, ...parsed };
   } catch {
-    const status = window.__STATIC_UPDATE_ARCHIVE__?.status;
-    if (status) {
-      els.generatedAt.textContent = `북마크 ${status.bookmarkCount}개 · 큐레이션 소스 ${status.verifiedCount}개`;
-    }
+    return { saved: {}, hidden: {}, views: {} };
   }
 }
-
-async function runLiveSearch() {
-  const query = state.query.trim();
-  if (state.abortController) state.abortController.abort();
-
-  if (!query) {
-    state.items = [];
-    state.status = "idle";
-    state.liveRefreshing = false;
-    renderResults();
-    return;
+function persistTaste() {
+  localStorage.setItem(LS_KEY, JSON.stringify(state.taste));
+}
+function toggleSaved(item) {
+  const key = item.id || item.u;
+  if (state.taste.saved[key]) delete state.taste.saved[key];
+  else state.taste.saved[key] = { ...item, savedAt: new Date().toISOString() };
+  persistTaste();
+}
+function toggleHidden(item) {
+  const key = item.id || item.u;
+  if (state.taste.hidden[key]) delete state.taste.hidden[key];
+  else state.taste.hidden[key] = { cat: item.cat, s: item.s, at: new Date().toISOString() };
+  persistTaste();
+}
+function tasteAffinity() {
+  const cat = {};
+  const src = {};
+  const ax = {};
+  for (const item of Object.values(state.taste.saved)) {
+    if (item.cat) cat[item.cat] = (cat[item.cat] || 0) + 1;
+    if (item.s) src[item.s] = (src[item.s] || 0) + 1;
+    for (const axis of item.ax || []) ax[axis] = (ax[axis] || 0) + 1;
   }
+  for (const item of Object.values(state.taste.hidden)) {
+    if (item.cat) cat[item.cat] = (cat[item.cat] || 0) - 1;
+    if (item.s) src[item.s] = (src[item.s] || 0) - 1;
+  }
+  return { cat, src, ax };
+}
+function tasteBoost(item, affinity) {
+  return Math.max(-1.5, Math.min(1.5, 0.25 * ((affinity.cat[item.cat] || 0) + (affinity.src[item.s] || 0) * 0.6 + (item.ax || []).reduce((sum, axis) => sum + (affinity.ax[axis] || 0) * 0.3, 0))));
+}
 
-  state.status = "loading";
-  state.items = [];
-  state.liveRefreshing = false;
-  renderResults();
-
-  const controller = new AbortController();
-  state.abortController = controller;
-
-  try {
-    const quickUrl = `/api/search?q=${encodeURIComponent(query)}&scope=${encodeURIComponent(state.sourceScope)}&mode=quick`;
-    const response = await fetch(quickUrl, {
-      signal: controller.signal,
+/* ---------- rendering: reference card ---------- */
+function media(item, className = "ref-media") {
+  if (!item.img) return el("div", { class: `${className} is-empty` }, "NO IMAGE");
+  const img = el("img", { src: item.img, alt: item.t || "", loading: "lazy" });
+  img.addEventListener("error", () => { img.replaceWith(el("div", { class: `${className} is-empty` }, "IMAGE OFF")); }, { once: true });
+  return el("a", { class: className, href: item.u, target: "_blank", rel: "noreferrer" }, img);
+}
+function badges(item, { withAxes = true } = {}) {
+  const list = [];
+  if (item.sh) list.push(el("span", { class: `badge badge-sharp${item.sh >= 8 ? " is-top" : ""}`, title: item.why || "" }, `날카로움 ${item.sh}`));
+  if (item.tl) list.push(el("span", { class: "badge badge-tl" }, "오래 남을 것"));
+  if (item.old) list.push(el("span", { class: "badge badge-old" }, `아카이브 발굴 · 원문 ${fmtDate(item.od)}`));
+  if (item.g === "summary") list.push(el("span", { class: "badge", title: "원문 본문 없이 요약만으로 판독" }, "요약 판독"));
+  if (withAxes) for (const axis of item.ax || []) list.push(el("button", { class: "badge badge-axis", type: "button", onclick: () => setFilter({ axis }) }, axis));
+  return el("div", { class: "badges" }, list);
+}
+function actions(item) {
+  const key = item.id || item.u;
+  const saved = Boolean(state.taste.saved[key]);
+  const hidden = Boolean(state.taste.hidden[key]);
+  const saveBtn = el("button", { class: `act${saved ? " is-on" : ""}`, type: "button", onclick: (event) => { toggleSaved(item); event.currentTarget.classList.toggle("is-on"); event.currentTarget.textContent = state.taste.saved[key] ? "보드에 있음" : "보드에 담기"; } }, saved ? "보드에 있음" : "보드에 담기");
+  const hideBtn = el("button", { class: `act act-quiet${hidden ? " is-on" : ""}`, type: "button", onclick: (event) => { toggleHidden(item); event.currentTarget.textContent = state.taste.hidden[key] ? "관심 없음 취소" : "관심 없음"; } }, hidden ? "관심 없음 취소" : "관심 없음");
+  const link = el("a", { class: "act act-quiet", href: item.u, target: "_blank", rel: "noreferrer" }, "원문 ↗");
+  const sigs = (item.sig || []).length ? el("div", { class: "signals-inline" }, (item.sig || []).map((signal) => el("button", { class: "sig", type: "button", onclick: () => setFilter({ signal }) }, signal))) : null;
+  return el("div", { class: "ref-actions" }, saveBtn, hideBtn, link, sigs);
+}
+function reading(item) {
+  if (!item.sh) return null;
+  const rows = [];
+  if (item.nov) rows.push(["새로움", item.nov]);
+  if (item.mech) rows.push(["작동 원리", item.mech]);
+  if (item.ev) rows.push(["근거", item.ev, "evidence"]);
+  if (item.stl) rows.push(["가져갈 한 수", item.stl, "steal"]);
+  if (item.lim) rows.push(["한계", item.lim, "limit"]);
+  return el("dl", { class: "reading" }, rows.map(([label, text, cls]) => el("div", {}, el("dt", {}, label), el("dd", { class: cls || "" }, text))));
+}
+function referenceCard(item, { compact = false } = {}) {
+  const muted = item.sh && !item.k;
+  const card = el("article", { class: `ref${compact ? " is-compact" : ""}${muted ? " is-muted" : ""}`, dataset: { id: item.id || "" } });
+  const side = el("div", { class: "ref-side" }, media(item), el("p", { class: "ref-kicker" }, el("b", {}, item.s || "출처 미상"), ` · ${item.cat || ""}`, item.od ? el("span", {}, ` · 원문 ${fmtDate(item.od)}`) : null));
+  const title = el("h3", { class: "ref-title" }, el("a", { href: item.u, target: "_blank", rel: "noreferrer" }, item.t));
+  const body = el("div", { class: "ref-body" },
+    title,
+    item.ot && item.ot !== item.t ? el("p", { class: "ref-orig" }, item.ot) : null,
+    badges(item),
+    item.sum ? el("p", { class: "ref-sum" }, item.sum) : null,
+    muted && item.why ? el("p", { class: "status-line" }, `접힌 이유 · ${item.why}`) : null,
+    reading(item),
+    actions(item),
+  );
+  if (compact) {
+    card.append(el("div", { class: "ref-body" }, title, el("p", { class: "status-line" }, `${item.s || ""}${item.why ? ` · ${item.why}` : ""}`), badges(item, { withAxes: false })));
+    card.addEventListener("click", (event) => {
+      if (event.target.closest("a")) return;
+      card.replaceWith(referenceCard(item));
     });
-    if (!response.ok) throw new Error(`HTTP ${response.status}`);
-    const payload = await response.json();
-    state.items = payload.results || [];
-    state.lastMeta = payload;
-    state.status = "done";
-    state.liveRefreshing = true;
-    renderResults();
-
-    const liveUrl = `/api/search?q=${encodeURIComponent(query)}&scope=${encodeURIComponent(state.sourceScope)}&mode=visual`;
-    const liveResponse = await fetch(liveUrl, {
-      signal: controller.signal,
-    });
-    if (!liveResponse.ok) throw new Error(`HTTP ${liveResponse.status}`);
-    const livePayload = await liveResponse.json();
-    if (state.query.trim() !== query) return;
-    const visualResults = livePayload.results || state.items;
-    state.items = [
-      ...visualResults.filter((item) => item.image),
-      ...visualResults.filter((item) => !item.image),
-    ];
-    state.lastMeta = livePayload;
-    state.liveRefreshing = false;
-    renderResults();
-  } catch (error) {
-    state.liveRefreshing = false;
-    if (error.name === "AbortError") return;
-    if (isFileView()) {
-      state.status = "done";
-      state.items = [];
-      els.resultCount.textContent = "로컬 파일 보기에서는 검색 API를 사용할 수 없습니다.";
-      els.results.innerHTML = `<p class="empty-state">검색은 Vercel 주소나 로컬 서버 주소에서 사용할 수 있습니다. 이 화면에서는 아래 업데이트 아카이브를 정적 백업으로 확인할 수 있습니다.</p>`;
-      return;
-    }
-    if (state.items.length) {
-      renderResults();
-      return;
-    }
-    state.status = "done";
-    state.items = [];
-    els.resultCount.textContent = "검색 중 문제가 생겼습니다.";
-    els.results.innerHTML = `<p class="empty-state">${error.message}</p>`;
+    return card;
   }
+  card.append(side, body);
+  return card;
 }
 
-function scheduleSearch() {
-  clearTimeout(state.searchTimer);
-  state.searchTimer = setTimeout(runLiveSearch, 650);
+/* ---------- filters ---------- */
+function setFilter(patch) {
+  Object.assign(state, patch);
+  if (patch.axis || patch.signal) {
+    state.showAll = true;
+    if (!TAB_VIEWS.includes(state.view)) state.view = "updates";
+  }
+  render();
+}
+function itemMatches(item) {
+  if (state.category !== "all" && item.cat !== state.category) return false;
+  if (state.axis && !(item.ax || []).includes(state.axis)) return false;
+  if (state.signal && !(item.sig || []).includes(state.signal)) return false;
+  if (state.date !== "all" && item.day !== state.date) return false;
+  if (state.query) {
+    const hay = `${item.t} ${item.ot || ""} ${item.sum || ""} ${item.s || ""} ${item.stl || ""} ${(item.sig || []).join(" ")}`.toLowerCase();
+    if (!state.query.toLowerCase().split(/\s+/).every((token) => hay.includes(token))) return false;
+  }
+  return true;
+}
+function renderFilterBar(items, dates) {
+  els.filterBar.hidden = !TAB_VIEWS.includes(state.view);
+  if (els.filterBar.hidden) return;
+  const counts = {};
+  for (const item of items) counts[item.cat] = (counts[item.cat] || 0) + 1;
+  els.chips.innerHTML = "";
+  const chip = (label, value, count) => el("button", { class: `chip${state.category === value ? " is-active" : ""}`, type: "button", onclick: () => setFilter({ category: value }) }, label, count != null ? el("small", {}, count) : null);
+  els.chips.append(chip("전체", "all", items.length));
+  for (const category of CATEGORIES) if (counts[category]) els.chips.append(chip(category, category, counts[category]));
+  if (state.axis) els.chips.append(el("button", { class: "chip is-active", type: "button", onclick: () => setFilter({ axis: "" }) }, `축: ${state.axis} ×`));
+  if (state.signal) els.chips.append(el("button", { class: "chip is-active", type: "button", onclick: () => setFilter({ signal: "" }) }, `신호: ${state.signal} ×`));
+  els.dateSelect.innerHTML = "";
+  els.dateSelect.append(el("option", { value: "all" }, "모든 날짜"));
+  for (const day of dates) els.dateSelect.append(el("option", { value: day, selected: state.date === day }, fmtDay(day)));
+  els.toggleAll.setAttribute("aria-pressed", String(state.showAll));
+  els.toggleAll.textContent = state.showAll ? "접힌 항목 숨기기" : "접힌 항목 보기";
+  els.localFilter.value = state.query;
 }
 
-function resetResultFilters() {
-  state.folderFilter = "all";
-  state.kindFilter = "all";
-  els.chips.forEach((chip) => {
-    chip.classList.toggle("is-active", chip.dataset.filter === "all");
-  });
+/* ---------- views ---------- */
+function sectionHead(title, count, extra) {
+  return el("div", { class: "section-head" }, el("h2", {}, title), count != null ? el("span", { class: "count" }, count) : null, el("span", { class: "spacer" }), extra || null);
 }
 
-function todayKey() {
-  return new Intl.DateTimeFormat("en-CA", {
-    timeZone: "Asia/Seoul",
-    year: "numeric",
-    month: "2-digit",
-    day: "2-digit",
-  }).format(new Date());
+async function ensureTab(view) {
+  state.tabs[view] ||= { recent: null, all: null, loadingAll: null };
+  const entry = state.tabs[view];
+  if (!entry.recent) entry.recent = await getJson(`./data/${view}-recent.json`);
+  return entry;
+}
+async function ensureTabAll(view) {
+  const entry = await ensureTab(view);
+  if (entry.all) return entry;
+  entry.loadingAll ||= getJson(`./data/${view}-all.json`).then((all) => { entry.all = all; entry.loadingAll = null; return entry; });
+  return entry.loadingAll;
 }
 
-function isFileView() {
-  return window.location.protocol === "file:";
+async function renderTab(view) {
+  const entry = await ensureTab(view);
+  const needAll = state.date !== "all" && !entry.recent.dates.includes(state.date) || state.query || state.axis || state.signal || state.category !== "all";
+  const data = needAll ? (await ensureTabAll(view)).all : (entry.all || entry.recent);
+  const dates = (entry.all || entry.recent).dates;
+  renderFilterBar(data.items, dates);
+  const filtered = data.items.filter(itemMatches);
+  const hidden = state.taste.hidden;
+  const groups = new Map();
+  for (const item of filtered) {
+    if (!groups.has(item.day)) groups.set(item.day, []);
+    groups.get(item.day).push(item);
+  }
+  const frag = document.createDocumentFragment();
+  const tabMeta = state.meta?.tabs?.[view];
+  frag.append(sectionHead(tabMeta?.label || view, `${tabMeta?.dateCount || dates.length}개 날짜 · ${tabMeta?.itemCount || data.items.length}개 · 판독 ${tabMeta?.readCount || 0} · 핵심 ${tabMeta?.keepCount || 0}`,
+    !entry.all && !needAll ? el("button", { class: "btn btn-small", type: "button", onclick: async () => { await ensureTabAll(view); render(); } }, "전체 아카이브 열기") : null));
+  if (!filtered.length) frag.append(el("p", { class: "empty-state" }, "조건에 맞는 항목이 없습니다."));
+  let rendered = 0;
+  for (const [day, items] of groups) {
+    if (rendered > 220) { frag.append(el("p", { class: "collapsed-note" }, "더 오래된 날짜는 날짜 선택으로 열어보세요.")); break; }
+    const kept = items.filter((item) => (item.k || !item.sh) && !hidden[item.id]);
+    const folded = items.filter((item) => (item.sh && !item.k) || hidden[item.id]);
+    const daySection = el("section", { class: "update-day" }, sectionHead(fmtDay(day), `핵심 ${kept.length} · 접힘 ${folded.length}`));
+    for (const item of kept) daySection.append(referenceCard(item));
+    if (folded.length) {
+      if (state.showAll) for (const item of folded) daySection.append(referenceCard(item, { compact: true }));
+      else daySection.append(el("p", { class: "collapsed-note" }, `날카롭지 않아 접어 둔 ${folded.length}개 · `, el("button", { type: "button", onclick: () => setFilter({ showAll: true }) }, "펼치기")));
+    }
+    frag.append(daySection);
+    rendered += items.length;
+  }
+  return frag;
 }
 
-function currentKstHour() {
-  return Number(new Intl.DateTimeFormat("en-US", {
-    timeZone: "Asia/Seoul",
-    hour: "2-digit",
-    hourCycle: "h23",
-  }).format(new Date()));
+function renderToday() {
+  const today = state.today;
+  const frag = document.createDocumentFragment();
+  if (!today?.items?.length) {
+    frag.append(sectionHead("오늘의 픽"), el("p", { class: "empty-state" }, "아직 판독된 항목이 없습니다. 다음 07:10 자동 판독을 기다려 주세요."));
+    return frag;
+  }
+  const affinity = tasteAffinity();
+  const items = today.items
+    .filter((item) => !state.taste.hidden[item.id])
+    .map((item) => ({ item, score: item.sh + tasteBoost(item, affinity) }))
+    .sort((a, b) => b.score - a.score)
+    .map(({ item }) => item);
+  frag.append(sectionHead("오늘의 픽", `${today.days.map(fmtDay).join(" · ")} 판독분에서 날카로운 순`));
+  frag.append(el("p", { class: "intro" }, "세 탭 전체에서 원문을 읽고 점수를 매긴 뒤, 보드에 담은 취향을 반영해 정렬합니다. 카드의 빨간 줄이 오늘 현장에서 써 볼 한 수입니다."));
+  frag.append(el("div", { class: "pick-grid" }, items.map((item) => el("article", { class: "pick" },
+    media(item),
+    el("div", { class: "pick-body" },
+      el("p", { class: "ref-kicker" }, el("b", {}, item.s), ` · ${item.cat}`, ` · ${state.meta?.tabs?.[item.tab]?.label || item.tab}`),
+      el("h3", { class: "ref-title" }, el("a", { href: item.u, target: "_blank", rel: "noreferrer" }, item.t)),
+      badges(item, { withAxes: false }),
+      item.nov ? el("p", { class: "ref-sum" }, item.nov) : null,
+      item.stl ? el("p", { class: "pick-steal" }, item.stl) : null,
+      el("div", { class: "pick-foot" }, actions(item)),
+    )))));
+  if (state.signals?.hypotheses?.length) {
+    frag.append(sectionHead("지금 굳어지는 흐름", `${state.signals.hypotheses.length}개 가설`, el("button", { class: "btn btn-small", type: "button", onclick: () => switchView("signals") }, "시그널 탭으로")));
+    frag.append(el("ul", { class: "quiet-list" }, state.signals.hypotheses.slice(0, 3).map((hyp) => el("li", {}, el("b", {}, hyp.title), " ", el("span", {}, `${hyp.momentum} · 근거 ${hyp.evidence.length}건`)))));
+  }
+  return frag;
 }
 
-function archiveTodayCount(payload) {
-  const today = todayKey();
-  return (payload?.archive?.items || payload?.items || []).filter((item) => {
-    const value = item.date || item.archivedAt;
-    if (!value) return false;
-    return new Intl.DateTimeFormat("en-CA", {
-      timeZone: "Asia/Seoul",
-      year: "numeric",
-      month: "2-digit",
-      day: "2-digit",
-    }).format(new Date(value)) === today;
-  }).length;
-}
-
-async function ensureDailyArchive() {
-  if (isFileView() || currentKstHour() < 7) return false;
-  if (state.dailyRecoveryPromise) return state.dailyRecoveryPromise;
-
-  state.dailyRecoveryPromise = (async () => {
-    const responses = await Promise.all([
-      fetch("/api/updates?limit=15", { cache: "no-store" }),
-      fetch("/api/korean-code?limit=15", { cache: "no-store" }),
-      fetch("/api/cinema?limit=15", { cache: "no-store" }),
-    ]);
-    if (responses.some((response) => !response.ok)) return false;
-
-    const payloads = await Promise.all(responses.map((response) => response.json()));
-    const today = todayKey();
-    const needsRecovery = payloads.some((payload) => (
-      payload.archive?.dates?.[0] !== today || archiveTodayCount(payload) < 15
+function renderSignals() {
+  const frag = document.createDocumentFragment();
+  const signals = state.signals;
+  if (!signals?.hypotheses?.length) {
+    frag.append(sectionHead("시그널"), el("p", { class: "empty-state" }, "가설을 세울 만큼 판독이 쌓이지 않았습니다. 자동 판독이 며칠 돌면 채워집니다."));
+    return frag;
+  }
+  frag.append(sectionHead("시그널", `${signals.since} 이후 ${signals.readingCount}개 판독 · ${fmtDate(signals.generatedAt)} 생성`));
+  frag.append(el("p", { class: "intro" }, "한 기사가 아니라 여러 자료에 걸쳐 반복되는 움직임을 가설로 세웁니다. 서로 다른 출처 2곳 이상, 자료 3개 이상이 근거로 붙은 것만 남깁니다."));
+  for (const hyp of signals.hypotheses) {
+    frag.append(el("section", { class: "hyp" },
+      el("div", { class: "hyp-head" }, el("h3", {}, hyp.title), el("span", { class: "hyp-momentum" }, hyp.momentum), el("span", { class: "hyp-meta" }, `${fmtDay(hyp.firstSeen)} ~ ${fmtDay(hyp.lastSeen)} · 출처 ${hyp.sourceCount}곳 · 근거 ${hyp.evidence.length}건`)),
+      el("p", {}, hyp.thesis),
+      el("span", { class: "label" }, "지금 할 수 있는 선택"), el("p", { class: "implication" }, hyp.implication),
+      el("span", { class: "label" }, "반론"), el("p", {}, hyp.counter),
+      el("span", { class: "label" }, "다음 2주 관찰 포인트"), el("p", {}, hyp.watch),
+      el("div", { class: "evidence-row" }, hyp.evidence.map((ev) => el("a", { class: "ev", href: ev.u, target: "_blank", rel: "noreferrer" }, media(ev), el("div", { class: "ev-body" }, el("b", {}, ev.t), el("span", {}, `${ev.s} · ${fmtDay(ev.day)}`))))),
     ));
-    if (!needsRecovery) return false;
-
-    const response = await fetch("/api/daily-update?target=15&limit=80", {
-      cache: "no-store",
-    });
-    if (!response.ok) throw new Error(`HTTP ${response.status}`);
-    const report = await response.json();
-    if (!report.allTabsComplete) throw new Error("일일 아카이브가 15개를 채우지 못했습니다.");
-    return true;
-  })().finally(() => {
-    state.dailyRecoveryPromise = null;
-  });
-
-  return state.dailyRecoveryPromise;
+  }
+  if (signals.clusters?.length) {
+    frag.append(sectionHead("반복되는 소재", "클릭하면 해당 자료로"));
+    frag.append(el("div", { class: "cluster-strip" }, signals.clusters.map((cluster) => el("button", { class: "cluster", type: "button", onclick: (event) => {
+      const open = event.currentTarget.nextElementSibling;
+      document.querySelectorAll(".cluster").forEach((node) => node.classList.remove("is-active"));
+      event.currentTarget.classList.add("is-active");
+      const grid = document.querySelector("#clusterGrid");
+      grid.innerHTML = "";
+      grid.append(...cluster.evidence.map((ev) => el("a", { class: "ev", href: ev.u, target: "_blank", rel: "noreferrer" }, media(ev), el("div", { class: "ev-body" }, el("b", {}, ev.t), el("span", {}, `${ev.s} · ${fmtDay(ev.day)}`)))));
+      void open;
+    } }, cluster.label, el("b", {}, cluster.ids.length)))));
+    frag.append(el("div", { class: "evidence-row", id: "clusterGrid" }));
+  }
+  if (signals.history?.length > 1) {
+    frag.append(sectionHead("가설 이력"));
+    frag.append(el("ul", { class: "quiet-list" }, signals.history.slice(0, 10).map((entry) => el("li", {}, el("span", {}, `${fmtDay(entry.date)} · `), entry.titles.join(" / ")))));
+  }
+  return frag;
 }
 
-function bindInteractions() {
-  els.viewTabs.forEach((tab) => {
-    tab.addEventListener("click", () => {
-      setView(tab.dataset.view || "updates");
-    });
-  });
-
-  els.query.addEventListener("input", (event) => {
-    const wasEmpty = !state.query.trim();
-    state.query = event.target.value;
-    if (wasEmpty && state.query.trim()) resetResultFilters();
-    document.body.classList.toggle("has-active-search", Boolean(state.query.trim()));
-    scheduleSearch();
-  });
-
-  els.chips.forEach((chip) => {
-    chip.addEventListener("click", () => {
-      if (chip.dataset.filter) state.folderFilter = chip.dataset.filter;
-      if (chip.dataset.kind) state.kindFilter = state.kindFilter === chip.dataset.kind ? "all" : chip.dataset.kind;
-      els.chips.forEach((item) => item.classList.toggle(
-        "is-active",
-        item.dataset.filter === state.folderFilter || item.dataset.kind === state.kindFilter,
-      ));
-      renderResults();
-    });
-  });
-
+/* ---------- brief search ---------- */
+async function runBrief(query) {
+  state.brief = { ...state.brief, query, results: [], board: null, loading: true, error: "" };
+  state.view = "brief";
+  render();
+  try {
+    const layers = Object.entries(state.brief.layers).filter(([, on]) => on).map(([name]) => name).join(",");
+    const payload = await getJson(`/api/brief?q=${encodeURIComponent(query)}&layers=${layers}&n=36`);
+    state.brief.results = payload.results || [];
+    state.brief.mode = payload.mode;
+    state.brief.took = payload.took;
+  } catch (error) {
+    state.brief.error = error.message;
+  }
+  state.brief.loading = false;
+  render();
 }
-
-async function refreshDailyArchives() {
-  await ensureDailyArchive();
-  await Promise.all([
-    loadLatestUpdates(),
-    loadKoreanCodeUpdates(),
-    loadCinemaUpdates(),
-  ]);
+async function composeBrief() {
+  const { query, results } = state.brief;
+  if (!results.length) return;
+  state.brief.composing = true;
+  render();
+  try {
+    const response = await fetch("/api/brief", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ q: query, results: results.slice(0, 30).map((item) => ({ id: item.id, t: item.t, s: item.s, st: item.st, c: item.c, ax: item.ax, sn: item.sn })) }) });
+    const payload = await response.json();
+    state.brief.board = payload.ok ? payload : { error: payload.error || "해설 실패" };
+  } catch (error) {
+    state.brief.board = { error: error.message };
+  }
+  state.brief.composing = false;
+  render();
 }
-
-function scheduleDailyUpdates() {
-  setInterval(() => {
-    refreshDailyArchives().catch(() => {});
-  }, 60 * 60 * 1000);
-  document.addEventListener("visibilitychange", () => {
-    if (!document.hidden && [
-      state.latestUpdateDate,
-      state.latestKoreanCodeDate,
-      state.latestCinemaDate,
-    ].some((date) => date !== todayKey())) {
-      refreshDailyArchives().catch(() => {});
+function resultCard(item) {
+  const layer = { archive: "아카이브", history: "북마크 히스토리", bookmark: "북마크", instagram: "인스타 저장" }[item.l] || item.l;
+  const saveItem = { id: item.id, t: item.t, u: item.u, s: item.s, img: item.img, cat: item.c, ax: item.ax, stl: item.st, sh: item.sh };
+  const key = item.id;
+  return el("div", { class: "mini" },
+    item.img ? media(item) : null,
+    el("span", { class: "m" }, el("span", { class: "layer-tag" }, layer), ` ${item.s || ""}${item.c ? ` · ${item.c}` : ""}${item.f ? ` · ${item.f}` : ""}${item.d ? ` · ${fmtDate(item.d)}` : ""}`),
+    el("a", { href: item.u, target: "_blank", rel: "noreferrer" }, item.t),
+    item.st ? el("span", { class: "pick-steal" }, item.st) : item.sn ? el("span", { class: "m" }, item.sn) : null,
+    el("div", { class: "ref-actions" },
+      item.sh ? el("span", { class: `badge badge-sharp${item.sh >= 8 ? " is-top" : ""}` }, item.sh) : null,
+      el("button", { class: `act${state.taste.saved[key] ? " is-on" : ""}`, type: "button", onclick: (event) => { toggleSaved(saveItem); event.currentTarget.classList.toggle("is-on"); } }, "보드에 담기"),
+    ),
+  );
+}
+function renderBrief() {
+  const frag = document.createDocumentFragment();
+  const brief = state.brief;
+  frag.append(sectionHead("브리프 검색", brief.query ? `"${brief.query}"` : null));
+  frag.append(el("p", { class: "intro" }, "상단 검색창에 브리프를 문장으로 넣으세요. 아카이브 판독, 북마크 히스토리, 인스타 저장 게시물을 의미로 비교해 찾고, 원하면 연출 축별 보드로 묶어 줍니다."));
+  frag.append(el("div", { class: "brief-controls" },
+    ...Object.entries({ archive: "아카이브", history: "북마크·히스토리", instagram: "인스타 저장" }).map(([name, label]) => el("label", {}, el("input", { type: "checkbox", checked: brief.layers[name], onchange: (event) => { brief.layers[name] = event.target.checked; if (brief.query) runBrief(brief.query); } }), label)),
+    brief.results.length ? el("button", { class: "btn btn-small btn-ink", type: "button", disabled: brief.composing, onclick: composeBrief }, brief.composing ? "묶는 중 (20~40초)" : "AI로 연출 축 보드 만들기") : null,
+    brief.mode ? el("span", { class: "status-line" }, `${brief.mode === "semantic" ? "의미 검색" : "키워드 검색"} · ${brief.results.length}개 · ${brief.took}ms`) : null,
+  ));
+  if (brief.loading) frag.append(el("div", { class: "loading-row" }, "브리프를 임베딩해서 비교하는 중"));
+  if (brief.error) frag.append(el("p", { class: "empty-state" }, `검색 실패: ${brief.error}`));
+  if (brief.board) {
+    if (brief.board.error) frag.append(el("p", { class: "status-line" }, brief.board.error));
+    else {
+      const byId = new Map(brief.results.map((item) => [item.id, item]));
+      frag.append(el("div", { class: "board" }, el("p", { class: "board-read" }, brief.board.read), el("p", {}, `빠진 관점 · ${brief.board.gaps}`), el("div", { class: "next-q" }, (brief.board.next || []).map((q) => el("button", { class: "chip", type: "button", onclick: () => { els.briefInput.value = q; runBrief(q); } }, q)))));
+      for (const board of brief.board.boards) {
+        frag.append(el("div", { class: "board" }, el("span", { class: "axis" }, board.axis), el("h3", {}, board.title), el("p", {}, board.why), el("div", { class: "mini-grid" }, board.ids.map((id) => byId.get(id)).filter(Boolean).map(resultCard))));
+      }
     }
+  }
+  if (brief.results.length) frag.append(el("div", { class: "result-list" }, brief.results.map(resultCard)));
+  else if (!brief.loading && brief.query) frag.append(el("p", { class: "empty-state" }, "결과가 없습니다. 더 구체적인 장면이나 질감으로 써 보세요."));
+  return frag;
+}
+
+/* ---------- board ---------- */
+function renderBoard() {
+  const frag = document.createDocumentFragment();
+  const saved = Object.values(state.taste.saved).sort((a, b) => (b.savedAt || "").localeCompare(a.savedAt || ""));
+  const affinity = tasteAffinity();
+  frag.append(sectionHead("내 보드", `${saved.length}개 저장`, el("div", { class: "brief-controls" },
+    el("button", { class: "btn btn-small", type: "button", onclick: () => window.print() }, "인쇄 / PDF"),
+    el("button", { class: "btn btn-small", type: "button", onclick: () => { const text = saved.map((item) => `- ${item.t}\n  ${item.u}${item.stl ? `\n  가져갈 한 수: ${item.stl}` : ""}`).join("\n"); navigator.clipboard?.writeText(text); } }, "텍스트 복사"),
+  )));
+  frag.append(el("p", { class: "intro" }, "이 브라우저에만 저장됩니다. 담은 항목의 분야·출처·연출 축이 '오늘의 픽' 정렬에 반영됩니다."));
+  const topCats = Object.entries(affinity.cat).filter(([, n]) => n > 0).sort((a, b) => b[1] - a[1]).slice(0, 6);
+  if (topCats.length) {
+    const max = topCats[0][1];
+    frag.append(el("ul", { class: "bar-list" }, topCats.map(([label, n]) => el("li", {}, el("span", {}, label), el("i", { style: `width:${Math.round((n / max) * 100)}%` }), el("em", {}, n)))));
+  }
+  if (!saved.length) frag.append(el("p", { class: "empty-state" }, "카드의 '보드에 담기'를 누르면 여기 모입니다."));
+  for (const item of saved) frag.append(referenceCard(item));
+  const syncBox = el("textarea", { class: "sync", placeholder: "다른 기기의 보드 JSON을 붙여넣고 '가져오기'" });
+  frag.append(sectionHead("기기 간 옮기기"), el("div", { class: "brief-controls" },
+    el("button", { class: "btn btn-small", type: "button", onclick: () => { syncBox.value = JSON.stringify(state.taste); syncBox.select(); } }, "내보내기"),
+    el("button", { class: "btn btn-small", type: "button", onclick: () => { try { const incoming = JSON.parse(syncBox.value); state.taste = { saved: { ...state.taste.saved, ...(incoming.saved || {}) }, hidden: { ...state.taste.hidden, ...(incoming.hidden || {}) }, views: {} }; persistTaste(); render(); } catch { syncBox.value = "JSON 형식이 아닙니다."; } } }, "가져오기"),
+  ), syncBox);
+  return frag;
+}
+
+/* ---------- curator ---------- */
+function renderCurator() {
+  const frag = document.createDocumentFragment();
+  const curator = state.curator;
+  const meta = state.meta;
+  frag.append(sectionHead("큐레이터 메모리", curator ? `${fmtDate(curator.generatedAt)} 갱신` : null));
+  if (!curator) { frag.append(el("p", { class: "empty-state" }, "메모리를 불러오지 못했습니다.")); return frag; }
+  frag.append(el("p", { class: "intro" }, `독자: ${curator.reader}. ${curator.taste?.summary || ""}`));
+  frag.append(el("div", { class: "stat-row" },
+    el("div", { class: "stat" }, el("b", {}, `${meta?.readProgress?.read || 0}/${meta?.readProgress?.total || 0}`), el("span", {}, "원문 판독 진행")),
+    el("div", { class: "stat" }, el("b", {}, meta?.sourceCount || 0), el("span", {}, "수집 소스")),
+    el("div", { class: "stat" }, el("b", {}, curator.sources?.counts?.trusted || 0), el("span", {}, "신뢰 소스")),
+    el("div", { class: "stat" }, el("b", {}, curator.sources?.counts?.demoted || 0), el("span", {}, "강등 소스")),
+    el("div", { class: "stat" }, el("b", {}, meta?.search ? meta.search.shards.reduce((sum, shard) => sum + shard.count, 0).toLocaleString() : "-"), el("span", {}, "검색 인덱스 문서")),
+  ));
+  frag.append(el("div", { class: "two-col" },
+    el("div", {}, sectionHead("관심 축"), el("ul", { class: "quiet-list" }, (curator.taste?.core_interests || []).map((line) => el("li", {}, line))), sectionHead("피하는 것"), el("ul", { class: "quiet-list" }, (curator.taste?.avoid || []).map((line) => el("li", {}, line)))),
+    el("div", {}, sectionHead("소스 성적", "판독 keep 비율 기준"), el("ul", { class: "bar-list" }, (curator.sources?.trusted || []).slice(0, 12).map((row) => el("li", {}, el("span", {}, row.name), el("i", { style: `width:${Math.round(row.keepRate * 100)}%` }), el("em", {}, `${Math.round(row.keepRate * 100)}%`)))),
+      curator.sources?.demoted?.length ? el("p", { class: "status-line" }, `강등: ${curator.sources.demoted.map((row) => row.name).join(", ")}`) : null),
+  ));
+  frag.append(el("div", { class: "two-col" },
+    el("div", {}, sectionHead("편집 결정"), el("ul", { class: "quiet-list" }, (curator.decisions || []).map((entry) => el("li", {}, el("span", {}, `${entry.date} · `), entry.decision)))),
+    el("div", {}, sectionHead("파이프라인 로그"), el("ul", { class: "quiet-list" }, (curator.health || []).map((entry) => el("li", {}, el("span", {}, `${fmtDate(entry.at)} · ${entry.agent} · `), entry.agent === "deep-insight" ? `본문 ${entry.daily?.done || 0}(원문 ${entry.daily?.fulltext || 0}) · 백필 ${entry.backfill?.done || 0} · 남은 ${entry.remaining} · 요청 ${entry.requests}${entry.lastError ? ` · 오류: ${entry.lastError}` : ""}` : entry.agent === "signal" ? `가설 ${entry.hypotheses} · 묶음 ${entry.clusters} · 판독 ${entry.readings}` : JSON.stringify(entry))))),
+  ));
+  if (curator.openQuestions?.length) frag.append(sectionHead("열린 질문"), el("ul", { class: "quiet-list" }, curator.openQuestions.map((line) => el("li", {}, line))));
+  return frag;
+}
+
+/* ---------- shell ---------- */
+async function render() {
+  els.tabs.forEach((tab) => tab.classList.toggle("is-active", tab.dataset.view === state.view));
+  els.filterBar.hidden = !TAB_VIEWS.includes(state.view);
+  const token = Symbol("render");
+  state.renderToken = token;
+  let content;
+  try {
+    if (TAB_VIEWS.includes(state.view)) {
+      els.panel.replaceChildren(el("div", { class: "loading-row" }, "아카이브 불러오는 중"));
+      content = await renderTab(state.view);
+    } else if (state.view === "today") content = renderToday();
+    else if (state.view === "signals") content = renderSignals();
+    else if (state.view === "brief") content = renderBrief();
+    else if (state.view === "board") content = renderBoard();
+    else content = renderCurator();
+  } catch (error) {
+    content = el("p", { class: "empty-state" }, `불러오지 못했습니다: ${error.message}`);
+  }
+  if (state.renderToken !== token) return;
+  els.panel.replaceChildren(content);
+  if (state.scrollTop) { window.scrollTo({ top: 0 }); state.scrollTop = false; }
+}
+function switchView(view) {
+  state.view = view;
+  state.scrollTop = true;
+  if (!TAB_VIEWS.includes(view)) { state.axis = ""; state.signal = ""; }
+  const url = new URL(window.location.href);
+  url.searchParams.set("view", view);
+  history.replaceState(null, "", url);
+  render();
+}
+
+function bind() {
+  els.tabs.forEach((tab) => tab.addEventListener("click", () => switchView(tab.dataset.view)));
+  els.localFilter.addEventListener("input", (event) => { clearTimeout(state.queryTimer); state.queryTimer = setTimeout(() => setFilter({ query: event.target.value.trim() }), 300); });
+  els.dateSelect.addEventListener("change", (event) => setFilter({ date: event.target.value }));
+  els.toggleAll.addEventListener("click", () => setFilter({ showAll: !state.showAll }));
+  els.briefForm.addEventListener("submit", (event) => {
+    event.preventDefault();
+    const query = els.briefInput.value.trim();
+    if (!query) return;
+    const url = new URL(window.location.href);
+    url.searchParams.set("q", query);
+    url.searchParams.set("view", "brief");
+    history.replaceState(null, "", url);
+    runBrief(query);
   });
 }
 
 async function init() {
-  state.status = "idle";
-  bindInteractions();
-  setView("updates");
-  renderResults();
-
-  loadStatus().catch((error) => {
-    els.generatedAt.textContent = error.message;
-  });
-  await Promise.all([
-    loadLatestUpdates(),
-    loadKoreanCodeUpdates(),
-    loadCinemaUpdates(),
-  ]);
-  ensureDailyArchive().then((repaired) => {
-    if (repaired) return refreshDailyArchives();
-    return null;
-  }).catch(() => {});
-  scheduleDailyUpdates();
-
-  const initialQuery = new URLSearchParams(window.location.search).get("q") || "";
-  if (initialQuery) {
-    state.query = initialQuery;
-    els.query.value = initialQuery;
-    runLiveSearch();
+  bind();
+  const params = new URLSearchParams(window.location.search);
+  const results = await Promise.allSettled([getJson("./data/meta.json"), getJson("./data/today.json"), getJson("./data/signals.json"), getJson("./data/curator.json")]);
+  [state.meta, state.today, state.signals, state.curator] = results.map((result) => (result.status === "fulfilled" ? result.value : null));
+  if (state.meta) {
+    const total = Object.values(state.meta.tabs).reduce((sum, tab) => sum + tab.itemCount, 0);
+    els.footMeta.textContent = `총 ${total.toLocaleString()}개 보관 · 원문 판독 ${state.meta.readProgress.read.toLocaleString()}개 · 소스 ${state.meta.sourceCount}개 · ${fmtDate(state.meta.generatedAt)} 갱신`;
+    els.mastheadNote.textContent = `매일 원문을 읽고 판독합니다 · 최신 ${fmtDay(state.meta.tabs.updates?.latest)}`;
   }
+  const view = params.get("view");
+  const query = params.get("q");
+  if (query) { els.briefInput.value = query; runBrief(query); return; }
+  if (view && [...els.tabs].some((tab) => tab.dataset.view === view)) state.view = view;
+  render();
 }
 
-init().catch((error) => {
-  els.results.innerHTML = `<p class="empty-state">데이터를 불러오지 못했습니다: ${error.message}</p>`;
-});
+init().catch((error) => { els.panel.replaceChildren(el("p", { class: "empty-state" }, `초기화 실패: ${error.message}`)); });

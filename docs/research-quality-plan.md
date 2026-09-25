@@ -1,42 +1,41 @@
-# Reference Selector Research Quality Plan
+# Reference Selector v2: 리서치 품질 설계
 
 ## 목적
 
-Reference Selector는 검색 페이지가 아니라 매일 축적되는 리서치 아카이브다.  
-기능을 늘릴 때는 탭 구조, 저장 구조, 표시 구조를 분리해서 코드가 꼬이지 않게 유지한다.
+Reference Selector는 검색 페이지가 아니라 매일 원문을 읽고 판독하는 리서치 아카이브다.
+독자는 한국 TVCF 감독이자 브랜드 전략가. 일반론이 아니라 현장에서 바로 써 볼 관찰만 남긴다.
 
-## 탭별 역할
+## 두 층 구조
 
-- `업데이트`: 디자인, 기술, 문화, 시각 레퍼런스의 넓은 동시대 흐름
-- `Korean Code`: 한국적 소재, 감각, 창작 방식이 세계적 맥락과 만나는 사례
-- `Cinema`: 영화 비평, 인터뷰, 영상 언어, 인문학적/예술적 시네마 레퍼런스
+1. **기계 층 (GitHub Actions, `npm run recover:daily`)**: RSS/Google News/북마크에서 후보를 모으고 규칙 기반 게이트로 거른 뒤 `data/archives/*.json`에 보관한다. 판단은 하지 않는다.
+2. **판독 층 (Gemini 무료 등급, 같은 워크플로 안)**:
+   - `scripts/deep-insight-agent.mjs`: 항목마다 원문 본문을 읽고 `item.deep`을 쓴다. keep/sharpness(1~10)/새로움/작동 원리/근거 인용/가져갈 한 수/한계/분류/연출 축/신호. 최근 3일은 원문 본문 기준(항목당 1회 호출), 그 이전은 요약 기준 8개 묶음 백필.
+   - `scripts/signal-agent.mjs`: 최근 14일 판독을 모아 출처 2곳·자료 3개 이상 근거가 붙는 가설만 `data/signals.json`에 쓴다.
+   - `scripts/search-index-agent.mjs`: 아카이브 + 북마크 히스토리 + 인스타 저장 캡션을 임베딩(256d int8)해 `data/search/`에 샤드로 저장. 변경분만 재임베딩.
+   - `scripts/export-site-data.mjs`: `public/data/*.json`으로 내보내고 `data/curator-memory.json`의 소스 성적을 다시 계산한다.
 
-## 데이터 원칙
+## 표시 원칙
 
-- 조회 API는 읽기 전용이어야 한다.
-- 아카이브 저장은 `daily-update` 또는 명시적 업데이트 스크립트에서만 수행한다.
-- 날짜별 탭은 오늘 수집한 스냅샷을 기준으로 묶는다.
-- 원문 발행일은 `originalDate`로 보존한다.
-- 제목은 `titleKo`, 본문은 `summaryKo`를 우선 표시한다.
-- 관련 없는 대체 이미지는 사용하지 않는다.
-- 이미지는 원문 RSS, 원문 페이지, 프로젝트/작품 맥락이 확인되는 경우만 사용한다.
+- `deep.keep`가 false인 항목은 삭제하지 않고 접는다. 접힌 이유를 한 줄로 보여 준다.
+- 원문이 1년 넘게 지난 항목은 '아카이브 발굴' 배지로 구분한다(Korean Code의 오래된 소재는 의도된 자료).
+- 분류는 `scripts/insight-taxonomy.mjs`의 10개 고정 카테고리와 12개 연출 축만 쓴다.
+- 요약만으로 판독한 항목은 '요약 판독' 배지, evidence는 비운다.
 
-## 보완 순서
+## 큐레이터 메모리 (`data/curator-memory.json`)
 
-1. 품질 체크 자동화
-   - 탭별 항목 수, 날짜 수, 한글 제목/요약, 이미지 정책, 분야 분포를 검사한다.
-2. Korean Code 직접 소스 확장
-   - 디자인/광고, 미술, 건축, 사진 분야의 직접 RSS 또는 신뢰 매체를 우선 보강한다.
-3. 요약 품질 개선
-   - RSS 요약이 제목과 같을 때 원문 `description` 또는 첫 문단 추출을 시도한다.
-4. 분야 균형 조정
-   - 특정 분야가 과도하게 많거나 적으면 field별 가중치/최소량을 조정한다.
-5. 운영 리포트
-   - 매일 업데이트 후 실패 소스, 분야 분포, 이미지 수, 한글화 상태를 기록한다.
+- `taste_profile`: 독자의 관심 축(인스타 저장 8,624개 자기분석에서 시드). 판독 프롬프트에 들어간다.
+- `source_quality`: 출처별 seen/kept/keepRate/avgSharpness. 8개 이상 보고 keep 20% 미만이면 `demoted` → 다음 수집부터 제외.
+- `pipeline_health_log`: 에이전트별 실행 기록 90건.
+- `editorial_decisions`, `open_questions`: 편집 결정과 다음에 볼 질문.
 
-## 현재 1차 기준
+## 무료 등급 예산
 
-- `업데이트`: 최소 100개 이상, 날짜 1개 이상
-- `Korean Code`: 최소 60개 이상, 5개 이상 분야, 한글 제목/요약 필수
-- `Cinema`: 최소 60개 이상, 이미지 비율 80% 이상, 한글 제목/요약 필수
-- 모든 탭: `related` 이미지는 실패로 간주
+- 텍스트 모델: `gemini-3.5-flash-lite`, `gemini-3.1-flash-lite`(각 15 RPM / 500 RPD, 회전 사용). 하루 판독 예산은 워크플로 기본값 90(본문) + 120(백필 묶음).
+- 임베딩: `gemini-embedding-001` 256차원. 100개 묶음 호출.
+- `/api/brief`: 질의 임베딩 1회 + 선택적 보드 구성 1회.
+
+## 검증
+
+- `npm run verify` (문법 + `quality:check`)
+- 배포 후 `public/data/meta.json`의 `generatedAt`과 `readProgress`가 갱신됐는지 확인.
+- 큐레이터 탭의 파이프라인 로그에 `deep-insight`, `signal` 항목이 매일 추가되는지 확인.

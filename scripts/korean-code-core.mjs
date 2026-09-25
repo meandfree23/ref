@@ -10,6 +10,18 @@ import {
 } from "./korean-translation-core.mjs";
 import { getHistoryReserveCandidates } from "./history-reserve-core.mjs";
 import { canonicalCurationUrl } from "./curation-policy.mjs";
+import { isBlockedItem } from "./source-policy.mjs";
+
+// Google News search results older than this are almost always stale
+// re-surfacings; user bookmarks are exempt because they are chosen on purpose.
+const staleNewsDays = 540;
+function isStaleNewsItem(item = {}) {
+  if (item.sourceLayer === "bookmark-history" || item.sourceLayer === "bookmark-up") return false;
+  const original = item.originalDate || item.date;
+  if (!original) return false;
+  const age = (Date.now() - new Date(original).getTime()) / 86400000;
+  return Number.isFinite(age) && age > staleNewsDays;
+}
 
 const { GoogleDecoder } = googleNewsUrlDecoder;
 
@@ -500,6 +512,8 @@ export async function getLatestKoreanCodeUpdates({
   });
   const rankedCandidates = dedupe([...results.flatMap((result) => result.items), ...historyReserve])
     .filter((item) => !excludedUrls.has(canonicalCurationUrl(item.url)))
+    .filter((item) => !isBlockedItem(item))
+    .filter((item) => !isStaleNewsItem(item))
     .map((item) => ({ item, quality: scoreItem(item) }))
     .filter(({ quality }) => quality.lowHits.length === 0)
     .filter(({ quality }) => quality.koreanHits.length > 0)

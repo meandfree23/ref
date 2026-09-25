@@ -4,104 +4,53 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Reference Selector</title>
-    <link rel="stylesheet" href="./styles.css" />
+    <meta name="description" content="광고 감독을 위한 레퍼런스 리서치 아카이브. 매일 원문을 읽고 날카로운 관찰만 남깁니다." />
+    <link rel="stylesheet" href="./styles.css?v=2" />
   </head>
   <body>
     <main class="app-shell">
-      <section class="toolbar" aria-label="검색과 필터">
-        <div class="title-block">
+      <header class="masthead">
+        <div class="masthead-brand">
           <p class="eyebrow">References · Ideas · Culture</p>
           <h1>Reference Selector</h1>
+          <p class="masthead-note" id="mastheadNote">원문을 읽고 판독한 레퍼런스 아카이브</p>
         </div>
-        <label class="search-box">
-          <span>자연어 검색</span>
-          <input id="queryInput" type="search" placeholder="네이티브 코딩 같은 인터랙션 레퍼런스, 패션 영상 무드, 일상언어 AI 검색 경험" autofocus />
-        </label>
-      </section>
+        <form class="masthead-search" id="briefForm" role="search">
+          <label for="briefInput">브리프로 찾기</label>
+          <div class="masthead-search-row">
+            <input id="briefInput" type="search" placeholder="예: 20대 여성 타깃 핀테크 광고, 손으로 만든 질감과 빠른 편집" autocomplete="off" />
+            <button type="submit" class="btn btn-ink">검색</button>
+          </div>
+        </form>
+      </header>
 
       <nav class="view-tabs" aria-label="리서치 보기">
-        <button class="view-tab is-active" type="button" data-view="updates">업데이트</button>
+        <button class="view-tab is-active" type="button" data-view="today">오늘의 픽</button>
+        <button class="view-tab" type="button" data-view="updates">업데이트</button>
         <button class="view-tab" type="button" data-view="korean-code">Korean Code</button>
         <button class="view-tab" type="button" data-view="cinema">Cinema</button>
+        <button class="view-tab" type="button" data-view="signals">시그널</button>
+        <button class="view-tab" type="button" data-view="brief">브리프 검색</button>
+        <button class="view-tab" type="button" data-view="board">내 보드</button>
+        <button class="view-tab view-tab--quiet" type="button" data-view="curator">큐레이터</button>
       </nav>
 
-      <div class="search-options">
-        <section class="controls controls--folders" aria-label="폴더 필터">
-          <button class="chip is-active" type="button" data-filter="all">전체</button>
-          <button class="chip" type="button" data-filter="up">up</button>
-          <button class="chip" type="button" data-filter="작가">작가</button>
-          <button class="chip" type="button" data-filter="design">design</button>
-          <button class="chip" type="button" data-filter="blog">blog</button>
-          <button class="chip" type="button" data-filter="magazine">magazine</button>
-        </section>
-
-        <section class="controls controls--media" aria-label="매체 필터">
-          <button class="chip" type="button" data-kind="image">이미지</button>
-          <button class="chip" type="button" data-kind="video">영상</button>
-        </section>
-
-      </div>
-
-      <section class="content-grid">
-        <section class="results-panel" aria-label="실시간 검색 결과">
-          <section id="updatesPanel" class="updates-panel" aria-label="최신 업데이트" hidden>
-            <div class="updates-header">
-              <p>업데이트 아카이브</p>
-              <span id="updatesMeta"></span>
-            </div>
-          <div id="updatesList" class="updates-list"></div>
-          </section>
-
-          <section id="koreanCodePanel" class="updates-panel korean-code-panel" aria-label="Korean Code 리서치" hidden>
-            <div class="updates-header">
-              <p>Korean Code</p>
-              <span id="koreanCodeMeta"></span>
-            </div>
-            <div id="koreanCodeList" class="updates-list"></div>
-          </section>
-
-          <section id="cinemaPanel" class="updates-panel cinema-panel" aria-label="Cinema 리서치" hidden>
-            <div class="updates-header">
-              <p>Cinema</p>
-              <span id="cinemaMeta"></span>
-            </div>
-            <div id="cinemaList" class="updates-list"></div>
-          </section>
-
-          <div class="meta-line">
-            <span id="resultCount">검색어를 입력하면 현재 북마크 원본 사이트를 검토합니다.</span>
-            <span id="generatedAt"></span>
-          </div>
-          <div id="networkPanel" class="network-panel" hidden></div>
-          <div id="results" class="cards"></div>
-        </section>
+      <section class="filter-bar" id="filterBar" hidden>
+        <div class="filter-strip" id="categoryChips"></div>
+        <div class="filter-side">
+          <label class="filter-search"><input id="localFilter" type="search" placeholder="아카이브 안에서 바로 찾기" /></label>
+          <select id="dateSelect" class="filter-select" aria-label="날짜"></select>
+          <button class="chip chip-toggle" id="toggleAll" type="button" aria-pressed="false">접힌 항목 보기</button>
+        </div>
       </section>
+
+      <section class="panel" id="panel" aria-live="polite"></section>
+
+      <footer class="site-foot">
+        <span id="footMeta"></span>
+        <span>ref-smoky.vercel.app · 매일 07:10 KST 자동 판독</span>
+      </footer>
     </main>
-
-    <template id="cardTemplate">
-      <article class="ref-card">
-        <a class="media-preview" target="_blank" rel="noreferrer">
-          <img alt="" />
-        </a>
-        <div class="card-top">
-          <img class="favicon" alt="" />
-          <span class="kind"></span>
-        </div>
-        <h3></h3>
-        <p class="path"></p>
-        <div class="curation"></div>
-        <p class="snippet"></p>
-        <p class="host"><span class="layer"></span><span class="host-name"></span></p>
-        <div class="card-actions">
-          <a class="origin" target="_blank" rel="noreferrer">원본</a>
-          <a class="images" target="_blank" rel="noreferrer">이미지 원본</a>
-          <a class="videos" target="_blank" rel="noreferrer">영상 원본</a>
-        </div>
-      </article>
-    </template>
-
-    <script src="./static-updates.js"></script>
-    <script src="./korean-code.js"></script>
-    <script src="./app.js"></script>
+    <script src="./app.js?v=2"></script>
   </body>
 </html>

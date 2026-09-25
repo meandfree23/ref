@@ -6,7 +6,7 @@ import { referenceLensCoverage } from "./reference-lenses.mjs";
 
 const discoveryReportPath = path.resolve("data/discovery-report.json");
 const socialReportPath = path.resolve("data/social-discovery-report.json");
-const staticArchivePath = path.resolve("public/static-updates.js");
+import { readLegacyArchivePayload } from "./legacy-archive-payload.mjs";
 const lifeStatePath = path.resolve("data/life-state.json");
 const offspringPath = path.resolve("data/life-offspring.json");
 
@@ -34,10 +34,7 @@ function readJson(file, fallback = null) {
 }
 
 function readStaticArchive() {
-  const text = fs.readFileSync(staticArchivePath, "utf8");
-  const match = text.match(/window\.__STATIC_UPDATE_ARCHIVE__ = ([\s\S]*);\s*$/);
-  if (!match) throw new Error("static archive payload not found");
-  return JSON.parse(match[1]);
+  return readLegacyArchivePayload();
 }
 
 function fieldCounts(items = []) {

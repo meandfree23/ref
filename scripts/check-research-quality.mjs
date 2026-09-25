@@ -7,14 +7,11 @@ import { todayKstKey } from "./research-policy.mjs";
 import { isDegradedKoreanTranslation } from "./korean-translation-core.mjs";
 import { evaluateCreativeUpdate } from "./updates-core.mjs";
 
-const staticArchivePath = path.resolve("public/static-updates.js");
+import { readLegacyArchivePayload } from "./legacy-archive-payload.mjs";
 const recoveryPlaybookPath = path.resolve("data/recovery-playbook.json");
 
 function readStaticArchive() {
-  const text = fs.readFileSync(staticArchivePath, "utf8");
-  const match = text.match(/window\.__STATIC_UPDATE_ARCHIVE__ = ([\s\S]*);\s*$/);
-  if (!match) throw new Error("static archive payload not found");
-  return JSON.parse(match[1]);
+  return readLegacyArchivePayload();
 }
 
 function countBy(items, key) {

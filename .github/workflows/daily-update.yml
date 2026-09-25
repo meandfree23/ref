@@ -4,7 +4,11 @@ on:
   schedule:
     # 07:10 Asia/Seoul (UTC+9) every day
     - cron: "10 22 * * *"
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      backfill_budget:
+        description: "Extra backfill batches for the deep reader (8 items each)"
+        default: "120"
 
 permissions:
   contents: write
@@ -16,7 +20,9 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 75
+    env:
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -29,20 +35,37 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Run daily recovery and update
+      - name: Collect today's references (mechanical layer)
         run: npm run recover:daily
 
-      - name: Re-export static archive
-        run: npm run export:archive
-
-      - name: Commit and push updated data
+      - name: Commit collected references first
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet || git commit -m "Collect references [$(date -u +%Y-%m-%d)]"
+
+      - name: Deep reading (grounded LLM insight per item)
+        continue-on-error: true
+        run: node scripts/deep-insight-agent.mjs --daily-budget=90 --backfill-budget=${{ github.event.inputs.backfill_budget || '120' }} --daily-days=3 --batch=8 --concurrency=4
+
+      - name: Signal hypotheses (cross-item trends)
+        continue-on-error: true
+        run: node scripts/signal-agent.mjs --days=14
+
+      - name: Semantic search index (incremental)
+        continue-on-error: true
+        run: node scripts/search-index-agent.mjs --max=3000
+
+      - name: Export site data
+        run: npm run export:archive
+
+      - name: Commit and push
+        run: |
           git add data public
           if git diff --cached --quiet; then
-            echo "No data changes to commit."
+            echo "No further changes."
           else
             git commit -m "Automated daily update [$(date -u +%Y-%m-%d)]"
-            git push
           fi
+          git push

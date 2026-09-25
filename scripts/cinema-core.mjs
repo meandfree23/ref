@@ -1,4 +1,5 @@
 import fs from "node:fs";
+import { isBlockedItem } from "./source-policy.mjs";
 import path from "node:path";
 import { enrichWithContentInsight } from "./content-insight-core.mjs";
 import {
@@ -256,6 +257,7 @@ export async function getLatestCinemaUpdates({ limit = 30, enrich = true, exclud
   });
   const candidates = dedupe([...results.flatMap((result) => result.items), ...historyReserve])
     .filter((item) => !excludedUrls.has(canonicalCurationUrl(item.url)))
+    .filter((item) => !isBlockedItem(item, { honourDemotion: false }))
     .filter(isEditorialCinema)
     .sort((a, b) => {
       const scoreDiff = scoreItem(b) - scoreItem(a);

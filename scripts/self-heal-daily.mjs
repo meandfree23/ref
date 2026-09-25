@@ -1,4 +1,5 @@
 import fs from "node:fs";
+import { readLegacyArchivePayload } from "./legacy-archive-payload.mjs";
 import path from "node:path";
 import { spawnSync } from "node:child_process";
 import { createHash } from "node:crypto";
@@ -13,7 +14,6 @@ const protectedFiles = [
   "data/archives/korean-code-archive.json",
   "data/archives/cinema-archive.json",
   "data/bookmark-history-index.json",
-  "public/static-updates.js",
 ];
 
 function run(id, command, args = [], options = {}) {
@@ -70,10 +70,7 @@ function classify(output = "") {
 
 function readArchiveDebt(target = 15) {
   try {
-    const text = fs.readFileSync(path.resolve("public/static-updates.js"), "utf8");
-    const match = text.match(/window\.__STATIC_UPDATE_ARCHIVE__ = ([\s\S]*);\s*$/);
-    if (!match) return null;
-    const payload = JSON.parse(match[1]);
+    const payload = readLegacyArchivePayload();
     const tabs = {
       updates: payload.items || [],
       koreanCode: payload.koreanCode?.items || [],

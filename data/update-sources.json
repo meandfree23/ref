@@ -1,7 +1,118 @@
 {
-  "updatedAt": "2026-09-14",
+  "updatedAt": "2026-09-25T14:11:41.181Z",
   "description": "Trusted editorial feeds and method-focused discovery queries balanced across moving-image craft, exhibition, short film, advertising, strategy and culture.",
   "sources": [
+    {
+      "id": "directors-library",
+      "name": "Directors Library",
+      "publisherName": "Directors Library",
+      "resolveGoogleNews": true,
+      "url": "https://www.directorslibrary.com/",
+      "feedUrls": [
+        "https://news.google.com/rss/search?q=site%3Adirectorslibrary.com%20when%3A30d&hl=en-US&gl=US&ceid=US:en"
+      ],
+      "focus": "commercial and music video directors, treatments and craft",
+      "referenceLenses": [
+        "moving-image-language",
+        "production-craft"
+      ]
+    },
+    {
+      "id": "shots",
+      "name": "shots",
+      "publisherName": "shots",
+      "resolveGoogleNews": true,
+      "url": "https://www.shots.net/",
+      "feedUrls": [
+        "https://news.google.com/rss/search?q=site%3Ashots.net%20when%3A14d&hl=en-US&gl=US&ceid=US:en"
+      ],
+      "focus": "commercial directors, craft and creative production",
+      "referenceLenses": [
+        "brand-advertising",
+        "moving-image-language"
+      ]
+    },
+    {
+      "id": "ads-of-the-world",
+      "name": "Ads of the World",
+      "publisherName": "Ads of the World",
+      "resolveGoogleNews": true,
+      "url": "https://www.adsoftheworld.com/",
+      "feedUrls": [
+        "https://news.google.com/rss/search?q=site%3Aadsoftheworld.com%20when%3A7d&hl=en-US&gl=US&ceid=US:en"
+      ],
+      "focus": "advertising campaigns and executions worldwide",
+      "referenceLenses": [
+        "brand-advertising",
+        "strategy-planning"
+      ]
+    },
+    {
+      "id": "lbb-online",
+      "name": "LBB Online",
+      "publisherName": "LBB Online",
+      "resolveGoogleNews": true,
+      "url": "https://lbbonline.com/",
+      "feedUrls": [
+        "https://news.google.com/rss/search?q=site%3Albbonline.com%20when%3A7d&hl=en-US&gl=US&ceid=US:en"
+      ],
+      "focus": "commercial production, directors, campaigns and craft credits",
+      "referenceLenses": [
+        "brand-advertising",
+        "production-craft"
+      ]
+    },
+    {
+      "id": "colossal",
+      "name": "Colossal",
+      "url": "https://www.thisiscolossal.com/",
+      "feedUrls": [
+        "https://www.thisiscolossal.com/feed/"
+      ],
+      "focus": "art, craft, material and visual culture",
+      "referenceLenses": [
+        "culture-signal",
+        "exhibition-space"
+      ]
+    },
+    {
+      "id": "booooooom",
+      "name": "Booooooom",
+      "url": "https://www.booooooom.com/",
+      "feedUrls": [
+        "https://www.booooooom.com/feed/"
+      ],
+      "focus": "photography, illustration and emerging visual artists",
+      "referenceLenses": [
+        "culture-signal"
+      ]
+    },
+    {
+      "id": "promonews",
+      "name": "Promonews",
+      "url": "https://www.promonews.tv/",
+      "feedUrls": [
+        "https://www.promonews.tv/feed"
+      ],
+      "focus": "music video and commercial directors, production craft",
+      "referenceLenses": [
+        "moving-image-language",
+        "production-craft"
+      ]
+    },
+    {
+      "id": "vimeo-staff-picks",
+      "name": "Vimeo Staff Picks",
+      "url": "https://vimeo.com/channels/staffpicks",
+      "feedUrls": [
+        "https://vimeo.com/channels/staffpicks/videos/rss"
+      ],
+      "focus": "short films, music videos, commercials and directing craft",
+      "referenceLenses": [
+        "short-film-story",
+        "moving-image-language"
+      ]
+    },
     {
       "id": "its-nice-that",
       "name": "It's Nice That",
@@ -12,7 +123,10 @@
         "http://feeds2.feedburner.com/itsnicethat/SlXC"
       ],
       "focus": "creative culture, design, art, photography",
-      "referenceLenses": ["culture-signal", "brand-advertising"]
+      "referenceLenses": [
+        "culture-signal",
+        "brand-advertising"
+      ]
     },
     {
       "id": "creative-review",
@@ -28,7 +142,11 @@
         "https://www.creativereview.co.uk/wp-json/wp/v2/posts?per_page=20&_embed=1"
       ],
       "focus": "advertising, design, visual culture",
-      "referenceLenses": ["brand-advertising", "strategy-planning", "culture-signal"]
+      "referenceLenses": [
+        "brand-advertising",
+        "strategy-planning",
+        "culture-signal"
+      ]
     },
     {
       "id": "dezeen",
@@ -38,7 +156,10 @@
         "https://www.dezeen.com/feed/"
       ],
       "focus": "architecture, interiors, design",
-      "referenceLenses": ["exhibition-space", "culture-signal"]
+      "referenceLenses": [
+        "exhibition-space",
+        "culture-signal"
+      ]
     },
     {
       "id": "designboom",
@@ -48,7 +169,10 @@
         "https://www.designboom.com/feed/"
       ],
       "focus": "design, art, architecture",
-      "referenceLenses": ["exhibition-space", "culture-signal"]
+      "referenceLenses": [
+        "exhibition-space",
+        "culture-signal"
+      ]
     },
     {
       "id": "motionographer",
@@ -58,7 +182,11 @@
         "https://motionographer.com/feed/"
       ],
       "focus": "motion design, animation, film",
-      "referenceLenses": ["production-craft", "moving-image-language", "brand-advertising"]
+      "referenceLenses": [
+        "production-craft",
+        "moving-image-language",
+        "brand-advertising"
+      ]
     },
     {
       "id": "dazed",
@@ -68,7 +196,10 @@
         "https://www.dazeddigital.com/rss"
       ],
       "focus": "youth culture, fashion, art, music",
-      "referenceLenses": ["culture-signal", "moving-image-language"]
+      "referenceLenses": [
+        "culture-signal",
+        "moving-image-language"
+      ]
     },
     {
       "id": "wired",
@@ -78,7 +209,11 @@
         "https://www.wired.com/feed/rss"
       ],
       "focus": "technology, AI, culture",
-      "referenceLenses": ["culture-signal", "production-craft", "strategy-planning"]
+      "referenceLenses": [
+        "culture-signal",
+        "production-craft",
+        "strategy-planning"
+      ]
     },
     {
       "id": "rest-of-world",
@@ -88,7 +223,10 @@
         "https://restofworld.org/feed/"
       ],
       "focus": "global technology culture",
-      "referenceLenses": ["culture-signal", "strategy-planning"]
+      "referenceLenses": [
+        "culture-signal",
+        "strategy-planning"
+      ]
     },
     {
       "id": "directors-notes",
@@ -98,7 +236,11 @@
         "https://directorsnotes.com/feed/"
       ],
       "focus": "short film, director interview, cinematography, narrative, production process",
-      "referenceLenses": ["short-film-story", "moving-image-language", "production-craft"]
+      "referenceLenses": [
+        "short-film-story",
+        "moving-image-language",
+        "production-craft"
+      ]
     },
     {
       "id": "stash",
@@ -108,7 +250,11 @@
         "https://www.stashmedia.tv/feed/"
       ],
       "focus": "motion design, animation, VFX, title sequence, brand film, production craft",
-      "referenceLenses": ["production-craft", "moving-image-language", "brand-advertising"]
+      "referenceLenses": [
+        "production-craft",
+        "moving-image-language",
+        "brand-advertising"
+      ]
     },
     {
       "id": "nowness",
@@ -118,7 +264,11 @@
         "https://www.nowness.com/rss"
       ],
       "focus": "art film, fashion film, music video, documentary, global visual culture",
-      "referenceLenses": ["moving-image-language", "short-film-story", "culture-signal"]
+      "referenceLenses": [
+        "moving-image-language",
+        "short-film-story",
+        "culture-signal"
+      ]
     },
     {
       "id": "creative-boom",
@@ -128,7 +278,11 @@
         "https://www.creativeboom.com/feed/"
       ],
       "focus": "creative industry, branding, advertising, creator interview, strategy",
-      "referenceLenses": ["brand-advertising", "strategy-planning", "culture-signal"]
+      "referenceLenses": [
+        "brand-advertising",
+        "strategy-planning",
+        "culture-signal"
+      ]
     },
     {
       "id": "adweek",
@@ -138,119 +292,203 @@
         "https://www.adweek.com/feed/"
       ],
       "focus": "marketing, audience insight, brand strategy, advertising campaign, media planning",
-      "referenceLenses": ["strategy-planning", "brand-advertising"]
+      "referenceLenses": [
+        "strategy-planning",
+        "brand-advertising"
+      ]
     },
     {
       "id": "discovery-creative-direction",
       "name": "Creative Direction Discovery",
       "url": "https://news.google.com/",
-      "feedUrls": ["https://news.google.com/rss/search?q=creative%20director%20interview%20visual%20identity%20process&hl=en-US&gl=US&ceid=US:en"],
+      "feedUrls": [
+        "https://news.google.com/rss/search?q=creative%20director%20interview%20visual%20identity%20process&hl=en-US&gl=US&ceid=US:en"
+      ],
       "focus": "creative direction, visual identity, process and transferable decisions",
-      "referenceLenses": ["brand-advertising", "production-craft", "strategy-planning"]
+      "referenceLenses": [
+        "brand-advertising",
+        "production-craft",
+        "strategy-planning"
+      ]
     },
     {
       "id": "discovery-design-case-study",
       "name": "Design Case Study Discovery",
       "url": "https://news.google.com/",
-      "feedUrls": ["https://news.google.com/rss/search?q=design%20studio%20case%20study%20branding%20typography%20process&hl=en-US&gl=US&ceid=US:en"],
+      "feedUrls": [
+        "https://news.google.com/rss/search?q=design%20studio%20case%20study%20branding%20typography%20process&hl=en-US&gl=US&ceid=US:en"
+      ],
       "focus": "design systems, typography, identity and documented making choices",
-      "referenceLenses": ["brand-advertising", "production-craft"]
+      "referenceLenses": [
+        "brand-advertising",
+        "production-craft"
+      ]
     },
     {
       "id": "discovery-advertising-strategy",
       "name": "Advertising Strategy Discovery",
       "url": "https://news.google.com/",
-      "feedUrls": ["https://news.google.com/rss/search?q=advertising%20campaign%20creative%20strategy%20behind%20the%20scenes&hl=en-US&gl=US&ceid=US:en"],
+      "feedUrls": [
+        "https://news.google.com/rss/search?q=advertising%20campaign%20creative%20strategy%20behind%20the%20scenes&hl=en-US&gl=US&ceid=US:en"
+      ],
       "focus": "campaign ideas, audience insight, creative strategy and execution",
-      "referenceLenses": ["strategy-planning", "brand-advertising"]
+      "referenceLenses": [
+        "strategy-planning",
+        "brand-advertising"
+      ]
     },
     {
       "id": "discovery-film-craft",
       "name": "Film Craft Discovery",
       "url": "https://news.google.com/",
-      "feedUrls": ["https://news.google.com/rss/search?q=film%20director%20cinematography%20production%20design%20interview&hl=en-US&gl=US&ceid=US:en"],
+      "feedUrls": [
+        "https://news.google.com/rss/search?q=film%20director%20cinematography%20production%20design%20interview&hl=en-US&gl=US&ceid=US:en"
+      ],
       "focus": "directing, cinematography, production design and visual storytelling",
-      "referenceLenses": ["moving-image-language", "short-film-story", "production-craft"]
+      "referenceLenses": [
+        "moving-image-language",
+        "short-film-story",
+        "production-craft"
+      ]
     },
     {
       "id": "discovery-motion-vfx",
       "name": "Motion and VFX Discovery",
       "url": "https://news.google.com/",
-      "feedUrls": ["https://news.google.com/rss/search?q=motion%20design%20animation%20making%20of%20VFX%20studio&hl=en-US&gl=US&ceid=US:en"],
+      "feedUrls": [
+        "https://news.google.com/rss/search?q=motion%20design%20animation%20making%20of%20VFX%20studio&hl=en-US&gl=US&ceid=US:en"
+      ],
       "focus": "motion systems, animation, VFX and production workflow",
-      "referenceLenses": ["moving-image-language", "production-craft"]
+      "referenceLenses": [
+        "moving-image-language",
+        "production-craft"
+      ]
     },
     {
       "id": "discovery-space-installation",
       "name": "Space and Installation Discovery",
       "url": "https://news.google.com/",
-      "feedUrls": ["https://news.google.com/rss/search?q=installation%20exhibition%20architecture%20design%20process%20interview&hl=en-US&gl=US&ceid=US:en"],
+      "feedUrls": [
+        "https://news.google.com/rss/search?q=installation%20exhibition%20architecture%20design%20process%20interview&hl=en-US&gl=US&ceid=US:en"
+      ],
       "focus": "spatial narrative, exhibitions, installations and architecture",
-      "referenceLenses": ["exhibition-space", "production-craft", "culture-signal"]
+      "referenceLenses": [
+        "exhibition-space",
+        "production-craft",
+        "culture-signal"
+      ]
     },
     {
       "id": "discovery-editorial-design",
       "name": "Editorial Design Discovery",
       "url": "https://news.google.com/",
-      "feedUrls": ["https://news.google.com/rss/search?q=editorial%20design%20graphic%20design%20case%20study%20typography&hl=en-US&gl=US&ceid=US:en"],
+      "feedUrls": [
+        "https://news.google.com/rss/search?q=editorial%20design%20graphic%20design%20case%20study%20typography&hl=en-US&gl=US&ceid=US:en"
+      ],
       "focus": "editorial systems, graphic design, typography and publication formats",
-      "referenceLenses": ["brand-advertising", "production-craft", "culture-signal"]
+      "referenceLenses": [
+        "brand-advertising",
+        "production-craft",
+        "culture-signal"
+      ]
     },
     {
       "id": "discovery-fashion-image",
       "name": "Fashion Image Discovery",
       "url": "https://news.google.com/",
-      "feedUrls": ["https://news.google.com/rss/search?q=fashion%20film%20photography%20creative%20direction%20interview&hl=en-US&gl=US&ceid=US:en"],
+      "feedUrls": [
+        "https://news.google.com/rss/search?q=fashion%20film%20photography%20creative%20direction%20interview&hl=en-US&gl=US&ceid=US:en"
+      ],
       "focus": "fashion film, photography, styling and image direction",
-      "referenceLenses": ["moving-image-language", "brand-advertising", "culture-signal"]
+      "referenceLenses": [
+        "moving-image-language",
+        "brand-advertising",
+        "culture-signal"
+      ]
     },
     {
       "id": "discovery-music-video",
       "name": "Music Video Discovery",
       "url": "https://news.google.com/",
-      "feedUrls": ["https://news.google.com/rss/search?q=music%20video%20director%20production%20design%20making%20of%20interview&hl=en-US&gl=US&ceid=US:en"],
+      "feedUrls": [
+        "https://news.google.com/rss/search?q=music%20video%20director%20production%20design%20making%20of%20interview&hl=en-US&gl=US&ceid=US:en"
+      ],
       "focus": "music video direction, production design and visual experimentation",
-      "referenceLenses": ["moving-image-language", "short-film-story", "production-craft"]
+      "referenceLenses": [
+        "moving-image-language",
+        "short-film-story",
+        "production-craft"
+      ]
     },
     {
       "id": "discovery-exhibition-design",
       "name": "Exhibition Design Discovery",
       "url": "https://news.google.com/",
-      "feedUrls": ["https://news.google.com/rss/search?q=museum%20exhibition%20design%20installation%20case%20study%20studio&hl=en-US&gl=US&ceid=US:en"],
+      "feedUrls": [
+        "https://news.google.com/rss/search?q=museum%20exhibition%20design%20installation%20case%20study%20studio&hl=en-US&gl=US&ceid=US:en"
+      ],
       "focus": "exhibition design, visitor sequence, installation and spatial storytelling",
-      "referenceLenses": ["exhibition-space", "production-craft", "strategy-planning"]
+      "referenceLenses": [
+        "exhibition-space",
+        "production-craft",
+        "strategy-planning"
+      ]
     },
     {
       "id": "discovery-interactive-experience",
       "name": "Interactive Experience Discovery",
       "url": "https://news.google.com/",
-      "feedUrls": ["https://news.google.com/rss/search?q=interactive%20experience%20creative%20technology%20design%20case%20study&hl=en-US&gl=US&ceid=US:en"],
+      "feedUrls": [
+        "https://news.google.com/rss/search?q=interactive%20experience%20creative%20technology%20design%20case%20study&hl=en-US&gl=US&ceid=US:en"
+      ],
       "focus": "interaction, creative technology, audience behavior and experience design",
-      "referenceLenses": ["production-craft", "strategy-planning", "culture-signal"]
+      "referenceLenses": [
+        "production-craft",
+        "strategy-planning",
+        "culture-signal"
+      ]
     },
     {
       "id": "discovery-documentary-photography",
       "name": "Documentary Photography Discovery",
       "url": "https://news.google.com/",
-      "feedUrls": ["https://news.google.com/rss/search?q=documentary%20photographer%20project%20interview%20visual%20storytelling&hl=en-US&gl=US&ceid=US:en"],
+      "feedUrls": [
+        "https://news.google.com/rss/search?q=documentary%20photographer%20project%20interview%20visual%20storytelling&hl=en-US&gl=US&ceid=US:en"
+      ],
       "focus": "documentary image-making, framing, research and visual storytelling",
-      "referenceLenses": ["moving-image-language", "culture-signal", "production-craft"]
+      "referenceLenses": [
+        "moving-image-language",
+        "culture-signal",
+        "production-craft"
+      ]
     },
     {
       "id": "discovery-title-sequence",
       "name": "Title Sequence Discovery",
       "url": "https://news.google.com/",
-      "feedUrls": ["https://news.google.com/rss/search?q=title%20sequence%20design%20studio%20interview%20process&hl=en-US&gl=US&ceid=US:en"],
+      "feedUrls": [
+        "https://news.google.com/rss/search?q=title%20sequence%20design%20studio%20interview%20process&hl=en-US&gl=US&ceid=US:en"
+      ],
       "focus": "title design, motion language, typography and narrative compression",
-      "referenceLenses": ["moving-image-language", "production-craft", "short-film-story"]
+      "referenceLenses": [
+        "moving-image-language",
+        "production-craft",
+        "short-film-story"
+      ]
     },
     {
       "id": "discovery-set-design",
       "name": "Set Design Discovery",
       "url": "https://news.google.com/",
-      "feedUrls": ["https://news.google.com/rss/search?q=set%20design%20production%20designer%20commercial%20interview%20process&hl=en-US&gl=US&ceid=US:en"],
+      "feedUrls": [
+        "https://news.google.com/rss/search?q=set%20design%20production%20designer%20commercial%20interview%20process&hl=en-US&gl=US&ceid=US:en"
+      ],
       "focus": "set design, art direction, commercial production and spatial image-making",
-      "referenceLenses": ["production-craft", "moving-image-language", "brand-advertising"]
+      "referenceLenses": [
+        "production-craft",
+        "moving-image-language",
+        "brand-advertising"
+      ]
     }
   ]
 }

@@ -286,6 +286,16 @@
         "https://news.google.com/rss/search?q=Korean%20museum%20curator%20exhibition%20making%20interview&hl=en-US&gl=US&ceid=US:en"
       ],
       "focus": "choreography, theatre, writing, sound and curatorial narrative methods"
+    },
+    {
+      "id": "monthly-design",
+      "name": "월간디자인",
+      "field": "디자인/광고",
+      "url": "https://mdesign.designhouse.co.kr/",
+      "feedUrls": [
+        "https://mdesign.designhouse.co.kr/rss"
+      ],
+      "focus": "Korean design practice, studios, exhibitions and brand work"
     }
   ]
 }

@@ -23,6 +23,7 @@ jobs:
     timeout-minutes: 75
     env:
       GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      GEMINI_EMBED_KEYS: ${{ secrets.GEMINI_EMBED_KEYS }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4

@@ -1,5 +1,5 @@
 // Builds the semantic search index used by /api/brief.
-// Layers: archive (3 tabs, sharded by month), bookmarks + history, instagram.
+// Layers: archive (3 tabs, sharded by month), bookmarks + history.
 // Incremental: a doc is re-embedded only when its text hash changes.
 //   node scripts/search-index-agent.mjs [--layers=archive,history,instagram] [--max=4000]
 import { createHash } from "node:crypto";
@@ -12,7 +12,9 @@ const args = Object.fromEntries(process.argv.slice(2).map((arg) => {
   const [key, value = "true"] = arg.replace(/^--/, "").split("=");
   return [key, value];
 }));
-const layers = (args.layers || "archive,history,instagram").split(",");
+// "instagram" is intentionally not a default layer: the saved-post list is personal
+// and this repository is public. It can only be built locally with --layers=...,instagram.
+const layers = (args.layers || "archive,history").split(",");
 const maxNewEmbeddings = Number(args.max ?? 4000);
 const indexDir = path.resolve("data/search");
 fs.mkdirSync(indexDir, { recursive: true });
@@ -172,6 +174,13 @@ async function main() {
   for (const doc of docs) {
     if (!shards.has(doc.shard)) shards.set(doc.shard, []);
     shards.get(doc.shard).push({ ...doc, h: hash(doc.text) });
+  }
+  // Extra free-tier keys are a bootstrap aid only. Once the lexical-only backlog is
+  // small, embed with the primary key alone so other projects' quotas are untouched.
+  const backlog = docs.length - [...shards.keys()].reduce((sum, name) => sum + [...readShard(name).values()].length, 0);
+  if (backlog < 600 && process.env.GEMINI_EMBED_KEYS) {
+    delete process.env.GEMINI_EMBED_KEYS;
+    console.log(`backlog ${backlog} < 600: extra embedding keys disabled`);
   }
   let budget = maxNewEmbeddings;
   const report = { shards: {}, embedded: 0, reused: 0, lexicalOnly: 0, embedError: null };

@@ -296,6 +296,47 @@
         "https://mdesign.designhouse.co.kr/rss"
       ],
       "focus": "Korean design practice, studios, exhibitions and brand work"
+    },
+    {
+      "id": "korean-fresh-ad-craft",
+      "name": "Korean Fresh: Ad & Film Craft",
+      "field": "디자인/광고",
+      "url": "https://news.google.com/",
+      "feedUrls": [
+        "https://news.google.com/rss/search?q=(site%3Albbonline.com%20OR%20site%3Aadsoftheworld.com%20OR%20site%3Ashots.net%20OR%20site%3Acampaignasia.com%20OR%20site%3Abrandinginasia.com)%20(Korea%20OR%20Korean%20OR%20Seoul)%20when%3A21d&hl=en-US&gl=US&ceid=US:en",
+        "https://news.google.com/rss/search?q=Korean%20commercial%20director%20OR%20Korean%20ad%20campaign%20OR%20Seoul%20production%20company%20when%3A21d&hl=en-US&gl=US&ceid=US:en"
+      ],
+      "focus": "recent Korean advertising, commercial directors and production craft"
+    },
+    {
+      "id": "korean-fresh-design-space",
+      "name": "Korean Fresh: Design & Space",
+      "field": "디자인/광고",
+      "url": "https://news.google.com/",
+      "feedUrls": [
+        "https://news.google.com/rss/search?q=(site%3Adezeen.com%20OR%20site%3Adesignboom.com%20OR%20site%3Awallpaper.com%20OR%20site%3Aitsnicethat.com%20OR%20site%3Aframeweb.com%20OR%20site%3Aarchdaily.com)%20(Korea%20OR%20Korean%20OR%20Seoul)%20when%3A21d&hl=en-US&gl=US&ceid=US:en"
+      ],
+      "focus": "recent Korean design, architecture, interiors and exhibitions in global press"
+    },
+    {
+      "id": "korean-fresh-art-fashion",
+      "name": "Korean Fresh: Art & Fashion",
+      "field": "미술",
+      "url": "https://news.google.com/",
+      "feedUrls": [
+        "https://news.google.com/rss/search?q=(site%3Afrieze.com%20OR%20site%3Aartsy.net%20OR%20site%3Aocula.com%20OR%20site%3Aartreview.com%20OR%20site%3Ahighsnobiety.com%20OR%20site%3Ahypebeast.com%20OR%20site%3Avogue.com%20OR%20site%3Adazeddigital.com)%20(Korea%20OR%20Korean%20OR%20Seoul)%20when%3A21d&hl=en-US&gl=US&ceid=US:en"
+      ],
+      "focus": "recent Korean art, fashion and youth culture in global press"
+    },
+    {
+      "id": "korean-fresh-screen",
+      "name": "Korean Fresh: Screen & Music",
+      "field": "영상/콘텐츠",
+      "url": "https://news.google.com/",
+      "feedUrls": [
+        "https://news.google.com/rss/search?q=(site%3Avariety.com%20OR%20site%3Ahollywoodreporter.com%20OR%20site%3Ascreendaily.com%20OR%20site%3Aindiewire.com%20OR%20site%3Anofilmschool.com%20OR%20site%3Afilmmakermagazine.com)%20(Korean%20director%20OR%20Korean%20film%20OR%20Korean%20series%20OR%20Korean%20cinematographer)%20interview%20when%3A21d&hl=en-US&gl=US&ceid=US:en"
+      ],
+      "focus": "recent Korean screen craft interviews in trade press"
     }
   ]
 }

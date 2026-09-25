@@ -94,7 +94,9 @@ const craftDecisionTerms = [
   "webgl", "three.js", "typeface", "typography",
 ];
 
-export const creativeUpdateMinimumScore = 50;
+// v2: the deep reader judges substance, so this gate only removes noise.
+export const creativeUpdateMinimumScore = 35;
+const hardRejectReasons = new Set(["commercial-noise", "announcement-news", "insufficient-evidence"]);
 
 function countTerms(text, terms) {
   return terms.filter((term) => text.includes(term)).length;
@@ -148,11 +150,13 @@ export function evaluateCreativeUpdate(item = {}) {
   if (perspectiveHits === 0 && craftDecisionHits < 2 && !documentedCraftCase) {
     rejectedBy.push("no-creative-point-of-view");
   }
+  const hardRejects = rejectedBy.filter((reason) => hardRejectReasons.has(reason));
   return {
     version: "creative-update-v1",
     score,
     minimumScore: creativeUpdateMinimumScore,
-    eligible: rejectedBy.length === 0 && score >= creativeUpdateMinimumScore,
+    eligible: hardRejects.length === 0 && score >= creativeUpdateMinimumScore,
+    softFlags: rejectedBy.filter((reason) => !hardRejectReasons.has(reason)),
     pillar: creativePillar(item),
     scores,
     signals: {
@@ -472,7 +476,7 @@ export async function getLatestUpdates({ limit = 15, enrich = true, excludeItems
   const excludedUrls = new Set(excludeItems.flatMap((item) => [item?.url, item?.googleNewsUrl])
     .filter(Boolean)
     .map(canonicalCurationUrl));
-  const resolvedItems = await resolveGoogleNewsSourceItems(results.flatMap((result) => result.items), data.sources);
+  const resolvedItems = await resolveGoogleNewsSourceItems(results.flatMap((result) => result.items), data.sources, { perSource: 12 });
   const editorialCandidates = dedupe(resolvedItems)
     .filter((item) => !excludedUrls.has(canonicalCurationUrl(item.url)))
     .filter((item) => !isBlockedItem(item))

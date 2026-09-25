@@ -17,7 +17,7 @@ const state = {
   signals: null,
   curator: null,
   tabs: {},        // view -> { recent:{dates,items}, all:{dates,items}|null, loadingAll:Promise|null }
-  brief: { query: "", results: [], mode: "", board: null, loading: false, composing: false, layers: { archive: true, history: true, instagram: true } },
+  brief: { query: "", results: [], mode: "", board: null, loading: false, composing: false, layers: { archive: true, history: true } },
   taste: loadTaste(),
   briefPending: null,
 };
@@ -253,8 +253,9 @@ async function renderTab(view) {
   let rendered = 0;
   for (const [day, items] of groups) {
     if (rendered > 220) { frag.append(el("p", { class: "collapsed-note" }, "더 오래된 날짜는 날짜 선택으로 열어보세요.")); break; }
-    const kept = items.filter((item) => (item.k || !item.sh) && !hidden[item.id]);
-    const folded = items.filter((item) => (item.sh && !item.k) || hidden[item.id]);
+    const byNewest = (a, b) => (new Date(b.od || 0) - new Date(a.od || 0)) || ((b.sh || 0) - (a.sh || 0));
+    const kept = items.filter((item) => (item.k || !item.sh) && !hidden[item.id]).sort(byNewest);
+    const folded = items.filter((item) => (item.sh && !item.k) || hidden[item.id]).sort(byNewest);
     const daySection = el("section", { class: "update-day" }, sectionHead(fmtDay(day), `핵심 ${kept.length} · 접힘 ${folded.length}`));
     for (const item of kept) daySection.append(referenceCard(item));
     if (folded.length) {
@@ -371,7 +372,7 @@ async function composeBrief() {
   render();
 }
 function resultCard(item) {
-  const layer = { archive: "아카이브", history: "북마크 히스토리", bookmark: "북마크", instagram: "인스타 저장" }[item.l] || item.l;
+  const layer = { archive: "아카이브", history: "북마크 히스토리", bookmark: "북마크" }[item.l] || item.l;
   const saveItem = { id: item.id, t: item.t, u: item.u, s: item.s, img: item.img, cat: item.c, ax: item.ax, stl: item.st, sh: item.sh };
   const key = item.id;
   return el("div", { class: "mini" },
@@ -389,9 +390,9 @@ function renderBrief() {
   const frag = document.createDocumentFragment();
   const brief = state.brief;
   frag.append(sectionHead("브리프 검색", brief.query ? `"${brief.query}"` : null));
-  frag.append(el("p", { class: "intro" }, "상단 검색창에 브리프를 문장으로 넣으세요. 아카이브 판독, 북마크 히스토리, 인스타 저장 게시물을 의미로 비교해 찾고, 원하면 연출 축별 보드로 묶어 줍니다."));
+  frag.append(el("p", { class: "intro" }, "상단 검색창에 브리프를 문장으로 넣으세요. 아카이브 판독과 북마크 히스토리를 의미로 비교해 찾고, 원하면 연출 축별 보드로 묶어 줍니다."));
   frag.append(el("div", { class: "brief-controls" },
-    ...Object.entries({ archive: "아카이브", history: "북마크·히스토리", instagram: "인스타 저장" }).map(([name, label]) => el("label", {}, el("input", { type: "checkbox", checked: brief.layers[name], onchange: (event) => { brief.layers[name] = event.target.checked; if (brief.query) runBrief(brief.query); } }), label)),
+    ...Object.entries({ archive: "아카이브", history: "북마크·히스토리" }).map(([name, label]) => el("label", {}, el("input", { type: "checkbox", checked: brief.layers[name], onchange: (event) => { brief.layers[name] = event.target.checked; if (brief.query) runBrief(brief.query); } }), label)),
     brief.results.length ? el("button", { class: "btn btn-small btn-ink", type: "button", disabled: brief.composing, onclick: composeBrief }, brief.composing ? "묶는 중 (20~40초)" : "AI로 연출 축 보드 만들기") : null,
     brief.mode ? el("span", { class: "status-line" }, `${brief.mode === "semantic" ? "의미 검색" : "키워드 검색"} · ${brief.results.length}개 · ${brief.took}ms`) : null,
   ));

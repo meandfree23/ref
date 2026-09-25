@@ -1,5 +1,5 @@
 // Brief-based semantic reference search.
-//   GET  /api/brief?q=...&layers=archive,history,instagram&n=36   -> ranked references
+//   GET  /api/brief?q=...&layers=archive,history&n=36   -> ranked references
 //   POST /api/brief  { q, results:[{id,t,s,st,c,ax}] }             -> AI board composition
 import fs from "node:fs";
 import path from "node:path";
@@ -148,7 +148,7 @@ export default async function handler(request, response) {
       response.status(400).json({ ok: false, error: "q is required" });
       return;
     }
-    const layers = new Set(String(request.query.layers || "archive,history,instagram").split(","));
+    const layers = new Set(String(request.query.layers || "archive,history").split(","));
     const limit = Math.min(60, Number(request.query.n || 36));
     let queryVector = null;
     let mode = "lexical";

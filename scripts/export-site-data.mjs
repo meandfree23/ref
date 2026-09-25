@@ -65,7 +65,8 @@ for (const tab of Object.values(tabs)) {
   const payload = JSON.parse(fs.readFileSync(path.resolve(tab.archive), "utf8"));
   archives[tab.key] = payload;
   const items = payload.items.map((item) => compact(item, tab.key));
-  items.sort((a, b) => (b.day.localeCompare(a.day)) || ((b.sh || 0) - (a.sh || 0)));
+  const originalTime = (item) => new Date(item.od || `${item.day}T00:00:00+09:00`).getTime() || 0;
+  items.sort((a, b) => (b.day.localeCompare(a.day)) || (originalTime(b) - originalTime(a)) || ((b.sh || 0) - (a.sh || 0)));
   allCompact.push(...items);
   const dates = [...new Set(items.map((item) => item.day))].sort().reverse();
   const recentSet = new Set(dates.slice(0, recentDays));

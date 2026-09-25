@@ -96,6 +96,11 @@ const koreanTerms = [
 ];
 
 const lowSignalPatterns = [
+  /정상회의|정상회담|공급망|합작 ?법인|경제 ?협력|수출|투자 ?유치|장관|대통령|총리|주가|실적|영입|단신|채용|모집|입찰|수주|협약 체결|MOU/,
+  /본문 내용 없음|시스템 메시지/,
+  /\bpresident\b.*\b(?:calls|urges|says|meets|visits|summit|trade)\b/i,
+  /\b(?:minister|ministry|parliament|election|tariff|sanction|stock price|shares|earnings|payouts?)\b/i,
+  /\bhow much it costs\b/i,
   /\bcoupon\b/i,
   /\bpromo\b/i,
   /\bticket\b/i,
@@ -315,12 +320,18 @@ function scoreItem(item) {
   const text = `${item.title} ${item.summary} ${item.url}`.toLowerCase();
   const qualityHits = qualityTerms.filter((term) => text.includes(term));
   const koreanHits = koreanTerms.filter((term) => text.includes(term));
+  // Korean-language articles rarely contain the English word "korea"; Hangul counts.
+  if (/[가-힣]{2,}/.test(String(item.title || ""))) koreanHits.push("hangul");
   const trustedHits = trustedSignalTerms.filter((term) => text.includes(term));
   const lowHits = lowSignalPatterns.filter((pattern) => pattern.test(text));
   const bookmarkTrust = item.sourceLayer === "bookmark-history" || item.sourceLayer === "bookmark-up";
+  // Recency matters: Google News search feeds surface years-old pieces.
+  const ageDays = (Date.now() - new Date(item.originalDate || item.date || 0).getTime()) / 86400000;
+  const recency = !Number.isFinite(ageDays) ? 0 : ageDays <= 14 ? 16 : ageDays <= 45 ? 10 : ageDays <= 180 ? 4 : 0;
+  const substance = String(item.summary || "").length >= 80 ? 6 : 0;
   const score = qualityHits.length * 8 + koreanHits.length * 10 + trustedHits.length * 14
-    + (bookmarkTrust ? 14 : 0) - lowHits.length * 24;
-  return { score, qualityHits, koreanHits, trustedHits, bookmarkTrust, lowHits };
+    + (bookmarkTrust ? 14 : 0) + recency + substance - lowHits.length * 24;
+  return { score, qualityHits, koreanHits, trustedHits, bookmarkTrust, lowHits, recency };
 }
 
 async function enrichItem(item, scrapedAt) {
@@ -517,7 +528,7 @@ export async function getLatestKoreanCodeUpdates({
     .map((item) => ({ item, quality: scoreItem(item) }))
     .filter(({ quality }) => quality.lowHits.length === 0)
     .filter(({ quality }) => quality.koreanHits.length > 0)
-    .filter(({ quality }) => quality.qualityHits.length > 0 || quality.trustedHits.length > 0 || quality.bookmarkTrust)
+    .filter(({ quality }) => quality.qualityHits.length > 0 || quality.trustedHits.length > 0 || quality.bookmarkTrust || quality.recency >= 10)
     .filter(({ quality }) => quality.score >= minimumScore)
     .sort((a, b) => {
       if (b.quality.score !== a.quality.score) return b.quality.score - a.quality.score;

@@ -4,3 +4,5 @@ node_modules/
 data/.recovery-snapshot/
 *.log
 public/static-updates.js
+data/instagram-saved.json
+data/search/instagram.*

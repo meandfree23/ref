@@ -11,7 +11,7 @@ Reference Selector는 검색 페이지가 아니라 매일 원문을 읽고 판�
 2. **판독 층 (Gemini 무료 등급, 같은 워크플로 안)**:
    - `scripts/deep-insight-agent.mjs`: 항목마다 원문 본문을 읽고 `item.deep`을 쓴다. keep/sharpness(1~10)/새로움/작동 원리/근거 인용/가져갈 한 수/한계/분류/연출 축/신호. 최근 3일은 원문 본문 기준(항목당 1회 호출), 그 이전은 요약 기준 8개 묶음 백필.
    - `scripts/signal-agent.mjs`: 최근 14일 판독을 모아 출처 2곳·자료 3개 이상 근거가 붙는 가설만 `data/signals.json`에 쓴다.
-   - `scripts/search-index-agent.mjs`: 아카이브 + 북마크 히스토리 + 인스타 저장 캡션을 임베딩(256d int8)해 `data/search/`에 샤드로 저장. 변경분만 재임베딩.
+   - `scripts/search-index-agent.mjs`: 아카이브 + 북마크 히스토리를 임베딩(256d int8)해 `data/search/`에 샤드로 저장. 변경분만 재임베딩.
    - `scripts/export-site-data.mjs`: `public/data/*.json`으로 내보내고 `data/curator-memory.json`의 소스 성적을 다시 계산한다.
 
 ## 표시 원칙
@@ -39,3 +39,7 @@ Reference Selector는 검색 페이지가 아니라 매일 원문을 읽고 판�
 - `npm run verify` (문법 + `quality:check`)
 - 배포 후 `public/data/meta.json`의 `generatedAt`과 `readProgress`가 갱신됐는지 확인.
 - 큐레이터 탭의 파이프라인 로그에 `deep-insight`, `signal` 항목이 매일 추가되는지 확인.
+
+## 개인정보 원칙
+
+- 인스타그램 저장 목록 등 본인에게만 보이는 데이터는 공개 저장소에 넣지 않는다 (2026-09-26 결정, 한 차례 커밋 후 히스토리에서 제거).

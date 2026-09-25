@@ -34,8 +34,11 @@ function demoted() {
   return demotedCache;
 }
 
+const blockedPathPatterns = [/lbbonline\.com\/people\//i, /shots\.net\/news\/view\/[^/]*(?:joins|appoint|promot|hire|welcomes|roster)/i];
+
 export function isBlockedItem(item = {}, { honourDemotion = true } = {}) {
   const host = hostOf(item.url);
+  if (blockedPathPatterns.some((pattern) => pattern.test(String(item.url || "")))) return true;
   if (host && blockedHosts.some((blocked) => host === blocked || host.endsWith(`.${blocked}`))) return true;
   const name = String(item.sourceName || item.publisherName || "").toLowerCase().trim();
   if (name && blockedNames.some((blocked) => name === blocked || name.startsWith(`${blocked} `))) return true;

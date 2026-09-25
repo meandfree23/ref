@@ -213,6 +213,7 @@ async function main() {
   const pending = all.filter(({ item }) => needsDeep(item));
   const daily = pending
     .filter(({ item }) => kstKey(item.date || item.archivedAt) >= dailyCutoff)
+    .sort((a, b) => new Date(b.item.date || 0) - new Date(a.item.date || 0))
     .map((entry, index) => ({ ...entry, index }));
   const backlog = pending
     .filter(({ item }) => kstKey(item.date || item.archivedAt) < dailyCutoff)

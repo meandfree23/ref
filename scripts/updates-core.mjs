@@ -37,6 +37,8 @@ const lowSignalPatterns = [
 ];
 
 const nonCreativeNewsPatterns = [
+  /\b(?:candidate|voters?|election|electoral|political|politician|senator|congress|parliament|minister|ministry|prime minister|governor|mayor)\b/i,
+  /\b(?:lawsuit|indict|verdict|court ruling|tariffs?|sanctions?|inflation|interest rates?)\b/i,
   /\bappoints?\b.*\b(?:ceo|chief|president)\b/i,
   /\bnamed?\b.*\b(?:ceo|chief|president)\b/i,
   /\bsteps? down\b/i,

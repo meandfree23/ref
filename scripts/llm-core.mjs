@@ -132,12 +132,13 @@ export async function generateJson({
           return { data: parseJsonLoose(text), model };
         }
         const message = result.json?.error?.message || result.text.slice(0, 200);
+        const details = JSON.stringify(result.json?.error?.details || []);
         errors.push(`${model} ${result.status}: ${message}`);
         if (result.status === 404 || result.status === 400) {
           disabledModels.add(model);
           break;
         }
-        if (result.status === 429 && /per day|PerDay|daily/i.test(message)) {
+        if (result.status === 429 && (/per day|PerDay|daily/i.test(message) || /PerDay/i.test(details))) {
           disabledModels.add(model);
           break;
         }

@@ -525,6 +525,12 @@ async function init() {
     const total = Object.values(state.meta.tabs).reduce((sum, tab) => sum + tab.itemCount, 0);
     els.footMeta.textContent = `총 ${total.toLocaleString()}개 보관 · 원문 판독 ${state.meta.readProgress.read.toLocaleString()}개 · 소스 ${state.meta.sourceCount}개 · ${fmtDate(state.meta.generatedAt)} 갱신`;
     els.mastheadNote.textContent = `매일 원문을 읽고 판독합니다 · 최신 ${fmtDay(state.meta.tabs.updates?.latest)}`;
+    const ageHours = (Date.now() - new Date(state.meta.generatedAt).getTime()) / 3600000;
+    if (ageHours > 40) {
+      els.mastheadNote.textContent = `자동 업데이트가 ${Math.round(ageHours)}시간 동안 멈춰 있어요. GitHub Actions 실행 기록을 확인해 주세요.`;
+      els.mastheadNote.style.color = "#e43d30";
+      els.mastheadNote.style.fontWeight = "700";
+    }
   }
   const view = params.get("view");
   const query = params.get("q");

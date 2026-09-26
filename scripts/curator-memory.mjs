@@ -41,7 +41,8 @@ export function rebuildSourceQuality(memory, archives = []) {
     .map(([key, entry]) => {
       const keepRate = entry.seen ? entry.kept / entry.seen : 0;
       const avgSharpness = entry.seen ? entry.sharpSum / entry.seen : 0;
-      const status = entry.seen >= 8 && keepRate < 0.2 && avgSharpness < 4.5
+      const recentlySeen = entry.lastSeen && (Date.now() - new Date(entry.lastSeen).getTime()) < 30 * 86400000;
+      const status = entry.seen >= 8 && keepRate < 0.2 && avgSharpness < 4.5 && recentlySeen
         ? "demoted"
         : entry.seen >= 6 && keepRate >= 0.6
           ? "trusted"

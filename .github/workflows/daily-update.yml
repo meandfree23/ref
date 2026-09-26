@@ -2,8 +2,10 @@ name: Daily Reference Update
 
 on:
   schedule:
-    # 07:10 Asia/Seoul (UTC+9) every day
+    # 07:10 Asia/Seoul. GitHub often delays cron by 1-2h; a second trigger at 11:10 KST
+    # is a safety net. Every step is idempotent, so a second run is cheap.
     - cron: "10 22 * * *"
+    - cron: "10 2 * * *"
   workflow_dispatch:
     inputs:
       backfill_budget:
@@ -36,8 +38,15 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      # The collector self-heals: on a failed verify it restores the pre-run snapshot,
+      # so continuing is safe. A bad collection day must not block reading/publishing.
       - name: Collect today's references (mechanical layer)
+        id: collect
+        continue-on-error: true
         run: npm run recover:daily
+
+      - name: Remove cross-date duplicates
+        run: node scripts/dedupe-archives.mjs
 
       - name: Commit collected references first
         run: |
@@ -61,6 +70,9 @@ jobs:
       - name: Export site data
         run: npm run export:archive
 
+      - name: Publish guard (refuse broken or shrinking data)
+        run: node scripts/verify-site-data.mjs
+
       - name: Commit and push
         run: |
           git add data public
@@ -69,4 +81,10 @@ jobs:
           else
             git commit -m "Automated daily update [$(date -u +%Y-%m-%d)]"
           fi
+          git pull --rebase origin main || true
           git push
+
+      - name: Report collection failure
+        if: steps.collect.outcome == 'failure'
+        run: |
+          echo "::warning::recover:daily failed today; archives were restored from snapshot and the run continued with existing data. Check data/recovery-history.json."

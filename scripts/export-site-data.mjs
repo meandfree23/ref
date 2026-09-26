@@ -23,6 +23,7 @@ function compact(item, tab) {
     id: item.archiveId,
     tab,
     day,
+    at: item.date || item.archivedAt || null,
     t: deep?.titleKo || item.titleKo || item.articleTitle || item.title,
     ot: item.articleTitle || item.title,
     u: item.url,
@@ -73,7 +74,10 @@ for (const tab of Object.values(tabs)) {
   writeJson(`${tab.key}-recent.json`, { generatedAt: meta.generatedAt, tab: tab.key, dates: dates.slice(0, recentDays), items: items.filter((item) => recentSet.has(item.day)) });
   writeJson(`${tab.key}-all.json`, { generatedAt: meta.generatedAt, tab: tab.key, dates, items });
   const read = items.filter((item) => item.sh);
+  const dayCounts = {};
+  for (const item of items) if (dates.slice(0, 14).includes(item.day)) dayCounts[item.day] = (dayCounts[item.day] || 0) + 1;
   meta.tabs[tab.key] = {
+    dayCounts,
     label: tab.label,
     itemCount: items.length,
     dateCount: dates.length,

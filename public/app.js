@@ -20,6 +20,11 @@ const state = {
   brief: { query: "", results: [], mode: "", board: null, loading: false, composing: false, layers: { archive: true, history: true } },
   taste: loadTaste(),
   briefPending: null,
+  density: storeGet("refsel.density", "scan"),   // "scan" (훑어보기) | "detail" (자세히)
+  visit: null,        // { prev: ISO|null, prevDay: "YYYY-MM-DD"|null }
+  read: storeGet("refsel.read.v1", {}),
+  scrollByView: {},
+  briefOrigin: null,  // { view, scroll, label } for the back button
 };
 
 const els = {
@@ -71,6 +76,51 @@ async function getJson(path) {
 }
 
 /* ---------- taste (localStorage) ---------- */
+function storeGet(key, fallback) {
+  try {
+    const raw = localStorage.getItem(key);
+    return raw == null ? fallback : JSON.parse(raw);
+  } catch {
+    return fallback;
+  }
+}
+function storeSet(key, value) {
+  try { localStorage.setItem(key, JSON.stringify(value)); } catch { /* storage unavailable: keep working in memory */ }
+}
+const kstDay = (iso) => new Intl.DateTimeFormat("en-CA", { timeZone: "Asia/Seoul" }).format(new Date(iso));
+
+/* ---------- visit memory: what is new since the last visit ---------- */
+function initVisit() {
+  const record = storeGet("refsel.visit.v1", {});
+  const now = Date.now();
+  // A reload within 30 minutes keeps the same baseline, so "새" badges do not vanish mid-session.
+  const sessionFresh = record.last && now - new Date(record.last).getTime() < 30 * 60000;
+  const prev = sessionFresh ? (record.prev || null) : (record.last || null);
+  storeSet("refsel.visit.v1", { prev, last: new Date(now).toISOString() });
+  state.visit = { prev, prevDay: prev ? kstDay(prev) : null };
+}
+function isNew(item) {
+  // Day-level on purpose: backfilled items carry end-of-day timestamps, and the tab
+  // badges count by day, so both must agree.
+  if (!state.visit?.prevDay) return false;
+  return item.day > state.visit.prevDay;
+}
+function newCountForTab(tab) {
+  const counts = state.meta?.tabs?.[tab]?.dayCounts || {};
+  if (!state.visit?.prevDay) return 0;
+  return Object.entries(counts).filter(([day]) => day > state.visit.prevDay).reduce((sum, [, n]) => sum + n, 0);
+}
+
+/* ---------- read state ---------- */
+function markRead(item) {
+  if (!item?.id || state.read[item.id]) return;
+  state.read[item.id] = Date.now();
+  const ids = Object.keys(state.read);
+  if (ids.length > 4000) ids.sort((a, b) => state.read[a] - state.read[b]).slice(0, ids.length - 4000).forEach((id) => delete state.read[id]);
+  storeSet("refsel.read.v1", state.read);
+  document.querySelectorAll(`[data-id="${CSS.escape(item.id)}"]`).forEach((node) => node.classList.add("is-read"));
+}
+
 function loadTaste() {
   try {
     const parsed = JSON.parse(localStorage.getItem(LS_KEY) || "{}");
@@ -80,7 +130,7 @@ function loadTaste() {
   }
 }
 function persistTaste() {
-  localStorage.setItem(LS_KEY, JSON.stringify(state.taste));
+  storeSet(LS_KEY, state.taste);
 }
 function toggleSaved(item) {
   const key = item.id || item.u;
@@ -118,10 +168,15 @@ function media(item, className = "ref-media") {
   if (!item.img) return el("div", { class: `${className} is-empty` }, "NO IMAGE");
   const img = el("img", { src: item.img, alt: item.t || "", loading: "lazy" });
   img.addEventListener("error", () => { img.replaceWith(el("div", { class: `${className} is-empty` }, "IMAGE OFF")); }, { once: true });
-  return el("a", { class: className, href: item.u, target: "_blank", rel: "noreferrer" }, img);
+  return el("a", { class: className, href: item.u, target: "_blank", rel: "noreferrer", onclick: () => markRead(item) }, img);
+}
+function titleLink(item) {
+  return el("a", { href: item.u, target: "_blank", rel: "noreferrer", onclick: () => markRead(item) }, item.t);
 }
 function badges(item, { withAxes = true } = {}) {
   const list = [];
+  if (isNew(item)) list.push(el("span", { class: "badge badge-new" }, "새로"));
+  if (item.id && state.read[item.id]) list.push(el("span", { class: "badge badge-read" }, "읽음"));
   if (item.sh) list.push(el("span", { class: `badge badge-sharp${item.sh >= 8 ? " is-top" : ""}`, title: item.why || "" }, `날카로움 ${item.sh}`));
   if (item.tl) list.push(el("span", { class: "badge badge-tl" }, "오래 남을 것"));
   if (item.old) list.push(el("span", { class: "badge badge-old" }, `아카이브 발굴 · 원문 ${fmtDate(item.od)}`));
@@ -135,9 +190,10 @@ function actions(item) {
   const hidden = Boolean(state.taste.hidden[key]);
   const saveBtn = el("button", { class: `act${saved ? " is-on" : ""}`, type: "button", onclick: (event) => { toggleSaved(item); event.currentTarget.classList.toggle("is-on"); event.currentTarget.textContent = state.taste.saved[key] ? "보드에 있음" : "보드에 담기"; } }, saved ? "보드에 있음" : "보드에 담기");
   const hideBtn = el("button", { class: `act act-quiet${hidden ? " is-on" : ""}`, type: "button", onclick: (event) => { toggleHidden(item); event.currentTarget.textContent = state.taste.hidden[key] ? "관심 없음 취소" : "관심 없음"; } }, hidden ? "관심 없음 취소" : "관심 없음");
-  const link = el("a", { class: "act act-quiet", href: item.u, target: "_blank", rel: "noreferrer" }, "원문 ↗");
-  const sigs = (item.sig || []).length ? el("div", { class: "signals-inline" }, (item.sig || []).map((signal) => el("button", { class: "sig", type: "button", onclick: () => setFilter({ signal }) }, signal))) : null;
-  return el("div", { class: "ref-actions" }, saveBtn, hideBtn, link, sigs);
+  const link = el("a", { class: "act act-quiet", href: item.u, target: "_blank", rel: "noreferrer", onclick: () => markRead(item) }, "원문 ↗");
+  const similar = el("button", { class: "act", type: "button", title: "아카이브 전체에서 비슷한 레퍼런스를 찾습니다", onclick: () => findSimilar(item) }, "비슷한 것 찾기");
+  const sigs = (item.sig || []).length ? el("div", { class: "signals-inline" }, (item.sig || []).map((signal) => el("button", { class: "sig", type: "button", title: "이 흐름으로 아카이브 전체를 검색", onclick: () => openBrief(signal, { label: `신호 '${signal}'` }) }, `# ${signal}`))) : null;
+  return el("div", { class: "ref-actions" }, saveBtn, similar, hideBtn, link, sigs);
 }
 function reading(item) {
   if (!item.sh) return null;
@@ -149,11 +205,43 @@ function reading(item) {
   if (item.lim) rows.push(["한계", item.lim, "limit"]);
   return el("dl", { class: "reading" }, rows.map(([label, text, cls]) => el("div", {}, el("dt", {}, label), el("dd", { class: cls || "" }, text))));
 }
-function referenceCard(item, { compact = false } = {}) {
+function scanCard(item) {
   const muted = item.sh && !item.k;
-  const card = el("article", { class: `ref${compact ? " is-compact" : ""}${muted ? " is-muted" : ""}`, dataset: { id: item.id || "" } });
+  const card = el("article", { class: `ref ref-scan${muted ? " is-muted" : ""}${item.id && state.read[item.id] ? " is-read" : ""}`, dataset: { id: item.id || "" } });
+  const detail = el("div", { class: "scan-detail", hidden: true },
+    item.ot && item.ot !== item.t ? el("p", { class: "ref-orig" }, item.ot) : null,
+    item.sum ? el("p", { class: "ref-sum" }, item.sum) : null,
+    muted && item.why ? el("p", { class: "status-line" }, `접힌 이유 · ${item.why}`) : null,
+    reading(item),
+    actions(item),
+  );
+  const toggle = el("button", { class: "act scan-toggle", type: "button", "aria-expanded": "false", onclick: (event) => {
+    const open = detail.hidden;
+    detail.hidden = !open;
+    event.currentTarget.setAttribute("aria-expanded", String(open));
+    event.currentTarget.textContent = open ? "접기 ▴" : (item.sh ? "판독 펼치기 ▾" : "요약 펼치기 ▾");
+    if (open) markRead(item);
+  } }, item.sh ? "판독 펼치기 ▾" : "요약 펼치기 ▾");
+  const thumb = item.img ? media(item, "ref-thumb") : null;
+  card.append(
+    thumb || el("div", { class: "ref-thumb is-blank" }),
+    el("div", { class: "ref-body" },
+      el("p", { class: "ref-kicker" }, el("b", {}, item.s || "출처 미상"), ` · ${item.cat || ""}`, item.od ? ` · 원문 ${fmtDate(item.od)}` : ""),
+      el("h3", { class: "ref-title" }, titleLink(item)),
+      badges(item, { withAxes: false }),
+      item.k && item.stl ? el("p", { class: "pick-steal" }, item.stl) : (!item.sh && item.sum ? el("p", { class: "ref-sum ref-sum-clamp" }, item.sum) : null),
+      el("div", { class: "scan-row" }, toggle, el("button", { class: `act${state.taste.saved[item.id] ? " is-on" : ""}`, type: "button", onclick: (event) => { toggleSaved(item); event.currentTarget.classList.toggle("is-on"); } }, "보드에 담기"), el("button", { class: "act act-quiet", type: "button", onclick: () => findSimilar(item) }, "비슷한 것")),
+      detail,
+    ),
+  );
+  return card;
+}
+function referenceCard(item, { compact = false } = {}) {
+  if (!compact && state.density === "scan") return scanCard(item);
+  const muted = item.sh && !item.k;
+  const card = el("article", { class: `ref${compact ? " is-compact" : ""}${muted ? " is-muted" : ""}${item.id && state.read[item.id] ? " is-read" : ""}`, dataset: { id: item.id || "" } });
   const side = el("div", { class: "ref-side" }, media(item), el("p", { class: "ref-kicker" }, el("b", {}, item.s || "출처 미상"), ` · ${item.cat || ""}`, item.od ? el("span", {}, ` · 원문 ${fmtDate(item.od)}`) : null));
-  const title = el("h3", { class: "ref-title" }, el("a", { href: item.u, target: "_blank", rel: "noreferrer" }, item.t));
+  const title = el("h3", { class: "ref-title" }, titleLink(item));
   const body = el("div", { class: "ref-body" },
     title,
     item.ot && item.ot !== item.t ? el("p", { class: "ref-orig" }, item.ot) : null,
@@ -167,7 +255,7 @@ function referenceCard(item, { compact = false } = {}) {
     card.append(el("div", { class: "ref-body" }, title, el("p", { class: "status-line" }, `${item.s || ""}${item.why ? ` · ${item.why}` : ""}`), badges(item, { withAxes: false })));
     card.addEventListener("click", (event) => {
       if (event.target.closest("a")) return;
-      card.replaceWith(referenceCard(item));
+      card.replaceWith(state.density === "scan" ? scanCard(item) : referenceCard(item));
     });
     return card;
   }
@@ -248,7 +336,11 @@ async function renderTab(view) {
   const frag = document.createDocumentFragment();
   const tabMeta = state.meta?.tabs?.[view];
   frag.append(sectionHead(tabMeta?.label || view, `${tabMeta?.dateCount || dates.length}개 날짜 · ${tabMeta?.itemCount || data.items.length}개 · 판독 ${tabMeta?.readCount || 0} · 핵심 ${tabMeta?.keepCount || 0}`,
-    !entry.all && !needAll ? el("button", { class: "btn btn-small", type: "button", onclick: async () => { await ensureTabAll(view); render(); } }, "전체 아카이브 열기") : null));
+    el("div", { class: "brief-controls" },
+      densityToggle(),
+      !entry.all && !needAll ? el("button", { class: "btn btn-small", type: "button", onclick: async () => { await ensureTabAll(view); render(); } }, "전체 아카이브 열기") : null)));
+  const freshCount = filtered.filter(isNew).length;
+  if (freshCount) frag.append(el("p", { class: "new-note" }, `지난 방문(${fmtDate(state.visit.prev)}) 이후 새로 들어온 항목 ${freshCount}개 · '새로' 표시`));
   if (!filtered.length) frag.append(el("p", { class: "empty-state" }, "조건에 맞는 항목이 없습니다."));
   let rendered = 0;
   for (const [day, items] of groups) {
@@ -256,7 +348,8 @@ async function renderTab(view) {
     const byNewest = (a, b) => (new Date(b.od || 0) - new Date(a.od || 0)) || ((b.sh || 0) - (a.sh || 0));
     const kept = items.filter((item) => (item.k || !item.sh) && !hidden[item.id]).sort(byNewest);
     const folded = items.filter((item) => (item.sh && !item.k) || hidden[item.id]).sort(byNewest);
-    const daySection = el("section", { class: "update-day" }, sectionHead(fmtDay(day), `핵심 ${kept.length} · 접힘 ${folded.length}`));
+    const dayNew = items.filter(isNew).length;
+    const daySection = el("section", { class: "update-day" }, sectionHead(fmtDay(day), `핵심 ${kept.length} · 접힘 ${folded.length}${dayNew ? ` · 새로 ${dayNew}` : ""}`));
     for (const item of kept) daySection.append(referenceCard(item));
     if (folded.length) {
       if (state.showAll) for (const item of folded) daySection.append(referenceCard(item, { compact: true }));
@@ -282,12 +375,21 @@ function renderToday() {
     .sort((a, b) => b.score - a.score)
     .map(({ item }) => item);
   frag.append(sectionHead("오늘의 픽", `${today.days.map(fmtDay).join(" · ")} 판독분에서 날카로운 순`));
-  frag.append(el("p", { class: "intro" }, "세 탭 전체에서 원문을 읽고 점수를 매긴 뒤, 보드에 담은 취향을 반영해 정렬합니다. 카드의 빨간 줄이 오늘 현장에서 써 볼 한 수입니다."));
-  frag.append(el("div", { class: "pick-grid" }, items.map((item) => el("article", { class: "pick" },
+  const tabNew = TAB_VIEWS.map((tab) => [tab, newCountForTab(tab)]);
+  if (state.visit?.prev) {
+    const unread = items.filter((item) => !state.read[item.id]).length;
+    frag.append(el("div", { class: "return-bar" },
+      el("span", {}, `지난 방문 ${fmtDate(state.visit.prev)} · 아래 픽 중 안 읽은 것 ${unread}개`),
+      ...tabNew.map(([tab, count]) => el("button", { class: `chip${count ? " chip-new" : ""}`, type: "button", onclick: () => switchView(tab) }, `${state.meta?.tabs?.[tab]?.label || tab}`, el("small", {}, count ? `새 ${count}` : "새 항목 없음"))),
+    ));
+  } else {
+    frag.append(el("p", { class: "intro" }, "세 탭 전체에서 원문을 읽고 점수를 매긴 뒤, 보드에 담은 취향을 반영해 정렬합니다. 카드의 빨간 줄이 오늘 현장에서 써 볼 한 수입니다."));
+  }
+  frag.append(el("div", { class: "pick-grid" }, items.map((item) => el("article", { class: `pick${state.read[item.id] ? " is-read" : ""}`, dataset: { id: item.id } },
     media(item),
     el("div", { class: "pick-body" },
       el("p", { class: "ref-kicker" }, el("b", {}, item.s), ` · ${item.cat}`, ` · ${state.meta?.tabs?.[item.tab]?.label || item.tab}`),
-      el("h3", { class: "ref-title" }, el("a", { href: item.u, target: "_blank", rel: "noreferrer" }, item.t)),
+      el("h3", { class: "ref-title" }, titleLink(item)),
       badges(item, { withAxes: false }),
       item.nov ? el("p", { class: "ref-sum" }, item.nov) : null,
       item.stl ? el("p", { class: "pick-steal" }, item.stl) : null,
@@ -297,6 +399,15 @@ function renderToday() {
     frag.append(sectionHead("지금 굳어지는 흐름", `${state.signals.hypotheses.length}개 가설`, el("button", { class: "btn btn-small", type: "button", onclick: () => switchView("signals") }, "시그널 탭으로")));
     frag.append(el("ul", { class: "quiet-list" }, state.signals.hypotheses.slice(0, 3).map((hyp) => el("li", {}, el("b", {}, hyp.title), " ", el("span", {}, `${hyp.momentum} · 근거 ${hyp.evidence.length}건`)))));
   }
+  frag.append(sectionHead("이어 읽기"));
+  frag.append(el("div", { class: "continue-row" }, TAB_VIEWS.map((tab) => {
+    const info = state.meta?.tabs?.[tab];
+    const count = newCountForTab(tab);
+    return el("button", { class: "continue-card", type: "button", onclick: () => switchView(tab) },
+      el("b", {}, info?.label || tab),
+      el("span", {}, `최신 ${fmtDay(info?.latest)} · 핵심 ${info?.keepCount || 0}개`),
+      count ? el("em", {}, `지난 방문 이후 새 ${count}`) : null);
+  })));
   return frag;
 }
 
@@ -340,6 +451,19 @@ function renderSignals() {
 }
 
 /* ---------- brief search ---------- */
+function openBrief(query, { label = "" } = {}) {
+  if (state.view !== "brief") state.briefOrigin = { view: state.view, scroll: window.scrollY, label };
+  else if (state.briefOrigin) state.briefOrigin.label = label;
+  els.briefInput.value = query;
+  pushView("brief", { q: query });
+  runBrief(query);
+}
+function findSimilar(item) {
+  markRead(item);
+  const query = [item.t, item.stl || item.nov || item.sum || ""].join(". ").slice(0, 300);
+  state.brief.excludeUrl = item.u;
+  openBrief(query, { label: `'${item.t.slice(0, 40)}'와 비슷한 레퍼런스` });
+}
 async function runBrief(query) {
   state.brief = { ...state.brief, query, results: [], board: null, loading: true, error: "" };
   state.view = "brief";
@@ -347,7 +471,8 @@ async function runBrief(query) {
   try {
     const layers = Object.entries(state.brief.layers).filter(([, on]) => on).map(([name]) => name).join(",");
     const payload = await getJson(`/api/brief?q=${encodeURIComponent(query)}&layers=${layers}&n=36`);
-    state.brief.results = payload.results || [];
+    const exclude = state.brief.excludeUrl;
+    state.brief.results = (payload.results || []).filter((result) => !exclude || result.u !== exclude);
     state.brief.mode = payload.mode;
     state.brief.took = payload.took;
   } catch (error) {
@@ -389,7 +514,9 @@ function resultCard(item) {
 function renderBrief() {
   const frag = document.createDocumentFragment();
   const brief = state.brief;
-  frag.append(sectionHead("브리프 검색", brief.query ? `"${brief.query}"` : null));
+  const origin = state.briefOrigin;
+  frag.append(sectionHead(origin?.label || "브리프 검색", origin?.label ? null : (brief.query ? `"${brief.query}"` : null),
+    origin ? el("button", { class: "btn btn-small", type: "button", onclick: () => goBackFromBrief() }, `← ${viewLabel(origin.view)}로 돌아가기`) : null));
   frag.append(el("p", { class: "intro" }, "상단 검색창에 브리프를 문장으로 넣으세요. 아카이브 판독과 북마크 히스토리를 의미로 비교해 찾고, 원하면 연출 축별 보드로 묶어 줍니다."));
   frag.append(el("div", { class: "brief-controls" },
     ...Object.entries({ archive: "아카이브", history: "북마크·히스토리" }).map(([name, label]) => el("label", {}, el("input", { type: "checkbox", checked: brief.layers[name], onchange: (event) => { brief.layers[name] = event.target.checked; if (brief.query) runBrief(brief.query); } }), label)),
@@ -487,20 +614,93 @@ async function render() {
   }
   if (state.renderToken !== token) return;
   els.panel.replaceChildren(content);
-  if (state.scrollTop) { window.scrollTo({ top: 0 }); state.scrollTop = false; }
+  if (state.restoreScroll != null) {
+    const target = state.restoreScroll;
+    state.restoreScroll = null;
+    requestAnimationFrame(() => window.scrollTo({ top: target }));
+  }
+  updateTabBadges();
 }
-function switchView(view) {
+const TAB_LABELS = Object.fromEntries([...document.querySelectorAll(".view-tab")].map((tab) => [tab.dataset.view, tab.textContent.trim()]));
+function viewLabel(view) {
+  return TAB_LABELS[view] || view;
+}
+function densityToggle() {
+  return el("div", { class: "seg" },
+    el("button", { type: "button", class: state.density === "scan" ? "is-on" : "", onclick: () => { state.density = "scan"; storeSet("refsel.density", "scan"); render(); } }, "훑어보기"),
+    el("button", { type: "button", class: state.density === "detail" ? "is-on" : "", onclick: () => { state.density = "detail"; storeSet("refsel.density", "detail"); render(); } }, "자세히"));
+}
+function pushView(view, params = {}) {
+  try {
+    const url = new URL(window.location.href);
+    url.searchParams.set("view", view);
+    if (params.q) url.searchParams.set("q", params.q); else url.searchParams.delete("q");
+    if (url.href !== window.location.href) history.pushState({ view, q: params.q || "" }, "", url);
+  } catch { /* history API unavailable: navigation still works in-page */ }
+}
+function switchView(view, { push = true, restore = true } = {}) {
+  state.scrollByView[state.view] = window.scrollY;
+  if (view !== "brief") state.briefOrigin = null;
   state.view = view;
-  state.scrollTop = true;
+  state.restoreScroll = restore ? (state.scrollByView[view] || 0) : 0;
   if (!TAB_VIEWS.includes(view)) { state.axis = ""; state.signal = ""; }
-  const url = new URL(window.location.href);
-  url.searchParams.set("view", view);
-  history.replaceState(null, "", url);
+  if (push) pushView(view);
   render();
 }
+function goBackFromBrief() {
+  const origin = state.briefOrigin;
+  if (!origin) return switchView("today");
+  state.scrollByView[origin.view] = origin.scroll;
+  switchView(origin.view);
+}
 
+function updateTabBadges() {
+  els.tabs.forEach((tab) => {
+    const count = TAB_VIEWS.includes(tab.dataset.view) ? newCountForTab(tab.dataset.view) : 0;
+    let dot = tab.querySelector(".tab-new");
+    if (!count) { dot?.remove(); return; }
+    if (!dot) { dot = el("span", { class: "tab-new" }); tab.append(dot); }
+    dot.textContent = count > 99 ? "99+" : String(count);
+  });
+}
+function renderGuide() {
+  if (storeGet("refsel.guide.v1", false)) return;
+  const guide = el("section", { class: "guide", "aria-label": "읽는 법" },
+    el("b", {}, "처음이세요? 이렇게 읽으면 돼요"),
+    el("ul", {},
+      el("li", {}, "'오늘의 픽'부터: 세 탭에서 가장 날카로운 레퍼런스 12개"),
+      el("li", {}, "날카로움(1~10) = 광고·영상 현장에 바로 쓸 만한 정도. 빨간 줄이 '가져갈 한 수'"),
+      el("li", {}, "흐린 카드는 판독에서 접힌 것. '판독 펼치기'로 새로움·작동 원리·근거를 봐요"),
+      el("li", {}, "'비슷한 것'은 아카이브 전체에서 연관 레퍼런스를 찾아요. '보드에 담기'를 하면 픽이 취향대로 정렬돼요")),
+    el("button", { class: "btn btn-small", type: "button", onclick: () => { storeSet("refsel.guide.v1", true); guide.remove(); } }, "알겠어요"));
+  document.querySelector(".view-tabs").after(guide);
+}
+function bindBackToTop() {
+  const button = el("button", { class: "to-top", type: "button", hidden: true, "aria-label": "맨 위로", onclick: () => window.scrollTo({ top: 0, behavior: "smooth" }) }, "↑");
+  document.body.append(button);
+  let ticking = false;
+  window.addEventListener("scroll", () => {
+    if (ticking) return;
+    ticking = true;
+    requestAnimationFrame(() => { button.hidden = window.scrollY < 1600; ticking = false; });
+  }, { passive: true });
+}
 function bind() {
-  els.tabs.forEach((tab) => tab.addEventListener("click", () => switchView(tab.dataset.view)));
+  els.tabs.forEach((tab) => tab.addEventListener("click", () => switchView(tab.dataset.view, { restore: tab.dataset.view !== state.view })));
+  window.addEventListener("popstate", () => {
+    const params = new URLSearchParams(window.location.search);
+    const view = params.get("view") || "today";
+    const query = params.get("q");
+    if (view === "brief" && query) {
+      if (state.view !== "brief") state.briefOrigin = { view: state.view, scroll: window.scrollY, label: "" };
+      els.briefInput.value = query;
+      state.scrollByView[state.view] = window.scrollY;
+      state.view = "brief";
+      runBrief(query);
+      return;
+    }
+    switchView(view, { push: false });
+  });
   els.localFilter.addEventListener("input", (event) => { clearTimeout(state.queryTimer); state.queryTimer = setTimeout(() => setFilter({ query: event.target.value.trim() }), 300); });
   els.dateSelect.addEventListener("change", (event) => setFilter({ date: event.target.value }));
   els.toggleAll.addEventListener("click", () => setFilter({ showAll: !state.showAll }));
@@ -508,16 +708,17 @@ function bind() {
     event.preventDefault();
     const query = els.briefInput.value.trim();
     if (!query) return;
-    const url = new URL(window.location.href);
-    url.searchParams.set("q", query);
-    url.searchParams.set("view", "brief");
-    history.replaceState(null, "", url);
-    runBrief(query);
+    state.brief.excludeUrl = "";
+    state.briefOrigin = null;
+    openBrief(query);
   });
+  bindBackToTop();
 }
 
 async function init() {
+  initVisit();
   bind();
+  renderGuide();
   const params = new URLSearchParams(window.location.search);
   const results = await Promise.allSettled([getJson("./data/meta.json"), getJson("./data/today.json"), getJson("./data/signals.json"), getJson("./data/curator.json")]);
   [state.meta, state.today, state.signals, state.curator] = results.map((result) => (result.status === "fulfilled" ? result.value : null));
@@ -534,7 +735,7 @@ async function init() {
   }
   const view = params.get("view");
   const query = params.get("q");
-  if (query) { els.briefInput.value = query; runBrief(query); return; }
+  if (query) { els.briefInput.value = query; state.view = "brief"; runBrief(query); updateTabBadges(); return; }
   if (view && [...els.tabs].some((tab) => tab.dataset.view === view)) state.view = view;
   render();
 }

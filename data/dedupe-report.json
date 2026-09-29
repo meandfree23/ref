@@ -1,0 +1,172 @@
+{
+  "runId": "36522239367",
+  "runAt": "2026-09-29T04:37:37.424Z",
+  "removedByTab": {
+    "updates": 18,
+    "korean-code": 14,
+    "cinema": 47
+  },
+  "removed": 79,
+  "examples": [
+    {
+      "removed": "updates@2026-07-03 https://www.dazeddigital.com/dazedleague/article/70483/1/e-pluribus-unum-toma-la-noche?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=el-auge-de-la-vibrante-escena-del-futbol-callejero-en-los-angeles",
+      "kept": "updates@2026-07-03 https://www.dazeddigital.com/dazedleague/article/70459/1/e-pluribus-unum-toma-la-noche?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=the-heart-and-soul-of-la-s-exploding-street-soccer-scene"
+    },
+    {
+      "removed": "cinema@2026-08-08 https://directorsnotes.com/2026/08/05/kelly-sarri-heat-me/",
+      "kept": "updates@2026-08-06 https://directorsnotes.com/2026/08/05/kelly-sarri-heat-me/"
+    },
+    {
+      "removed": "cinema@2026-08-08 https://directorsnotes.com/2026/07/22/grace-anna-cardona-born-to-hustle/",
+      "kept": "updates@2026-08-03 https://directorsnotes.com/2026/07/22/grace-anna-cardona-born-to-hustle/"
+    },
+    {
+      "removed": "cinema@2026-08-08 https://directorsnotes.com/2026/08/07/nathan-xia-flavor-of-the-month/",
+      "kept": "updates@2026-08-08 https://directorsnotes.com/2026/08/07/nathan-xia-flavor-of-the-month/"
+    },
+    {
+      "removed": "cinema@2026-08-08 https://directorsnotes.com/2026/07/30/david-huang-albie-smith-chang-we-buy-gold/",
+      "kept": "updates@2026-08-04 https://directorsnotes.com/2026/07/30/david-huang-albie-smith-chang-we-buy-gold/"
+    },
+    {
+      "removed": "cinema@2026-08-08 https://directorsnotes.com/2026/07/24/sacha-beeley-babyface/",
+      "kept": "updates@2026-08-03 https://directorsnotes.com/2026/07/24/sacha-beeley-babyface/"
+    },
+    {
+      "removed": "cinema@2026-08-11 https://directorsnotes.com/2026/08/11/nana-duffuor-rainbow-girls/",
+      "kept": "updates@2026-08-11 https://directorsnotes.com/2026/08/11/nana-duffuor-rainbow-girls/"
+    },
+    {
+      "removed": "cinema@2026-08-13 https://directorsnotes.com/2026/08/12/li-anne-liew-glide/",
+      "kept": "updates@2026-08-13 https://directorsnotes.com/2026/08/12/li-anne-liew-glide/"
+    },
+    {
+      "removed": "korean-code@2026-08-15 https://www.dezeen.com/2026/08/09/i-in-human-made-store-korean-celadon-tiles/",
+      "kept": "updates@2026-08-09 https://www.dezeen.com/2026/08/09/i-in-human-made-store-korean-celadon-tiles/"
+    },
+    {
+      "removed": "cinema@2026-08-18 https://directorsnotes.com/2026/08/14/locarno-2026-best-short-films/",
+      "kept": "updates@2026-08-13 https://directorsnotes.com/2026/08/14/locarno-2026-best-short-films/"
+    },
+    {
+      "removed": "cinema@2026-08-18 https://directorsnotes.com/2026/08/17/leandros-braounos-daniel-howells-winter-slaap/",
+      "kept": "updates@2026-08-18 https://directorsnotes.com/2026/08/17/leandros-braounos-daniel-howells-winter-slaap/"
+    },
+    {
+      "removed": "cinema@2026-08-19 https://directorsnotes.com/2026/08/19/sarajevo-film-festival-2026-best-short-films/",
+      "kept": "updates@2026-08-19 https://directorsnotes.com/2026/08/19/sarajevo-film-festival-2026-best-short-films/"
+    },
+    {
+      "removed": "updates@2026-08-22 https://directorsnotes.com/2026/06/22/tim-nathan-thoughts-prayers/",
+      "kept": "cinema@2026-08-08 https://directorsnotes.com/2026/06/22/tim-nathan-thoughts-prayers/"
+    },
+    {
+      "removed": "updates@2026-08-22 https://directorsnotes.com/2026/08/04/lianpeng-zhao-museum-of-death/",
+      "kept": "cinema@2026-08-08 https://directorsnotes.com/2026/08/04/lianpeng-zhao-museum-of-death/"
+    },
+    {
+      "removed": "cinema@2026-08-25 https://directorsnotes.com/2026/08/24/jacque-rabie-hyodos-paradise/",
+      "kept": "updates@2026-06-23 https://directorsnotes.com/2026/08/24/jacque-rabie-hyodos-paradise/"
+    },
+    {
+      "removed": "cinema@2026-08-27 https://directorsnotes.com/2026/08/26/kyle-sims-galapagos/",
+      "kept": "updates@2026-06-22 https://directorsnotes.com/2026/08/26/kyle-sims-galapagos/"
+    },
+    {
+      "removed": "cinema@2026-08-27 https://directorsnotes.com/2026/08/27/anna-hopkins-dish-pit/",
+      "kept": "updates@2026-08-27 https://directorsnotes.com/2026/08/27/anna-hopkins-dish-pit/"
+    },
+    {
+      "removed": "korean-code@2026-08-30 https://www.frieze.com/article/dossier-four-galleries-seoul-261",
+      "kept": "korean-code@2026-08-25 https://www.frieze.com/article/four-galleries-shaping-seoul"
+    },
+    {
+      "removed": "updates@2026-09-01 https://directorsnotes.com/2026/07/27/guilherme-proenca-human-trials/",
+      "kept": "cinema@2026-08-08 https://directorsnotes.com/2026/07/27/guilherme-proenca-human-trials/"
+    },
+    {
+      "removed": "korean-code@2026-09-03 https://anothermag.com/design-living/17411/nervous-abner-pastoll-go-ah-sung-interview-frightfest",
+      "kept": "updates@2026-09-03 https://anothermag.com/design-living/17411/nervous-abner-pastoll-go-ah-sung-interview-frightfest"
+    },
+    {
+      "removed": "cinema@2026-09-03 https://anothermag.com/design-living/17419/gregg-araki-i-want-your-sex-interview",
+      "kept": "updates@2026-09-03 https://anothermag.com/design-living/17419/gregg-araki-i-want-your-sex-interview"
+    },
+    {
+      "removed": "cinema@2026-09-03 https://lapa.ninja/post/wearefleshandbones",
+      "kept": "updates@2026-09-02 https://lapa.ninja/post/wearefleshandbones"
+    },
+    {
+      "removed": "cinema@2026-09-03 https://anothermag.com/design-living/17411/nervous-abner-pastoll-go-ah-sung-interview-frightfest",
+      "kept": "updates@2026-09-03 https://anothermag.com/design-living/17411/nervous-abner-pastoll-go-ah-sung-interview-frightfest"
+    },
+    {
+      "removed": "cinema@2026-09-03 https://motionographer.com/2026/07/27/practice-makes-magic-the-human-hands-behind-chikaboom",
+      "kept": "updates@2026-08-03 https://motionographer.com/2026/07/27/practice-makes-magic-the-human-hands-behind-chikaboom/"
+    },
+    {
+      "removed": "cinema@2026-09-03 https://motionographer.com/news/versus-appoints-rezonate-founder-nico-puertollano-as-ecd",
+      "kept": "updates@2026-07-21 https://motionographer.com/news/versus-appoints-rezonate-founder-nico-puertollano-as-ecd/"
+    },
+    {
+      "removed": "cinema@2026-09-03 https://stashmedia.tv/wes-cockx-makes-the-conceptual-visible-for-jetstream",
+      "kept": "updates@2026-08-11 https://www.stashmedia.tv/wes-cockx-makes-the-conceptual-visible-for-jetstream/"
+    },
+    {
+      "removed": "cinema@2026-09-03 https://nowness.com/series/poetic-license/youve-already-gone-sam-mandich-jade-joan",
+      "kept": "updates@2026-08-10 https://www.nowness.com/series/poetic-license/youve-already-gone-sam-mandich-jade-joan"
+    },
+    {
+      "removed": "cinema@2026-09-06 https://directorsnotes.com/2026/09/14/lola-rose-maxwell-attack-of-the-coat/",
+      "kept": "updates@2026-09-05 https://directorsnotes.com/2026/09/14/lola-rose-maxwell-attack-of-the-coat/"
+    },
+    {
+      "removed": "updates@2026-09-06 https://directorsnotes.com/2026/09/16/encounters-2026-best-shorts/",
+      "kept": "cinema@2026-09-06 https://directorsnotes.com/2026/09/16/encounters-2026-best-shorts/"
+    },
+    {
+      "removed": "updates@2026-09-06 https://coolhunting.com/culture/parkseobo-museum-opens-in-seoul-where-legacy-is-drawn-in-a-line",
+      "kept": "korean-code@2026-09-03 https://coolhunting.com/culture/parkseobo-museum-opens-in-seoul-where-legacy-is-drawn-in-a-line"
+    },
+    {
+      "removed": "cinema@2026-09-07 https://lapa.ninja/post/leo-parpeix",
+      "kept": "updates@2026-07-26 https://lapa.ninja/post/leo-parpeix"
+    },
+    {
+      "removed": "cinema@2026-09-07 https://nowness.com/series/nowness-experiments/lavaforming-sukanya-mukherjee-arnar-skarphedinsson",
+      "kept": "updates@2026-08-18 https://www.nowness.com/series/nowness-experiments/lavaforming-sukanya-mukherjee-arnar-skarphedinsson"
+    },
+    {
+      "removed": "cinema@2026-09-07 https://motionographer.com/news/make-animation-thesis-grant-celebrates-second-year-winners",
+      "kept": "updates@2026-08-05 https://motionographer.com/news/make-animation-thesis-grant-celebrates-second-year-winners/"
+    },
+    {
+      "removed": "cinema@2026-09-07 https://abduzeedo.com/gideon-phillip-directs-striking-monochromatic-branding-pm",
+      "kept": "updates@2026-06-29 https://abduzeedo.com/gideon-phillip-directs-striking-monochromatic-branding-pm"
+    },
+    {
+      "removed": "cinema@2026-09-07 https://awwwards.com/sites/artem-shcherbakov",
+      "kept": "updates@2026-09-02 https://awwwards.com/sites/artem-shcherbakov"
+    },
+    {
+      "removed": "cinema@2026-09-07 https://nowness.com/series/in-motion/doug-aitken-lightscape-factory",
+      "kept": "updates@2026-08-29 https://www.nowness.com/series/in-motion/doug-aitken-lightscape-factory"
+    },
+    {
+      "removed": "cinema@2026-09-07 https://nowness.com/series/nowness-experiments/the-scent-remains-frederik-heyman-milou-van-duijnhoven",
+      "kept": "updates@2026-09-05 https://nowness.com/series/nowness-experiments/the-scent-remains-frederik-heyman-milou-van-duijnhoven"
+    },
+    {
+      "removed": "cinema@2026-09-09 https://artinsight.co.kr/news/view2.php?no=82417",
+      "kept": "updates@2026-09-04 https://artinsight.co.kr/news/view2.php?no=82417"
+    },
+    {
+      "removed": "cinema@2026-09-09 https://behance.net/gallery/246162471/FCVQ-2025",
+      "kept": "updates@2026-09-06 https://behance.net/gallery/246162471/FCVQ-2025"
+    },
+    {
+      "removed": "cinema@2026-09-10 https://directorsnotes.com/2026/09/02/jasper-martin-listen-then-repeat/",
+      "kept": "updates@2026-07-26 https://directorsnotes.com/2026/09/02/jasper-martin-listen-then-repeat/"
+    }
+  ]
+}

@@ -45,6 +45,16 @@ jobs:
         continue-on-error: true
         run: npm run recover:daily
 
+      # The collector only fills *today*. If GitHub skips a scheduled run or a collection
+      # fails and is rolled back, that date would stay empty forever. Fill any date in the
+      # last 14 days that has zero items (no network calls when nothing is missing).
+      - name: Fill missed dates (last 14 days)
+        continue-on-error: true
+        timeout-minutes: 15
+        run: |
+          START=$(TZ=Asia/Seoul date -d '14 days ago' +%Y-%m-%d)
+          ONLY_MISSING_DATES=1 BACKFILL_START_DATE=$START BACKFILL_UPDATES_START_DATE=$START node scripts/backfill-consistent-tabs.mjs
+
       - name: Remove cross-date duplicates
         run: node scripts/dedupe-archives.mjs
 

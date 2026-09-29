@@ -740,4 +740,20 @@ async function init() {
   render();
 }
 
+/* ---------- stale-page guard ---------- */
+// A tab restored from the back/forward cache, or left open for hours, keeps showing
+// the archive it first loaded, which looks like "missing dates". Refresh when stale.
+window.addEventListener("pageshow", (event) => { if (event.persisted) window.location.reload(); });
+let lastFreshCheck = Date.now();
+document.addEventListener("visibilitychange", async () => {
+  if (document.visibilityState !== "visible" || Date.now() - lastFreshCheck < 10 * 60 * 1000) return;
+  lastFreshCheck = Date.now();
+  try {
+    const response = await fetch(`./data/meta.json?t=${Date.now()}`, { cache: "no-store" });
+    if (!response.ok) return;
+    const meta = await response.json();
+    if (state.meta?.generatedAt && meta.generatedAt && meta.generatedAt !== state.meta.generatedAt) window.location.reload();
+  } catch { /* offline: keep the current view */ }
+});
+
 init().catch((error) => { els.panel.replaceChildren(el("p", { class: "empty-state" }, `초기화 실패: ${error.message}`)); });

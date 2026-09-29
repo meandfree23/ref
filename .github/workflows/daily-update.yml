@@ -45,17 +45,31 @@ jobs:
         continue-on-error: true
         run: npm run recover:daily
 
-      # The collector only fills *today*. If GitHub skips a scheduled run or a collection
-      # fails and is rolled back, that date would stay empty forever. Fill any date in the
-      # last 14 days that has zero items (no network calls when nothing is missing).
-      - name: Fill missed dates (last 14 days)
+      # Duplicates = same URL, a URL variant (/ko/, another section path) or the same
+      # original title on the same site, across dates AND across the three tabs.
+      - name: Remove duplicates (cross-date, cross-tab)
+        run: node scripts/dedupe-archives.mjs
+
+      # The collector only fills *today*. If GitHub skips a scheduled run, a collection
+      # is rolled back, or dedupe removed items, a recent date can end up short or empty.
+      # Top up any date in the last 14 days below 15 items (no network calls when none).
+      # The backfill excludes everything already in any tab, so it cannot add duplicates.
+      - name: Fill missed or short dates (last 14 days)
         continue-on-error: true
         timeout-minutes: 15
         run: |
           START=$(TZ=Asia/Seoul date -d '14 days ago' +%Y-%m-%d)
-          ONLY_MISSING_DATES=1 BACKFILL_START_DATE=$START BACKFILL_UPDATES_START_DATE=$START node scripts/backfill-consistent-tabs.mjs
+          cp -r data/archives "$RUNNER_TEMP/archives-before-fill"
+          BACKFILL_START_DATE=$START BACKFILL_UPDATES_START_DATE=$START node scripts/backfill-consistent-tabs.mjs || true
+          # Backfilled items skip the collector's rollback net. If they break the quality
+          # gate, revert them so tomorrow's collection is not rolled back because of them.
+          if ! npm run quality:check > "$RUNNER_TEMP/quality.log" 2>&1; then
+            echo "::warning::Backfill failed the quality gate; reverting the backfill."
+            tail -40 "$RUNNER_TEMP/quality.log"
+            rm -rf data/archives && cp -r "$RUNNER_TEMP/archives-before-fill" data/archives
+          fi
 
-      - name: Remove cross-date duplicates
+      - name: Re-check duplicates after backfill
         run: node scripts/dedupe-archives.mjs
 
       - name: Commit collected references first

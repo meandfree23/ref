@@ -1,3 +1,5 @@
+import { identityKeySet, referenceIdentityKeys } from "./reference-identity.mjs";
+
 const titleStopWords = new Set([
   "the", "a", "an", "and", "or", "of", "for", "to", "in", "on", "at", "with", "from", "by",
   "this", "that", "how", "why", "what", "new", "latest", "review", "interview", "article",
@@ -67,6 +69,10 @@ export function selectNovelItems(candidates = [], archivedItems = [], limit = 15
   const selected = [];
   const selectedUrls = new Set(seedItems.flatMap(itemKeys));
   const selectedTitles = new Set(seedItems.map(curationTitleKey).filter(Boolean));
+  // Same article under another URL (section/locale variant) or with a re-translated
+  // Korean title: compare original-language identity keys, not just exact URL/titleKo.
+  const archivedIdentity = identityKeySet(archivedItems);
+  const selectedIdentity = identityKeySet(seedItems);
   const comparisonItems = [...seedItems, ...archivedItems.slice(0, semanticArchiveWindow)];
   const sourceCounts = new Map();
   for (const item of seedItems) {
@@ -80,12 +86,15 @@ export function selectNovelItems(candidates = [], archivedItems = [], limit = 15
       const titleKey = curationTitleKey(item);
       if (!keys.length || keys.some((key) => archivedUrls.has(key) || selectedUrls.has(key))) continue;
       if (titleKey && (archivedTitles.has(titleKey) || selectedTitles.has(titleKey))) continue;
+      const identity = referenceIdentityKeys(item);
+      if (identity.some((key) => archivedIdentity.has(key) || selectedIdentity.has(key))) continue;
       const source = sourceKey(item);
       if ((sourceCounts.get(source) || 0) >= allowedPerSource) continue;
       if (comparisonItems.some((existing) => titleSimilarity(item, existing) >= semanticThreshold)) continue;
       selected.push(item);
       keys.forEach((key) => selectedUrls.add(key));
       if (titleKey) selectedTitles.add(titleKey);
+      identity.forEach((key) => selectedIdentity.add(key));
       comparisonItems.push(item);
       sourceCounts.set(source, (sourceCounts.get(source) || 0) + 1);
       if (selected.length >= limit) break;

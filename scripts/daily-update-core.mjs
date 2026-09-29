@@ -35,13 +35,17 @@ async function updateTab({
   today,
   isValidExisting = () => true,
   curationPolicy = {},
+  otherTabItems = [],
 }) {
   const validToday = itemsForKstDate(before.items, today).filter(isValidExisting);
   // A recovery retry must be allowed to reuse or replace candidates collected
   // earlier today. Only dates before today count as archive history here.
-  const historicalItems = before.items.filter(
-    (item) => itemsForKstDate([item], today).length === 0,
-  );
+  // Items already in the other two tabs (any date, including today) count as
+  // history too, so one article never shows up in Updates and Cinema at once.
+  const historicalItems = [
+    ...before.items.filter((item) => itemsForKstDate([item], today).length === 0),
+    ...otherTabItems,
+  ];
   const existingToday = selectNovelItems(validToday, [], target, curationPolicy);
   const remaining = Math.max(0, target - existingToday.length);
   if (!remaining) {
@@ -162,7 +166,9 @@ export async function runDailyUpdate({ target = dailyResearchItemTarget, limit =
     today,
     isValidExisting: isValidCreativeUpdate,
     curationPolicy: tabPolicies.updates,
+    otherTabItems: [...(koreanBefore.items || []), ...(cinemaBefore.items || [])],
   });
+  const updatesNow = [...(updates.archive?.items || before.items || []), ...updates.todayItems];
   const koreanCode = await updateTab({
     before: koreanBefore,
     target,
@@ -186,7 +192,9 @@ export async function runDailyUpdate({ target = dailyResearchItemTarget, limit =
     today,
     isValidExisting: hasCompleteKoreanLocalization,
     curationPolicy: tabPolicies.koreanCode,
+    otherTabItems: [...updatesNow, ...(cinemaBefore.items || [])],
   });
+  const koreanNow = [...(koreanCode.archive?.items || koreanBefore.items || []), ...koreanCode.todayItems];
   const cinema = await updateTab({
     before: cinemaBefore,
     target,
@@ -202,6 +210,7 @@ export async function runDailyUpdate({ target = dailyResearchItemTarget, limit =
     today,
     isValidExisting: hasCompleteKoreanLocalization,
     curationPolicy: tabPolicies.cinema,
+    otherTabItems: [...updatesNow, ...koreanNow],
   });
 
   const updateReport = tabReport(updates, before);

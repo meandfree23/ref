@@ -3,6 +3,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { execFileSync } from "node:child_process";
+import { referenceIdentityKeys } from "./reference-identity.mjs";
 
 const failures = [];
 const warnings = [];
@@ -18,6 +19,13 @@ for (const name of required) {
   must(fs.existsSync(file), `${file} missing`);
   if (fs.existsSync(file)) { try { readJson(file); } catch (error) { failures.push(`${file} is not valid JSON: ${error.message}`); } }
 }
+// Items removed on purpose by dedupe-archives.mjs in this run are not data loss.
+let dedupeRemoved = {};
+try {
+  const report = readJson("data/dedupe-report.json");
+  const sameRun = process.env.GITHUB_RUN_ID ? report.runId === process.env.GITHUB_RUN_ID : true;
+  if (sameRun && Date.now() - new Date(report.runAt).getTime() < 3 * 3600 * 1000) dedupeRemoved = report.removedByTab || {};
+} catch { /* no report: no allowance */ }
 if (!failures.length) {
   const meta = readJson("public/data/meta.json");
   const previous = readHead("public/data/meta.json");
@@ -27,8 +35,9 @@ if (!failures.length) {
     must(Array.isArray(info.dates) && info.dates.length >= 1, `${tab}: no dates`);
     const before = previous?.tabs?.[tab];
     if (before) {
-      must(info.itemCount >= before.itemCount * 0.97, `${tab}: item count dropped ${before.itemCount} -> ${info.itemCount}`);
-      must(info.readCount >= before.readCount * 0.97, `${tab}: deep-read count dropped ${before.readCount} -> ${info.readCount}`);
+      const allowed = dedupeRemoved[tab] || 0;
+      must(info.itemCount >= before.itemCount * 0.97 - allowed, `${tab}: item count dropped ${before.itemCount} -> ${info.itemCount} (dedupe removed ${allowed})`);
+      must(info.readCount >= before.readCount * 0.97 - allowed, `${tab}: deep-read count dropped ${before.readCount} -> ${info.readCount} (dedupe removed ${allowed})`);
       must(info.latest >= before.latest, `${tab}: latest date went backwards ${before.latest} -> ${info.latest}`);
     }
     const recent = readJson(`public/data/${tab}-recent.json`);
@@ -39,7 +48,25 @@ if (!failures.length) {
     must(Object.values(perDay).every((count) => count <= 15), `${tab}: a day has more than 15 items`);
     const seen = new Set(); must(all.items.every((item) => !seen.has(item.id) && seen.add(item.id)), `${tab}: duplicate ids`);
   }
-  if (previous?.readProgress && meta.readProgress.read < previous.readProgress.read * 0.97) failures.push(`readProgress dropped ${previous.readProgress.read} -> ${meta.readProgress.read}`);
+  // Duplicate audit across all tabs (same URL, URL variant, or same original title).
+  const owners = new Map();
+  const duplicates = [];
+  for (const archive of ["update", "korean-code", "cinema"]) {
+    try {
+      for (const item of readJson(`data/archives/${archive}-archive.json`).items || []) {
+        const keys = referenceIdentityKeys(item);
+        const hit = keys.map((key) => owners.get(key)).find(Boolean);
+        if (hit) duplicates.push(`${archive}: ${item.url} == ${hit}`);
+        else keys.forEach((key) => owners.set(key, `${archive}: ${item.url}`));
+      }
+    } catch { /* reported above */ }
+  }
+  if (duplicates.length) {
+    warnings.push(`${duplicates.length} duplicate references across tabs`);
+    console.log(`::warning::${duplicates.length} duplicate references remain after dedupe, e.g. ${duplicates.slice(0, 3).join(" | ")}`);
+  }
+  const totalDeduped = Object.values(dedupeRemoved).reduce((sum, count) => sum + count, 0);
+  if (previous?.readProgress && meta.readProgress.read < previous.readProgress.read * 0.97 - totalDeduped) failures.push(`readProgress dropped ${previous.readProgress.read} -> ${meta.readProgress.read}`);
   const today = readJson("public/data/today.json");
   if (!today.items?.length) warnings.push("today.json has no picks");
   const signals = readJson("public/data/signals.json");

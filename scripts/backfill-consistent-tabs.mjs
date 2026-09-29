@@ -2,7 +2,7 @@ import { archiveCinemaUpdates, archiveKoreanCodeUpdates, archiveUpdates, readCin
 import { getLatestCinemaUpdates } from "./cinema-core.mjs";
 import { getLatestKoreanCodeUpdates } from "./korean-code-core.mjs";
 import { getLatestUpdates } from "./updates-core.mjs";
-import { canonicalCurationUrl } from "./curation-policy.mjs";
+import { identityKeySet, referenceIdentityKeys } from "./reference-identity.mjs";
 import { dailyResearchItemTarget, kstDateKeyToIso, todayKstKey } from "./research-policy.mjs";
 
 try {
@@ -80,11 +80,10 @@ async function fillMissingDates({ name, readArchive, fetchItems, archiveItems, s
     excludeItems: before.items || [],
   });
   const candidates = latest.items || [];
-  const usedUrls = new Set();
-  for (const item of before.items || []) {
-    if (item.url) usedUrls.add(canonicalCurationUrl(item.url));
-    if (item.googleNewsUrl) usedUrls.add(canonicalCurationUrl(item.googleNewsUrl));
-  }
+  // Everything already published in ANY tab is off limits (URL variants and
+  // same original title included), so a backfill can never create duplicates.
+  const allTabs = await Promise.all([readUpdateArchive(), readKoreanCodeArchive(), readCinemaArchive()]);
+  const usedUrls = identityKeySet(allTabs.flatMap((archive) => archive.items || []));
   let cursor = 0;
   let archivedTotal = 0;
   for (const { date, missing } of underfilled) {
@@ -92,9 +91,7 @@ async function fillMissingDates({ name, readArchive, fetchItems, archiveItems, s
     while (items.length < missing && cursor < candidates.length) {
       const candidate = candidates[cursor];
       cursor += 1;
-      const candidateKeys = [candidate?.url, candidate?.googleNewsUrl]
-        .filter(Boolean)
-        .map(canonicalCurationUrl);
+      const candidateKeys = candidate?.url ? referenceIdentityKeys(candidate) : [];
       if (!candidateKeys.length || candidateKeys.some((key) => usedUrls.has(key))) continue;
       candidateKeys.forEach((key) => usedUrls.add(key));
       items.push(candidate);

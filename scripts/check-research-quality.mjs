@@ -6,6 +6,7 @@ import { canonicalCurationUrl, semanticCurationStats } from "./curation-policy.m
 import { todayKstKey } from "./research-policy.mjs";
 import { isDegradedKoreanTranslation } from "./korean-translation-core.mjs";
 import { evaluateCreativeUpdate } from "./updates-core.mjs";
+import { enrichWithContentInsight, ensureUniqueInsights } from "./content-insight-core.mjs";
 
 import { readLegacyArchivePayload } from "./legacy-archive-payload.mjs";
 const recoveryPlaybookPath = path.resolve("data/recovery-playbook.json");
@@ -144,6 +145,19 @@ assertQuality(
     && incident.onFailure
   )),
   "recovery playbook contains an incomplete incident contract",
+  failures,
+);
+// Regression (2026-10-05): series posts whose titles differ only by "– Part N"
+// produced identical insight text, and the gate discarded the whole day twice.
+const seriesFixture = ensureUniqueInsights([18, 19].map((part) => enrichWithContentInsight({
+  title: `We Love Pitching: Chronicles of a Necessary Mess – Part ${part}`,
+  summary: "Nerdo ECD Claus Cibils explores the underlying pitch process.",
+  url: `https://www.stashmedia.tv/we-love-pitching-chronicles-of-a-necessary-mess-part-${part}/`,
+  date: `2026-10-0${part - 17}T00:00:00.000Z`,
+}, { role: "updates" }))).items;
+assertQuality(
+  duplicateInsightCount(seriesFixture) === 0,
+  "insight uniqueness guard fixture still produces repeated text",
   failures,
 );
 assertQuality(creativeCaseFixture.eligible, "creative case-study fixture is incorrectly rejected", failures);

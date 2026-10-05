@@ -4,6 +4,7 @@ import path from "node:path";
 import { spawnSync } from "node:child_process";
 import { createHash } from "node:crypto";
 import { todayKstKey } from "./research-policy.mjs";
+import { failingTabs, parseGateFailures, quarantineNewItems, tabArchives } from "./item-quarantine.mjs";
 
 const root = process.cwd();
 const statePath = path.resolve("data/recovery-state.json");
@@ -45,8 +46,8 @@ function snapshot() {
   }
 }
 
-function restore() {
-  for (const file of protectedFiles) {
+function restore(files = protectedFiles) {
+  for (const file of files) {
     const source = path.join(snapshotDirectory, file);
     if (!fs.existsSync(source)) continue;
     const destination = path.resolve(file);
@@ -211,8 +212,47 @@ if (!verify.ok) {
   }
 }
 
+// Graceful degradation. A failed gate used to restore the whole snapshot, so one
+// defective item erased the entire date (and the next unknown defect type did it
+// again). Now an item-level defect costs only that item, a tab-level defect costs
+// only that tab, and the full restore is reserved for structural failures.
+// Only a run that collected something gets these tiers; the date is topped up to
+// 15 later by the workflow's backfill step.
+const collected = report.steps.some((step) => ["daily-update", "daily-update-retry"].includes(step.id) && step.ok);
+if (!verify.ok && collected) {
+  const quarantine = quarantineNewItems({ snapshotDirectory });
+  report.quarantined = quarantine.removed;
+  report.steps.push({
+    id: "quarantine-new-items",
+    ok: true,
+    status: 0,
+    elapsedMs: 0,
+    output: JSON.stringify(quarantine),
+  });
+  report.steps.push(run("export-after-quarantine", "npm", ["run", "export:archive"]));
+  verify = run("verify-after-quarantine", "npm", ["run", "verify"]);
+  report.steps.push(verify);
+}
+if (!verify.ok && collected) {
+  const failures = parseGateFailures(verify.output) || [];
+  const tabs = failingTabs(failures);
+  // Unattributable (global) failures, or every content tab failing at once, are
+  // structural: fall through to the full restore below.
+  const contentTabs = tabArchives.filter(({ tab }) => tab !== "history").map(({ tab }) => tab);
+  if (failures.length && !tabs.includes("global") && !contentTabs.every((tab) => tabs.includes(tab))) {
+    const files = tabArchives.filter(({ tab }) => tabs.includes(tab)).map(({ file }) => file);
+    restore(files);
+    report.partiallyRestored = tabs;
+    report.steps.push({ id: "restore-failing-tabs", ok: true, status: 0, elapsedMs: 0, output: JSON.stringify({ tabs, failures }) });
+    report.steps.push(run("export-after-tab-restore", "npm", ["run", "export:archive"]));
+    verify = run("verify-after-tab-restore", "npm", ["run", "verify"]);
+    report.steps.push(verify);
+  }
+}
+
 if (verify.ok) {
-  report.status = "verified";
+  const degraded = Boolean(report.quarantined?.length || report.partiallyRestored?.length);
+  report.status = degraded ? "verified-degraded" : "verified";
   fs.rmSync(snapshotDirectory, { recursive: true, force: true });
 } else {
   restore();
@@ -248,7 +288,9 @@ function extractDiagnostics(output = "") {
 }
 
 console.log(JSON.stringify({
-  ok: report.status === "verified",
+  ok: report.status === "verified" || report.status === "verified-degraded",
+  quarantined: report.quarantined,
+  partiallyRestored: report.partiallyRestored,
   status: report.status,
   today: report.today,
   knownIncident: report.knownIncident,
@@ -266,4 +308,4 @@ console.log(JSON.stringify({
   history: historyPath,
 }, null, 2));
 
-if (report.status !== "verified") process.exitCode = 1;
+if (!["verified", "verified-degraded"].includes(report.status)) process.exitCode = 1;

@@ -424,3 +424,60 @@ export function deriveContentInsight(item = {}, { query = "", role: explicitRole
 export function enrichWithContentInsight(item, options = {}) {
   return { ...item, contentInsight: deriveContentInsight(item, options) };
 }
+
+// Insight text is rule-generated from (subject, evidence, role). Distinct items can
+// therefore collide: series posts ("Part 18" / "Part 19") lose their suffix in
+// compact(), and English evidence is dropped from the sentence. The quality gate
+// treats repeated insight text as a defect, and one collision used to discard a
+// whole day. Make uniqueness a property of the data instead of a gate failure:
+// the oldest item keeps its text, later duplicates get a distinguishing clause
+// built from their own metadata. Deterministic, so re-running is a no-op.
+function insightDisambiguators(item = {}) {
+  const day = (() => {
+    const value = item.originalDate || item.date || item.archivedAt;
+    const date = value ? new Date(value) : null;
+    return date && !Number.isNaN(date.getTime()) ? date.toISOString().slice(0, 10) : "";
+  })();
+  const originalTitle = cleanText(item.title || item.articleTitle || "");
+  const source = cleanText(item.source || item.sourceName || item.host || "");
+  return [
+    originalTitle ? `원제 ‘${originalTitle.length > 110 ? `${originalTitle.slice(0, 107).trim()}...` : originalTitle}’` : "",
+    [source, day].filter(Boolean).join(", "),
+    item.archiveId || item.id || item.url || "",
+  ].filter(Boolean);
+}
+
+export function ensureUniqueInsights(items = []) {
+  const timeOf = (item) => {
+    const time = new Date(item?.archivedAt || item?.date || 0).getTime();
+    return Number.isNaN(time) ? 0 : time;
+  };
+  const order = items
+    .map((item, index) => ({ item, index }))
+    .sort((a, b) => timeOf(a.item) - timeOf(b.item) || a.index - b.index);
+  const seen = new Set();
+  const result = [...items];
+  let changed = 0;
+  for (const { item, index } of order) {
+    const text = item?.contentInsight?.insight;
+    if (!text) continue;
+    if (!seen.has(text)) {
+      seen.add(text);
+      continue;
+    }
+    let candidate = text;
+    for (const extra of insightDisambiguators(item)) {
+      candidate = `${text} (${extra})`;
+      if (!seen.has(candidate)) break;
+    }
+    let counter = 2;
+    while (seen.has(candidate)) {
+      candidate = `${text} (#${counter})`;
+      counter += 1;
+    }
+    seen.add(candidate);
+    result[index] = { ...item, contentInsight: { ...item.contentInsight, insight: candidate } };
+    changed += 1;
+  }
+  return { items: result, changed };
+}

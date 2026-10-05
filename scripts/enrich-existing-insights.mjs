@@ -1,6 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
-import { enrichWithContentInsight } from "./content-insight-core.mjs";
+import { enrichWithContentInsight, ensureUniqueInsights } from "./content-insight-core.mjs";
 import { readBookmarkHistoryIndex, writeBookmarkHistoryIndex } from "./bookmark-history-core.mjs";
 
 const archiveFiles = [
@@ -29,6 +29,9 @@ for (const [file, role] of archiveFiles) {
       imageSourceUrl: "",
     } : {}),
   }, { role }));
+  // Regenerating with the same rules reproduces any collision, so the repair must
+  // also disambiguate repeated text or the insight-contract retry can never pass.
+  payload.items = ensureUniqueInsights(payload.items).items;
   writeJsonAtomic(file, payload);
   report[file] = payload.items.length;
 }

@@ -139,7 +139,7 @@ try {
     knownIncident: recoveryState?.knownIncident || null,
     restored: Boolean(recoveryState?.restored),
   };
-  if (!recoveryCommand.ok || recoveryState?.status !== "verified") {
+  if (!recoveryCommand.ok || !["verified", "verified-degraded"].includes(recoveryState?.status)) {
     throw new Error(`recovery not verified: ${recoveryState?.status || recoveryCommand.outputTail}`);
   }
 

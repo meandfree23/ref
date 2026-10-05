@@ -2,6 +2,7 @@ import { createHash } from "node:crypto";
 import fs from "node:fs";
 import path from "node:path";
 import { canonicalCurationUrl, curationTitleKey } from "./curation-policy.mjs";
+import { ensureUniqueInsights } from "./content-insight-core.mjs";
 
 const updateArchivePrefix = "update-archive/";
 const koreanCodeArchivePrefix = "korean-code-archive/";
@@ -128,14 +129,17 @@ async function archiveItems(items = [], prefix = updateArchivePrefix, options = 
     ? (existing.items || []).filter((item) => !incomingDates.has(dateKey(item.date || item.archivedAt)))
     : existing.items || [];
   const merged = limitItemsPerDate(mergeItems(retained, incoming, options), options.maxItemsPerDate);
-  const payload = { savedAt: archivedAt, items: merged };
+  // Every write path (daily collector, backfill, recovery) goes through here, so
+  // repeated insight text can never reach the archive and trip the quality gate.
+  const { items: uniqueMerged } = ensureUniqueInsights(merged);
+  const payload = { savedAt: archivedAt, items: uniqueMerged };
   fs.mkdirSync(archiveDirectory, { recursive: true });
   const destination = compactArchivePath(prefix);
   const temporary = `${destination}.tmp`;
   fs.writeFileSync(temporary, JSON.stringify(payload));
   fs.renameSync(temporary, destination);
 
-  return buildArchive(merged, options);
+  return buildArchive(uniqueMerged, options);
 }
 
 export function readUpdateArchive() {

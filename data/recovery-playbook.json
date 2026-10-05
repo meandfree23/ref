@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-01",
-  "principle": "Known failures may be repaired automatically only by previously verified, bounded actions. Unknown failures stop publication and preserve the last verified archive.",
+  "updatedAt": "2026-10-05",
+  "principle": "A date is never discarded for an item-level defect. Known failures are repaired by bounded actions; anything left is handled by quarantining only the defective NEW items, then by restoring only the failing tab. A full snapshot restore is reserved for structural failures, and a date that still ends up empty must fail the workflow visibly (scripts/assert-freshness.mjs).",
   "incidents": [
     {
       "id": "daily-timeout",
@@ -18,8 +18,8 @@
     {
       "id": "insight-contract",
       "signals": ["repeated insight", "role-mismatched", "without content insight"],
-      "actions": ["regenerate role-aware insights", "re-export and verify"],
-      "onFailure": "restore snapshot and report unknown content defect"
+      "actions": ["regenerate role-aware insights", "disambiguate repeated insight text with the item's own metadata (ensureUniqueInsights; also applied on every archive write)", "re-export and verify"],
+      "onFailure": "quarantine the defective new items, then restore only the failing tab; never restore the whole snapshot for an item-level defect"
     },
     {
       "id": "creative-quality",

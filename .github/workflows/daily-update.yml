@@ -59,14 +59,21 @@ jobs:
         timeout-minutes: 15
         run: |
           START=$(TZ=Asia/Seoul date -d '14 days ago' +%Y-%m-%d)
-          cp -r data/archives "$RUNNER_TEMP/archives-before-fill"
+          SNAP="$RUNNER_TEMP/fill-snapshot"
+          mkdir -p "$SNAP/data" && cp -r data/archives "$SNAP/data/archives"
           BACKFILL_START_DATE=$START BACKFILL_UPDATES_START_DATE=$START node scripts/backfill-consistent-tabs.mjs || true
           # Backfilled items skip the collector's rollback net. If they break the quality
-          # gate, revert them so tomorrow's collection is not rolled back because of them.
+          # gate, drop only the defective backfilled items (never the verified history);
+          # revert the whole backfill only if that still does not pass.
           if ! npm run quality:check > "$RUNNER_TEMP/quality.log" 2>&1; then
-            echo "::warning::Backfill failed the quality gate; reverting the backfill."
-            tail -40 "$RUNNER_TEMP/quality.log"
-            rm -rf data/archives && cp -r "$RUNNER_TEMP/archives-before-fill" data/archives
+            echo "::warning::Backfill failed the quality gate; quarantining defective backfilled items."
+            tail -20 "$RUNNER_TEMP/quality.log"
+            node scripts/item-quarantine.mjs "$SNAP" || true
+            if ! npm run quality:check > "$RUNNER_TEMP/quality2.log" 2>&1; then
+              echo "::warning::Still failing after quarantine; reverting the backfill."
+              tail -40 "$RUNNER_TEMP/quality2.log"
+              rm -rf data/archives && cp -r "$SNAP/data/archives" data/archives
+            fi
           fi
 
       - name: Re-check duplicates after backfill
@@ -112,3 +119,9 @@ jobs:
         if: steps.collect.outcome == 'failure'
         run: |
           echo "::warning::recover:daily failed today; archives were restored from snapshot and the run continued with existing data. Check data/recovery-history.json."
+
+      # Last line of defence. Everything above is fault-tolerant on purpose, which used
+      # to mean an empty date still produced a green run. If today is missing from any
+      # tab after publishing, fail the run so GitHub sends a failure notification.
+      - name: Freshness contract (today must be published)
+        run: node scripts/assert-freshness.mjs

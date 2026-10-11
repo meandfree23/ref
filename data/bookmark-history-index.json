@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-11T00:59:19.811Z",
+  "generatedAt": "2026-10-11T08:48:02.069Z",
   "sourceCount": 258,
-  "itemCount": 26258,
+  "itemCount": 26358,
   "sources": {
     "adweek.com": {
       "host": "adweek.com",
@@ -2656,14 +2656,14 @@
       "sourceBookmarkUrl": "https://skalty.blog.me/40199668276",
       "sourceFolder": "magazine",
       "priorityTier": "C",
-      "checkedAt": "2026-09-29T01:54:33.136Z",
+      "checkedAt": "2026-10-11T08:45:45.122Z",
       "status": "empty",
       "discovered": 0,
       "added": 0,
       "sitemapCount": 2,
       "errors": [
-        "robots: fetch failed",
-        "home: fetch failed",
+        "robots: This operation was aborted",
+        "home: This operation was aborted",
         "sitemap https://skalty.blog.me/sitemap.xml: This operation was aborted",
         "sitemap https://skalty.blog.me/sitemap_index.xml: This operation was aborted"
       ]
@@ -2673,7 +2673,7 @@
       "sourceBookmarkUrl": "http://www.sublab.tv/",
       "sourceFolder": "magazine",
       "priorityTier": "C",
-      "checkedAt": "2026-09-29T01:54:36.871Z",
+      "checkedAt": "2026-10-11T08:45:50.475Z",
       "status": "empty",
       "discovered": 0,
       "added": 0,
@@ -2687,7 +2687,7 @@
       "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
       "sourceFolder": "magazine",
       "priorityTier": "C",
-      "checkedAt": "2026-09-29T01:54:39.235Z",
+      "checkedAt": "2026-10-11T08:45:53.571Z",
       "status": "indexed",
       "discovered": 100,
       "added": 100,
@@ -2701,26 +2701,31 @@
       "sourceBookmarkUrl": "http://www.thedigitalmkt.com/",
       "sourceFolder": "magazine",
       "priorityTier": "C",
-      "checkedAt": "2026-09-29T01:54:44.085Z",
-      "status": "empty",
-      "discovered": 0,
-      "added": 0,
-      "sitemapCount": 2,
-      "errors": []
-    },
-    "thisismyproof.blog.me": {
-      "host": "thisismyproof.blog.me",
-      "sourceBookmarkUrl": "https://thisismyproof.blog.me/221163434113",
-      "sourceFolder": "magazine",
-      "priorityTier": "C",
-      "checkedAt": "2026-09-29T01:55:24.337Z",
+      "checkedAt": "2026-10-11T08:46:04.751Z",
       "status": "empty",
       "discovered": 0,
       "added": 0,
       "sitemapCount": 2,
       "errors": [
         "robots: This operation was aborted",
-        "home: This operation was aborted",
+        "home: HTTP 502",
+        "sitemap http://www.thedigitalmkt.com/sitemap.xml: HTTP 502",
+        "sitemap http://www.thedigitalmkt.com/sitemap_index.xml: HTTP 502"
+      ]
+    },
+    "thisismyproof.blog.me": {
+      "host": "thisismyproof.blog.me",
+      "sourceBookmarkUrl": "https://thisismyproof.blog.me/221163434113",
+      "sourceFolder": "magazine",
+      "priorityTier": "C",
+      "checkedAt": "2026-10-11T08:46:45.138Z",
+      "status": "empty",
+      "discovered": 0,
+      "added": 0,
+      "sitemapCount": 2,
+      "errors": [
+        "robots: fetch failed",
+        "home: fetch failed",
         "sitemap https://thisismyproof.blog.me/sitemap.xml: This operation was aborted",
         "sitemap https://thisismyproof.blog.me/sitemap_index.xml: This operation was aborted"
       ]
@@ -2730,7 +2735,7 @@
       "sourceBookmarkUrl": "https://tumblbug.com/",
       "sourceFolder": "magazine",
       "priorityTier": "C",
-      "checkedAt": "2026-09-29T01:55:24.766Z",
+      "checkedAt": "2026-10-11T08:46:45.792Z",
       "status": "empty",
       "discovered": 0,
       "added": 0,
@@ -2747,7 +2752,7 @@
       "sourceBookmarkUrl": "https://unseenamsterdam.com/",
       "sourceFolder": "magazine",
       "priorityTier": "C",
-      "checkedAt": "2026-09-29T01:55:27.713Z",
+      "checkedAt": "2026-10-11T08:46:47.573Z",
       "status": "empty",
       "discovered": 0,
       "added": 0,
@@ -2759,16 +2764,16 @@
       "sourceBookmarkUrl": "http://www.vop.co.kr/A00000836322.html",
       "sourceFolder": "magazine",
       "priorityTier": "C",
-      "checkedAt": "2026-09-29T01:55:45.677Z",
+      "checkedAt": "2026-10-11T08:47:18.905Z",
       "status": "empty",
       "discovered": 0,
       "added": 0,
       "sitemapCount": 2,
       "errors": [
-        "robots: fetch failed",
-        "home: fetch failed",
-        "sitemap http://www.vop.co.kr/sitemap.xml: fetch failed",
-        "sitemap http://www.vop.co.kr/sitemap_index.xml: This operation was aborted"
+        "robots: This operation was aborted",
+        "home: This operation was aborted",
+        "sitemap http://www.vop.co.kr/sitemap.xml: This operation was aborted",
+        "sitemap http://www.vop.co.kr/sitemap_index.xml: fetch failed"
       ]
     },
     "adim21.co.kr": {
@@ -2776,7 +2781,7 @@
       "sourceBookmarkUrl": "http://www.adim21.co.kr/?",
       "sourceFolder": "blog",
       "priorityTier": "C",
-      "checkedAt": "2026-09-29T04:22:48.490Z",
+      "checkedAt": "2026-10-11T08:47:21.179Z",
       "status": "empty",
       "discovered": 0,
       "added": 0,
@@ -2788,14 +2793,14 @@
       "sourceBookmarkUrl": "http://jslee402.blog.me/10116884149",
       "sourceFolder": "blog",
       "priorityTier": "C",
-      "checkedAt": "2026-09-29T04:23:28.734Z",
+      "checkedAt": "2026-10-11T08:48:01.528Z",
       "status": "empty",
       "discovered": 0,
       "added": 0,
       "sitemapCount": 2,
       "errors": [
-        "robots: This operation was aborted",
-        "home: This operation was aborted",
+        "robots: fetch failed",
+        "home: fetch failed",
         "sitemap http://jslee402.blog.me/sitemap.xml: This operation was aborted",
         "sitemap http://jslee402.blog.me/sitemap_index.xml: This operation was aborted"
       ]
@@ -340453,6 +340458,126 @@
       }
     },
     {
+      "id": "history-f8e13ff8c1a62867b684",
+      "title": "reimagining the line",
+      "url": "https://tate.org.uk/about-us/projects/art-school-educated/reimagining-the-line",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-06-26T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘reimagining the line’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-1e5703a4366d43da0ace",
+      "title": "aspire national network constable studies",
+      "url": "https://tate.org.uk/about-us/projects/aspire-national-network-constable-studies",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-06-26T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘aspire national network constable studies’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-8ae016d810efad77dad4",
+      "title": "circuit programme",
+      "url": "https://tate.org.uk/about-us/projects/circuit-programme",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-06-26T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘circuit programme’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
       "id": "history-b7a1ca714060dbfa493c",
       "title": "cleaning modern oil paints video",
       "url": "https://tate.org.uk/about-us/projects/cleaning-modern-oil-paints-0/cleaning-modern-oil-paints-video",
@@ -340492,6 +340617,48 @@
         "evidence": "",
         "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 영상 언어의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
         "creativeUse": "‘cleaning modern oil paints video’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-e66e98547d0e00ddb0d5",
+      "title": "architect jacques herzog",
+      "url": "https://tate.org.uk/about-us/projects/tate-modern-project/architect-jacques-herzog",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-06-26T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "space-exhibition",
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "공간과 전시",
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 공간과 전시의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘architect jacques herzog’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
       }
     },
     {
@@ -388235,6 +388402,454 @@
       }
     },
     {
+      "id": "history-d87cecf4f3092b4899a3",
+      "title": "basic design",
+      "url": "https://tate.org.uk/about-us/projects/art-school-educated/basic-design",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-03-30T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "design-system",
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "디자인 언어",
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 디자인 언어의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘basic design’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-f15ca22726fe659b6f26",
+      "title": "logistics 40",
+      "url": "https://tate.org.uk/about-us/projects/logistics-40",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-03-30T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘logistics 40’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-7e3af3b4985762424383",
+      "title": "helen douglas postscript",
+      "url": "https://tate.org.uk/about-us/projects/transforming-artist-books/digital-books/helen-douglas-postscript",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-03-30T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘helen douglas postscript’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-41c3156369a6fcede883",
+      "title": "edward ruscha twentysix gasoline stations 1963",
+      "url": "https://tate.org.uk/about-us/projects/transforming-artist-books/five-artist-book-summaries/edward-ruscha-twentysix-gasoline-stations-1963",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-03-30T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘edward ruscha twentysix gasoline stations 1963’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-e9060a7d4d026d4def21",
+      "title": "mette sofie ambeck 6 degrees of separation",
+      "url": "https://tate.org.uk/about-us/projects/transforming-artist-books/five-artist-book-summaries/mette-sofie-ambeck-6-degrees-of-separation",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-03-30T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘mette sofie ambeck 6 degrees of separation’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-a5ba5221149b59b61296",
+      "title": "simon cutts poinsettia 1975",
+      "url": "https://tate.org.uk/about-us/projects/transforming-artist-books/five-artist-book-summaries/simon-cutts-poinsettia-1975",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-03-30T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘simon cutts poinsettia 1975’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-fb5e930bfe7cd4979fd9",
+      "title": "artist books beyond the library catalogue",
+      "url": "https://tate.org.uk/about-us/projects/transforming-artist-books/reflections/artist-books-beyond-the-library-catalogue",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-03-30T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "art-material",
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "예술과 물성",
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 예술과 물성의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘artist books beyond the library catalogue’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-1b4f4185c2f361443c30",
+      "title": "artists writers and the future of the book",
+      "url": "https://tate.org.uk/about-us/projects/transforming-artist-books/reflections/artists-writers-and-the-future-of-the-book",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-03-30T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘artists writers and the future of the book’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-45b0d55f86a001d9633e",
+      "title": "is the term digital artist books a misnomer",
+      "url": "https://tate.org.uk/about-us/projects/transforming-artist-books/reflections/is-the-term-digital-artist-books-a-misnomer",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-03-30T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "art-material",
+          "technology-interaction"
+        ],
+        "topicLabels": [
+          "예술과 물성",
+          "기술과 인터랙션"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 예술과 물성의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘is the term digital artist books a misnomer’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-fc2d6d4afaed6a3c6e0e",
+      "title": "the digital transformation of the artist book",
+      "url": "https://tate.org.uk/about-us/projects/transforming-artist-books/reflections/the-digital-transformation-of-the-artist-book",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-03-30T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "art-material",
+          "technology-interaction"
+        ],
+        "topicLabels": [
+          "예술과 물성",
+          "기술과 인터랙션"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 예술과 물성의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘the digital transformation of the artist book’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-910a8bb83776ddd5f74a",
+      "title": "what do you want to make today",
+      "url": "https://tate.org.uk/about-us/projects/transforming-artist-books/reflections/what-do-you-want-to-make-today",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-03-30T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘what do you want to make today’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
       "id": "history-73599d83fcc5e9cdccf4",
       "title": "john edwards",
       "url": "https://itworld.co.kr/profile/john-edwards",
@@ -392187,6 +392802,130 @@
       }
     },
     {
+      "id": "history-ea79d6fb74670699e855",
+      "title": "activation report",
+      "url": "https://tate.org.uk/about-us/projects/documentation-conservation-performance/activation-report",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-03-18T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "analysis",
+        "analysisFocus": "analysis",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘activation report’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-48c4f8d140fdc8e8e50e",
+      "title": "material history",
+      "url": "https://tate.org.uk/about-us/projects/documentation-conservation-performance/material-history",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-03-18T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "art-material",
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "예술과 물성",
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 예술과 물성의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘material history’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-9fd026e895a728353449",
+      "title": "finding photography catherine yass",
+      "url": "https://tate.org.uk/about-us/projects/finding-photography-catherine-yass",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-03-18T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "photography",
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "사진과 이미지",
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 사진과 이미지의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘finding photography catherine yass’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
       "id": "history-14244c40c2ac74bb4ee0",
       "title": "audiovisual adherence",
       "url": "https://tate.org.uk/about-us/projects/pericles/audiovisual-adherence",
@@ -392266,6 +393005,330 @@
         "evidence": "",
         "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 영상 언어의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
         "creativeUse": "‘sustaining consistent video presentation’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-d6017e1fd6c81d76a6a7",
+      "title": "meet",
+      "url": "https://tate.org.uk/about-us/projects/tate-modern-project/tate-modern-community-past-projects/tate-modern-project-2/meet",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-03-18T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘meet’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-594f067df8c906bd0502",
+      "title": "digital books",
+      "url": "https://tate.org.uk/about-us/projects/transforming-artist-books/digital-books",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-03-18T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "technology-interaction",
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "기술과 인터랙션",
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 기술과 인터랙션의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘digital books’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-ad02b1291a6912d5824f",
+      "title": "five artist book summaries",
+      "url": "https://tate.org.uk/about-us/projects/transforming-artist-books/five-artist-book-summaries",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-03-18T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "art-material",
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "예술과 물성",
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 예술과 물성의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘five artist book summaries’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-1ab4b764c014112ceb43",
+      "title": "hilary judd shoe box",
+      "url": "https://tate.org.uk/about-us/projects/transforming-artist-books/five-artist-book-summaries/hilary-judd-shoe-box",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-03-18T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘hilary judd shoe box’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-4d1bd59c559802d1ea57",
+      "title": "stuart mugridge from sowtontown",
+      "url": "https://tate.org.uk/about-us/projects/transforming-artist-books/five-artist-book-summaries/stuart-mugridge-from-sowtontown",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-03-18T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘stuart mugridge from sowtontown’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-d7910bb361d0a0b9f052",
+      "title": "future visions and versions of the codex",
+      "url": "https://tate.org.uk/about-us/projects/transforming-artist-books/reflections/future-visions-and-versions-of-the-codex",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-03-18T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘future visions and versions of the codex’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-06fe8afc9be80cf616f2",
+      "title": "suspending disbelief",
+      "url": "https://tate.org.uk/about-us/projects/transforming-artist-books/reflections/suspending-disbelief",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-03-18T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘suspending disbelief’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-81a21efcd0c08e21644e",
+      "title": "whats lost whats gained",
+      "url": "https://tate.org.uk/about-us/projects/transforming-artist-books/reflections/whats-lost-whats-gained",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-03-18T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘whats lost whats gained’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
       }
     },
     {
@@ -403583,6 +404646,48 @@
       }
     },
     {
+      "id": "history-c5ba11e77ed40426f591",
+      "title": "tate movie project",
+      "url": "https://tate.org.uk/about-us/projects/tate-movie-project",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-02-25T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "moving-image",
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "영상 언어",
+          "문화와 시대 감각"
+        ],
+        "method": "case-study",
+        "analysisFocus": "case-study",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 영상 언어의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘tate movie project’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
       "id": "history-9fe0c9e36b6c271c323a",
       "title": "sonu kapoor",
       "url": "https://itworld.co.kr/profile/sonu-kapoor",
@@ -405759,6 +406864,126 @@
       }
     },
     {
+      "id": "history-5bc84731e0c506cfd755",
+      "title": "map interactions",
+      "url": "https://tate.org.uk/about-us/projects/documentation-conservation-performance/map-interactions",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-02-18T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘map interactions’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-9eba9077bf314ceab950",
+      "title": "hlf legacy town project",
+      "url": "https://tate.org.uk/about-us/projects/hlf-legacy-town-project",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-02-18T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "case-study",
+        "analysisFocus": "case-study",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘hlf legacy town project’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-b3c91c08c43357416458",
+      "title": "in site of conversation",
+      "url": "https://tate.org.uk/about-us/projects/in-site-of-conversation",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-02-18T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "interview",
+        "analysisFocus": "interview",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘in site of conversation’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
       "id": "history-420ce6fd1a4a1ceb224f",
       "title": "lives digital things",
       "url": "https://tate.org.uk/about-us/projects/pericles/lives-digital-things",
@@ -405798,6 +407023,48 @@
         "evidence": "",
         "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 기술과 인터랙션의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
         "creativeUse": "‘lives digital things’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-6f6738d9d8e32293eb57",
+      "title": "backwards and forwards with artist books",
+      "url": "https://tate.org.uk/about-us/projects/transforming-artist-books/reflections/backwards-and-forwards-with-artist-books",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-02-18T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "art-material",
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "예술과 물성",
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 예술과 물성의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘backwards and forwards with artist books’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
       }
     },
     {
@@ -425793,6 +427060,46 @@
       }
     },
     {
+      "id": "history-79bb404ea5762ea40bb9",
+      "title": "a bookmare",
+      "url": "https://tate.org.uk/about-us/projects/transforming-artist-books/reflections/a-bookmare",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-12-03T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘a bookmare’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
       "id": "history-d3bbe6b19f7d668b54e8",
       "title": "anne christensen",
       "url": "https://artandcommerce.com/artists/anne-christensen",
@@ -436079,6 +437386,46 @@
       }
     },
     {
+      "id": "history-ff57bc6987a9dcf98104",
+      "title": "documentation conservation performance",
+      "url": "https://tate.org.uk/about-us/projects/documentation-conservation-performance",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-10-17T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘documentation conservation performance’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
       "id": "history-164c95d1b9b841b3e3b6",
       "title": "matters media art",
       "url": "https://tate.org.uk/about-us/projects/matters-media-art",
@@ -436158,6 +437505,86 @@
         "evidence": "",
         "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
         "creativeUse": "‘media transition’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-4252767ef62e92bdd569",
+      "title": "preserving immersive media",
+      "url": "https://tate.org.uk/about-us/projects/preserving-immersive-media",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-10-17T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘preserving immersive media’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-84a60aa886c8a42da7e5",
+      "title": "provisional semantics",
+      "url": "https://tate.org.uk/about-us/projects/provisional-semantics",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-10-17T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘provisional semantics’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
       }
     },
     {
@@ -531197,6 +532624,46 @@
       }
     },
     {
+      "id": "history-fe61d59b324d5a29540f",
+      "title": "learning spaces",
+      "url": "https://tate.org.uk/about-us/projects/tate-modern-project/learning-spaces",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2024-11-04T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘learning spaces’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
       "id": "history-9e03d00c5eeba899a688",
       "title": "79667",
       "url": "https://promonews.tv/interviews/louis-bhose-remaking-club-tropicana-lewis-capaldi-doing-faithful-recreation-was-best-gag/79667",
@@ -531314,6 +532781,48 @@
         "evidence": "",
         "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
         "creativeUse": "‘inside installations’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-a7d7ec706f272a05bef0",
+      "title": "performance and installation spaces",
+      "url": "https://tate.org.uk/about-us/projects/tate-modern-project/performance-and-installation-spaces",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2024-10-30T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "space-exhibition",
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "공간과 전시",
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 공간과 전시의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘performance and installation spaces’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
       }
     },
     {
@@ -579666,6 +581175,46 @@
         "evidence": "",
         "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
         "creativeUse": "‘signature’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-58d93ec04b7201b47334",
+      "title": "tate modern community garden",
+      "url": "https://tate.org.uk/about-us/projects/tate-modern-community-garden",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2024-02-07T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘tate modern community garden’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
       }
     },
     {
@@ -631687,6 +633236,48 @@
       }
     },
     {
+      "id": "history-3c722551c6d61562c4ea",
+      "title": "transforming artist books",
+      "url": "https://tate.org.uk/about-us/projects/transforming-artist-books",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2022-07-29T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "art-material",
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "예술과 물성",
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 예술과 물성의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘transforming artist books’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
       "id": "history-b70bc54265110e8a189e",
       "title": "highlights from voices inspiring women rise nft residents program",
       "url": "https://coolhunting.com/culture/highlights-from-voices-inspiring-women-rise-nft-residents-program",
@@ -647709,6 +649300,46 @@
       }
     },
     {
+      "id": "history-1001a37ba7ad3a869f0f",
+      "title": "tate modern project 1",
+      "url": "https://tate.org.uk/about-us/projects/tate-modern-project/tate-modern-community-past-projects/tate-modern-project-1",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2022-02-05T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "case-study",
+        "analysisFocus": "case-study",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘tate modern project 1’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
       "id": "history-6a1f8838bfb26f51ba83",
       "title": "viron footwear food waste into leather",
       "url": "https://coolhunting.com/style/viron-footwear-food-waste-into-leather",
@@ -651635,6 +653266,86 @@
       }
     },
     {
+      "id": "history-ec590e09f5f03c6a0965",
+      "title": "variable light frank auerbachs rimbaud 1976 and head eow 1957 8",
+      "url": "https://tate.org.uk/about-us/projects/variable-light-frank-auerbachs-rimbaud-1976-and-head-eow-1957-8",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2022-01-19T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘variable light frank auerbachs rimbaud 1976 and head eow 1957 8’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-27b25d070fdcd860b40d",
+      "title": "wondermind",
+      "url": "https://tate.org.uk/about-us/projects/wondermind",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2022-01-19T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘wondermind’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
       "id": "history-37002e8a1019d5c562e6",
       "title": "New Artist: Ricard Jorge",
       "url": "https://levineleavitt.com/new-artist-ricard-jorge",
@@ -652921,6 +654632,130 @@
       }
     },
     {
+      "id": "history-6cb1bd312d2562a74e6b",
+      "title": "archives access learning outreach programme",
+      "url": "https://tate.org.uk/about-us/projects/archives-access-learning-outreach-programme",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2022-01-12T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘archives access learning outreach programme’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-b184a302382d1f58ba2a",
+      "title": "art school educated",
+      "url": "https://tate.org.uk/about-us/projects/art-school-educated",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2022-01-12T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "art-material",
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "예술과 물성",
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 예술과 물성의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘art school educated’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-cdf312b4dc19763401aa",
+      "title": "london art schools",
+      "url": "https://tate.org.uk/about-us/projects/art-school-educated/london-art-schools",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2022-01-12T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "art-material",
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "예술과 물성",
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 예술과 물성의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘london art schools’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
       "id": "history-a8369d2eeb37298b0cab",
       "title": "abstracts participants",
       "url": "https://tate.org.uk/about-us/projects/art-writers-britain/adrian-stokes/abstracts-participants",
@@ -653280,6 +655115,48 @@
         "evidence": "",
         "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
         "creativeUse": "‘artists perspectives’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-51f6f9ca4125ee570bdf",
+      "title": "audio arts",
+      "url": "https://tate.org.uk/about-us/projects/audio-arts",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2022-01-12T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "music-sound",
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "음악과 사운드",
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 음악과 사운드의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘audio arts’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
       }
     },
     {
@@ -653925,6 +655802,46 @@
       }
     },
     {
+      "id": "history-5e775289970b2ad69698",
+      "title": "complex",
+      "url": "https://tate.org.uk/about-us/projects/complex",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2022-01-12T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘complex’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
       "id": "history-c889c137ed306f471b0d",
       "title": "conservation john foleys sculpture sir joshua reynolds pra",
       "url": "https://tate.org.uk/about-us/projects/conservation-john-foleys-sculpture-sir-joshua-reynolds-pra",
@@ -654088,6 +656005,86 @@
         "evidence": "",
         "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 기술과 인터랙션의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
         "creativeUse": "‘cultural value and digital practice policy and theory’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-170a238f7cd5da165aef",
+      "title": "performance specification",
+      "url": "https://tate.org.uk/about-us/projects/documentation-conservation-performance/performance-specification",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2022-01-12T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘performance specification’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-55f85fd2376c085dae7e",
+      "title": "strategy and glossary",
+      "url": "https://tate.org.uk/about-us/projects/documentation-conservation-performance/strategy-and-glossary",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2022-01-12T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘strategy and glossary’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
       }
     },
     {
@@ -654297,6 +656294,86 @@
       }
     },
     {
+      "id": "history-d2627f42e37a33e63ba5",
+      "title": "ik prize",
+      "url": "https://tate.org.uk/about-us/projects/ik-prize",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2022-01-12T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘ik prize’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-55b7851caf823042590f",
+      "title": "inclusive futures",
+      "url": "https://tate.org.uk/about-us/projects/inclusive-futures",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2022-01-12T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘inclusive futures’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
       "id": "history-4b94166ff61fce2504f7",
       "title": "digitising collection",
       "url": "https://tate.org.uk/about-us/projects/insight-digitisation-tate-collection/digitising-collection",
@@ -654500,6 +656577,126 @@
         "evidence": "",
         "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
         "creativeUse": "‘conservation interviews’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-bf9d6e587ae931b64538",
+      "title": "investigating partnerships between visual arts and youth organisations 0",
+      "url": "https://tate.org.uk/about-us/projects/investigating-partnerships-between-visual-arts-and-youth-organisations-0",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2022-01-12T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘investigating partnerships between visual arts and youth organisations 0’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-22c83b42bb211c961fdf",
+      "title": "investigating partnerships between visual arts and youth organisations 1",
+      "url": "https://tate.org.uk/about-us/projects/investigating-partnerships-between-visual-arts-and-youth-organisations-1",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2022-01-12T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘investigating partnerships between visual arts and youth organisations 1’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-55d640a54b1466265f5d",
+      "title": "investigating partnerships between visual arts and youth organisations 2",
+      "url": "https://tate.org.uk/about-us/projects/investigating-partnerships-between-visual-arts-and-youth-organisations-2",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2022-01-12T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘investigating partnerships between visual arts and youth organisations 2’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
       }
     },
     {
@@ -656119,6 +658316,46 @@
       }
     },
     {
+      "id": "history-6489a483f992391cfc52",
+      "title": "new tate st ives",
+      "url": "https://tate.org.uk/about-us/projects/new-tate-st-ives",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2022-01-12T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘new tate st ives’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
       "id": "history-fc1177726983f573b237",
       "title": "pericles",
       "url": "https://tate.org.uk/about-us/projects/pericles",
@@ -656560,6 +658797,1776 @@
         "evidence": "",
         "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
         "creativeUse": "‘tate learning practice research’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-ae3e558ab058118c1ef4",
+      "title": "garden pictures",
+      "url": "https://tate.org.uk/about-us/projects/tate-modern-community-garden/garden-pictures",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2022-01-12T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘garden pictures’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-174b691ba78f9b9da5b2",
+      "title": "tate modern multimedia tour",
+      "url": "https://tate.org.uk/about-us/projects/tate-modern-multimedia-tour",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2022-01-12T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘tate modern multimedia tour’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-f54bcc58943914f276b0",
+      "title": "tate modern project",
+      "url": "https://tate.org.uk/about-us/projects/tate-modern-project",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2022-01-12T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "case-study",
+        "analysisFocus": "case-study",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘tate modern project’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-a5b9a9a449797a9b457d",
+      "title": "art",
+      "url": "https://tate.org.uk/about-us/projects/tate-modern-project/art",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2022-01-12T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "art-material",
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "예술과 물성",
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 예술과 물성의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘art’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-0804ab6dec647051dd08",
+      "title": "bmx",
+      "url": "https://tate.org.uk/about-us/projects/tate-modern-project/bmx",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2022-01-12T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘bmx’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-472e9032717e03237278",
+      "title": "design",
+      "url": "https://tate.org.uk/about-us/projects/tate-modern-project/design",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2022-01-12T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "design-system",
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "디자인 언어",
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 디자인 언어의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘design’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-c302eca094e2928ea02b",
+      "title": "grimshaw",
+      "url": "https://tate.org.uk/about-us/projects/tate-modern-project/grimshaw",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2022-01-12T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘grimshaw’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-8185ff34a941780c1df1",
+      "title": "social spaces",
+      "url": "https://tate.org.uk/about-us/projects/tate-modern-project/social-spaces",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2022-01-12T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘social spaces’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-644e64c9af40e301ec4e",
+      "title": "tate modern community past projects",
+      "url": "https://tate.org.uk/about-us/projects/tate-modern-project/tate-modern-community-past-projects",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2022-01-12T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘tate modern community past projects’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-1d3c18947e4f4fffd375",
+      "title": "community liaison group",
+      "url": "https://tate.org.uk/about-us/projects/tate-modern-project/tate-modern-community-past-projects/community-liaison-group",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2022-01-12T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘community liaison group’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-3d9111cc858a910f9b32",
+      "title": "congregation chloe dewe",
+      "url": "https://tate.org.uk/about-us/projects/tate-modern-project/tate-modern-community-past-projects/congregation-chloe-dewe",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2022-01-12T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘congregation chloe dewe’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-2e1a77aa71092f05e362",
+      "title": "edible estates 2007",
+      "url": "https://tate.org.uk/about-us/projects/tate-modern-project/tate-modern-community-past-projects/edible-estates-2007",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2022-01-12T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘edible estates 2007’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-9d1c594235ed3938ccf2",
+      "title": "no soul sale 2010",
+      "url": "https://tate.org.uk/about-us/projects/tate-modern-project/tate-modern-community-past-projects/no-soul-sale-2010",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2022-01-12T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘no soul sale 2010’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-ab6cc52696a5ec7e94db",
+      "title": "residents day 2009",
+      "url": "https://tate.org.uk/about-us/projects/tate-modern-project/tate-modern-community-past-projects/residents-day-2009",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2022-01-12T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘residents day 2009’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-9f79bdd7622d58da0e11",
+      "title": "rosy mix 2010",
+      "url": "https://tate.org.uk/about-us/projects/tate-modern-project/tate-modern-community-past-projects/rosy-mix-2010",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2022-01-12T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘rosy mix 2010’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-0542a1373590f9155905",
+      "title": "social cement",
+      "url": "https://tate.org.uk/about-us/projects/tate-modern-project/tate-modern-community-past-projects/social-cement",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2022-01-12T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘social cement’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-80efeb073e6fbbfc404c",
+      "title": "tate modern project",
+      "url": "https://tate.org.uk/about-us/projects/tate-modern-project/tate-modern-community-past-projects/tate-modern-project",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2022-01-12T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "case-study",
+        "analysisFocus": "case-study",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘tate modern project’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-c9d4069cef874f38ed99",
+      "title": "tate modern project 0",
+      "url": "https://tate.org.uk/about-us/projects/tate-modern-project/tate-modern-community-past-projects/tate-modern-project-0",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2022-01-12T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "case-study",
+        "analysisFocus": "case-study",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘tate modern project 0’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-0811132ad278e7cb6094",
+      "title": "tate modern project 0 0",
+      "url": "https://tate.org.uk/about-us/projects/tate-modern-project/tate-modern-community-past-projects/tate-modern-project-0-0",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2022-01-12T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "case-study",
+        "analysisFocus": "case-study",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘tate modern project 0 0’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-bbfb9b049d70878209b7",
+      "title": "tate modern project 2",
+      "url": "https://tate.org.uk/about-us/projects/tate-modern-project/tate-modern-community-past-projects/tate-modern-project-2",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2022-01-12T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "case-study",
+        "analysisFocus": "case-study",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘tate modern project 2’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-27a174bd8cad134165ca",
+      "title": "tate modern project 2 0",
+      "url": "https://tate.org.uk/about-us/projects/tate-modern-project/tate-modern-community-past-projects/tate-modern-project-2-0",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2022-01-12T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "case-study",
+        "analysisFocus": "case-study",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘tate modern project 2 0’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-c98a05deeb53e91e2bcc",
+      "title": "tate",
+      "url": "https://tate.org.uk/about-us/projects/tate-modern-project/tate-modern-community-past-projects/tate-modern-project-2/tate",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2022-01-12T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘tate’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-a04f9745256ede51eca5",
+      "title": "tate",
+      "url": "https://tate.org.uk/about-us/projects/tate-modern-project/tate-modern-community-past-projects/tate-modern-project/tate",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2022-01-12T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘tate’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-2210ee98bab88c37da65",
+      "title": "tate 0",
+      "url": "https://tate.org.uk/about-us/projects/tate-modern-project/tate-modern-community-past-projects/tate-modern-project/tate-0",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2022-01-12T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘tate 0’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-2f7e77be543d38d8365e",
+      "title": "tate 1",
+      "url": "https://tate.org.uk/about-us/projects/tate-modern-project/tate-modern-community-past-projects/tate-modern-project/tate-1",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2022-01-12T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘tate 1’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-feeaa3be7f26bacb298c",
+      "title": "tate 2",
+      "url": "https://tate.org.uk/about-us/projects/tate-modern-project/tate-modern-community-past-projects/tate-modern-project/tate-2",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2022-01-12T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘tate 2’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-ae4dc206cd315cfb724c",
+      "title": "tate 3",
+      "url": "https://tate.org.uk/about-us/projects/tate-modern-project/tate-modern-community-past-projects/tate-modern-project/tate-3",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2022-01-12T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘tate 3’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-dddc1e23b90dfa43cb8f",
+      "title": "tate 4",
+      "url": "https://tate.org.uk/about-us/projects/tate-modern-project/tate-modern-community-past-projects/tate-modern-project/tate-4",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2022-01-12T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘tate 4’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-4235de8e00f351d1e664",
+      "title": "thank goodness club 2009",
+      "url": "https://tate.org.uk/about-us/projects/tate-modern-project/tate-modern-community-past-projects/thank-goodness-club-2009",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2022-01-12T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘thank goodness club 2009’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-7f04f2069383afb19c17",
+      "title": "trailing henry 2011",
+      "url": "https://tate.org.uk/about-us/projects/tate-modern-project/tate-modern-community-past-projects/trailing-henry-2011",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2022-01-12T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘trailing henry 2011’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-c56c5b9712f49cf08dd4",
+      "title": "today",
+      "url": "https://tate.org.uk/about-us/projects/tate-modern-project/today",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2022-01-12T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘today’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-ba6a09be4672b4fc6f18",
+      "title": "vision",
+      "url": "https://tate.org.uk/about-us/projects/tate-modern-project/vision",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2022-01-12T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘vision’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-9db0841bc115d7ab3948",
+      "title": "tate st ives artist residency",
+      "url": "https://tate.org.uk/about-us/projects/tate-st-ives-artist-residency",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2022-01-12T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "art-material",
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "예술과 물성",
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 예술과 물성의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘tate st ives artist residency’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-756179cb9378658929e8",
+      "title": "tate worlds art reimagined minecraft",
+      "url": "https://tate.org.uk/about-us/projects/tate-worlds-art-reimagined-minecraft",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2022-01-12T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "art-material",
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "예술과 물성",
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 예술과 물성의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘tate worlds art reimagined minecraft’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-83ba1a5addd97e0fd3c9",
+      "title": "tate worlds games",
+      "url": "https://tate.org.uk/about-us/projects/tate-worlds-art-reimagined-minecraft/tate-worlds-games",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2022-01-12T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘tate worlds games’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-f871bb5081892c70e337",
+      "title": "pool london",
+      "url": "https://tate.org.uk/about-us/projects/tate-worlds-art-reimagined-minecraft/tate-worlds-games/pool-london",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2022-01-12T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘pool london’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-5ef0bf7d4465a7cfd34e",
+      "title": "soulless city",
+      "url": "https://tate.org.uk/about-us/projects/tate-worlds-art-reimagined-minecraft/tate-worlds-games/soulless-city",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2022-01-12T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘soulless city’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-4f94194a6d047b388c7d",
+      "title": "toy shop",
+      "url": "https://tate.org.uk/about-us/projects/tate-worlds-art-reimagined-minecraft/tate-worlds-games/toy-shop",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2022-01-12T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘toy shop’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-70b7fad7768af3372b5e",
+      "title": "tate worlds minecraft frequently asked",
+      "url": "https://tate.org.uk/about-us/projects/tate-worlds-art-reimagined-minecraft/tate-worlds-minecraft-frequently-asked",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2022-01-12T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘tate worlds minecraft frequently asked’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-dbbe0ecf1bada285ef52",
+      "title": "reflections",
+      "url": "https://tate.org.uk/about-us/projects/transforming-artist-books/reflections",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2022-01-12T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘reflections’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-e3f236e626bec7ea6971",
+      "title": "unilever series turbinegeneration",
+      "url": "https://tate.org.uk/about-us/projects/unilever-series-turbinegeneration",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2022-01-12T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘unilever series turbinegeneration’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-c5c0142f81b3c127c6f8",
+      "title": "online gallery",
+      "url": "https://tate.org.uk/about-us/projects/unilever-series-turbinegeneration/online-gallery",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2022-01-12T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "art-material",
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "예술과 물성",
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 예술과 물성의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘online gallery’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-f91c4b2ae9043fe9a148",
+      "title": "resources",
+      "url": "https://tate.org.uk/about-us/projects/unilever-series-turbinegeneration/resources",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2022-01-12T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘resources’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-e7cabfd396b4d9aa641d",
+      "title": "verbal eyes",
+      "url": "https://tate.org.uk/about-us/projects/verbal-eyes",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2022-01-12T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘verbal eyes’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
       }
     },
     {
@@ -658258,6 +662265,46 @@
         "evidence": "",
         "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
         "creativeUse": "‘1267’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-cf0a1a2226c90a31d268",
+      "title": "black arts movement",
+      "url": "https://tate.org.uk/about-us/projects/transforming-artist-books/reflections/b/black-arts-movement",
+      "host": "tate.org.uk",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.tate.org.uk/whats-on",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2021-11-03T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.tate.org.uk/sitemaps/pages.xml",
+      "indexedAt": "2026-10-11T08:45:53.539Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘black arts movement’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
       }
     },
     {

@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-19T07:44:30.816Z",
+  "generatedAt": "2026-10-20T01:05:24.825Z",
   "sourceCount": 258,
-  "itemCount": 32584,
+  "itemCount": 32684,
   "sources": {
     "adweek.com": {
       "host": "adweek.com",
@@ -1386,7 +1386,7 @@
       "sourceBookmarkUrl": "http://curlytops.deviantart.com/gallery/",
       "sourceFolder": "작가",
       "priorityTier": "C",
-      "checkedAt": "2026-10-07T01:30:39.461Z",
+      "checkedAt": "2026-10-20T01:04:52.499Z",
       "status": "empty",
       "discovered": 0,
       "added": 0,
@@ -1403,7 +1403,7 @@
       "sourceBookmarkUrl": "http://www.danielnoone.com/",
       "sourceFolder": "작가",
       "priorityTier": "C",
-      "checkedAt": "2026-10-07T01:30:47.157Z",
+      "checkedAt": "2026-10-20T01:05:00.372Z",
       "status": "empty",
       "discovered": 0,
       "added": 0,
@@ -1415,7 +1415,7 @@
       "sourceBookmarkUrl": "https://www.davirusso.com/",
       "sourceFolder": "작가",
       "priorityTier": "C",
-      "checkedAt": "2026-10-07T01:30:48.687Z",
+      "checkedAt": "2026-10-20T01:05:01.872Z",
       "status": "empty",
       "discovered": 0,
       "added": 0,
@@ -1429,7 +1429,7 @@
       "sourceBookmarkUrl": "http://folio.patrickhoelck.com/#/",
       "sourceFolder": "작가",
       "priorityTier": "C",
-      "checkedAt": "2026-10-07T01:30:50.848Z",
+      "checkedAt": "2026-10-20T01:05:04.155Z",
       "status": "empty",
       "discovered": 0,
       "added": 0,
@@ -1444,7 +1444,7 @@
       "sourceBookmarkUrl": "http://www.franceskearney.com/",
       "sourceFolder": "작가",
       "priorityTier": "C",
-      "checkedAt": "2026-10-07T01:30:52.452Z",
+      "checkedAt": "2026-10-20T01:05:05.594Z",
       "status": "empty",
       "discovered": 0,
       "added": 0,
@@ -1458,7 +1458,7 @@
       "sourceBookmarkUrl": "http://www.frankschott.com/",
       "sourceFolder": "작가",
       "priorityTier": "C",
-      "checkedAt": "2026-10-07T01:30:54.031Z",
+      "checkedAt": "2026-10-20T01:05:07.661Z",
       "status": "empty",
       "discovered": 0,
       "added": 0,
@@ -1472,7 +1472,7 @@
       "sourceBookmarkUrl": "http://www.gregfoto.com/",
       "sourceFolder": "작가",
       "priorityTier": "C",
-      "checkedAt": "2026-10-07T01:31:02.828Z",
+      "checkedAt": "2026-10-20T01:05:16.208Z",
       "status": "empty",
       "discovered": 0,
       "added": 0,
@@ -1486,7 +1486,7 @@
       "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
       "sourceFolder": "작가",
       "priorityTier": "C",
-      "checkedAt": "2026-10-07T01:31:06.436Z",
+      "checkedAt": "2026-10-20T01:05:20.391Z",
       "status": "indexed",
       "discovered": 100,
       "added": 100,
@@ -1500,7 +1500,7 @@
       "sourceBookmarkUrl": "http://www.jacquesolivar.com/",
       "sourceFolder": "작가",
       "priorityTier": "C",
-      "checkedAt": "2026-10-07T08:35:54.544Z",
+      "checkedAt": "2026-10-20T01:05:23.047Z",
       "status": "empty",
       "discovered": 0,
       "added": 0,
@@ -1516,7 +1516,7 @@
       "sourceBookmarkUrl": "https://langanfilms.com/",
       "sourceFolder": "작가",
       "priorityTier": "C",
-      "checkedAt": "2026-10-07T08:35:55.886Z",
+      "checkedAt": "2026-10-20T01:05:24.169Z",
       "status": "empty",
       "discovered": 0,
       "added": 0,
@@ -530536,6 +530536,46 @@
       }
     },
     {
+      "id": "history-ca69a7a92dce34ded0d6",
+      "title": "hb missing truffaut 02 srgb 1000",
+      "url": "https://hubbardbirchler.net/hb_missing_truffaut_02_srgb_1000",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-12-09T19:55:45.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘hb missing truffaut 02 srgb 1000’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
       "id": "history-38f3a98c7d80ef1615c7",
       "title": "daniel gebhart de koekkoek 4",
       "url": "https://collectorsagenda.com/en/editions/daniel-gebhart-de-koekkoek-4",
@@ -680559,6 +680599,46 @@
         "evidence": "Jaimie Webster Haines - Clothing Designer and DJ and Nathan Haines - Musician with Zoot (7)",
         "insight": "남길 이유는 음악과 사운드의 반복 가능한 기준이 있기 때문입니다. 에서 표면에 드러난 변화 하나를 뽑아두세요.",
         "creativeUse": "‘Jaimie Webster Haines – Clothing Designer and DJ and Nathan Haines – Musician with Zoot...’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-24cac64fd4c0336d2b20",
+      "title": "hwp inst srgb 1000",
+      "url": "https://hubbardbirchler.net/hwp_inst_srgb_1000",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2024-05-26T11:04:19.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘hwp inst srgb 1000’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
       }
     },
     {
@@ -879048,6 +879128,86 @@
       }
     },
     {
+      "id": "history-9b52c4564a63de3f7861",
+      "title": "img 3974 3972 srgb 1000",
+      "url": "https://hubbardbirchler.net/img_3974_3972_srgb_1000",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2019-12-18T22:46:04.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘img 3974 3972 srgb 1000’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-a9dcbd5ccb2f40a3f04e",
+      "title": "eight inst modern srgb 1000",
+      "url": "https://hubbardbirchler.net/eight_inst_modern_srgb_1000",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2019-12-18T22:45:56.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘eight inst modern srgb 1000’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
       "id": "history-5b90d862f7bf5fb0b6a1",
       "title": "hb tb 2011 01 srgb 1000",
       "url": "https://hubbardbirchler.net/hb_tb_2011_01_srgb_1000",
@@ -879768,6 +879928,46 @@
       }
     },
     {
+      "id": "history-54115ad08342aa983b3f",
+      "title": "hb missing truffaut 03 srgb 1000",
+      "url": "https://hubbardbirchler.net/hb_missing_truffaut_03_srgb_1000",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2019-12-18T20:56:58.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘hb missing truffaut 03 srgb 1000’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
       "id": "history-23994d16c22153915a5d",
       "title": "ssm 065 66 comp srgb 1000 2",
       "url": "https://hubbardbirchler.net/ssm_065_66_comp_srgb_1000-2",
@@ -879845,6 +880045,86 @@
         "evidence": "",
         "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
         "creativeUse": "‘tape inst n 01 srgb 1000’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-d3aa78184d4252611b37",
+      "title": "ns inst srgb srgb 1000",
+      "url": "https://hubbardbirchler.net/ns_inst_srgb_srgb_1000",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2019-12-18T18:48:53.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘ns inst srgb srgb 1000’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-41cb499f64f9332538a4",
+      "title": "single wide inst 1 srgb 1000",
+      "url": "https://hubbardbirchler.net/single_wide_inst_1_srgb_1000",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2019-12-18T18:26:40.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘single wide inst 1 srgb 1000’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
       }
     },
     {
@@ -880367,6 +880647,86 @@
         "evidence": "",
         "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
         "creativeUse": "‘happy holidays cabelas holiday commercial’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-1df2f9152e896d791a20",
+      "title": "001 trailer inst 01 389",
+      "url": "https://hubbardbirchler.net/001_trailer_inst_01_389",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2019-12-17T19:43:34.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘001 trailer inst 01 389’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-8ef16074277c2b41d628",
+      "title": "002 trailer inst 02 389",
+      "url": "https://hubbardbirchler.net/002_trailer_inst_02_389",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2019-12-17T19:43:31.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘002 trailer inst 02 389’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
       }
     },
     {
@@ -918780,6 +919140,46 @@
       }
     },
     {
+      "id": "history-dae088980195eddfb88e",
+      "title": "ssm hb 0697 srgb 1000",
+      "url": "https://hubbardbirchler.net/ssm_hb_0697_srgb_1000",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2019-01-02T05:24:24.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘ssm hb 0697 srgb 1000’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
       "id": "history-ef24ff6b2546a12149c6",
       "title": "Serena Mitnik-Miller and Mason St. Peter &#8211; Artist, Designer and founders of General Store and their son Wild at home in Topanga",
       "url": "https://theselby.com/gallery/serena-mitnik-miller-and-mason-st-peter",
@@ -931630,6 +932030,3286 @@
       }
     },
     {
+      "id": "history-afec3120f1c3b614c47d",
+      "title": "gpt 20 srgb 1000",
+      "url": "https://hubbardbirchler.net/gpt_20_srgb_1000",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2018-11-13T05:10:42.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘gpt 20 srgb 1000’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-76602b2950036e312aa2",
+      "title": "gpt 17 srgb 1000",
+      "url": "https://hubbardbirchler.net/gpt_17_srgb_1000",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2018-11-13T05:10:39.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘gpt 17 srgb 1000’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-0cb197116a58dec2480d",
+      "title": "harold int srgb 1000",
+      "url": "https://hubbardbirchler.net/harold_int_srgb_1000",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2018-11-13T05:10:36.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘harold int srgb 1000’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-d94c0e78c2f2a7f77786",
+      "title": "gpt 19 srgb 1000",
+      "url": "https://hubbardbirchler.net/gpt_19_srgb_1000",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2018-11-13T05:10:34.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘gpt 19 srgb 1000’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-919073483584aa792db2",
+      "title": "gpt 07 srgb 1000",
+      "url": "https://hubbardbirchler.net/gpt_07_srgb_1000",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2018-11-13T05:10:30.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘gpt 07 srgb 1000’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-538881dff935574f372a",
+      "title": "toni tower srgb 1000",
+      "url": "https://hubbardbirchler.net/toni_tower_srgb_1000",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2018-11-13T05:10:26.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘toni tower srgb 1000’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-81952786ba5d16b1af65",
+      "title": "gpt 21 srgb 1000",
+      "url": "https://hubbardbirchler.net/gpt_21_srgb_1000",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2018-11-13T05:10:24.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘gpt 21 srgb 1000’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-13a2dfa1131792eb84df",
+      "title": "gpt 08 srgb 1000",
+      "url": "https://hubbardbirchler.net/gpt_08_srgb_1000",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2018-11-13T05:10:21.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘gpt 08 srgb 1000’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-336111a7b7181b7f4505",
+      "title": "kristy int srgb 1000",
+      "url": "https://hubbardbirchler.net/kristy_int_srgb_1000",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2018-11-13T05:10:18.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘kristy int srgb 1000’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-71d647a75175e4f0c4e1",
+      "title": "gpt 23 srgb 1000",
+      "url": "https://hubbardbirchler.net/gpt_23_srgb_1000",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2018-11-13T05:10:16.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘gpt 23 srgb 1000’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-34e9229120e37e185aff",
+      "title": "jack int srgb 1000",
+      "url": "https://hubbardbirchler.net/jack_int_srgb_1000",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2018-11-13T05:10:12.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘jack int srgb 1000’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-6b62374c9a22fa48595f",
+      "title": "gpt prod 04 srgb 1000",
+      "url": "https://hubbardbirchler.net/gpt_prod_04_srgb_1000",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2018-11-13T05:10:08.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘gpt prod 04 srgb 1000’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-fdf9e42f365558f45ee9",
+      "title": "gpt prod 02 srgb 1000",
+      "url": "https://hubbardbirchler.net/gpt_prod_02_srgb_1000",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2018-11-13T05:10:04.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘gpt prod 02 srgb 1000’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-5b0d4f02f2be6600663a",
+      "title": "twins int srgb 1000",
+      "url": "https://hubbardbirchler.net/twins_int_srgb_1000",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2018-11-13T05:09:57.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘twins int srgb 1000’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-7f93be52cdb2fc4f539d",
+      "title": "still 025 srgb 1000",
+      "url": "https://hubbardbirchler.net/still-025_srgb_1000",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2018-11-13T05:09:46.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘still 025 srgb 1000’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-91195f26f94229638f3d",
+      "title": "still 029 srgb 1000",
+      "url": "https://hubbardbirchler.net/still-029_srgb_1000",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2018-11-13T05:09:43.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘still 029 srgb 1000’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-5340ec47ca8a4765f308",
+      "title": "still 062 srgb 1000",
+      "url": "https://hubbardbirchler.net/still-062_srgb_1000",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2018-11-13T05:09:40.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘still 062 srgb 1000’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-353a01fb13f13c180309",
+      "title": "still 024 srgb 1000",
+      "url": "https://hubbardbirchler.net/still-024_srgb_1000",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2018-11-13T05:09:37.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘still 024 srgb 1000’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-fe466c835a7df88085eb",
+      "title": "still 041 srgb 1000",
+      "url": "https://hubbardbirchler.net/still-041_srgb_1000",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2018-11-13T05:09:34.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘still 041 srgb 1000’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-ca20ed66c3b820e1ebab",
+      "title": "still 022 srgb 1000",
+      "url": "https://hubbardbirchler.net/still-022_srgb_1000",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2018-11-13T05:09:27.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘still 022 srgb 1000’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-d20116050ec4035ec703",
+      "title": "still 057 srgb 1000",
+      "url": "https://hubbardbirchler.net/still-057_srgb_1000",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2018-11-13T05:09:24.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘still 057 srgb 1000’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-fde4fcdcfa404a957637",
+      "title": "still 052 srgb 1000",
+      "url": "https://hubbardbirchler.net/still-052_srgb_1000",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2018-11-13T05:09:17.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘still 052 srgb 1000’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-b5d4c928c4db31b44b87",
+      "title": "still 050 srgb 1000",
+      "url": "https://hubbardbirchler.net/still-050_srgb_1000",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2018-11-13T05:09:14.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘still 050 srgb 1000’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-09fc39675f238c56a840",
+      "title": "still 068 srgb 1000",
+      "url": "https://hubbardbirchler.net/still-068_srgb_1000",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2018-11-13T05:09:11.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘still 068 srgb 1000’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-85bb9100d7b9a60545fe",
+      "title": "still 060 srgb 1000",
+      "url": "https://hubbardbirchler.net/still-060_srgb_1000",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2018-11-13T05:09:07.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘still 060 srgb 1000’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-75677e3ca21601b3c5ca",
+      "title": "still 075 srgb 1000",
+      "url": "https://hubbardbirchler.net/still-075_srgb_1000",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2018-11-13T05:09:03.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘still 075 srgb 1000’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-5c047faf35983adfae05",
+      "title": "ns 09 srgb 1000",
+      "url": "https://hubbardbirchler.net/ns_09_srgb_1000",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2018-11-13T05:09:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘ns 09 srgb 1000’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-5844e1f6b521a42bdf5b",
+      "title": "ns 01 srgb 1000",
+      "url": "https://hubbardbirchler.net/ns_01_srgb_1000",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2018-11-13T05:08:57.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘ns 01 srgb 1000’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-734cc2f8d7532df971e8",
+      "title": "ns 07 srgb 1000",
+      "url": "https://hubbardbirchler.net/ns_07_srgb_1000",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2018-11-13T05:08:54.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘ns 07 srgb 1000’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-425c44afbe7233587644",
+      "title": "ns 05 srgb 1000",
+      "url": "https://hubbardbirchler.net/ns_05_srgb_1000",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2018-11-13T05:08:50.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘ns 05 srgb 1000’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-5ac763d77ada0bcda591",
+      "title": "ns 11 srgb 1000",
+      "url": "https://hubbardbirchler.net/ns_11_srgb_1000",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2018-11-13T05:08:47.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘ns 11 srgb 1000’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-2f951f94a89af1001883",
+      "title": "ns 03 srgb 1000",
+      "url": "https://hubbardbirchler.net/ns_03_srgb_1000",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2018-11-13T05:08:44.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘ns 03 srgb 1000’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-fda9f05f775012e1fa53",
+      "title": "ns 04 srgb 1000",
+      "url": "https://hubbardbirchler.net/ns_04_srgb_1000",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2018-11-13T05:08:41.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘ns 04 srgb 1000’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-89125d9eafc072bcea29",
+      "title": "ns 08 srgb 1000",
+      "url": "https://hubbardbirchler.net/ns_08_srgb_1000",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2018-11-13T05:08:38.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘ns 08 srgb 1000’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-ca6c3bfe959cde60ca77",
+      "title": "ns 10 srgb 1000",
+      "url": "https://hubbardbirchler.net/ns_10_srgb_1000",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2018-11-13T05:08:36.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘ns 10 srgb 1000’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-6bdc1d6eed2dac54f357",
+      "title": "ns 12 srgb 1000",
+      "url": "https://hubbardbirchler.net/ns_12_srgb_1000",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2018-11-13T05:08:33.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘ns 12 srgb 1000’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-7fa88800a53b594da485",
+      "title": "ns 06 srgb 1000",
+      "url": "https://hubbardbirchler.net/ns_06_srgb_1000",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2018-11-13T05:08:30.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘ns 06 srgb 1000’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-ee522065cf896a8974f8",
+      "title": "ns 02 srgb 1000",
+      "url": "https://hubbardbirchler.net/ns_02_srgb_1000",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2018-11-13T05:08:27.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘ns 02 srgb 1000’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-8f8676b577e664258807",
+      "title": "eight 01 srgb 1000",
+      "url": "https://hubbardbirchler.net/eight_01_srgb_1000",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2018-11-13T05:08:02.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘eight 01 srgb 1000’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-d63241bd1584e75ce916",
+      "title": "eight 03 srgb 1000",
+      "url": "https://hubbardbirchler.net/eight_03_srgb_1000",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2018-11-13T05:07:58.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘eight 03 srgb 1000’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-c10f9ffb351a2ccc6e58",
+      "title": "eight 02 srgb 1000",
+      "url": "https://hubbardbirchler.net/eight_02_srgb_1000",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2018-11-13T05:07:51.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘eight 02 srgb 1000’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-01425f4261d3a4016f87",
+      "title": "eight 04 srgb 1000",
+      "url": "https://hubbardbirchler.net/eight_04_srgb_1000",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2018-11-13T05:07:45.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘eight 04 srgb 1000’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-63e3c121b676c629ed46",
+      "title": "eight 09 srgb 1000",
+      "url": "https://hubbardbirchler.net/eight_09_srgb_1000",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2018-11-13T05:07:42.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘eight 09 srgb 1000’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-8f9ab679f36e4a064dcb",
+      "title": "eight 05 srgb 1000",
+      "url": "https://hubbardbirchler.net/eight_05_srgb_1000",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2018-11-13T05:07:40.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘eight 05 srgb 1000’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-ba036b7da6bad34f2231",
+      "title": "eight 10 srgb 1000",
+      "url": "https://hubbardbirchler.net/eight_10_srgb_1000",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2018-11-13T05:07:37.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘eight 10 srgb 1000’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-8e8a4bde11f1fa250aad",
+      "title": "eight 06 srgb 1000",
+      "url": "https://hubbardbirchler.net/eight_06_srgb_1000",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2018-11-13T05:07:33.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘eight 06 srgb 1000’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-01dd552526c6d82eacd4",
+      "title": "eight 07 srgb 1000",
+      "url": "https://hubbardbirchler.net/eight_07_srgb_1000",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2018-11-13T05:07:30.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘eight 07 srgb 1000’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-bc288bd3db3df34e3acf",
+      "title": "eight 08 n srgb 1000",
+      "url": "https://hubbardbirchler.net/eight_08_n_srgb_1000",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2018-11-13T05:07:27.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘eight 08 n srgb 1000’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-b4bb55518e776bb59a37",
+      "title": "gregor still 1 srgb 1000",
+      "url": "https://hubbardbirchler.net/gregor_still_1_srgb_1000",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2018-11-13T05:07:24.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘gregor still 1 srgb 1000’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-2eb85763b9a2022a7871",
+      "title": "gregor still 2 srgb 1000",
+      "url": "https://hubbardbirchler.net/gregor_still_2_srgb_1000",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2018-11-13T05:07:21.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘gregor still 2 srgb 1000’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-cc36ce8ac6d2d9d41548",
+      "title": "gregor still 4 srgb 1000",
+      "url": "https://hubbardbirchler.net/gregor_still_4_srgb_1000",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2018-11-13T05:07:19.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘gregor still 4 srgb 1000’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-35d3f50b1c7b6b8e4e97",
+      "title": "gregor still 3 srgb 1000",
+      "url": "https://hubbardbirchler.net/gregor_still_3_srgb_1000",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2018-11-13T05:07:15.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘gregor still 3 srgb 1000’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-c0d645803a19f4f64f45",
+      "title": "johnny 01 srgb 1000",
+      "url": "https://hubbardbirchler.net/johnny_01_srgb_1000",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2018-11-13T05:07:12.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘johnny 01 srgb 1000’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-a05a871bf8a7c2280f3f",
+      "title": "johnny 03 srgb 1000",
+      "url": "https://hubbardbirchler.net/johnny_03_srgb_1000",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2018-11-13T05:07:08.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘johnny 03 srgb 1000’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-b9958294bb593232bc4b",
+      "title": "johnny 12 srgb 1000",
+      "url": "https://hubbardbirchler.net/johnny_12_srgb_1000",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2018-11-13T05:07:05.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘johnny 12 srgb 1000’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-daa60ce4471f572954f0",
+      "title": "johnny 08 srgb 1000",
+      "url": "https://hubbardbirchler.net/johnny_08_srgb_1000",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2018-11-13T05:07:02.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘johnny 08 srgb 1000’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-fc4cec0b0aa60d254863",
+      "title": "johnny 14 srgb 1000",
+      "url": "https://hubbardbirchler.net/johnny_14_srgb_1000",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2018-11-13T05:06:59.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘johnny 14 srgb 1000’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-1758f7b98bb267614469",
+      "title": "johnny 28 srgb 1000",
+      "url": "https://hubbardbirchler.net/johnny_28_srgb_1000",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2018-11-13T05:06:56.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘johnny 28 srgb 1000’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-c5b7eb726ddf776b3220",
+      "title": "johnny 19 srgb 1000",
+      "url": "https://hubbardbirchler.net/johnny_19_srgb_1000",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2018-11-13T05:06:54.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘johnny 19 srgb 1000’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-7834b3a0cb01ffddfe8e",
+      "title": "johnny 31 srgb 1000",
+      "url": "https://hubbardbirchler.net/johnny_31_srgb_1000",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2018-11-13T05:06:51.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘johnny 31 srgb 1000’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-fded533a1dc5e71e0eee",
+      "title": "johnny 06 srgb 1000",
+      "url": "https://hubbardbirchler.net/johnny_06_srgb_1000",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2018-11-13T05:06:45.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘johnny 06 srgb 1000’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-14f2b06c381909d9e44e",
+      "title": "johnny 33 srgb 1000",
+      "url": "https://hubbardbirchler.net/johnny_33_srgb_1000",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2018-11-13T05:06:42.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘johnny 33 srgb 1000’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-1c544f4253a175a99b58",
+      "title": "johnny 04 srgb 1000",
+      "url": "https://hubbardbirchler.net/johnny_04_srgb_1000",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2018-11-13T05:06:39.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘johnny 04 srgb 1000’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-cde1b7b28f06ccb23815",
+      "title": "johnny 17 srgb 1000",
+      "url": "https://hubbardbirchler.net/johnny_17_srgb_1000",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2018-11-13T05:06:36.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘johnny 17 srgb 1000’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-9086b1546f1b2c61c49c",
+      "title": "johnny 27 srgb 1000",
+      "url": "https://hubbardbirchler.net/johnny_27_srgb_1000",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2018-11-13T05:06:31.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘johnny 27 srgb 1000’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-3f187de0343d49a56772",
+      "title": "gregor ii all srgb 1000",
+      "url": "https://hubbardbirchler.net/gregor_ii_all_srgb_1000",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2018-11-13T05:06:16.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘gregor ii all srgb 1000’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-988a56c885a01a814949",
+      "title": "sw 16 srgb 1000",
+      "url": "https://hubbardbirchler.net/sw_16_srgb_1000",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2018-11-13T05:06:06.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘sw 16 srgb 1000’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-216a70ae8b761fd2819a",
+      "title": "sw 10 srgb 1000",
+      "url": "https://hubbardbirchler.net/sw_10_srgb_1000",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2018-11-13T05:06:04.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘sw 10 srgb 1000’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-4cb4b8630fbfc1d09821",
+      "title": "sw 11 srgb 1000",
+      "url": "https://hubbardbirchler.net/sw_11_srgb_1000",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2018-11-13T05:06:01.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘sw 11 srgb 1000’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-1bf7f009c0bf9d37f257",
+      "title": "sw 13 srgb 1000",
+      "url": "https://hubbardbirchler.net/sw_13_srgb_1000",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2018-11-13T05:05:53.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘sw 13 srgb 1000’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-97b3533f3ec6329b68fd",
+      "title": "sw 08 srgb 1000",
+      "url": "https://hubbardbirchler.net/sw_08_srgb_1000",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2018-11-13T05:05:48.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘sw 08 srgb 1000’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-3d1c28859b85b8cec295",
+      "title": "sw 12 srgb 1000",
+      "url": "https://hubbardbirchler.net/sw_12_srgb_1000",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2018-11-13T05:05:45.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘sw 12 srgb 1000’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-9d810b5492cd45f508a3",
+      "title": "sw 09 srgb 1000",
+      "url": "https://hubbardbirchler.net/sw_09_srgb_1000",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2018-11-13T05:05:43.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘sw 09 srgb 1000’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-bdd390223962417f7ca6",
+      "title": "sw 02 srgb 1000",
+      "url": "https://hubbardbirchler.net/sw_02_srgb_1000",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2018-11-13T05:05:40.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘sw 02 srgb 1000’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-a4b4b8a9aa4099732230",
+      "title": "sw 15 srgb 1000",
+      "url": "https://hubbardbirchler.net/sw_15_srgb_1000",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2018-11-13T05:05:37.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘sw 15 srgb 1000’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-1cdc977c7e118ad24c37",
+      "title": "sw 14 srgb 1000",
+      "url": "https://hubbardbirchler.net/sw_14_srgb_1000",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2018-11-13T05:05:32.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘sw 14 srgb 1000’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-38e6dc325e23afd20f1b",
+      "title": "sw 06 srgb 1000",
+      "url": "https://hubbardbirchler.net/sw_06_srgb_1000",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2018-11-13T05:05:28.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘sw 06 srgb 1000’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-26bbe18e5ea4e6d435eb",
+      "title": "sw 04 srgb 1000",
+      "url": "https://hubbardbirchler.net/sw_04_srgb_1000",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2018-11-13T05:05:25.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘sw 04 srgb 1000’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-3616428a0969eb161e02",
+      "title": "sw 03 srgb 1000",
+      "url": "https://hubbardbirchler.net/sw_03_srgb_1000",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2018-11-13T05:05:22.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘sw 03 srgb 1000’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-b630f611aae8cdcffead",
+      "title": "sw 07 srgb 1000",
+      "url": "https://hubbardbirchler.net/sw_07_srgb_1000",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2018-11-13T05:05:19.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘sw 07 srgb 1000’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-64e025550e8f6565fdc7",
+      "title": "sw 05 srgb 1000",
+      "url": "https://hubbardbirchler.net/sw_05_srgb_1000",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2018-11-13T05:05:16.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘sw 05 srgb 1000’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-eab052dfd7fdf5c09d2c",
+      "title": "sw 01 srgb 1000",
+      "url": "https://hubbardbirchler.net/sw_01_srgb_1000",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2018-11-13T05:05:12.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘sw 01 srgb 1000’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
       "id": "history-3a64c9d860a6a26af68d",
       "title": "433",
       "url": "https://vanodif.tistory.com/433",
@@ -933710,6 +937390,126 @@
       }
     },
     {
+      "id": "history-5003c0daba29993736a8",
+      "title": "ssm 515 517 comp srgb 1000",
+      "url": "https://hubbardbirchler.net/ssm_515_517_comp_srgb_1000",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2018-11-09T19:00:43.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘ssm 515 517 comp srgb 1000’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-951597700dbeaf3ac220",
+      "title": "ssm 549 srgb 1000",
+      "url": "https://hubbardbirchler.net/ssm_549_srgb_1000",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2018-11-09T19:00:35.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘ssm 549 srgb 1000’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-c332bd489ef2481fb2ff",
+      "title": "ssm 518 srgb 1000",
+      "url": "https://hubbardbirchler.net/ssm_518_srgb_1000",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2018-11-09T19:00:31.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘ssm 518 srgb 1000’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
       "id": "history-47e08a29517e7e2b8d0e",
       "title": "opendoors.gallery",
       "url": "https://opendoors.gallery/?attachment_id=2831",
@@ -935352,6 +939152,46 @@
       }
     },
     {
+      "id": "history-64d85b022d4270619a7b",
+      "title": "johnny inst srgb 1000",
+      "url": "https://hubbardbirchler.net/johnny_inst_srgb_1000",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2018-11-08T22:42:44.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘johnny inst srgb 1000’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
       "id": "history-7bf60aa7fb5b041ef1d6",
       "title": "db inst srgb 1000",
       "url": "https://hubbardbirchler.net/db_inst_srgb_1000",
@@ -936194,6 +940034,46 @@
       }
     },
     {
+      "id": "history-6a7a8a71450a5e218237",
+      "title": "hyperallergic now and then 780",
+      "url": "https://hubbardbirchler.net/hyperallergic_now_and_then_780",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2018-11-05T23:21:27.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘hyperallergic now and then 780’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
       "id": "history-39e557718685899712ca",
       "title": "1285",
       "url": "https://vanodif.tistory.com/1285",
@@ -936391,6 +940271,126 @@
         "evidence": "",
         "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 예술과 물성의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
         "creativeUse": "‘opendoors.gallery’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-5283b9a7ff6d90a27f02",
+      "title": "cd prod 01 srgb 1000 copy",
+      "url": "https://hubbardbirchler.net/cd_prod_01_srgb_1000-copy",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2018-11-01T22:31:51.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘cd prod 01 srgb 1000 copy’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-8e3c2c4fe5381b43a95e",
+      "title": "cd prod 01 srgb 1000 3",
+      "url": "https://hubbardbirchler.net/cd_prod_01_srgb_1000-3",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2018-11-01T22:31:49.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘cd prod 01 srgb 1000 3’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-1845b01ad2c3894d720d",
+      "title": "hwp soundtrack artwork srgb 1000 2",
+      "url": "https://hubbardbirchler.net/hwp_soundtrack_artwork_srgb_1000-2",
+      "host": "hubbardbirchler.net",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.hubbardbirchler.net/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2018-11-01T22:31:49.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.hubbardbirchler.net/image-sitemap-1.xml",
+      "indexedAt": "2026-10-20T01:05:20.371Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "art-material"
+        ],
+        "topicLabels": [
+          "예술과 물성"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 예술과 물성의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘hwp soundtrack artwork srgb 1000 2’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
       }
     },
     {

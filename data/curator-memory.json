@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-29T01:49:11.171Z",
+  "updatedAt": "2026-10-29T01:54:03.904Z",
   "reader": "한국 TVCF(광고 영상) 감독이자 브랜드 전략가 KJ",
   "taste_profile": {
     "summary": "완성된 영화 장면을 모으던 사람에서, 만드는 방법과 그 뒤의 논리를 모으는 사람으로 이동 중. '무엇이 좋은가'보다 '어떻게 만드는가'를 묻는다.",
@@ -39,19 +39,19 @@
   },
   "source_quality": {
     "Dezeen": {
-      "seen": 406,
+      "seen": 407,
       "kept": 251,
       "keepRate": 0.62,
       "avgSharpness": 5.4,
-      "lastSeen": "2026-10-28T01:19:17.621Z",
+      "lastSeen": "2026-10-29T01:48:39.566Z",
       "status": "trusted"
     },
     "No Film School": {
-      "seen": 373,
-      "kept": 201,
+      "seen": 377,
+      "kept": 204,
       "keepRate": 0.54,
       "avgSharpness": 5.4,
-      "lastSeen": "2026-10-28T01:20:05.709Z",
+      "lastSeen": "2026-10-29T01:49:09.234Z",
       "status": "watch"
     },
     "WIRED": {
@@ -63,44 +63,52 @@
       "status": "demoted"
     },
     "designboom": {
-      "seen": 208,
-      "kept": 174,
+      "seen": 210,
+      "kept": 176,
       "keepRate": 0.84,
       "avgSharpness": 6.8,
-      "lastSeen": "2026-10-28T01:19:17.621Z",
+      "lastSeen": "2026-10-29T01:48:06.994Z",
       "status": "trusted"
     },
     "Dazed": {
-      "seen": 174,
-      "kept": 96,
+      "seen": 175,
+      "kept": 97,
       "keepRate": 0.55,
       "avgSharpness": 5.3,
-      "lastSeen": "2026-10-24T00:39:36.637Z",
+      "lastSeen": "2026-10-29T01:48:06.994Z",
       "status": "watch"
     },
     "RogerEbert.com": {
-      "seen": 134,
+      "seen": 136,
       "kept": 11,
       "keepRate": 0.08,
       "avgSharpness": 2.5,
-      "lastSeen": "2026-10-28T01:20:05.709Z",
+      "lastSeen": "2026-10-29T01:49:09.234Z",
       "status": "demoted"
     },
     "abduzeedo.com": {
-      "seen": 125,
-      "kept": 102,
+      "seen": 126,
+      "kept": 103,
       "keepRate": 0.82,
       "avgSharpness": 6.3,
-      "lastSeen": "2026-10-27T01:29:32.140Z",
+      "lastSeen": "2026-10-29T01:48:06.994Z",
       "status": "trusted"
     },
     "The Film Stage": {
-      "seen": 122,
-      "kept": 80,
+      "seen": 125,
+      "kept": 82,
       "keepRate": 0.66,
       "avgSharpness": 6,
-      "lastSeen": "2026-10-28T01:20:05.709Z",
+      "lastSeen": "2026-10-29T01:49:09.234Z",
       "status": "trusted"
+    },
+    "Slant Magazine Film": {
+      "seen": 111,
+      "kept": 24,
+      "keepRate": 0.22,
+      "avgSharpness": 3.6,
+      "lastSeen": "2026-10-29T01:49:09.234Z",
+      "status": "watch"
     },
     "Film Comment": {
       "seen": 111,
@@ -110,20 +118,20 @@
       "lastSeen": "2026-10-14T01:14:44.420Z",
       "status": "demoted"
     },
-    "Slant Magazine Film": {
-      "seen": 110,
-      "kept": 24,
-      "keepRate": 0.22,
-      "avgSharpness": 3.6,
-      "lastSeen": "2026-10-28T01:20:05.709Z",
-      "status": "watch"
-    },
     "Little White Lies": {
-      "seen": 106,
-      "kept": 64,
-      "keepRate": 0.6,
+      "seen": 110,
+      "kept": 67,
+      "keepRate": 0.61,
       "avgSharpness": 5.7,
-      "lastSeen": "2026-10-27T01:30:39.249Z",
+      "lastSeen": "2026-10-29T01:49:09.234Z",
+      "status": "trusted"
+    },
+    "It's Nice That": {
+      "seen": 85,
+      "kept": 64,
+      "keepRate": 0.75,
+      "avgSharpness": 6.5,
+      "lastSeen": "2026-10-29T01:48:06.994Z",
       "status": "trusted"
     },
     "The Korea Times": {
@@ -142,52 +150,44 @@
       "lastSeen": "2026-10-26T00:20:38.346Z",
       "status": "demoted"
     },
-    "It's Nice That": {
-      "seen": 84,
-      "kept": 63,
-      "keepRate": 0.75,
-      "avgSharpness": 6.5,
-      "lastSeen": "2026-10-28T01:19:17.621Z",
-      "status": "trusted"
-    },
     "Stash": {
-      "seen": 76,
-      "kept": 54,
+      "seen": 77,
+      "kept": 55,
       "keepRate": 0.71,
       "avgSharpness": 6.3,
-      "lastSeen": "2026-10-28T01:19:17.621Z",
+      "lastSeen": "2026-10-29T01:48:06.994Z",
       "status": "trusted"
     },
     "Creative Boom": {
-      "seen": 76,
-      "kept": 60,
+      "seen": 77,
+      "kept": 61,
       "keepRate": 0.79,
       "avgSharpness": 6.7,
-      "lastSeen": "2026-10-27T01:29:32.140Z",
+      "lastSeen": "2026-10-29T01:48:06.994Z",
       "status": "trusted"
     },
     "Directors Notes": {
-      "seen": 73,
+      "seen": 74,
       "kept": 55,
-      "keepRate": 0.75,
-      "avgSharpness": 6.5,
-      "lastSeen": "2026-10-28T01:19:17.621Z",
+      "keepRate": 0.74,
+      "avgSharpness": 6.4,
+      "lastSeen": "2026-10-29T01:49:09.234Z",
       "status": "trusted"
     },
     "월간디자인": {
-      "seen": 59,
-      "kept": 58,
+      "seen": 60,
+      "kept": 59,
       "keepRate": 0.98,
       "avgSharpness": 8,
-      "lastSeen": "2026-10-27T01:30:12.027Z",
+      "lastSeen": "2026-10-29T01:48:39.566Z",
       "status": "trusted"
     },
     "Ads of the World": {
-      "seen": 57,
-      "kept": 53,
+      "seen": 58,
+      "kept": 54,
       "keepRate": 0.93,
-      "avgSharpness": 7.2,
-      "lastSeen": "2026-10-28T01:19:17.621Z",
+      "avgSharpness": 7.3,
+      "lastSeen": "2026-10-29T01:48:06.994Z",
       "status": "trusted"
     },
     "Korea JoongAng Daily": {
@@ -215,11 +215,11 @@
       "status": "watch"
     },
     "ppss.kr": {
-      "seen": 51,
-      "kept": 24,
-      "keepRate": 0.47,
+      "seen": 54,
+      "kept": 26,
+      "keepRate": 0.48,
       "avgSharpness": 4.5,
-      "lastSeen": "2026-10-26T00:20:38.346Z",
+      "lastSeen": "2026-10-29T01:48:39.566Z",
       "status": "watch"
     },
     "artinsight.co.kr": {
@@ -246,6 +246,14 @@
       "lastSeen": "2026-10-28T01:19:55.803Z",
       "status": "demoted"
     },
+    "kin.kr": {
+      "seen": 39,
+      "kept": 18,
+      "keepRate": 0.46,
+      "avgSharpness": 4.5,
+      "lastSeen": "2026-10-29T01:48:39.566Z",
+      "status": "watch"
+    },
     "Designboom": {
       "seen": 38,
       "kept": 25,
@@ -261,14 +269,6 @@
       "avgSharpness": 3.2,
       "lastSeen": "2026-10-19T00:14:19.951Z",
       "status": "demoted"
-    },
-    "kin.kr": {
-      "seen": 36,
-      "kept": 16,
-      "keepRate": 0.44,
-      "avgSharpness": 4.4,
-      "lastSeen": "2026-10-28T01:19:55.803Z",
-      "status": "watch"
     },
     "fontsinuse.com": {
       "seen": 33,
@@ -375,11 +375,11 @@
       "status": "watch"
     },
     "K-ARTNOW": {
-      "seen": 18,
-      "kept": 7,
-      "keepRate": 0.39,
-      "avgSharpness": 4.3,
-      "lastSeen": "2026-10-24T00:40:11.829Z",
+      "seen": 19,
+      "kept": 8,
+      "keepRate": 0.42,
+      "avgSharpness": 4.5,
+      "lastSeen": "2026-10-29T01:48:39.566Z",
       "status": "watch"
     },
     "behance.net": {
@@ -391,11 +391,19 @@
       "status": "watch"
     },
     "The Hollywood Reporter": {
-      "seen": 16,
+      "seen": 17,
       "kept": 10,
-      "keepRate": 0.63,
-      "avgSharpness": 5.6,
-      "lastSeen": "2026-10-27T01:30:12.027Z",
+      "keepRate": 0.59,
+      "avgSharpness": 5.4,
+      "lastSeen": "2026-10-29T01:48:39.566Z",
+      "status": "watch"
+    },
+    "Promonews": {
+      "seen": 16,
+      "kept": 13,
+      "keepRate": 0.81,
+      "avgSharpness": 6.8,
+      "lastSeen": "2026-10-29T01:48:06.994Z",
       "status": "trusted"
     },
     "donga.com": {
@@ -414,20 +422,20 @@
       "lastSeen": "2026-10-21T00:38:22.810Z",
       "status": "trusted"
     },
+    "stashmedia.tv": {
+      "seen": 15,
+      "kept": 10,
+      "keepRate": 0.67,
+      "avgSharpness": 6,
+      "lastSeen": "2026-10-29T01:48:06.994Z",
+      "status": "trusted"
+    },
     "shots": {
       "seen": 15,
       "kept": 11,
       "keepRate": 0.73,
       "avgSharpness": 6.1,
       "lastSeen": "2026-10-27T01:29:32.140Z",
-      "status": "trusted"
-    },
-    "Promonews": {
-      "seen": 15,
-      "kept": 13,
-      "keepRate": 0.87,
-      "avgSharpness": 7,
-      "lastSeen": "2026-10-25T00:20:10.365Z",
       "status": "trusted"
     },
     "nowness.com": {
@@ -468,14 +476,6 @@
       "keepRate": 0.79,
       "avgSharpness": 6.1,
       "lastSeen": "2026-08-03T14:59:59.000Z",
-      "status": "trusted"
-    },
-    "stashmedia.tv": {
-      "seen": 13,
-      "kept": 8,
-      "keepRate": 0.62,
-      "avgSharpness": 5.5,
-      "lastSeen": "2026-10-28T01:19:17.621Z",
       "status": "trusted"
     },
     "traveltimes.co.kr": {
@@ -558,6 +558,14 @@
       "lastSeen": "2026-08-03T14:59:59.000Z",
       "status": "watch"
     },
+    "awwwards.com": {
+      "seen": 11,
+      "kept": 9,
+      "keepRate": 0.82,
+      "avgSharpness": 6,
+      "lastSeen": "2026-10-29T01:48:06.994Z",
+      "status": "trusted"
+    },
     "filmshortage.com": {
       "seen": 11,
       "kept": 3,
@@ -636,14 +644,6 @@
       "keepRate": 0.89,
       "avgSharpness": 7.3,
       "lastSeen": "2026-10-23T00:39:39.355Z",
-      "status": "trusted"
-    },
-    "awwwards.com": {
-      "seen": 9,
-      "kept": 7,
-      "keepRate": 0.78,
-      "avgSharpness": 5.7,
-      "lastSeen": "2026-09-22T14:59:59.000Z",
       "status": "trusted"
     },
     "Screen Daily": {
@@ -790,6 +790,14 @@
       "lastSeen": "2026-09-26T14:59:59.000Z",
       "status": "trusted"
     },
+    "BigGo Finance": {
+      "seen": 6,
+      "kept": 0,
+      "keepRate": 0,
+      "avgSharpness": 2,
+      "lastSeen": "2026-10-29T01:48:39.566Z",
+      "status": "watch"
+    },
     "Hypebeast": {
       "seen": 6,
       "kept": 0,
@@ -813,6 +821,14 @@
       "avgSharpness": 7.5,
       "lastSeen": "2026-10-25T00:21:15.979Z",
       "status": "trusted"
+    },
+    "Colossal": {
+      "seen": 5,
+      "kept": 4,
+      "keepRate": 0.8,
+      "avgSharpness": 6.2,
+      "lastSeen": "2026-10-29T01:48:06.994Z",
+      "status": "watch"
     },
     "ArchDaily": {
       "seen": 5,
@@ -878,20 +894,12 @@
       "lastSeen": "2026-10-23T00:39:39.355Z",
       "status": "watch"
     },
-    "Colossal": {
+    "UA.NEWS": {
       "seen": 4,
-      "kept": 3,
-      "keepRate": 0.75,
-      "avgSharpness": 5.8,
-      "lastSeen": "2026-10-04T00:36:21.703Z",
-      "status": "watch"
-    },
-    "BigGo Finance": {
-      "seen": 4,
-      "kept": 0,
-      "keepRate": 0,
-      "avgSharpness": 2,
-      "lastSeen": "2026-10-28T01:19:55.803Z",
+      "kept": 2,
+      "keepRate": 0.5,
+      "avgSharpness": 4.8,
+      "lastSeen": "2026-10-29T01:48:39.566Z",
       "status": "watch"
     },
     "nexonhands.tistory.com": {
@@ -1052,14 +1060,6 @@
       "keepRate": 0,
       "avgSharpness": 3.3,
       "lastSeen": "2026-10-20T01:06:46.682Z",
-      "status": "watch"
-    },
-    "UA.NEWS": {
-      "seen": 3,
-      "kept": 1,
-      "keepRate": 0.33,
-      "avgSharpness": 3.7,
-      "lastSeen": "2026-10-19T00:13:57.690Z",
       "status": "watch"
     },
     "Sada Elbalad English": {
@@ -1292,6 +1292,22 @@
       "keepRate": 1,
       "avgSharpness": 7.5,
       "lastSeen": "2026-09-08T14:59:59.000Z",
+      "status": "watch"
+    },
+    "K-EnterTech Hub": {
+      "seen": 2,
+      "kept": 1,
+      "keepRate": 0.5,
+      "avgSharpness": 5,
+      "lastSeen": "2026-10-29T01:48:39.566Z",
+      "status": "watch"
+    },
+    "What's on Netflix": {
+      "seen": 2,
+      "kept": 1,
+      "keepRate": 0.5,
+      "avgSharpness": 5,
+      "lastSeen": "2026-10-29T01:48:39.566Z",
       "status": "watch"
     },
     "The New York Times": {
@@ -1572,6 +1588,14 @@
       "keepRate": 0,
       "avgSharpness": 3,
       "lastSeen": "2026-09-18T14:59:59.000Z",
+      "status": "watch"
+    },
+    "popgeeks.com": {
+      "seen": 1,
+      "kept": 0,
+      "keepRate": 0,
+      "avgSharpness": 3,
+      "lastSeen": "2026-10-29T01:48:06.994Z",
       "status": "watch"
     },
     "The Indian Express": {
@@ -2078,14 +2102,6 @@
       "lastSeen": "2026-10-25T00:20:49.436Z",
       "status": "watch"
     },
-    "What's on Netflix": {
-      "seen": 1,
-      "kept": 0,
-      "keepRate": 0,
-      "avgSharpness": 2,
-      "lastSeen": "2026-10-25T00:20:49.436Z",
-      "status": "watch"
-    },
     "The Daily Star": {
       "seen": 1,
       "kept": 0,
@@ -2103,14 +2119,6 @@
       "status": "watch"
     },
     "Geek Vibes Nation": {
-      "seen": 1,
-      "kept": 0,
-      "keepRate": 0,
-      "avgSharpness": 2,
-      "lastSeen": "2026-10-24T00:40:11.829Z",
-      "status": "watch"
-    },
-    "K-EnterTech Hub": {
       "seen": 1,
       "kept": 0,
       "keepRate": 0,
@@ -3272,6 +3280,33 @@
     }
   },
   "pipeline_health_log": [
+    {
+      "at": "2026-10-29T01:51:42.484Z",
+      "agent": "signal",
+      "hypotheses": 4,
+      "clusters": 6,
+      "readings": 180,
+      "requests": 1
+    },
+    {
+      "at": "2026-10-29T01:51:34.892Z",
+      "agent": "deep-insight",
+      "daily": {
+        "candidates": 46,
+        "done": 45,
+        "failed": 1,
+        "fulltext": 35
+      },
+      "backfill": {
+        "candidates": 0,
+        "done": 0,
+        "failed": 0
+      },
+      "remaining": 1,
+      "requests": 56,
+      "failures": 1,
+      "lastError": "all models failed: gemini-3.1-flash-lite: empty response (no candidate) | gemini-3.1-flash-lite: empty response (no candidate) | gemini-3.1-flash-lite-preview 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 15, model: gemini-3.1-flash-lite, description: Generate content requests per minute limit exceeded on Free Tier. See https://ai.google.dev/gemini-api/docs/rate-limits.\nPlease retry in 48.52012001s. | gemini-3.1-flash-lite-preview: empty response (no candidate)"
+    },
     {
       "at": "2026-10-28T08:25:43.627Z",
       "agent": "signal",
@@ -4459,33 +4494,6 @@
       "requests": 50,
       "failures": 0,
       "lastError": null
-    },
-    {
-      "at": "2026-10-06T08:56:55.251Z",
-      "agent": "signal",
-      "hypotheses": 4,
-      "clusters": 6,
-      "readings": 180,
-      "requests": 1
-    },
-    {
-      "at": "2026-10-06T08:56:47.031Z",
-      "agent": "deep-insight",
-      "daily": {
-        "candidates": 0,
-        "done": 0,
-        "failed": 0,
-        "fulltext": 0
-      },
-      "backfill": {
-        "candidates": 0,
-        "done": 0,
-        "failed": 0
-      },
-      "remaining": 0,
-      "requests": 0,
-      "failures": 0,
-      "lastError": null
     }
   ],
   "editorial_decisions": [
@@ -4515,8 +4523,8 @@
     "업데이트 게이트를 35점으로 낮춘 뒤 접히는 비율이 너무 높아지면(60%+) 45점으로 되돌릴 것."
   ],
   "last_deep_run": {
-    "at": "2026-10-28T08:25:35.400Z",
-    "read": 0,
-    "kept": 0
+    "at": "2026-10-29T01:51:34.892Z",
+    "read": 45,
+    "kept": 30
   }
 }

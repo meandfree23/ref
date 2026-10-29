@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-29T08:25:28.079Z",
+  "updatedAt": "2026-10-29T08:30:03.095Z",
   "reader": "한국 TVCF(광고 영상) 감독이자 브랜드 전략가 KJ",
   "taste_profile": {
     "summary": "완성된 영화 장면을 모으던 사람에서, 만드는 방법과 그 뒤의 논리를 모으는 사람으로 이동 중. '무엇이 좋은가'보다 '어떻게 만드는가'를 묻는다.",
@@ -3281,6 +3281,33 @@
   },
   "pipeline_health_log": [
     {
+      "at": "2026-10-29T08:27:31.050Z",
+      "agent": "signal",
+      "hypotheses": 4,
+      "clusters": 7,
+      "readings": 180,
+      "requests": 2
+    },
+    {
+      "at": "2026-10-29T08:25:59.347Z",
+      "agent": "deep-insight",
+      "daily": {
+        "candidates": 1,
+        "done": 0,
+        "failed": 1,
+        "fulltext": 0
+      },
+      "backfill": {
+        "candidates": 0,
+        "done": 0,
+        "failed": 0
+      },
+      "remaining": 1,
+      "requests": 6,
+      "failures": 1,
+      "lastError": "all models failed: gemini-3.1-flash-lite: empty response (no candidate) | gemini-3.1-flash-lite: empty response (no candidate) | gemini-3.1-flash-lite-preview: empty response (no candidate) | gemini-3.1-flash-lite-preview: empty response (no candidate)"
+    },
+    {
       "at": "2026-10-29T01:51:42.484Z",
       "agent": "signal",
       "hypotheses": 4,
@@ -4467,33 +4494,6 @@
       "requests": 0,
       "failures": 0,
       "lastError": null
-    },
-    {
-      "at": "2026-10-07T01:35:03.228Z",
-      "agent": "signal",
-      "hypotheses": 4,
-      "clusters": 7,
-      "readings": 180,
-      "requests": 1
-    },
-    {
-      "at": "2026-10-07T01:34:47.559Z",
-      "agent": "deep-insight",
-      "daily": {
-        "candidates": 45,
-        "done": 45,
-        "failed": 0,
-        "fulltext": 33
-      },
-      "backfill": {
-        "candidates": 0,
-        "done": 0,
-        "failed": 0
-      },
-      "remaining": 0,
-      "requests": 50,
-      "failures": 0,
-      "lastError": null
     }
   ],
   "editorial_decisions": [
@@ -4523,8 +4523,8 @@
     "업데이트 게이트를 35점으로 낮춘 뒤 접히는 비율이 너무 높아지면(60%+) 45점으로 되돌릴 것."
   ],
   "last_deep_run": {
-    "at": "2026-10-29T01:51:34.892Z",
-    "read": 45,
-    "kept": 30
+    "at": "2026-10-29T08:25:59.347Z",
+    "read": 0,
+    "kept": 0
   }
 }

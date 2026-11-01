@@ -1,11 +1,16 @@
 {
-  "runId": "41259587067",
-  "runAt": "2026-11-01T01:08:35.236Z",
+  "runId": "41291895442",
+  "runAt": "2026-11-01T09:13:21.784Z",
   "removedByTab": {
-    "updates": 0,
+    "updates": 1,
     "korean-code": 0,
     "cinema": 0
   },
-  "removed": 0,
-  "examples": []
+  "removed": 1,
+  "examples": [
+    {
+      "removed": "updates@2026-11-01 https://www.itsnicethat.com/features/teddy-blanks-chips-film-title-typography-graphic-design-spotlight-240826",
+      "kept": "updates@2026-08-25 https://www.itsnicethat.com/features/teddy-blanks-chips-film-title-typography-graphic-design-spotlight-240826"
+    }
+  ]
 }

@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-03T03:27:42.796Z",
+  "generatedAt": "2026-11-03T09:28:47.771Z",
   "sourceCount": 258,
-  "itemCount": 41212,
+  "itemCount": 41318,
   "sources": {
     "adweek.com": {
       "host": "adweek.com",
@@ -1548,7 +1548,7 @@
       "sourceBookmarkUrl": "http://www.marco149.com/",
       "sourceFolder": "작가",
       "priorityTier": "C",
-      "checkedAt": "2026-10-20T07:29:04.134Z",
+      "checkedAt": "2026-11-03T09:28:09.550Z",
       "status": "empty",
       "discovered": 0,
       "added": 0,
@@ -1564,7 +1564,7 @@
       "sourceBookmarkUrl": "https://www.maxgoldmandp.com/",
       "sourceFolder": "작가",
       "priorityTier": "C",
-      "checkedAt": "2026-10-20T07:29:08.727Z",
+      "checkedAt": "2026-11-03T09:28:14.398Z",
       "status": "empty",
       "discovered": 0,
       "added": 0,
@@ -1581,7 +1581,7 @@
       "sourceBookmarkUrl": "https://mike-tucker.com/#/cushnie",
       "sourceFolder": "작가",
       "priorityTier": "C",
-      "checkedAt": "2026-10-20T07:29:09.431Z",
+      "checkedAt": "2026-11-03T09:28:15.253Z",
       "status": "empty",
       "discovered": 0,
       "added": 0,
@@ -1597,7 +1597,7 @@
       "sourceBookmarkUrl": "http://odalisquemagazine.com/",
       "sourceFolder": "작가",
       "priorityTier": "C",
-      "checkedAt": "2026-10-20T07:29:17.588Z",
+      "checkedAt": "2026-11-03T09:28:23.718Z",
       "status": "indexed",
       "discovered": 100,
       "added": 100,
@@ -1611,7 +1611,7 @@
       "sourceBookmarkUrl": "http://photography.marekokon.com/",
       "sourceFolder": "작가",
       "priorityTier": "C",
-      "checkedAt": "2026-10-20T07:29:18.580Z",
+      "checkedAt": "2026-11-03T09:28:25.293Z",
       "status": "empty",
       "discovered": 0,
       "added": 0,
@@ -1628,10 +1628,10 @@
       "sourceBookmarkUrl": "http://www.romain-laurent.com/",
       "sourceFolder": "작가",
       "priorityTier": "C",
-      "checkedAt": "2026-10-20T07:29:29.795Z",
-      "status": "indexed",
-      "discovered": 2,
-      "added": 2,
+      "checkedAt": "2026-11-03T09:28:26.721Z",
+      "status": "empty",
+      "discovered": 0,
+      "added": 0,
       "sitemapCount": 3,
       "errors": [
         "sitemap http://www.romain-laurent.com/sitemap_index.xml: HTTP 404"
@@ -1642,7 +1642,7 @@
       "sourceBookmarkUrl": "http://www.schmidtfoto.com/",
       "sourceFolder": "작가",
       "priorityTier": "C",
-      "checkedAt": "2026-10-20T07:29:33.777Z",
+      "checkedAt": "2026-11-03T09:28:32.322Z",
       "status": "empty",
       "discovered": 0,
       "added": 0,
@@ -1656,7 +1656,7 @@
       "sourceBookmarkUrl": "https://www.silvanderwoerd.com/",
       "sourceFolder": "작가",
       "priorityTier": "C",
-      "checkedAt": "2026-10-20T07:29:35.371Z",
+      "checkedAt": "2026-11-03T09:28:33.358Z",
       "status": "empty",
       "discovered": 0,
       "added": 0,
@@ -1670,10 +1670,10 @@
       "sourceBookmarkUrl": "http://spirospolitis.com/spirosfashion.html",
       "sourceFolder": "작가",
       "priorityTier": "C",
-      "checkedAt": "2026-10-21T00:35:43.730Z",
-      "status": "empty",
-      "discovered": 0,
-      "added": 0,
+      "checkedAt": "2026-11-03T09:28:40.702Z",
+      "status": "indexed",
+      "discovered": 6,
+      "added": 6,
       "sitemapCount": 9,
       "errors": [
         "sitemap http://spirospolitis.com/sitemap.xml: HTTP 404"
@@ -1684,10 +1684,10 @@
       "sourceBookmarkUrl": "https://strba.ch/?Photos",
       "sourceFolder": "작가",
       "priorityTier": "C",
-      "checkedAt": "2026-10-21T00:35:50.877Z",
-      "status": "indexed",
-      "discovered": 1,
-      "added": 1,
+      "checkedAt": "2026-11-03T09:28:46.913Z",
+      "status": "empty",
+      "discovered": 0,
+      "added": 0,
       "sitemapCount": 7,
       "errors": []
     },
@@ -3700,6 +3700,336 @@
     }
   },
   "items": [
+    {
+      "id": "history-5e179245709e9df69937",
+      "title": "Golden Reverie: Oribe Meets the Art of Mathilde Herrero",
+      "url": "https://odalisquemagazine.com/2026/11/03/golden-reverie-oribe-meets-the-art-of-mathilde-herrero",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "Golden Reverie: Oribe Meets the Art of Mathilde Herrero text Christine Deckert For Holiday 2026, Oribe teams up with French mosaic [&#8230;]",
+      "image": "",
+      "publishedAt": "2026-11-03T09:03:32.000Z",
+      "modifiedAt": null,
+      "discoveryMethod": "feed",
+      "discoveryUrl": "http://odalisquemagazine.com/feed/",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "art-material",
+          "photography"
+        ],
+        "topicLabels": [
+          "예술과 물성",
+          "사진과 이미지"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "evidence-backed",
+        "evidence": "Golden Reverie: Oribe Meets the Art of Mathilde Herrero text Christine Deckert For Holiday 2026, Oribe teams up with French mosaic […]",
+        "insight": "남길 이유는 예술과 물성의 반복 가능한 기준이 있기 때문입니다. 에서 표면에 드러난 변화 하나를 뽑아두세요.",
+        "creativeUse": "‘Golden Reverie: Oribe Meets the Art of Mathilde Herrero’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-d19cd4d6ec7ce499eba8",
+      "title": "Levi&#8217;s Holiday Campaign &#8216;Let&#8217;s Get Fuzzy&#8217; Puts Sweaters at the Centre",
+      "url": "https://odalisquemagazine.com/2026/11/02/levis-holiday-campaign-lets-get-fuzzy-puts-sweaters-at-the-centre",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "Levi&#8217;s Holiday Campaign &#8216;Let&#8217;s Get Fuzzy&#8217; Puts Sweaters at the Centre Levi&#8217;s has launched its Holiday 2026 campaign, &#8220;Let&#8217;s Get Fuzzy,&#8221; positioning [&#8230;]",
+      "image": "",
+      "publishedAt": "2026-11-02T14:04:48.000Z",
+      "modifiedAt": null,
+      "discoveryMethod": "feed",
+      "discoveryUrl": "http://odalisquemagazine.com/feed/",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "brand-strategy",
+          "art-material"
+        ],
+        "topicLabels": [
+          "브랜드와 전략",
+          "예술과 물성"
+        ],
+        "method": "case-study",
+        "analysisFocus": "case-study",
+        "confidence": "evidence-backed",
+        "evidence": "Levi’s Holiday Campaign ‘Let’s Get Fuzzy’ Puts Sweaters at the Centre Levi’s has launched its Holiday 2026 campaign, “Let’s Get Fuzzy,” positioning […]",
+        "insight": "남길 이유는 브랜드와 전략의 반복 가능한 기준이 있기 때문입니다. 에서 문제·아이디어·실행의 인과 하나를 뽑아두세요.",
+        "creativeUse": "‘Levi’s Holiday Campaign ‘Let’s Get Fuzzy’ Puts Sweaters at the Centre’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-6ce7a4cce526085ce3ca",
+      "title": "Uoga Uoga: Natural Beauty from the Baltics",
+      "url": "https://odalisquemagazine.com/2026/11/02/uoga-uoga-natural-beauty-from-the-baltics",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "Uoga Uoga: Natural Beauty from the Baltics Lithuanian beauty brand Uoga Uoga brings a fresh and playful approach to natural [&#8230;]",
+      "image": "",
+      "publishedAt": "2026-11-02T13:31:21.000Z",
+      "modifiedAt": null,
+      "discoveryMethod": "feed",
+      "discoveryUrl": "http://odalisquemagazine.com/feed/",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "brand-strategy",
+          "fashion-culture"
+        ],
+        "topicLabels": [
+          "브랜드와 전략",
+          "패션과 스타일"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "evidence-backed",
+        "evidence": "Uoga Uoga: Natural Beauty from the Baltics Lithuanian beauty brand Uoga Uoga brings a fresh and playful approach to natural […]",
+        "insight": "남길 이유는 브랜드와 전략의 반복 가능한 기준이 있기 때문입니다. 에서 표면에 드러난 변화 하나를 뽑아두세요.",
+        "creativeUse": "‘Uoga Uoga: Natural Beauty from the Baltics’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-87f4a3d18ad425403ecb",
+      "title": "New Wave: A New Chapter in Scent",
+      "url": "https://odalisquemagazine.com/2026/11/02/new-wave-a-new-chapter-in-scent",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "New Wave: A New Chapter in Scent Enchanting, mysterious and highly captivating, MERIT’s latest fragrance is already shaping up to [&#8230;]",
+      "image": "",
+      "publishedAt": "2026-11-02T13:29:57.000Z",
+      "modifiedAt": null,
+      "discoveryMethod": "feed",
+      "discoveryUrl": "http://odalisquemagazine.com/feed/",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "evidence-backed",
+        "evidence": "New Wave: A New Chapter in Scent Enchanting, mysterious and highly captivating, MERIT’s latest fragrance is already shaping up to […]",
+        "insight": "남길 이유는 문화와 시대 감각의 반복 가능한 기준이 있기 때문입니다. 에서 표면에 드러난 변화 하나를 뽑아두세요.",
+        "creativeUse": "‘New Wave: A New Chapter in Scent’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-e66459cef41ca67767b1",
+      "title": "Love Letters from Svenskt Tenn",
+      "url": "https://odalisquemagazine.com/2026/11/02/love-letters-from-svenskt-tenn",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "Love Letters from Svenskt Tenn For this year’s Christmas collection, textile designer Nkuli Mlangeni-Berg brings South African craft traditions into [&#8230;]",
+      "image": "",
+      "publishedAt": "2026-11-02T12:48:57.000Z",
+      "modifiedAt": null,
+      "discoveryMethod": "feed",
+      "discoveryUrl": "http://odalisquemagazine.com/feed/",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "art-material",
+          "fashion-culture"
+        ],
+        "topicLabels": [
+          "예술과 물성",
+          "패션과 스타일"
+        ],
+        "method": "process",
+        "analysisFocus": "process",
+        "confidence": "evidence-backed",
+        "evidence": "Love Letters from Svenskt Tenn For this year’s Christmas collection, textile designer Nkuli Mlangeni-Berg brings South African craft traditions into […]",
+        "insight": "남길 이유는 예술과 물성의 반복 가능한 기준이 있기 때문입니다. 에서 제작 순서와 제약 하나를 뽑아두세요.",
+        "creativeUse": "‘Love Letters from Svenskt Tenn’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-a24314ad10c766128016",
+      "title": "Aarke &#8211; A Matter of Taste",
+      "url": "https://odalisquemagazine.com/2026/11/02/aarke-a-matter-of-taste",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "Aarke &#8211; A Matter of Taste An appreciation of Swedish tap water, a slightly nerdy curiosity and a trip to [&#8230;]",
+      "image": "",
+      "publishedAt": "2026-11-02T12:46:33.000Z",
+      "modifiedAt": null,
+      "discoveryMethod": "feed",
+      "discoveryUrl": "http://odalisquemagazine.com/feed/",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "evidence-backed",
+        "evidence": "Aarke – A Matter of Taste An appreciation of Swedish tap water, a slightly nerdy curiosity and a trip to […]",
+        "insight": "남길 이유는 문화와 시대 감각의 반복 가능한 기준이 있기 때문입니다. 에서 표면에 드러난 변화 하나를 뽑아두세요.",
+        "creativeUse": "‘Aarke’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-59a0b2f1f6d83582d54a",
+      "title": "Made for Memories: Nordic Nest Celebrates Christmas at Kalmar Castle",
+      "url": "https://odalisquemagazine.com/2026/11/02/made-for-memories-nordic-nest-celebrates-christmas-at-kalmar-castle",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "Made for Memories: Nordic Nest Celebrates Christmas at Kalmar Castle images courtesy of Nordic Nest For its 2026 Christmas campaign, [&#8230;]",
+      "image": "",
+      "publishedAt": "2026-11-02T11:06:40.000Z",
+      "modifiedAt": null,
+      "discoveryMethod": "feed",
+      "discoveryUrl": "http://odalisquemagazine.com/feed/",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "brand-strategy",
+          "art-material"
+        ],
+        "topicLabels": [
+          "브랜드와 전략",
+          "예술과 물성"
+        ],
+        "method": "case-study",
+        "analysisFocus": "case-study",
+        "confidence": "evidence-backed",
+        "evidence": "Made for Memories: Nordic Nest Celebrates Christmas at Kalmar Castle images courtesy of Nordic Nest For its 2026 Christmas campaign, […]",
+        "insight": "남길 이유는 브랜드와 전략의 반복 가능한 기준이 있기 때문입니다. 에서 문제·아이디어·실행의 인과 하나를 뽑아두세요.",
+        "creativeUse": "‘Made for Memories: Nordic Nest Celebrates Christmas at Kalmar Castle’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-c340f2852cd1f917cdb2",
+      "title": "Aarke Brings Its Minimalist Aesthetic to the To-Go Mug",
+      "url": "https://odalisquemagazine.com/2026/11/02/aarke-brings-its-minimalist-aesthetic-to-the-to-go-mug",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "Aarke Brings Its Minimalist Aesthetic to the To-Go Mug With its latest release, Aarke extends its considered approach to everyday [&#8230;]",
+      "image": "",
+      "publishedAt": "2026-11-02T10:39:36.000Z",
+      "modifiedAt": null,
+      "discoveryMethod": "feed",
+      "discoveryUrl": "http://odalisquemagazine.com/feed/",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "evidence-backed",
+        "evidence": "Aarke Brings Its Minimalist Aesthetic to the To-Go Mug With its latest release, Aarke extends its considered approach to everyday […]",
+        "insight": "남길 이유는 문화와 시대 감각의 반복 가능한 기준이 있기 때문입니다. 에서 표면에 드러난 변화 하나를 뽑아두세요.",
+        "creativeUse": "‘Aarke Brings Its Minimalist Aesthetic to the To’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
     {
       "id": "history-70d5c5b10e418a24f8c4",
       "title": "content standards",
@@ -5987,6 +6317,48 @@
       }
     },
     {
+      "id": "history-ae6c863f9650c630a500",
+      "title": "Beautiful Boudoir &#8211; new print shop",
+      "url": "https://spirospolitis.com/beautiful-boudoir-new-print-shop",
+      "host": "spirospolitis.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://spirospolitis.com/spirosfashion.html",
+      "description": "I now have a separate print shop of my fine art nude prints over here. A weekly rotation of 5 prints from my collection of shoots from 2009 onwards keep things fresh. All are limited edition and printed on Canson Baryta paper (340gsm and 310gsm) containing no optical whites. Have a look! The post Beautiful Boudoir &#8211; new print shop appeared first on Spi",
+      "image": "",
+      "publishedAt": "2026-11-01T12:05:33.000Z",
+      "modifiedAt": "2026-11-01T12:05:33.000Z",
+      "discoveryMethod": "feed",
+      "discoveryUrl": "http://spirospolitis.com/feed/",
+      "indexedAt": "2026-11-03T09:28:40.694Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "art-material",
+          "fashion-culture"
+        ],
+        "topicLabels": [
+          "예술과 물성",
+          "패션과 스타일"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "evidence-backed",
+        "evidence": "The post Beautiful Boudoir – new print shop appeared first on Spi",
+        "insight": "남길 이유는 예술과 물성의 반복 가능한 기준이 있기 때문입니다. 에서 표면에 드러난 변화 하나를 뽑아두세요.",
+        "creativeUse": "‘Beautiful Boudoir’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
       "id": "history-3c928b62b873954c0232",
       "title": "Waste-Derived Aviation Fuel - Singapore Airlines Agrees to Buy SAF Made From Waste Gases (TrendHunter.com)",
       "url": "https://trendhunter.com/innovation/waste-gases",
@@ -6024,6 +6396,206 @@
         "evidence": "( TrendHunter.com ) Singapore Airlines has signed an agreement to buy up to 4,800 tonnes of sustainable aviation fuel from Aether Beacon over three years, with deliveries starting in 2028.",
         "insight": "남길 이유는 문화와 시대 감각의 반복 가능한 기준이 있기 때문입니다. 에서 표면에 드러난 변화 하나를 뽑아두세요.",
         "creativeUse": "‘Waste-Derived Aviation Fuel - Singapore Airlines Agrees to Buy SAF Made From Waste Gase...’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-e97b607eed8209c4cf2b",
+      "title": "life and decay2026 limited edition print",
+      "url": "https://spirospolitis.com/collections/life-and-decay2026-limited-edition-print",
+      "host": "spirospolitis.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://spirospolitis.com/spirosfashion.html",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-01T10:50:47.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.spirospolitis.com/prints-sitemap.xml",
+      "indexedAt": "2026-11-03T09:28:40.694Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘life and decay2026 limited edition print’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-7e4024482f553d3ad48b",
+      "title": "newtons law 2026 limited edition print",
+      "url": "https://spirospolitis.com/collections/newtons-law-2026-limited-edition-print",
+      "host": "spirospolitis.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://spirospolitis.com/spirosfashion.html",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-01T10:50:47.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.spirospolitis.com/prints-sitemap.xml",
+      "indexedAt": "2026-11-03T09:28:40.694Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘newtons law 2026 limited edition print’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-c612d6c2056631b7c9fd",
+      "title": "rosie with apple 2026 limited edition print",
+      "url": "https://spirospolitis.com/collections/rosie-with-apple-2026-limited-edition-print",
+      "host": "spirospolitis.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://spirospolitis.com/spirosfashion.html",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-01T10:50:47.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.spirospolitis.com/prints-sitemap.xml",
+      "indexedAt": "2026-11-03T09:28:40.694Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘rosie with apple 2026 limited edition print’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-fc289a9641c6320c5b28",
+      "title": "saskia and tree2026 limited edition print",
+      "url": "https://spirospolitis.com/collections/saskia-and-tree2026-limited-edition-print",
+      "host": "spirospolitis.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://spirospolitis.com/spirosfashion.html",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-01T10:50:47.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.spirospolitis.com/prints-sitemap.xml",
+      "indexedAt": "2026-11-03T09:28:40.694Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘saskia and tree2026 limited edition print’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-a3202a0135a097162f3c",
+      "title": "saskia dances with tree2026 limited edition print",
+      "url": "https://spirospolitis.com/collections/saskia-dances-with-tree2026-limited-edition-print",
+      "host": "spirospolitis.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://spirospolitis.com/spirosfashion.html",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-01T10:50:47.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.spirospolitis.com/prints-sitemap.xml",
+      "indexedAt": "2026-11-03T09:28:40.694Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘saskia dances with tree2026 limited edition print’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
       }
     },
     {
@@ -14162,6 +14734,88 @@
         "evidence": "<img typeof=\"foaf:Image\" src=\"https://admin.promonews.tv/sites/default/files/styles/pickoftheday/public/Tom%20Grennan%20%27Wrapped%20In%20Gold%27%20by%20Freddie%20Cattaneo.jpg?itok=d7MNq09s\" width=\"690\" height=\"390\" alt=\"Tom Grennan",
         "insight": "남길 이유는 사진과 이미지의 반복 가능한 기준이 있기 때문입니다. 에서 표면에 드러난 변화 하나를 뽑아두세요.",
         "creativeUse": "‘Tom Grennan 'Wrapped In Gold' by Freddie Cattaneo’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-0a4f45d776a087af5b40",
+      "title": "Linnea Axelsson on Language, Literature and the Meaning of Home",
+      "url": "https://odalisquemagazine.com/2026/10/30/linnea-axelsson-on-language-literature-and-the-meaning-of-home",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "Linnea Axelsson on Language, Literature and the Meaning of Home What does it mean to feel at home, in a [&#8230;]",
+      "image": "",
+      "publishedAt": "2026-10-30T14:45:24.000Z",
+      "modifiedAt": null,
+      "discoveryMethod": "feed",
+      "discoveryUrl": "http://odalisquemagazine.com/feed/",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal",
+          "art-material"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각",
+          "예술과 물성"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "evidence-backed",
+        "evidence": "Linnea Axelsson on Language, Literature and the Meaning of Home What does it mean to feel at home, in a […]",
+        "insight": "남길 이유는 문화와 시대 감각의 반복 가능한 기준이 있기 때문입니다. 에서 표면에 드러난 변화 하나를 뽑아두세요.",
+        "creativeUse": "‘Linnea Axelsson on Language, Literature and the Meaning of Home’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-aac75f03d8fd0411c7d7",
+      "title": "A Season in the Alps: Gant Holiday 2026",
+      "url": "https://odalisquemagazine.com/2026/10/30/a-season-in-the-alps-gant-holiday-2026",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "A Season in the Alps: Gant Holiday 2026 For Holiday 2026, Gant retreats to an Alpine chalet, setting the scene [&#8230;]",
+      "image": "",
+      "publishedAt": "2026-10-30T14:08:35.000Z",
+      "modifiedAt": null,
+      "discoveryMethod": "feed",
+      "discoveryUrl": "http://odalisquemagazine.com/feed/",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "evidence-backed",
+        "evidence": "A Season in the Alps: Gant Holiday 2026 For Holiday 2026, Gant retreats to an Alpine chalet, setting the scene […]",
+        "insight": "남길 이유는 문화와 시대 감각의 반복 가능한 기준이 있기 때문입니다. 에서 표면에 드러난 변화 하나를 뽑아두세요.",
+        "creativeUse": "‘A Season in the Alps: Gant Holiday 2026’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
       }
     },
     {
@@ -693429,6 +694083,2376 @@
       }
     },
     {
+      "id": "history-ffb8234d63b40d4b5880",
+      "title": "moncler x pharrell williams",
+      "url": "https://odalisquemagazine.com/2023/09/21/moncler-x-pharrell-williams",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-09-23T17:31:26.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://odalisquemagazine.com/wp-sitemap-posts-post-1.xml",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘moncler x pharrell williams’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-d020559ef14bf18afc2e",
+      "title": "celine beaute unveils first ever cosmetics line with la collection de larc de triomphe film",
+      "url": "https://odalisquemagazine.com/2024/08/05/celine-beaute-unveils-first-ever-cosmetics-line-with-la-collection-de-larc-de-triomphe-film",
+      "host": "odalisquemagazine.com",
+      "kind": "video",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-09-23T17:30:39.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://odalisquemagazine.com/wp-sitemap-posts-post-1.xml",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "moving-image",
+          "fashion-culture"
+        ],
+        "topicLabels": [
+          "영상 언어",
+          "패션과 스타일"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 영상 언어의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘celine beaute unveils first ever cosmetics line with la collection de larc de triomphe...’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-b1026ff80836920ba5fe",
+      "title": "carling dalenson vera lutter when stones were blooming",
+      "url": "https://odalisquemagazine.com/2023/09/22/carling-dalenson-vera-lutter-when-stones-were-blooming",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-09-23T17:29:41.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://odalisquemagazine.com/wp-sitemap-posts-post-1.xml",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘carling dalenson vera lutter when stones were blooming’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-534ae49766b07702dd6c",
+      "title": "sophie by sophie x annica eklund studio",
+      "url": "https://odalisquemagazine.com/2023/09/22/sophie-by-sophie-x-annica-eklund-studio",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-09-23T17:28:54.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://odalisquemagazine.com/wp-sitemap-posts-post-1.xml",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "process",
+        "analysisFocus": "process",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘sophie by sophie x annica eklund studio’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-02f1a92330be187b5679",
+      "title": "olivia pettersson fleur atomic snapshot",
+      "url": "https://odalisquemagazine.com/2023/09/25/olivia-pettersson-fleur-atomic-snapshot",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-09-23T17:28:19.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://odalisquemagazine.com/wp-sitemap-posts-post-1.xml",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘olivia pettersson fleur atomic snapshot’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-7f1bb230873d7337f3dc",
+      "title": "lovisa ringborg the living room",
+      "url": "https://odalisquemagazine.com/2023/09/25/lovisa-ringborg-the-living-room",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-09-23T17:27:49.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://odalisquemagazine.com/wp-sitemap-posts-post-1.xml",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘lovisa ringborg the living room’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-1ed07b4b828df1c28f59",
+      "title": "rouge hermes autumn winter 2023 limited edition collection",
+      "url": "https://odalisquemagazine.com/2023/09/26/rouge-hermes-autumn-winter-2023-limited-edition-collection",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-09-23T17:27:04.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://odalisquemagazine.com/wp-sitemap-posts-post-1.xml",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "fashion-culture",
+          "art-material"
+        ],
+        "topicLabels": [
+          "패션과 스타일",
+          "예술과 물성"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 패션과 스타일의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘rouge hermes autumn winter 2023 limited edition collection’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-ed67cdcfcc481c4f92ad",
+      "title": "levis x emma chamberlain",
+      "url": "https://odalisquemagazine.com/2023/09/26/levis-x-emma-chamberlain",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-09-23T17:26:06.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://odalisquemagazine.com/wp-sitemap-posts-post-1.xml",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘levis x emma chamberlain’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-87f4d483fe4142529ab0",
+      "title": "sisley black rose precious face oil",
+      "url": "https://odalisquemagazine.com/2023/11/01/sisley-black-rose-precious-face-oil",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-09-23T17:25:15.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://odalisquemagazine.com/wp-sitemap-posts-post-1.xml",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘sisley black rose precious face oil’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-0868742254eb1e1782b5",
+      "title": "timberland colorblast 50th anniversary",
+      "url": "https://odalisquemagazine.com/2023/09/27/timberland-colorblast-50th-anniversary",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-09-23T17:24:23.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://odalisquemagazine.com/wp-sitemap-posts-post-1.xml",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘timberland colorblast 50th anniversary’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-06af1951a7a8e60d1f81",
+      "title": "dr martens x tate",
+      "url": "https://odalisquemagazine.com/2023/09/28/dr-martens-x-tate",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-09-23T17:23:42.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://odalisquemagazine.com/wp-sitemap-posts-post-1.xml",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘dr martens x tate’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-4746896a2dfa823c0cb6",
+      "title": "mark rothko at fondation louis vuitton",
+      "url": "https://odalisquemagazine.com/2023/11/14/mark-rothko-at-fondation-louis-vuitton",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-09-23T17:23:07.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://odalisquemagazine.com/wp-sitemap-posts-post-1.xml",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘mark rothko at fondation louis vuitton’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-d1a55bc718c04b4e67a7",
+      "title": "skultuna x martin bergstrom",
+      "url": "https://odalisquemagazine.com/2023/09/28/skultuna-x-martin-bergstrom",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-09-23T17:22:33.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://odalisquemagazine.com/wp-sitemap-posts-post-1.xml",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘skultuna x martin bergstrom’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-6d3cb6b40c32f347e15a",
+      "title": "les symboles de chanel",
+      "url": "https://odalisquemagazine.com/2023/11/01/les-symboles-de-chanel",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-09-23T17:21:57.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://odalisquemagazine.com/wp-sitemap-posts-post-1.xml",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘les symboles de chanel’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-92f124e7b0057c700544",
+      "title": "prada paradoxe",
+      "url": "https://odalisquemagazine.com/2023/11/01/prada-paradoxe",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-09-23T17:21:18.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://odalisquemagazine.com/wp-sitemap-posts-post-1.xml",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘prada paradoxe’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-817873dbaa9aa17d8c98",
+      "title": "necessaire introduces responsible luxury by spotlighting body care",
+      "url": "https://odalisquemagazine.com/2023/11/20/necessaire-introduces-responsible-luxury-by-spotlighting-body-care",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-09-23T17:20:42.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://odalisquemagazine.com/wp-sitemap-posts-post-1.xml",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘necessaire introduces responsible luxury by spotlighting body care’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-0eedd73dcbc0eff97eca",
+      "title": "le regard hermes",
+      "url": "https://odalisquemagazine.com/2023/11/01/le-regard-hermes",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-09-23T17:20:06.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://odalisquemagazine.com/wp-sitemap-posts-post-1.xml",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘le regard hermes’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-1ebef2b541b8b455cb72",
+      "title": "polar presents all new vantage v3",
+      "url": "https://odalisquemagazine.com/2023/11/20/polar-presents-all-new-vantage-v3",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-09-23T17:19:29.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://odalisquemagazine.com/wp-sitemap-posts-post-1.xml",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘polar presents all new vantage v3’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-ca36cb9330993c33870b",
+      "title": "sally j hans belenius exhibition",
+      "url": "https://odalisquemagazine.com/2023/11/16/sally-j-hans-belenius-exhibition",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-09-23T17:18:54.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://odalisquemagazine.com/wp-sitemap-posts-post-1.xml",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "space-exhibition",
+          "art-material"
+        ],
+        "topicLabels": [
+          "공간과 전시",
+          "예술과 물성"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 공간과 전시의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘sally j hans belenius exhibition’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-f30ec7b49ef5fe4f2fe9",
+      "title": "ysl rouge pur couture the bold",
+      "url": "https://odalisquemagazine.com/2023/11/21/ysl-rouge-pur-couture-the-bold",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-09-23T17:18:23.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://odalisquemagazine.com/wp-sitemap-posts-post-1.xml",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘ysl rouge pur couture the bold’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-1169ea79ac0d592227ac",
+      "title": "sparkl by lh cosmetics",
+      "url": "https://odalisquemagazine.com/2023/11/21/sparkl-by-lh-cosmetics",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-09-23T17:17:48.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://odalisquemagazine.com/wp-sitemap-posts-post-1.xml",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘sparkl by lh cosmetics’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-84ed17c6452eac084764",
+      "title": "cura of sweden pearl classic",
+      "url": "https://odalisquemagazine.com/2023/11/21/cura-of-sweden-pearl-classic",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-09-23T17:17:17.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://odalisquemagazine.com/wp-sitemap-posts-post-1.xml",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘cura of sweden pearl classic’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-8b453559557967783296",
+      "title": "etonic a new chapter of authenticity and innovation",
+      "url": "https://odalisquemagazine.com/2023/11/08/etonic-a-new-chapter-of-authenticity-and-innovation",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-09-23T17:16:40.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://odalisquemagazine.com/wp-sitemap-posts-post-1.xml",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘etonic a new chapter of authenticity and innovation’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-d49b8947fe9f11d23e48",
+      "title": "nordiska galleriet introduces pavarotti",
+      "url": "https://odalisquemagazine.com/2023/11/08/nordiska-galleriet-introduces-pavarotti",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-09-23T17:15:48.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://odalisquemagazine.com/wp-sitemap-posts-post-1.xml",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘nordiska galleriet introduces pavarotti’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-80f73474eb5ed7e12e2a",
+      "title": "layered x evelina kroon",
+      "url": "https://odalisquemagazine.com/2023/11/10/layered-x-evelina-kroon",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-09-23T17:15:15.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://odalisquemagazine.com/wp-sitemap-posts-post-1.xml",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘layered x evelina kroon’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-82dcdaa83c1c98f1f61f",
+      "title": "odalisque holiday gift guide december 4th",
+      "url": "https://odalisquemagazine.com/2023/12/04/odalisque-holiday-gift-guide-december-4th",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-09-23T17:15:06.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://odalisquemagazine.com/wp-sitemap-posts-post-1.xml",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘odalisque holiday gift guide december 4th’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-066f3b35b25483a2b9cd",
+      "title": "viktor rolf celebrates 30 years with an exclusive eyewear collection at specsavers",
+      "url": "https://odalisquemagazine.com/2023/11/13/viktor-rolf-celebrates-30-years-with-an-exclusive-eyewear-collection-at-specsavers",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-09-23T17:14:38.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://odalisquemagazine.com/wp-sitemap-posts-post-1.xml",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "fashion-culture",
+          "art-material"
+        ],
+        "topicLabels": [
+          "패션과 스타일",
+          "예술과 물성"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 패션과 스타일의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘viktor rolf celebrates 30 years with an exclusive eyewear collection at specsavers’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-a99f95229da2fb9e6df9",
+      "title": "babor advent calender your season to glow",
+      "url": "https://odalisquemagazine.com/2023/11/14/babor-advent-calender-your-season-to-glow",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-09-23T17:13:35.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://odalisquemagazine.com/wp-sitemap-posts-post-1.xml",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘babor advent calender your season to glow’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-d89e9eed1836b65de480",
+      "title": "hriam the umbilical",
+      "url": "https://odalisquemagazine.com/2023/11/14/hriam-the-umbilical",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-09-23T17:11:21.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://odalisquemagazine.com/wp-sitemap-posts-post-1.xml",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘hriam the umbilical’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-71fdf22c7fe82bd64f78",
+      "title": "maanesten",
+      "url": "https://odalisquemagazine.com/2023/11/14/maanesten",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-09-23T17:10:31.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://odalisquemagazine.com/wp-sitemap-posts-post-1.xml",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘maanesten’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-1c6bf9d371eb14644ee7",
+      "title": "levis x barbie ferreira",
+      "url": "https://odalisquemagazine.com/2023/11/16/levis-x-barbie-ferreira",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-09-23T17:09:57.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://odalisquemagazine.com/wp-sitemap-posts-post-1.xml",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘levis x barbie ferreira’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-7d4ac1f27fbcdd31e29e",
+      "title": "skagen und pferdgarten",
+      "url": "https://odalisquemagazine.com/2023/11/20/skagen-und-pferdgarten",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-09-23T17:09:26.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://odalisquemagazine.com/wp-sitemap-posts-post-1.xml",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘skagen und pferdgarten’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-63a63edc2680549d8925",
+      "title": "skaga eyewear",
+      "url": "https://odalisquemagazine.com/2023/11/23/skaga-eyewear",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-09-23T17:08:25.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://odalisquemagazine.com/wp-sitemap-posts-post-1.xml",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘skaga eyewear’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-d69f7d2a61c315a040d8",
+      "title": "the bag for all sparkling winter festivity",
+      "url": "https://odalisquemagazine.com/2023/11/24/the-bag-for-all-sparkling-winter-festivity",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-09-23T17:07:51.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://odalisquemagazine.com/wp-sitemap-posts-post-1.xml",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘the bag for all sparkling winter festivity’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-fd2b40eb70168508a96b",
+      "title": "oas introducing monogram embroidery",
+      "url": "https://odalisquemagazine.com/2023/11/24/oas-introducing-monogram-embroidery",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-09-23T17:07:14.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://odalisquemagazine.com/wp-sitemap-posts-post-1.xml",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘oas introducing monogram embroidery’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-c68bab6a8895bdb011de",
+      "title": "gahns",
+      "url": "https://odalisquemagazine.com/2023/11/29/gahns",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-09-23T17:06:02.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://odalisquemagazine.com/wp-sitemap-posts-post-1.xml",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘gahns’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-93b432a3a39bdfa44ff3",
+      "title": "odalisque holiday gift guide december 14th",
+      "url": "https://odalisquemagazine.com/2023/12/14/odalisque-holiday-gift-guide-december-14th",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-09-23T17:04:31.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://odalisquemagazine.com/wp-sitemap-posts-post-1.xml",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘odalisque holiday gift guide december 14th’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-9df72ed9232601b63c66",
+      "title": "odalisque holiday gift guide december 18th",
+      "url": "https://odalisquemagazine.com/2023/12/19/odalisque-holiday-gift-guide-december-18th",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-09-23T17:01:28.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://odalisquemagazine.com/wp-sitemap-posts-post-1.xml",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘odalisque holiday gift guide december 18th’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-0fc13c34f81f7156c180",
+      "title": "dr martens x ganni launches collaboration",
+      "url": "https://odalisquemagazine.com/2023/11/29/dr-martens-x-ganni-launches-collaboration",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-09-23T16:57:38.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://odalisquemagazine.com/wp-sitemap-posts-post-1.xml",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘dr martens x ganni launches collaboration’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-3c2ca0c7af0ac12e38eb",
+      "title": "odalisque holiday gift guide december 1st",
+      "url": "https://odalisquemagazine.com/2023/12/01/odalisque-holiday-gift-guide-december-1st",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-09-23T16:56:43.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://odalisquemagazine.com/wp-sitemap-posts-post-1.xml",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘odalisque holiday gift guide december 1st’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-80abfdb3ac9336d660e0",
+      "title": "odalisque holiday gift guide december 21st",
+      "url": "https://odalisquemagazine.com/2023/12/21/odalisque-holiday-gift-guide-december-21st",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-09-23T16:56:37.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://odalisquemagazine.com/wp-sitemap-posts-post-1.xml",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘odalisque holiday gift guide december 21st’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-f2f9cd8850064245ec5f",
+      "title": "odalisque holiday gift guide december 2nd",
+      "url": "https://odalisquemagazine.com/2023/12/02/odalisque-holiday-gift-guide-december-2nd",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-09-23T16:55:58.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://odalisquemagazine.com/wp-sitemap-posts-post-1.xml",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘odalisque holiday gift guide december 2nd’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-d9c2b8851efd9e1dea4e",
+      "title": "odalisque holiday gift guide december 3rd",
+      "url": "https://odalisquemagazine.com/2023/12/03/odalisque-holiday-gift-guide-december-3rd",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-09-23T16:55:28.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://odalisquemagazine.com/wp-sitemap-posts-post-1.xml",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘odalisque holiday gift guide december 3rd’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-61c552a2e58da9afcb77",
+      "title": "odalisque holiday gift guide december 22nd",
+      "url": "https://odalisquemagazine.com/2024/12/22/odalisque-holiday-gift-guide-december-22nd",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-09-23T16:55:21.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://odalisquemagazine.com/wp-sitemap-posts-post-1.xml",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘odalisque holiday gift guide december 22nd’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-1c6d79e334f779426b10",
+      "title": "odalisque holiday gift guide december 23rd",
+      "url": "https://odalisquemagazine.com/2024/12/23/odalisque-holiday-gift-guide-december-23rd",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-09-23T16:54:48.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://odalisquemagazine.com/wp-sitemap-posts-post-1.xml",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘odalisque holiday gift guide december 23rd’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-9d4bc265724fa6344c0c",
+      "title": "odalisque holiday gift guide december 7th",
+      "url": "https://odalisquemagazine.com/2023/12/07/odalisque-holiday-gift-guide-december-7th",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-09-23T16:54:06.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://odalisquemagazine.com/wp-sitemap-posts-post-1.xml",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘odalisque holiday gift guide december 7th’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-d145517779250ddc9798",
+      "title": "odalisque holiday gift guide december 5th",
+      "url": "https://odalisquemagazine.com/2023/12/05/odalisque-holiday-gift-guide-december-5th",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-09-23T16:52:51.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://odalisquemagazine.com/wp-sitemap-posts-post-1.xml",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘odalisque holiday gift guide december 5th’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-106773dc4295408c5e5e",
+      "title": "odalisque holiday gift guide december 6th",
+      "url": "https://odalisquemagazine.com/2023/12/06/odalisque-holiday-gift-guide-december-6th",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-09-23T16:52:27.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://odalisquemagazine.com/wp-sitemap-posts-post-1.xml",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘odalisque holiday gift guide december 6th’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-9f2b0239fa74bc164ee6",
+      "title": "odalisque holiday gift guide december 8th",
+      "url": "https://odalisquemagazine.com/2023/12/08/odalisque-holiday-gift-guide-december-8th",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-09-23T16:51:21.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://odalisquemagazine.com/wp-sitemap-posts-post-1.xml",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘odalisque holiday gift guide december 8th’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-5b396aa70f2ef2e590a3",
+      "title": "singular societys new exclusive perfume collection in collaboration with givaudan paris",
+      "url": "https://odalisquemagazine.com/2023/12/08/singular-societys-new-exclusive-perfume-collection-in-collaboration-with-givaudan-paris",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-09-23T16:50:43.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://odalisquemagazine.com/wp-sitemap-posts-post-1.xml",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "fashion-culture",
+          "art-material"
+        ],
+        "topicLabels": [
+          "패션과 스타일",
+          "예술과 물성"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 패션과 스타일의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘singular societys new exclusive perfume collection in collaboration with givaudan paris’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-b89c1efd3497c7191c4c",
+      "title": "odalisque holiday gift guide december 9th",
+      "url": "https://odalisquemagazine.com/2023/12/13/odalisque-holiday-gift-guide-december-9th",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-09-23T16:49:54.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://odalisquemagazine.com/wp-sitemap-posts-post-1.xml",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘odalisque holiday gift guide december 9th’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-e89396c016c7d8b8433f",
+      "title": "odalisque holiday gift guide december 10th",
+      "url": "https://odalisquemagazine.com/2023/12/10/odalisque-holiday-gift-guide-december-10th",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-09-23T16:49:11.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://odalisquemagazine.com/wp-sitemap-posts-post-1.xml",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘odalisque holiday gift guide december 10th’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-b2206e06fbdf2f0b7f2d",
+      "title": "odalisque holiday gift guide december 13th",
+      "url": "https://odalisquemagazine.com/2023/12/13/odalisque-holiday-gift-guide-december-13th",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-09-23T16:48:34.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://odalisquemagazine.com/wp-sitemap-posts-post-1.xml",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘odalisque holiday gift guide december 13th’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-2d4a0fc6165b063910c8",
+      "title": "odalisque holiday gift guide december 15th",
+      "url": "https://odalisquemagazine.com/2023/12/15/odalisque-holiday-gift-guide-december-15th",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-09-23T16:48:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://odalisquemagazine.com/wp-sitemap-posts-post-1.xml",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘odalisque holiday gift guide december 15th’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-72a0d6fac2ab964cc44c",
+      "title": "odalisque holiday gift guide december 16th",
+      "url": "https://odalisquemagazine.com/2023/12/18/odalisque-holiday-gift-guide-december-16th",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-09-23T16:47:24.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://odalisquemagazine.com/wp-sitemap-posts-post-1.xml",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘odalisque holiday gift guide december 16th’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-320f092db7124cd8279d",
+      "title": "odalisque holiday gift guide december 17th",
+      "url": "https://odalisquemagazine.com/2023/12/17/odalisque-holiday-gift-guide-december-17th",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-09-23T16:46:47.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://odalisquemagazine.com/wp-sitemap-posts-post-1.xml",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘odalisque holiday gift guide december 17th’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-7651d67f63d3e3b78f2f",
+      "title": "odalisque holiday gift guide december 19th",
+      "url": "https://odalisquemagazine.com/2023/12/19/odalisque-holiday-gift-guide-december-19th",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-09-23T16:45:27.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://odalisquemagazine.com/wp-sitemap-posts-post-1.xml",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘odalisque holiday gift guide december 19th’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-562e5099c582e3305e36",
+      "title": "odalisque holiday gift guide december 20th",
+      "url": "https://odalisquemagazine.com/2023/12/20/odalisque-holiday-gift-guide-december-20th",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-09-23T16:44:53.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://odalisquemagazine.com/wp-sitemap-posts-post-1.xml",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘odalisque holiday gift guide december 20th’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-97ac5442b28fbf5625a6",
+      "title": "odalisque holiday gift guide december 24th",
+      "url": "https://odalisquemagazine.com/2023/12/24/odalisque-holiday-gift-guide-december-24th",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-09-23T16:44:12.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://odalisquemagazine.com/wp-sitemap-posts-post-1.xml",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘odalisque holiday gift guide december 24th’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
       "id": "history-1ac632fa97bf8d21673e",
       "title": "chanel coco crush 2024",
       "url": "https://odalisquemagazine.com/2024/01/11/chanel-coco-crush-2024",
@@ -697309,6 +700333,46 @@
       }
     },
     {
+      "id": "history-2b4b10b91d468273fee3",
+      "title": "chanel limited edition drop n5 leau",
+      "url": "https://odalisquemagazine.com/2024/06/25/chanel-limited-edition-drop-n5-leau",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-09-23T14:02:21.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://odalisquemagazine.com/wp-sitemap-posts-post-1.xml",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘chanel limited edition drop n5 leau’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
       "id": "history-b4ab30147887bbbdcf2d",
       "title": "chanel poudre belle mine ensoleillee",
       "url": "https://odalisquemagazine.com/2024/05/23/chanel-poudre-belle-mine-ensoleillee",
@@ -697346,6 +700410,46 @@
         "evidence": "",
         "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
         "creativeUse": "‘chanel poudre belle mine ensoleillee’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-a6832e5d82238dd6f2f2",
+      "title": "a p c opens its second store in stockholm",
+      "url": "https://odalisquemagazine.com/2024/07/02/a-p-c-opens-its-second-store-in-stockholm",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-09-23T14:00:05.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://odalisquemagazine.com/wp-sitemap-posts-post-1.xml",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘a p c opens its second store in stockholm’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
       }
     },
     {
@@ -697389,6 +700493,48 @@
       }
     },
     {
+      "id": "history-23dbf9919b31bae210f8",
+      "title": "picture this gallery",
+      "url": "https://odalisquemagazine.com/2024/07/04/picture-this-gallery",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-09-23T13:58:34.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://odalisquemagazine.com/wp-sitemap-posts-post-1.xml",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "art-material",
+          "photography"
+        ],
+        "topicLabels": [
+          "예술과 물성",
+          "사진과 이미지"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 예술과 물성의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘picture this gallery’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
       "id": "history-a90813c13434894b7a12",
       "title": "atelier fanny castro sally bag",
       "url": "https://odalisquemagazine.com/2023/05/25/atelier-fanny-castro-sally-bag",
@@ -697429,6 +700575,86 @@
       }
     },
     {
+      "id": "history-ba48aa5386a8a3d39fc8",
+      "title": "michael kors debuts new store concept in stockholm sweden",
+      "url": "https://odalisquemagazine.com/2024/07/04/michael-kors-debuts-new-store-concept-in-stockholm-sweden",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-09-23T13:58:03.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://odalisquemagazine.com/wp-sitemap-posts-post-1.xml",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘michael kors debuts new store concept in stockholm sweden’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-85b41ae101a5252715ae",
+      "title": "opening tomorrow alex katz seasons at moma",
+      "url": "https://odalisquemagazine.com/2024/07/04/opening-tomorrow-alex-katz-seasons-at-moma",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-09-23T13:57:38.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://odalisquemagazine.com/wp-sitemap-posts-post-1.xml",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘opening tomorrow alex katz seasons at moma’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
       "id": "history-47e418c6592c334ae9bd",
       "title": "world ocean day at the standard huruvalhi maldives",
       "url": "https://odalisquemagazine.com/2023/05/24/world-ocean-day-at-the-standard-huruvalhi-maldives",
@@ -697466,6 +700692,48 @@
         "evidence": "",
         "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
         "creativeUse": "‘world ocean day at the standard huruvalhi maldives’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-d4ab1df8fdfe744f1124",
+      "title": "zalando teams up with miista to launch an exclusive footwear capsule collection in collaboration with fernanda liberti",
+      "url": "https://odalisquemagazine.com/2024/07/05/zalando-teams-up-with-miista-to-launch-an-exclusive-footwear-capsule-collection-in-collaboration-with-fernanda-liberti",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-09-23T13:56:41.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://odalisquemagazine.com/wp-sitemap-posts-post-1.xml",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "fashion-culture",
+          "art-material"
+        ],
+        "topicLabels": [
+          "패션과 스타일",
+          "예술과 물성"
+        ],
+        "method": "case-study",
+        "analysisFocus": "case-study",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 패션과 스타일의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘zalando teams up with miista to launch an exclusive footwear capsule collection in coll...’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
       }
     },
     {
@@ -697630,6 +700898,46 @@
         "evidence": "",
         "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 브랜드와 전략의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
         "creativeUse": "‘e commerce brand seezona brings together emerging brands and unique pieces’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-cdbb4c81c7a14ed6ebca",
+      "title": "hermes opens new workshop in gironde",
+      "url": "https://odalisquemagazine.com/2024/07/09/hermes-opens-new-workshop-in-gironde",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-09-23T13:53:37.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://odalisquemagazine.com/wp-sitemap-posts-post-1.xml",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘hermes opens new workshop in gironde’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
       }
     },
     {
@@ -698524,6 +701832,48 @@
         "evidence": "",
         "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
         "creativeUse": "‘vivek radhakrishnan’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-0250fab6d3044677ca2a",
+      "title": "everything opens to touch sinead odwyers ss25 collection zalando visionary award winner",
+      "url": "https://odalisquemagazine.com/2024/08/21/everything-opens-to-touch-sinead-odwyers-ss25-collection-zalando-visionary-award-winner",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-09-23T13:03:49.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://odalisquemagazine.com/wp-sitemap-posts-post-1.xml",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "fashion-culture",
+          "art-material"
+        ],
+        "topicLabels": [
+          "패션과 스타일",
+          "예술과 물성"
+        ],
+        "method": "case-study",
+        "analysisFocus": "case-study",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 패션과 스타일의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘everything opens to touch sinead odwyers ss25 collection zalando visionary award winner’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
       }
     },
     {
@@ -700515,6 +703865,48 @@
       }
     },
     {
+      "id": "history-0899eb60fdf0ab02a930",
+      "title": "jotex launches rug collection designed by swedish fashion icons",
+      "url": "https://odalisquemagazine.com/2024/08/30/jotex-launches-rug-collection-designed-by-swedish-fashion-icons",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-09-22T18:12:56.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://odalisquemagazine.com/wp-sitemap-posts-post-1.xml",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "fashion-culture",
+          "art-material"
+        ],
+        "topicLabels": [
+          "패션과 스타일",
+          "예술과 물성"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 패션과 스타일의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘jotex launches rug collection designed by swedish fashion icons’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
       "id": "history-8aaccfe132b828d9e460",
       "title": "popina vitti new italian restaurant opens in stockholm",
       "url": "https://odalisquemagazine.com/2024/09/02/popina-vitti-new-italian-restaurant-opens-in-stockholm",
@@ -700552,6 +703944,46 @@
         "evidence": "",
         "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
         "creativeUse": "‘popina vitti new italian restaurant opens in stockholm’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-45c0b5a5928fb239a430",
+      "title": "arket announces exclusive collaboration with penny martin",
+      "url": "https://odalisquemagazine.com/2024/09/02/arket-announces-exclusive-collaboration-with-penny-martin",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-09-22T18:11:31.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://odalisquemagazine.com/wp-sitemap-posts-post-1.xml",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘arket announces exclusive collaboration with penny martin’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
       }
     },
     {
@@ -700840,6 +704272,48 @@
         "evidence": "",
         "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 패션과 스타일의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
         "creativeUse": "‘kari traa shows at oslo runway 2024’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-f1a2a04f4a90da517e82",
+      "title": "layered launches rollakan collection a tribute to scandinavian womens craftsmanship",
+      "url": "https://odalisquemagazine.com/2024/09/12/layered-launches-rollakan-collection-a-tribute-to-scandinavian-womens-craftsmanship",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-09-22T18:00:14.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://odalisquemagazine.com/wp-sitemap-posts-post-1.xml",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "fashion-culture",
+          "art-material"
+        ],
+        "topicLabels": [
+          "패션과 스타일",
+          "예술과 물성"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 패션과 스타일의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘layered launches rollakan collection a tribute to scandinavian womens craftsmanship’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
       }
     },
     {
@@ -701164,6 +704638,48 @@
         "evidence": "",
         "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
         "creativeUse": "‘lefty out there returns to chicago for curatorial debut at vsg contemporary’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-326fac8aeea7860630a4",
+      "title": "acne studios unveils fall winter 2024 campaign starring willow smith",
+      "url": "https://odalisquemagazine.com/2024/09/10/acne-studios-unveils-fall-winter-2024-campaign-starring-willow-smith",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-09-22T17:44:35.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://odalisquemagazine.com/wp-sitemap-posts-post-1.xml",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "brand-strategy",
+          "art-material"
+        ],
+        "topicLabels": [
+          "브랜드와 전략",
+          "예술과 물성"
+        ],
+        "method": "case-study",
+        "analysisFocus": "case-study",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 브랜드와 전략의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘acne studios unveils fall winter 2024 campaign starring willow smith’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
       }
     },
     {
@@ -702025,6 +705541,48 @@
       }
     },
     {
+      "id": "history-e65a0237e64e72ce6999",
+      "title": "arket launches the little black dress collection",
+      "url": "https://odalisquemagazine.com/2024/10/23/arket-launches-the-little-black-dress-collection",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-09-22T17:22:16.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://odalisquemagazine.com/wp-sitemap-posts-post-1.xml",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "fashion-culture",
+          "art-material"
+        ],
+        "topicLabels": [
+          "패션과 스타일",
+          "예술과 물성"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 패션과 스타일의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘arket launches the little black dress collection’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
       "id": "history-a24b60e45162142e943d",
       "title": "lanza neem plant detangling primer",
       "url": "https://odalisquemagazine.com/2024/10/23/lanza-neem-plant-detangling-primer",
@@ -702346,6 +705904,48 @@
         "evidence": "",
         "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
         "creativeUse": "‘the elegance of sustainability’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-e48e3a8f2d925211ba1b",
+      "title": "jeff koons and squarespace launch new art inspired web template",
+      "url": "https://odalisquemagazine.com/2024/10/25/jeff-koons-and-squarespace-launch-new-art-inspired-web-template",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-09-22T17:11:32.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://odalisquemagazine.com/wp-sitemap-posts-post-1.xml",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "art-material",
+          "photography"
+        ],
+        "topicLabels": [
+          "예술과 물성",
+          "사진과 이미지"
+        ],
+        "method": "case-study",
+        "analysisFocus": "case-study",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 예술과 물성의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘jeff koons and squarespace launch new art inspired web template’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
       }
     },
     {
@@ -702677,6 +706277,46 @@
       }
     },
     {
+      "id": "history-4435b0f4b5a3b411a67a",
+      "title": "sara robertsson jewellery embraces unique and sustainable pearls",
+      "url": "https://odalisquemagazine.com/2024/11/19/sara-robertsson-jewellery-embraces-unique-and-sustainable-pearls",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-09-22T17:03:17.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://odalisquemagazine.com/wp-sitemap-posts-post-1.xml",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘sara robertsson jewellery embraces unique and sustainable pearls’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
       "id": "history-b61dd2c6884147fcfca0",
       "title": "engelbert unveils aurea collection a tribute to timeless elegance",
       "url": "https://odalisquemagazine.com/2024/11/19/engelbert-unveils-aurea-collection-a-tribute-to-timeless-elegance",
@@ -702716,6 +706356,48 @@
         "evidence": "",
         "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 패션과 스타일의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
         "creativeUse": "‘engelbert unveils aurea collection a tribute to timeless elegance’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-d329632cff593a8dbee1",
+      "title": "paula gerbase appointed creative director at georg jensen",
+      "url": "https://odalisquemagazine.com/2024/11/19/paula-gerbase-appointed-creative-director-at-georg-jensen",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-09-22T17:01:37.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://odalisquemagazine.com/wp-sitemap-posts-post-1.xml",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "moving-image",
+          "art-material"
+        ],
+        "topicLabels": [
+          "영상 언어",
+          "예술과 물성"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 영상 언어의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘paula gerbase appointed creative director at georg jensen’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
       }
     },
     {
@@ -702963,6 +706645,46 @@
       }
     },
     {
+      "id": "history-8d70c5a695fdf4a7aec7",
+      "title": "release party odalisque x blique nobis",
+      "url": "https://odalisquemagazine.com/2024/11/26/release-party-odalisque-x-blique-nobis",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-09-22T16:50:15.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://odalisquemagazine.com/wp-sitemap-posts-post-1.xml",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘release party odalisque x blique nobis’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
       "id": "history-04a10708bbf6f64cc099",
       "title": "zalando presents finalists for zalando visionary award 2025",
       "url": "https://odalisquemagazine.com/2024/11/27/zalando-presents-finalists-for-zalando-visionary-award-2025",
@@ -703084,6 +706806,46 @@
         "evidence": "",
         "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 디자인 언어의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
         "creativeUse": "‘expressive design meets minimal elegance in max mara eyewears latest collection’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-2037a3265e2364b24b86",
+      "title": "zalando visionary award 2025 finalists announced",
+      "url": "https://odalisquemagazine.com/2024/11/26/zalando-visionary-award-2025-finalists-announced",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-09-22T16:45:35.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://odalisquemagazine.com/wp-sitemap-posts-post-1.xml",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "case-study",
+        "analysisFocus": "case-study",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘zalando visionary award 2025 finalists announced’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
       }
     },
     {
@@ -703851,6 +707613,88 @@
       }
     },
     {
+      "id": "history-d0cd6e53f08949e64e7c",
+      "title": "murakami and louis vuitton rewrite the past",
+      "url": "https://odalisquemagazine.com/2025/01/09/murakami-and-louis-vuitton-rewrite-the-past",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-09-22T16:23:08.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://odalisquemagazine.com/wp-sitemap-posts-post-1.xml",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘murakami and louis vuitton rewrite the past’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-dd45c5afe0bd38165b8d",
+      "title": "hermes lignes sensibles jewelry collection",
+      "url": "https://odalisquemagazine.com/2025/01/12/hermes-lignes-sensibles-jewelry-collection",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-09-22T16:20:23.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://odalisquemagazine.com/wp-sitemap-posts-post-1.xml",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "fashion-culture",
+          "art-material"
+        ],
+        "topicLabels": [
+          "패션과 스타일",
+          "예술과 물성"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 패션과 스타일의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘hermes lignes sensibles jewelry collection’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
       "id": "history-1e78308fafd4b4ce59de",
       "title": "aarke unveils the perfect kettle for timeless design and everyday excellence",
       "url": "https://odalisquemagazine.com/2025/01/27/aarke-unveils-the-perfect-kettle-for-timeless-design-and-everyday-excellence",
@@ -704466,6 +708310,48 @@
         "evidence": "",
         "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 예술과 물성의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
         "creativeUse": "‘deadwood x a days march a collaboration rooted in craft and conscious design’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-08508a2a6f2575b60a22",
+      "title": "va presents major exhibition celebrating naomi campbells iconic career",
+      "url": "https://odalisquemagazine.com/2025/02/11/va-presents-major-exhibition-celebrating-naomi-campbells-iconic-career",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-09-22T15:46:39.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://odalisquemagazine.com/wp-sitemap-posts-post-1.xml",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "space-exhibition",
+          "art-material"
+        ],
+        "topicLabels": [
+          "공간과 전시",
+          "예술과 물성"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 공간과 전시의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘va presents major exhibition celebrating naomi campbells iconic career’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
       }
     },
     {
@@ -752865,6 +756751,326 @@
       }
     },
     {
+      "id": "history-63a8f487bc10cedcd5d5",
+      "title": "fenty x puma avanti",
+      "url": "https://odalisquemagazine.com/2025/05/21/fenty-x-puma-avanti",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-05-21T13:46:12.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://odalisquemagazine.com/wp-sitemap-posts-post-1.xml",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘fenty x puma avanti’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-60b672c266b2333e3e22",
+      "title": "swarzkopf fibre clinix bonding light oil",
+      "url": "https://odalisquemagazine.com/2025/05/21/swarzkopf-fibre-clinix-bonding-light-oil",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-05-21T13:41:46.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://odalisquemagazine.com/wp-sitemap-posts-post-1.xml",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘swarzkopf fibre clinix bonding light oil’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-0ca618d226805ced568f",
+      "title": "wherever the journey takes you meet the new navitimer 36 and 32 copy",
+      "url": "https://odalisquemagazine.com/2025/05/21/wherever-the-journey-takes-you-meet-the-new-navitimer-36-and-32-copy",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-05-21T13:36:16.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://odalisquemagazine.com/wp-sitemap-posts-post-1.xml",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘wherever the journey takes you meet the new navitimer 36 and 32 copy’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-eb42e39c6b1a871f3f6d",
+      "title": "iittala celebrates alvar aaltos 125th birthday",
+      "url": "https://odalisquemagazine.com/2025/05/21/iittala-celebrates-alvar-aaltos-125th-birthday",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-05-21T13:25:25.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://odalisquemagazine.com/wp-sitemap-posts-post-1.xml",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘iittala celebrates alvar aaltos 125th birthday’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-e87484d2444e030b9d51",
+      "title": "common clouds",
+      "url": "https://odalisquemagazine.com/2025/05/21/common-clouds",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-05-21T13:20:06.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://odalisquemagazine.com/wp-sitemap-posts-post-1.xml",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘common clouds’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-f02e7644a2426911bd60",
+      "title": "efva attling fw23",
+      "url": "https://odalisquemagazine.com/2025/05/21/efva-attling-fw23",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-05-21T13:15:07.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://odalisquemagazine.com/wp-sitemap-posts-post-1.xml",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘efva attling fw23’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-c6df8910a6d5cbaad1e8",
+      "title": "layering with n c p olfactives fragrances",
+      "url": "https://odalisquemagazine.com/2025/05/21/layering-with-n-c-p-olfactives-fragrances",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-05-21T13:10:04.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://odalisquemagazine.com/wp-sitemap-posts-post-1.xml",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘layering with n c p olfactives fragrances’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-48334b2019d9830222a2",
+      "title": "lanvin the return of an icon",
+      "url": "https://odalisquemagazine.com/2025/05/21/lanvin-the-return-of-an-icon",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-05-21T13:05:47.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://odalisquemagazine.com/wp-sitemap-posts-post-1.xml",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘lanvin the return of an icon’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
       "id": "history-b5f756807602e7c2c53f",
       "title": "Diversity Matters",
       "url": "https://designspotter.com/diversity-matters",
@@ -753026,6 +757232,86 @@
         "evidence": "",
         "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 공간과 전시의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
         "creativeUse": "‘womens history museum company gallery shoes’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-0176ba5a6c86e7e5deb7",
+      "title": "charlotte tilbury has officially launched in sweden",
+      "url": "https://odalisquemagazine.com/2025/05/20/charlotte-tilbury-has-officially-launched-in-sweden",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-05-20T16:40:02.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://odalisquemagazine.com/wp-sitemap-posts-post-1.xml",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘charlotte tilbury has officially launched in sweden’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-a69d30f7f322834fc49d",
+      "title": "core rd knitting co",
+      "url": "https://odalisquemagazine.com/2025/05/20/core-rd-knitting-co",
+      "host": "odalisquemagazine.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 이미지작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "http://odalisquemagazine.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-05-20T14:30:38.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://odalisquemagazine.com/wp-sitemap-posts-post-1.xml",
+      "indexedAt": "2026-11-03T09:28:23.682Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘core rd knitting co’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
       }
     },
     {

@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-07T01:54:30.765Z",
+  "generatedAt": "2026-11-07T08:44:53.722Z",
   "sourceCount": 258,
-  "itemCount": 43155,
+  "itemCount": 43255,
   "sources": {
     "adweek.com": {
       "host": "adweek.com",
@@ -2709,14 +2709,14 @@
       "sourceBookmarkUrl": "https://thisismyproof.blog.me/221163434113",
       "sourceFolder": "magazine",
       "priorityTier": "C",
-      "checkedAt": "2026-10-24T07:15:41.091Z",
+      "checkedAt": "2026-11-07T08:43:23.174Z",
       "status": "empty",
       "discovered": 0,
       "added": 0,
       "sitemapCount": 2,
       "errors": [
-        "robots: fetch failed",
-        "home: fetch failed",
+        "robots: This operation was aborted",
+        "home: This operation was aborted",
         "sitemap https://thisismyproof.blog.me/sitemap.xml: This operation was aborted",
         "sitemap https://thisismyproof.blog.me/sitemap_index.xml: This operation was aborted"
       ]
@@ -2726,7 +2726,7 @@
       "sourceBookmarkUrl": "https://tumblbug.com/",
       "sourceFolder": "magazine",
       "priorityTier": "C",
-      "checkedAt": "2026-10-24T07:15:42.267Z",
+      "checkedAt": "2026-11-07T08:43:24.233Z",
       "status": "empty",
       "discovered": 0,
       "added": 0,
@@ -2743,7 +2743,7 @@
       "sourceBookmarkUrl": "https://unseenamsterdam.com/",
       "sourceFolder": "magazine",
       "priorityTier": "C",
-      "checkedAt": "2026-10-24T07:15:45.127Z",
+      "checkedAt": "2026-11-07T08:43:27.087Z",
       "status": "empty",
       "discovered": 0,
       "added": 0,
@@ -2755,16 +2755,16 @@
       "sourceBookmarkUrl": "http://www.vop.co.kr/A00000836322.html",
       "sourceFolder": "magazine",
       "priorityTier": "C",
-      "checkedAt": "2026-10-24T07:16:08.071Z",
+      "checkedAt": "2026-11-07T08:43:58.777Z",
       "status": "empty",
       "discovered": 0,
       "added": 0,
       "sitemapCount": 2,
       "errors": [
-        "robots: fetch failed",
-        "home: fetch failed",
-        "sitemap http://www.vop.co.kr/sitemap.xml: This operation was aborted",
-        "sitemap http://www.vop.co.kr/sitemap_index.xml: fetch failed"
+        "robots: This operation was aborted",
+        "home: This operation was aborted",
+        "sitemap http://www.vop.co.kr/sitemap.xml: fetch failed",
+        "sitemap http://www.vop.co.kr/sitemap_index.xml: This operation was aborted"
       ]
     },
     "adim21.co.kr": {
@@ -2772,7 +2772,7 @@
       "sourceBookmarkUrl": "http://www.adim21.co.kr/?",
       "sourceFolder": "blog",
       "priorityTier": "C",
-      "checkedAt": "2026-10-24T07:16:11.362Z",
+      "checkedAt": "2026-11-07T08:44:01.824Z",
       "status": "empty",
       "discovered": 0,
       "added": 0,
@@ -2784,7 +2784,7 @@
       "sourceBookmarkUrl": "http://jslee402.blog.me/10116884149",
       "sourceFolder": "blog",
       "priorityTier": "C",
-      "checkedAt": "2026-10-24T07:16:52.094Z",
+      "checkedAt": "2026-11-07T08:44:42.545Z",
       "status": "empty",
       "discovered": 0,
       "added": 0,
@@ -2801,7 +2801,7 @@
       "sourceBookmarkUrl": "http://www.connectionsbylebook.com/ny2018/winners",
       "sourceFolder": "up",
       "priorityTier": "C",
-      "checkedAt": "2026-10-24T07:16:53.301Z",
+      "checkedAt": "2026-11-07T08:44:43.875Z",
       "status": "empty",
       "discovered": 0,
       "added": 0,
@@ -2818,7 +2818,7 @@
       "sourceBookmarkUrl": "https://m.blog.naver.com/PostList.nhn?blogId=thisismyproof&categoryNo=8&logCode=0",
       "sourceFolder": "up",
       "priorityTier": "C",
-      "checkedAt": "2026-10-24T07:16:57.085Z",
+      "checkedAt": "2026-11-07T08:44:46.786Z",
       "status": "empty",
       "discovered": 0,
       "added": 0,
@@ -2830,7 +2830,7 @@
       "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
       "sourceFolder": "up",
       "priorityTier": "C",
-      "checkedAt": "2026-10-25T00:19:00.111Z",
+      "checkedAt": "2026-11-07T08:44:48.627Z",
       "status": "indexed",
       "discovered": 100,
       "added": 100,
@@ -2844,7 +2844,7 @@
       "sourceBookmarkUrl": "http://pro.magnumphotos.com/C.aspx?VP3=CMS3&VF=MAGO31_10_VForm&ERID=24KL535GR6",
       "sourceFolder": "up",
       "priorityTier": "C",
-      "checkedAt": "2026-10-25T00:19:04.600Z",
+      "checkedAt": "2026-11-07T08:44:52.916Z",
       "status": "empty",
       "discovered": 0,
       "added": 0,
@@ -3700,6 +3700,4006 @@
     }
   },
   "items": [
+    {
+      "id": "history-b684f56c99b3e79ebecb",
+      "title": "results senate governor house flips",
+      "url": "https://nytimes.com/interactive/2026/11/06/us/elections/results-senate-governor-house-flips.html",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-07T08:40:34.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘results senate governor house flips’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-635b7c684d86e9825622",
+      "title": "moyes catterick everton match record",
+      "url": "https://nytimes.com/athletic/7760626/2026/11/07/moyes-catterick-everton-match-record",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-07T08:16:14.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘moyes catterick everton match record’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-e575473abd5294d09283",
+      "title": "israel election government herzog",
+      "url": "https://nytimes.com/2026/11/06/world/middleeast/israel-election-government-herzog.html",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-07T08:02:08.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘israel election government herzog’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-1cd53339c904199760d9",
+      "title": "notre dame miami score prediction",
+      "url": "https://nytimes.com/athletic/7759499/2026/11/07/notre-dame-miami-score-prediction",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-07T08:00:58.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘notre dame miami score prediction’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-74474b4ad838816f8260",
+      "title": "nyc parking violations",
+      "url": "https://nytimes.com/2026/11/07/nyregion/nyc-parking-violations.html",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-07T08:00:07.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘nyc parking violations’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-f97b5a8e9c2333ac9491",
+      "title": "spelling bee forum",
+      "url": "https://nytimes.com/2026/11/07/crosswords/spelling-bee-forum.html",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-07T08:00:05.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘spelling bee forum’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-7299a924cfb97294b1f1",
+      "title": "nfl trade deadline derrick henry colts jets",
+      "url": "https://nytimes.com/athletic/7760719/2026/11/07/nfl-trade-deadline-derrick-henry-colts-jets",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-07T08:00:03.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘nfl trade deadline derrick henry colts jets’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-e77702a84d6016adda3c",
+      "title": "luka doncic passes michael jordan for most points in modern era through 9 games",
+      "url": "https://nytimes.com/athletic/7760921/2026/11/07/luka-doncic-passes-michael-jordan-for-most-points-in-modern-era-through-9-games",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-07T07:59:08.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘luka doncic passes michael jordan for most points in modern era through 9 games’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-c15a33ef9a9df21a94b0",
+      "title": "vincent kompany illness burnout",
+      "url": "https://nytimes.com/athletic/7753164/2026/11/07/vincent-kompany-illness-burnout",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-07T07:50:39.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘vincent kompany illness burnout’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-07ce03964412f89dc17d",
+      "title": "mens rolex paris masters stream how to watch november 7",
+      "url": "https://nytimes.com/athletic/7760893/2026/11/07/mens-rolex-paris-masters-stream-how-to-watch-november-7",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-07T07:48:26.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "process",
+        "analysisFocus": "process",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘mens rolex paris masters stream how to watch november 7’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-22be694a58904679c916",
+      "title": "womens chennai open stream how to watch november 7",
+      "url": "https://nytimes.com/athletic/7760792/2026/11/06/womens-chennai-open-stream-how-to-watch-november-7",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-07T07:47:46.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "process",
+        "analysisFocus": "process",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘womens chennai open stream how to watch november 7’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-a96de60d91d871a998e7",
+      "title": "womens merida open akron stream how to watch november 7",
+      "url": "https://nytimes.com/athletic/7760359/2026/11/06/womens-merida-open-akron-stream-how-to-watch-november-7",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-07T07:46:49.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "process",
+        "analysisFocus": "process",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘womens merida open akron stream how to watch november 7’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-4b06d33e6863400784b9",
+      "title": "miami fl vs notre dame stream how to watch nov 7",
+      "url": "https://nytimes.com/athletic/7757839/2026/11/05/miami-fl-vs-notre-dame-stream-how-to-watch-nov-7",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-07T07:23:39.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "process",
+        "analysisFocus": "process",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘miami fl vs notre dame stream how to watch nov 7’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-7fe3b1ec0c852a93080f",
+      "title": "vanderbilt vs mississippi state stream how to watch nov 7",
+      "url": "https://nytimes.com/athletic/7757528/2026/11/05/vanderbilt-vs-mississippi-state-stream-how-to-watch-nov-7",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-07T07:22:23.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "process",
+        "analysisFocus": "process",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘vanderbilt vs mississippi state stream how to watch nov 7’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-368ffa5657cbd57efdcf",
+      "title": "georgia vs ole miss stream how to watch nov 7",
+      "url": "https://nytimes.com/athletic/7757836/2026/11/05/georgia-vs-ole-miss-stream-how-to-watch-nov-7",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-07T07:21:21.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "process",
+        "analysisFocus": "process",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘georgia vs ole miss stream how to watch nov 7’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-89c26700f389d0ffa88e",
+      "title": "boise state vs colorado state stream how to watch nov 7",
+      "url": "https://nytimes.com/athletic/7757546/2026/11/05/boise-state-vs-colorado-state-stream-how-to-watch-nov-7",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-07T07:20:52.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "process",
+        "analysisFocus": "process",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘boise state vs colorado state stream how to watch nov 7’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-98bb65828f00bf6a629d",
+      "title": "kentucky vs tennessee stream how to watch nov 7",
+      "url": "https://nytimes.com/athletic/7757847/2026/11/05/kentucky-vs-tennessee-stream-how-to-watch-nov-7",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-07T07:20:16.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "process",
+        "analysisFocus": "process",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘kentucky vs tennessee stream how to watch nov 7’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-2569607333cc9f92e5cb",
+      "title": "colorado vs arizona state stream how to watch nov 7",
+      "url": "https://nytimes.com/athletic/7757841/2026/11/05/colorado-vs-arizona-state-stream-how-to-watch-nov-7",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-07T07:19:16.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "process",
+        "analysisFocus": "process",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘colorado vs arizona state stream how to watch nov 7’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-063ea57541859a66e7ea",
+      "title": "michigan state vs michigan stream how to watch nov 7",
+      "url": "https://nytimes.com/athletic/7757815/2026/11/05/michigan-state-vs-michigan-stream-how-to-watch-nov-7",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-07T07:19:07.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "process",
+        "analysisFocus": "process",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘michigan state vs michigan stream how to watch nov 7’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-19b33dbc1003edcdaf5e",
+      "title": "maryland vs purdue stream how to watch nov 7",
+      "url": "https://nytimes.com/athletic/7756861/2026/11/05/maryland-vs-purdue-stream-how-to-watch-nov-7",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-07T07:18:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "process",
+        "analysisFocus": "process",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘maryland vs purdue stream how to watch nov 7’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-a0107d47d062f6c1934d",
+      "title": "rutgers vs wisconsin stream how to watch nov 7",
+      "url": "https://nytimes.com/athletic/7757547/2026/11/05/rutgers-vs-wisconsin-stream-how-to-watch-nov-7",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-07T07:17:26.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "process",
+        "analysisFocus": "process",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘rutgers vs wisconsin stream how to watch nov 7’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-cfe01f9a8b444725dead",
+      "title": "penn state vs washington stream how to watch nov 7",
+      "url": "https://nytimes.com/athletic/7757199/2026/11/05/penn-state-vs-washington-stream-how-to-watch-nov-7",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-07T07:17:16.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "process",
+        "analysisFocus": "process",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘penn state vs washington stream how to watch nov 7’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-e64e377b53b21f0184cf",
+      "title": "arkansas vs auburn stream how to watch nov 7",
+      "url": "https://nytimes.com/athletic/7756867/2026/11/05/arkansas-vs-auburn-stream-how-to-watch-nov-7",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-07T07:15:45.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "process",
+        "analysisFocus": "process",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘arkansas vs auburn stream how to watch nov 7’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-b2ceada9137a16b0f868",
+      "title": "west virginia vs texas tech stream how to watch nov 7",
+      "url": "https://nytimes.com/athletic/7758123/2026/11/05/west-virginia-vs-texas-tech-stream-how-to-watch-nov-7",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-07T07:15:41.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "process",
+        "analysisFocus": "process",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘west virginia vs texas tech stream how to watch nov 7’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-edb6123a47375b415871",
+      "title": "texas a m vs south carolina stream how to watch nov 7",
+      "url": "https://nytimes.com/athletic/7757167/2026/11/05/texas-a-m-vs-south-carolina-stream-how-to-watch-nov-7",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-07T07:15:09.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "process",
+        "analysisFocus": "process",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘texas a m vs south carolina stream how to watch nov 7’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-4afcb4696c66161b8815",
+      "title": "byu vs utah stream how to watch nov 7",
+      "url": "https://nytimes.com/athletic/7756542/2026/11/05/byu-vs-utah-stream-how-to-watch-nov-7",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-07T07:14:20.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "process",
+        "analysisFocus": "process",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘byu vs utah stream how to watch nov 7’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-5bd6730d2aaf06617f7c",
+      "title": "alabama vs lsu stream how to watch nov 7",
+      "url": "https://nytimes.com/athletic/7757178/2026/11/05/alabama-vs-lsu-stream-how-to-watch-nov-7",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-07T07:14:07.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "process",
+        "analysisFocus": "process",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘alabama vs lsu stream how to watch nov 7’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-3483674a8454fad28814",
+      "title": "cincinnati vs houston stream how to watch nov 7",
+      "url": "https://nytimes.com/athletic/7757211/2026/11/05/cincinnati-vs-houston-stream-how-to-watch-nov-7",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-07T07:13:34.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "process",
+        "analysisFocus": "process",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘cincinnati vs houston stream how to watch nov 7’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-5b0ac8adff2210e7a544",
+      "title": "iowa vs northwestern stream how to watch nov 7",
+      "url": "https://nytimes.com/athletic/7757832/2026/11/05/iowa-vs-northwestern-stream-how-to-watch-nov-7",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-07T07:12:45.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "process",
+        "analysisFocus": "process",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘iowa vs northwestern stream how to watch nov 7’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-d99fc02507cbd7d009ea",
+      "title": "oklahoma vs florida stream how to watch nov 7",
+      "url": "https://nytimes.com/athletic/7757851/2026/11/05/oklahoma-vs-florida-stream-how-to-watch-nov-7",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-07T07:12:43.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "process",
+        "analysisFocus": "process",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘oklahoma vs florida stream how to watch nov 7’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-bce21888f7755af8de81",
+      "title": "oregon vs ohio state stream how to watch nov 7",
+      "url": "https://nytimes.com/athletic/7757180/2026/11/05/oregon-vs-ohio-state-stream-how-to-watch-nov-7",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-07T07:11:12.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "process",
+        "analysisFocus": "process",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘oregon vs ohio state stream how to watch nov 7’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-a3de51d418f56f2041b4",
+      "title": "texas vs missouri stream how to watch nov 7",
+      "url": "https://nytimes.com/athletic/7756545/2026/11/05/texas-vs-missouri-stream-how-to-watch-nov-7",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-07T07:11:04.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "process",
+        "analysisFocus": "process",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘texas vs missouri stream how to watch nov 7’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-32c205d6f8ef029c5997",
+      "title": "ucla vs minnesota stream how to watch nov 7",
+      "url": "https://nytimes.com/athletic/7756557/2026/11/05/ucla-vs-minnesota-stream-how-to-watch-nov-7",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-07T07:10:53.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "process",
+        "analysisFocus": "process",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘ucla vs minnesota stream how to watch nov 7’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-b29d7556b0ac29e720d3",
+      "title": "north carolina vs uconn stream how to watch nov 7",
+      "url": "https://nytimes.com/athletic/7756555/2026/11/05/north-carolina-vs-uconn-stream-how-to-watch-nov-7",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-07T07:08:48.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "process",
+        "analysisFocus": "process",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘north carolina vs uconn stream how to watch nov 7’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-8edcb094effe5864cdf2",
+      "title": "clemson vs syracuse stream how to watch nov 7",
+      "url": "https://nytimes.com/athletic/7756559/2026/11/05/clemson-vs-syracuse-stream-how-to-watch-nov-7",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-07T07:08:47.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "process",
+        "analysisFocus": "process",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘clemson vs syracuse stream how to watch nov 7’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-85e62e538ad32be318ad",
+      "title": "sv 07 elversberg vs borussia dortmund stream how to watch bundesliga nov 7",
+      "url": "https://nytimes.com/athletic/7760960/2026/11/07/sv-07-elversberg-vs-borussia-dortmund-stream-how-to-watch-bundesliga-nov-7",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-07T06:53:41.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "process",
+        "analysisFocus": "process",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘sv 07 elversberg vs borussia dortmund stream how to watch bundesliga nov 7’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-aa3f4f793d71b641f0dc",
+      "title": "bayern munich vs fsv mainz stream how to watch bundesliga nov 7",
+      "url": "https://nytimes.com/athletic/7760954/2026/11/07/bayern-munich-vs-fsv-mainz-stream-how-to-watch-bundesliga-nov-7",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-07T06:49:51.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "process",
+        "analysisFocus": "process",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘bayern munich vs fsv mainz stream how to watch bundesliga nov 7’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-43301143991469d9621a",
+      "title": "eintracht frankfurt vs sc paderborn 07 stream how to watch bundesliga nov 7",
+      "url": "https://nytimes.com/athletic/7760952/2026/11/07/eintracht-frankfurt-vs-sc-paderborn-07-stream-how-to-watch-bundesliga-nov-7",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-07T06:49:30.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "process",
+        "analysisFocus": "process",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘eintracht frankfurt vs sc paderborn 07 stream how to watch bundesliga nov 7’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-db0c523f47c7c299bbb8",
+      "title": "racing santander vs malaga cf stream how to watch la liga nov 7",
+      "url": "https://nytimes.com/athletic/7760950/2026/11/07/racing-santander-vs-malaga-cf-stream-how-to-watch-la-liga-nov-7",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-07T06:48:15.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "process",
+        "analysisFocus": "process",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘racing santander vs malaga cf stream how to watch la liga nov 7’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-48f82c58164addb163d1",
+      "title": "fc augsburg vs rb leipzig stream how to watch bundesliga nov 7",
+      "url": "https://nytimes.com/athletic/7760948/2026/11/07/fc-augsburg-vs-rb-leipzig-stream-how-to-watch-bundesliga-nov-7",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-07T06:47:48.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "process",
+        "analysisFocus": "process",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘fc augsburg vs rb leipzig stream how to watch bundesliga nov 7’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-16c71c171ed0fdb51e58",
+      "title": "new zealand election vote",
+      "url": "https://nytimes.com/2026/11/06/world/asia/new-zealand-election-vote.html",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-07T06:45:04.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘new zealand election vote’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-2c843da49a37bf266a5a",
+      "title": "southern democrats georgia north carolina",
+      "url": "https://nytimes.com/2026/11/06/us/southern-democrats-georgia-north-carolina.html",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-07T06:16:33.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘southern democrats georgia north carolina’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-fe97ff3886e1d6f4a1ce",
+      "title": "athletes sports figures 2026 midterm election results",
+      "url": "https://nytimes.com/athletic/7752164/2026/11/05/athletes-sports-figures-2026-midterm-election-results",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-07T06:00:25.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘athletes sports figures 2026 midterm election results’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-e49cfaafcd6012e16a64",
+      "title": "nebraska illinois score result recap",
+      "url": "https://nytimes.com/athletic/7760479/2026/11/07/nebraska-illinois-score-result-recap",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-07T05:53:20.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘nebraska illinois score result recap’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-806b8b040ce227d869f4",
+      "title": "brandon aiyuk reports 49ers",
+      "url": "https://nytimes.com/athletic/7759158/2026/11/06/brandon-aiyuk-reports-49ers",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-07T05:49:01.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘brandon aiyuk reports 49ers’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-dd2e5088c0ef4b0a7d56",
+      "title": "midterm election trump bouie cottle french",
+      "url": "https://nytimes.com/2026/11/05/opinion/midterm-election-trump-bouie-cottle-french.html",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-07T05:30:24.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘midterm election trump bouie cottle french’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-f4e50c4798345d810ed2",
+      "title": "wild nhl history 1000 wins games sharks",
+      "url": "https://nytimes.com/athletic/7760539/2026/11/06/wild-nhl-history-1000-wins-games-sharks",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-07T05:22:52.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘wild nhl history 1000 wins games sharks’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-425ed0b3fb4162d3dee2",
+      "title": "liverpool midfield nyoni mac allister szoboszlai gravenberch wirtz",
+      "url": "https://nytimes.com/athletic/7759161/2026/11/07/liverpool-midfield-nyoni-mac-allister-szoboszlai-gravenberch-wirtz",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-07T05:20:39.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘liverpool midfield nyoni mac allister szoboszlai gravenberch wirtz’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-e79327fdff018459b5fd",
+      "title": "unai emery aston villa manchester united premier league",
+      "url": "https://nytimes.com/athletic/7760012/2026/11/07/unai-emery-aston-villa-manchester-united-premier-league",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-07T05:15:28.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘unai emery aston villa manchester united premier league’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-c924c5bed91753b542c3",
+      "title": "platinum glove pete crow armstrong cody bellinger",
+      "url": "https://nytimes.com/athletic/7756619/2026/11/06/platinum-glove-pete-crow-armstrong-cody-bellinger",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-07T05:03:17.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘platinum glove pete crow armstrong cody bellinger’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-d0859e1fae128011e106",
+      "title": "uconn michigan basketball ncaa tournament final rematch",
+      "url": "https://nytimes.com/athletic/7760525/2026/11/07/uconn-michigan-basketball-ncaa-tournament-final-rematch",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-07T05:03:13.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘uconn michigan basketball ncaa tournament final rematch’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-78dd545bfbdf2e851b3c",
+      "title": "paul taylor company premieres lauren lovette robert battle",
+      "url": "https://nytimes.com/2026/11/07/arts/dance/paul-taylor-company-premieres-lauren-lovette-robert-battle.html",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-07T05:02:34.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘paul taylor company premieres lauren lovette robert battle’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-98b0eacc894a77cb62ad",
+      "title": "king charles chogm umbrella rain diplomacy",
+      "url": "https://nytimes.com/2026/11/07/world/europe/king-charles-chogm-umbrella-rain-diplomacy.html",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-07T05:01:08.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘king charles chogm umbrella rain diplomacy’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-c40b903e8d4a81c434fb",
+      "title": "quote of the day glass towers offer nice views but residents bake in the sun",
+      "url": "https://nytimes.com/2026/11/07/pageoneplus/quote-of-the-day-glass-towers-offer-nice-views-but-residents-bake-in-the-sun.html",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-07T05:01:07.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘quote of the day glass towers offer nice views but residents bake in the sun’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-a2620f1788ac5702ed12",
+      "title": "france fourth saturday protests",
+      "url": "https://nytimes.com/2026/11/07/world/europe/france-fourth-saturday-protests.html",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-07T05:01:05.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘france fourth saturday protests’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-8c939f39c770c5757f26",
+      "title": "connections sports edition hints answers nov 7 2026",
+      "url": "https://nytimes.com/athletic/7758931/2026/11/07/connections-sports-edition-hints-answers-nov-7-2026",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-07T05:00:44.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘connections sports edition hints answers nov 7 2026’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-14d1b084978407e90279",
+      "title": "luka doncic technical referee lakers",
+      "url": "https://nytimes.com/athletic/7760748/2026/11/06/luka-doncic-technical-referee-lakers",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-07T05:00:26.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘luka doncic technical referee lakers’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-76cbfa1fd4f956baffb3",
+      "title": "from the front page bolsheviks seize power in russia on nov 7 1917",
+      "url": "https://nytimes.com/2026/11/07/learning/from-the-front-page-bolsheviks-seize-power-in-russia-on-nov-7-1917.html",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-07T05:00:02.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘from the front page bolsheviks seize power in russia on nov 7 1917’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-89200e219134039c6142",
+      "title": "lebron james return cleveland cavaliers 76ers",
+      "url": "https://nytimes.com/athletic/7760468/2026/11/06/lebron-james-return-cleveland-cavaliers-76ers",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-07T04:50:53.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘lebron james return cleveland cavaliers 76ers’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-b047778ee0757ea908e2",
+      "title": "california lake elsinore skydiving deaths",
+      "url": "https://nytimes.com/2026/11/06/us/california-lake-elsinore-skydiving-deaths.html",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-07T04:41:29.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘california lake elsinore skydiving deaths’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-e83600cb04e54e49ab94",
+      "title": "midterm elections trump",
+      "url": "https://nytimes.com/live/2026/11/06/us/midterm-elections-trump",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-07T04:09:35.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘midterm elections trump’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-59c69faa26996b086ecd",
+      "title": "justice dept dismisses california suit",
+      "url": "https://nytimes.com/2026/11/06/us/elections/justice-dept-dismisses-california-suit.html",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-07T04:09:33.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘justice dept dismisses california suit’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-5740402a2df717315374",
+      "title": "mikie sherrill lieutenant governor",
+      "url": "https://nytimes.com/2026/11/06/nyregion/mikie-sherrill-lieutenant-governor.html",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-07T03:50:01.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘mikie sherrill lieutenant governor’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-661e5b9d87cc3beaa639",
+      "title": "gotham fc stadium conflicts nwsl schedule",
+      "url": "https://nytimes.com/athletic/7760378/2026/11/06/gotham-fc-stadium-conflicts-nwsl-schedule",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-07T03:40:32.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘gotham fc stadium conflicts nwsl schedule’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-efe25e4961399396fe6c",
+      "title": "college football playoff bubble watch",
+      "url": "https://nytimes.com/athletic/7752747/2026/11/06/college-football-playoff-bubble-watch",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-07T03:39:49.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘college football playoff bubble watch’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-01a01dcc6c7bd5c9b6c0",
+      "title": "tropical storm pena pacific map path",
+      "url": "https://nytimes.com/interactive/2026/11/06/weather/tropical-storm-pena-pacific-map-path.html",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-07T03:25:55.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘tropical storm pena pacific map path’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-eb4f7da3891c58e5196d",
+      "title": "homeless population drop",
+      "url": "https://nytimes.com/2026/11/06/us/politics/homeless-population-drop.html",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-07T03:09:54.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘homeless population drop’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-fad4d319885a69c420f1",
+      "title": "trump construction projects washington",
+      "url": "https://nytimes.com/2026/11/06/us/politics/trump-construction-projects-washington.html",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-07T03:08:58.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘trump construction projects washington’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-6e1b1fd1f390384025be",
+      "title": "atlanta pandas",
+      "url": "https://nytimes.com/2026/11/06/us/atlanta-pandas.html",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-07T03:02:09.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘atlanta pandas’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-f596226aad0e44645638",
+      "title": "daily puzzle 2026 11 07",
+      "url": "https://nytimes.com/2026/11/06/crosswords/daily-puzzle-2026-11-07.html",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-07T03:00:05.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘daily puzzle 2026 11 07’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-0c6b8009484215863688",
+      "title": "trump miller wiles chief of staff",
+      "url": "https://nytimes.com/live/2026/11/06/us/trump-miller-wiles-chief-of-staff",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-07T02:56:16.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘trump miller wiles chief of staff’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-b16a53696dead37af324",
+      "title": "stephen miller white house chief staff",
+      "url": "https://nytimes.com/2026/11/06/us/politics/stephen-miller-white-house-chief-staff.html",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-07T02:56:14.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘stephen miller white house chief staff’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-63869307ad1aa0a7d9a6",
+      "title": "kalshi polymarket nyt siena poll bets",
+      "url": "https://nytimes.com/2026/11/06/technology/kalshi-polymarket-nyt-siena-poll-bets.html",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-07T02:55:47.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘kalshi polymarket nyt siena poll bets’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-32fd388fdc98d47ce5a1",
+      "title": "chinese spy agency nvidia jensen huang",
+      "url": "https://nytimes.com/2026/11/06/us/politics/chinese-spy-agency-nvidia-jensen-huang.html",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-07T02:18:43.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘chinese spy agency nvidia jensen huang’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-29c85e1b35d57bc5d8dc",
+      "title": "usmnt gio reyna strasbourg injury",
+      "url": "https://nytimes.com/athletic/7760475/2026/11/06/usmnt-gio-reyna-strasbourg-injury",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-07T01:44:31.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘usmnt gio reyna strasbourg injury’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-f56dbacea7f54dcd1c8a",
+      "title": "two womens college basketball players scored on the wrong basket one nearly cost her team",
+      "url": "https://nytimes.com/athletic/7760278/2026/11/06/two-womens-college-basketball-players-scored-on-the-wrong-basket-one-nearly-cost-her-team",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-07T01:36:23.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘two womens college basketball players scored on the wrong basket one nearly cost her team’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-3019e605456fb076f0b2",
+      "title": "paraguay president removed ueno",
+      "url": "https://nytimes.com/2026/11/06/world/americas/paraguay-president-removed-ueno.html",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-07T01:29:31.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘paraguay president removed ueno’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-af8185647d5f32becd2f",
+      "title": "kansas attorney general kobach mann",
+      "url": "https://nytimes.com/2026/11/06/us/kansas-attorney-general-kobach-mann.html",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-07T01:21:08.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘kansas attorney general kobach mann’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-1cd6a0381dcd03084073",
+      "title": "cowboys jerry jones coach pay",
+      "url": "https://nytimes.com/athletic/7759846/2026/11/06/cowboys-jerry-jones-coach-pay",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-07T01:02:10.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘cowboys jerry jones coach pay’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-40120cc7f6b4750ec595",
+      "title": "california prosecutors death penalty",
+      "url": "https://nytimes.com/2026/11/06/us/california-prosecutors-death-penalty.html",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-07T00:57:32.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘california prosecutors death penalty’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-1d46df3fea4cd3bc4ae6",
+      "title": "susie wiles chief of staff trump",
+      "url": "https://nytimes.com/2026/11/06/us/politics/susie-wiles-chief-of-staff-trump.html",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-07T00:39:51.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘susie wiles chief of staff trump’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-67b4a98b1de201550bf5",
+      "title": "jobs report stocks market economy",
+      "url": "https://nytimes.com/live/2026/11/06/business/jobs-report-stocks-market-economy",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-07T00:23:11.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "analysis",
+        "analysisFocus": "analysis",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘jobs report stocks market economy’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-1dd286112812f9e08f87",
+      "title": "mlb lockout player agents",
+      "url": "https://nytimes.com/athletic/7757295/2026/11/06/mlb-lockout-player-agents",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-07T00:17:20.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘mlb lockout player agents’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-98f65de3d73547a5d895",
+      "title": "cardinals promote rob cerfolio general manager",
+      "url": "https://nytimes.com/athletic/7668719/2026/11/06/cardinals-promote-rob-cerfolio-general-manager",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-07T00:17:10.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘cardinals promote rob cerfolio general manager’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-c6e69c1905c0481c3007",
+      "title": "england squad palmer croatia spain",
+      "url": "https://nytimes.com/athletic/7756674/2026/11/06/england-squad-palmer-croatia-spain",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-07T00:15:24.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘england squad palmer croatia spain’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-d009f94b1c37d994e6ef",
+      "title": "alan shearer premier league goals kane haaland",
+      "url": "https://nytimes.com/athletic/7683468/2026/11/05/alan-shearer-premier-league-goals-kane-haaland",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-07T00:15:09.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘alan shearer premier league goals kane haaland’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-569e8c55834c77913873",
+      "title": "premier league sacking season analysis",
+      "url": "https://nytimes.com/athletic/7755789/2026/11/06/premier-league-sacking-season-analysis",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-07T00:14:34.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "analysis",
+        "analysisFocus": "analysis",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘premier league sacking season analysis’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-2f1a83db8a168b5f84e6",
+      "title": "liverpool attacking goals andoni iraola",
+      "url": "https://nytimes.com/athletic/7759157/2026/11/06/liverpool-attacking-goals-andoni-iraola",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-07T00:14:15.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘liverpool attacking goals andoni iraola’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-48aa9950f0ef0a44d9e6",
+      "title": "premier league predictions gw10",
+      "url": "https://nytimes.com/athletic/7755930/2026/11/06/premier-league-predictions-gw10",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-07T00:14:07.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘premier league predictions gw10’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-a698369de7a70932d473",
+      "title": "arsenal home vs arsenal away",
+      "url": "https://nytimes.com/athletic/7750132/2026/11/06/arsenal-home-vs-arsenal-away",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-07T00:13:48.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘arsenal home vs arsenal away’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-4a6893397b761ea6ae56",
+      "title": "scott parker west ham bournemouth fulham burnley promotion championship",
+      "url": "https://nytimes.com/athletic/7753023/2026/11/06/scott-parker-west-ham-bournemouth-fulham-burnley-promotion-championship",
+      "host": "nytimes.com",
+      "kind": "video",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-07T00:13:42.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘scott parker west ham bournemouth fulham burnley promotion championship’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-22cb38bae34ecd87d587",
+      "title": "fantasy premier leagues fpl tips haaland captain",
+      "url": "https://nytimes.com/athletic/7756551/2026/11/06/fantasy-premier-leagues-fpl-tips-haaland-captain",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-07T00:13:37.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘fantasy premier leagues fpl tips haaland captain’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-b60b3cd519f78efa32e2",
+      "title": "manchester united shooting analysis carrick",
+      "url": "https://nytimes.com/athletic/7755758/2026/11/06/manchester-united-shooting-analysis-carrick",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-07T00:13:30.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "analysis",
+        "analysisFocus": "analysis",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘manchester united shooting analysis carrick’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-524d3a2ceb1deafc0da1",
+      "title": "robbie avila saint louis basketball eligibility",
+      "url": "https://nytimes.com/athletic/7760281/2026/11/06/robbie-avila-saint-louis-basketball-eligibility",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-07T00:12:17.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘robbie avila saint louis basketball eligibility’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-4d25fe8d12af8bc7d902",
+      "title": "national popular vote compact midterm elections 2028",
+      "url": "https://nytimes.com/2026/11/05/us/elections/national-popular-vote-compact-midterm-elections-2028.html",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-07T00:07:08.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘national popular vote compact midterm elections 2028’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-236ab5fbc6f96e14cca4",
+      "title": "cornell no confidence vote",
+      "url": "https://nytimes.com/2026/11/06/nyregion/cornell-no-confidence-vote.html",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-07T00:06:38.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘cornell no confidence vote’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-1d12f9e8d2692c6106b3",
+      "title": "nyc fire deaths",
+      "url": "https://nytimes.com/2026/11/06/nyregion/nyc-fire-deaths.html",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-07T00:01:39.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘nyc fire deaths’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-4f29da2105d2f669f17a",
+      "title": "susie wiles trump women",
+      "url": "https://nytimes.com/2026/11/06/us/politics/susie-wiles-trump-women.html",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-06T23:53:14.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘susie wiles trump women’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-9be520fb0353ba27dbea",
+      "title": "flashback",
+      "url": "https://nytimes.com/interactive/2026/11/06/upshot/flashback.html",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-06T23:51:21.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘flashback’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-da4e45f7738ceb1bde8c",
+      "title": "suffield academy charlie cahn scandal",
+      "url": "https://nytimes.com/2026/11/06/nyregion/suffield-academy-charlie-cahn-scandal.html",
+      "host": "nytimes.com",
+      "kind": "web",
+      "sourceFolder": "up",
+      "sourceLayer": "history",
+      "sourceCategory": "reference",
+      "region": "personal",
+      "path": "북마크바 / up / 사진 레퍼런스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.nytimes.com/column/anatomy-of-a-scene",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-06T23:48:45.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz",
+      "indexedAt": "2026-11-07T08:44:48.612Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘suffield academy charlie cahn scandal’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
     {
       "id": "history-fdc38946880c371c58bd",
       "title": "‘훈훈연대’ 힘 받나 했더니…오세훈, 한동훈 복당에 신중론 편 이유",

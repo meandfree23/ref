@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-16T09:35:27.311Z",
+  "updatedAt": "2026-11-16T09:39:03.772Z",
   "reader": "한국 TVCF(광고 영상) 감독이자 브랜드 전략가 KJ",
   "taste_profile": {
     "summary": "완성된 영화 장면을 모으던 사람에서, 만드는 방법과 그 뒤의 논리를 모으는 사람으로 이동 중. '무엇이 좋은가'보다 '어떻게 만드는가'를 묻는다.",
@@ -127,8 +127,8 @@
       "status": "demoted"
     },
     "월간디자인": {
-      "seen": 100,
-      "kept": 99,
+      "seen": 102,
+      "kept": 101,
       "keepRate": 0.99,
       "avgSharpness": 8,
       "lastSeen": "2026-11-16T09:35:24.724Z",
@@ -510,6 +510,14 @@
       "lastSeen": "2026-11-08T01:26:13.400Z",
       "status": "watch"
     },
+    "아시아경제": {
+      "seen": 15,
+      "kept": 7,
+      "keepRate": 0.47,
+      "avgSharpness": 4.7,
+      "lastSeen": "2026-11-16T09:35:24.724Z",
+      "status": "watch"
+    },
     "ArtAsiaPacific": {
       "seen": 15,
       "kept": 5,
@@ -524,14 +532,6 @@
       "keepRate": 0.5,
       "avgSharpness": 4.6,
       "lastSeen": "2026-11-10T04:08:15.379Z",
-      "status": "watch"
-    },
-    "아시아경제": {
-      "seen": 14,
-      "kept": 6,
-      "keepRate": 0.43,
-      "avgSharpness": 4.4,
-      "lastSeen": "2026-11-06T02:25:04.817Z",
       "status": "watch"
     },
     "tournews21.com": {
@@ -870,6 +870,14 @@
       "lastSeen": "2026-09-26T14:59:59.000Z",
       "status": "trusted"
     },
+    "The Korea Daily": {
+      "seen": 6,
+      "kept": 2,
+      "keepRate": 0.33,
+      "avgSharpness": 4.2,
+      "lastSeen": "2026-11-16T09:35:24.724Z",
+      "status": "watch"
+    },
     "autre.love": {
       "seen": 6,
       "kept": 6,
@@ -877,14 +885,6 @@
       "avgSharpness": 7.5,
       "lastSeen": "2026-10-25T00:21:15.979Z",
       "status": "trusted"
-    },
-    "The Korea Daily": {
-      "seen": 5,
-      "kept": 1,
-      "keepRate": 0.2,
-      "avgSharpness": 3.6,
-      "lastSeen": "2026-11-14T02:23:33.524Z",
-      "status": "watch"
     },
     "Reuters": {
       "seen": 5,
@@ -995,6 +995,14 @@
       "kept": 3,
       "keepRate": 0.75,
       "avgSharpness": 6,
+      "lastSeen": "2026-11-16T09:35:24.724Z",
+      "status": "watch"
+    },
+    "The Business of Fashion": {
+      "seen": 4,
+      "kept": 0,
+      "keepRate": 0,
+      "avgSharpness": 3.3,
       "lastSeen": "2026-11-16T09:35:24.724Z",
       "status": "watch"
     },
@@ -1276,14 +1284,6 @@
       "keepRate": 0,
       "avgSharpness": 2.7,
       "lastSeen": "2026-08-25T22:29:48.378Z",
-      "status": "watch"
-    },
-    "The Business of Fashion": {
-      "seen": 3,
-      "kept": 0,
-      "keepRate": 0,
-      "avgSharpness": 3.3,
-      "lastSeen": "2026-08-20T22:05:45.757Z",
       "status": "watch"
     },
     "dezeen.com": {
@@ -2199,6 +2199,22 @@
       "status": "watch"
     },
     "Bloomberg": {
+      "seen": 1,
+      "kept": 0,
+      "keepRate": 0,
+      "avgSharpness": 2,
+      "lastSeen": "2026-11-16T09:35:24.724Z",
+      "status": "watch"
+    },
+    "더파마뉴스": {
+      "seen": 1,
+      "kept": 0,
+      "keepRate": 0,
+      "avgSharpness": 1,
+      "lastSeen": "2026-11-16T09:35:24.724Z",
+      "status": "watch"
+    },
+    "The Business Times": {
       "seen": 1,
       "kept": 0,
       "keepRate": 0,
@@ -3673,6 +3689,33 @@
   },
   "pipeline_health_log": [
     {
+      "at": "2026-11-16T09:36:46.472Z",
+      "agent": "signal",
+      "hypotheses": 2,
+      "clusters": 6,
+      "readings": 180,
+      "requests": 3
+    },
+    {
+      "at": "2026-11-16T09:36:19.484Z",
+      "agent": "deep-insight",
+      "daily": {
+        "candidates": 8,
+        "done": 8,
+        "failed": 0,
+        "fulltext": 6
+      },
+      "backfill": {
+        "candidates": 0,
+        "done": 0,
+        "failed": 0
+      },
+      "remaining": 0,
+      "requests": 10,
+      "failures": 0,
+      "lastError": null
+    },
+    {
       "at": "2026-11-16T02:03:19.630Z",
       "agent": "signal",
       "hypotheses": 4,
@@ -4859,33 +4902,6 @@
       "clusters": 7,
       "readings": 180,
       "requests": 1
-    },
-    {
-      "at": "2026-10-25T00:24:10.592Z",
-      "agent": "deep-insight",
-      "daily": {
-        "candidates": 45,
-        "done": 45,
-        "failed": 0,
-        "fulltext": 35
-      },
-      "backfill": {
-        "candidates": 0,
-        "done": 0,
-        "failed": 0
-      },
-      "remaining": 0,
-      "requests": 58,
-      "failures": 0,
-      "lastError": null
-    },
-    {
-      "at": "2026-10-24T07:17:28.593Z",
-      "agent": "signal",
-      "hypotheses": 3,
-      "clusters": 7,
-      "readings": 180,
-      "requests": 1
     }
   ],
   "editorial_decisions": [
@@ -4915,8 +4931,8 @@
     "업데이트 게이트를 35점으로 낮춘 뒤 접히는 비율이 너무 높아지면(60%+) 45점으로 되돌릴 것."
   ],
   "last_deep_run": {
-    "at": "2026-11-16T02:03:12.637Z",
-    "read": 39,
-    "kept": 22
+    "at": "2026-11-16T09:36:19.484Z",
+    "read": 8,
+    "kept": 5
   }
 }

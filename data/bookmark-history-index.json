@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-17T04:27:50.358Z",
+  "generatedAt": "2026-11-17T10:39:35.206Z",
   "sourceCount": 258,
-  "itemCount": 50315,
+  "itemCount": 50415,
   "sources": {
     "adweek.com": {
       "host": "adweek.com",
@@ -1862,13 +1862,14 @@
       "sourceBookmarkUrl": "https://www.fontsquirrel.com/",
       "sourceFolder": "design",
       "priorityTier": "C",
-      "checkedAt": "2026-11-04T09:04:52.122Z",
-      "status": "indexed",
-      "discovered": 100,
-      "added": 100,
+      "checkedAt": "2026-11-17T10:39:09.310Z",
+      "status": "empty",
+      "discovered": 0,
+      "added": 0,
       "sitemapCount": 6,
       "errors": [
-        "robots: HTTP 404"
+        "robots: HTTP 404",
+        "sitemap https://www.fontsquirrel.com/sitemap_index.xml: HTTP 404"
       ]
     },
     "frostcollective.com.au": {
@@ -1876,7 +1877,7 @@
       "sourceBookmarkUrl": "https://www.frostcollective.com.au/",
       "sourceFolder": "design",
       "priorityTier": "C",
-      "checkedAt": "2026-11-04T09:04:56.193Z",
+      "checkedAt": "2026-11-17T10:39:12.547Z",
       "status": "empty",
       "discovered": 0,
       "added": 0,
@@ -1890,7 +1891,7 @@
       "sourceBookmarkUrl": "http://www.gettyimageskorea.com/_Intro/",
       "sourceFolder": "design",
       "priorityTier": "C",
-      "checkedAt": "2026-11-04T09:05:02.764Z",
+      "checkedAt": "2026-11-17T10:39:18.508Z",
       "status": "empty",
       "discovered": 0,
       "added": 0,
@@ -1905,7 +1906,7 @@
       "sourceBookmarkUrl": "https://www.giantant.ca/",
       "sourceFolder": "design",
       "priorityTier": "C",
-      "checkedAt": "2026-11-04T09:05:04.310Z",
+      "checkedAt": "2026-11-17T10:39:20.087Z",
       "status": "empty",
       "discovered": 0,
       "added": 0,
@@ -1919,7 +1920,7 @@
       "sourceBookmarkUrl": "https://komboh.com/",
       "sourceFolder": "design",
       "priorityTier": "C",
-      "checkedAt": "2026-11-04T09:05:05.506Z",
+      "checkedAt": "2026-11-17T10:39:21.762Z",
       "status": "empty",
       "discovered": 0,
       "added": 0,
@@ -1936,7 +1937,7 @@
       "sourceBookmarkUrl": "https://pixabay.com/ko/",
       "sourceFolder": "design",
       "priorityTier": "C",
-      "checkedAt": "2026-11-04T09:05:06.541Z",
+      "checkedAt": "2026-11-17T10:39:22.969Z",
       "status": "empty",
       "discovered": 0,
       "added": 0,
@@ -1953,7 +1954,7 @@
       "sourceBookmarkUrl": "http://www.raysoda.com/",
       "sourceFolder": "design",
       "priorityTier": "C",
-      "checkedAt": "2026-11-04T09:05:11.045Z",
+      "checkedAt": "2026-11-17T10:39:27.044Z",
       "status": "empty",
       "discovered": 0,
       "added": 0,
@@ -1969,7 +1970,7 @@
       "sourceBookmarkUrl": "https://www.rosestallard.com/",
       "sourceFolder": "design",
       "priorityTier": "C",
-      "checkedAt": "2026-11-04T09:05:12.844Z",
+      "checkedAt": "2026-11-17T10:39:28.743Z",
       "status": "empty",
       "discovered": 0,
       "added": 0,
@@ -1983,7 +1984,7 @@
       "sourceBookmarkUrl": "https://savee.com/",
       "sourceFolder": "design",
       "priorityTier": "C",
-      "checkedAt": "2026-11-05T02:21:57.386Z",
+      "checkedAt": "2026-11-17T10:39:31.503Z",
       "status": "indexed",
       "discovered": 100,
       "added": 100,
@@ -1997,7 +1998,7 @@
       "sourceBookmarkUrl": "https://www.semipermanent.com/",
       "sourceFolder": "design",
       "priorityTier": "C",
-      "checkedAt": "2026-11-05T02:21:59.253Z",
+      "checkedAt": "2026-11-17T10:39:34.193Z",
       "status": "empty",
       "discovered": 0,
       "added": 0,
@@ -3699,6 +3700,886 @@
   },
   "items": [
     {
+      "id": "history-d3ebcbd89b39515b7c59",
+      "title": "akin",
+      "url": "https://savee.com/akin",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-17T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘akin’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-52b4ded19b40d8c00116",
+      "title": "averyoldfield",
+      "url": "https://savee.com/averyoldfield",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-17T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘averyoldfield’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-43ab130ae4cdc270a8f9",
+      "title": "barlow agency",
+      "url": "https://savee.com/barlow_agency",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-17T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘barlow agency’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-d625e552940de4002483",
+      "title": "benmingo",
+      "url": "https://savee.com/benmingo",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-17T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘benmingo’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-9e4bf5f1656b5f7e17bd",
+      "title": "daviles",
+      "url": "https://savee.com/daviles",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-17T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘daviles’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-8cf4ca7fc0b119a7ce43",
+      "title": "ekayganaci",
+      "url": "https://savee.com/ekayganaci",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-17T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘ekayganaci’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-b7ac6b52fd2475b14f54",
+      "title": "garice",
+      "url": "https://savee.com/garice",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-17T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘garice’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-a2bce73a00865cf9828a",
+      "title": "gbeaulieu",
+      "url": "https://savee.com/gbeaulieu",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-17T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘gbeaulieu’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-e02cb04eb1e43ea8060d",
+      "title": "ianliu",
+      "url": "https://savee.com/ianliu",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-17T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘ianliu’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-20afe98fda7d3e0d608d",
+      "title": "jkane",
+      "url": "https://savee.com/jkane",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-17T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘jkane’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-356afc79b42fa9a72c57",
+      "title": "kiyanac",
+      "url": "https://savee.com/kiyanac",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-17T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘kiyanac’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-3bc780f65bbb3d82f62e",
+      "title": "marvin",
+      "url": "https://savee.com/marvin",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-17T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘marvin’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-7f686a789d1802dda51b",
+      "title": "mateusfelix",
+      "url": "https://savee.com/mateusfelix",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-17T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘mateusfelix’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-6de61fd97169134acd87",
+      "title": "nooneswatching",
+      "url": "https://savee.com/nooneswatching",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-17T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘nooneswatching’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-a2f8aeceec0d33197896",
+      "title": "originconnor",
+      "url": "https://savee.com/originconnor",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-17T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘originconnor’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-c49f7671dc3b76085add",
+      "title": "pedropim",
+      "url": "https://savee.com/pedropim",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-17T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘pedropim’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-96c49eae73e7ae29b5c0",
+      "title": "philippzm",
+      "url": "https://savee.com/philippzm",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-17T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘philippzm’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-6a94bbe138fe7ba90ed6",
+      "title": "plum jeeyoon",
+      "url": "https://savee.com/plum_jeeyoon",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-17T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘plum jeeyoon’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-7611ba9b4a0371891397",
+      "title": "simfrr",
+      "url": "https://savee.com/simfrr",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-17T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘simfrr’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-795589b0f527687bc9c8",
+      "title": "sumer",
+      "url": "https://savee.com/sumer",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-17T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘sumer’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-a2f1cfd66ed4f36597af",
+      "title": "troutman20",
+      "url": "https://savee.com/troutman20",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-17T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘troutman20’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-b23e0b79173a129268d4",
+      "title": "wamika",
+      "url": "https://savee.com/wamika",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-17T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘wamika’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
       "id": "history-cfa4deb92dd536146ddd",
       "title": "After Rain: Permanent Vacation Introduces Project 31",
       "url": "https://odalisquemagazine.com/2026/11/16/after-rain-permanent-vacation-introduces-project-31",
@@ -3736,6 +4617,1286 @@
         "evidence": "After Rain: Permanent Vacation Introduces Project 31 images courtesy of Permanent Vacation For its thirty first project, titled After Rain, […]",
         "insight": "남길 이유는 문화와 시대 감각의 반복 가능한 기준이 있기 때문입니다. 에서 문제·아이디어·실행의 인과 하나를 뽑아두세요.",
         "creativeUse": "‘After Rain: Permanent Vacation Introduces Project 31’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-4ce732a8650fc75fa2e1",
+      "title": "berryoatmeal",
+      "url": "https://savee.com/berryoatmeal",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-16T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘berryoatmeal’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-6a8fb3760e92ffcb518c",
+      "title": "brenna",
+      "url": "https://savee.com/brenna",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-16T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘brenna’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-48549842e89b1f92b826",
+      "title": "bretchapman",
+      "url": "https://savee.com/bretchapman",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-16T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘bretchapman’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-27073f6f8e8fa640cc30",
+      "title": "danchosich",
+      "url": "https://savee.com/danchosich",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-16T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘danchosich’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-aedd27cba985f3c9a3be",
+      "title": "eduhmarzionna",
+      "url": "https://savee.com/eduhmarzionna",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-16T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘eduhmarzionna’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-1342735d98aa95a93885",
+      "title": "eleventh",
+      "url": "https://savee.com/eleventh",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-16T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘eleventh’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-87f98e17914f262c48db",
+      "title": "emp",
+      "url": "https://savee.com/emp",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-16T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘emp’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-673ec7eb3141cbec0c0d",
+      "title": "glasseye",
+      "url": "https://savee.com/glasseye",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-16T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘glasseye’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-8a69f71ef41130c74232",
+      "title": "jessieallyn",
+      "url": "https://savee.com/jessieallyn",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-16T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘jessieallyn’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-45382fca5579a1563fdb",
+      "title": "joaogvo",
+      "url": "https://savee.com/joaogvo",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-16T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘joaogvo’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-7b186480466fe84d48d6",
+      "title": "linda",
+      "url": "https://savee.com/linda",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-16T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘linda’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-33f5a5100a0c9878388a",
+      "title": "lmlulu",
+      "url": "https://savee.com/lmlulu",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-16T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘lmlulu’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-398aa16a43c5925f125a",
+      "title": "lucasolsson",
+      "url": "https://savee.com/lucasolsson",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-16T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘lucasolsson’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-497fcc3a589bcca5b42a",
+      "title": "magal",
+      "url": "https://savee.com/magal",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-16T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘magal’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-cb52d9e0ca5b39e29b0a",
+      "title": "mariogogh",
+      "url": "https://savee.com/mariogogh",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-16T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘mariogogh’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-baf735c26be5e57ddca7",
+      "title": "matheusmott",
+      "url": "https://savee.com/matheusmott",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-16T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘matheusmott’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-e867e04ea57a27fb4c91",
+      "title": "mk333mk",
+      "url": "https://savee.com/mk333mk",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-16T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘mk333mk’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-2916b7fb6f025633cf2d",
+      "title": "mrodzik",
+      "url": "https://savee.com/mrodzik",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-16T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘mrodzik’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-02da581e9bfe21e16785",
+      "title": "nschliephake",
+      "url": "https://savee.com/nschliephake",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-16T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘nschliephake’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-ad4b819d90d4bf6f6b9f",
+      "title": "rebeccarumble",
+      "url": "https://savee.com/rebeccarumble",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-16T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘rebeccarumble’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-c0ba38cb15205c6311d7",
+      "title": "rizzuti",
+      "url": "https://savee.com/rizzuti",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-16T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘rizzuti’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-593143ab7b236fcb4649",
+      "title": "rnviz",
+      "url": "https://savee.com/rnviz",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-16T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘rnviz’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-623b2b27e35ffb28e8a2",
+      "title": "sch",
+      "url": "https://savee.com/sch",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-16T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘sch’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-df081924acfbce4604ba",
+      "title": "seanhobman",
+      "url": "https://savee.com/seanhobman",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-16T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘seanhobman’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-912e0ddf8a99935a581a",
+      "title": "sleach2",
+      "url": "https://savee.com/sleach2",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-16T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘sleach2’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-dab5c9a8af5141c433c2",
+      "title": "sparksojin",
+      "url": "https://savee.com/sparksojin",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-16T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘sparksojin’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-ee9f466d4148ed3205af",
+      "title": "superrandy",
+      "url": "https://savee.com/superrandy",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-16T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘superrandy’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-4a8647f58f478857d440",
+      "title": "victorosa",
+      "url": "https://savee.com/victorosa",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-16T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘victorosa’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-309ddd8ca84a284b4837",
+      "title": "zig zag mo",
+      "url": "https://savee.com/zig_zag_mo",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-16T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘zig zag mo’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-be0644a13144d17b6c9e",
+      "title": "franko",
+      "url": "https://savee.com/franko",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-15T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘franko’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-70d854d51f66874ba1af",
+      "title": "jeffsmith",
+      "url": "https://savee.com/jeffsmith",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-15T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘jeffsmith’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-25b177dfac31ccd58136",
+      "title": "wilhelm",
+      "url": "https://savee.com/wilhelm",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-15T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘wilhelm’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
       }
     },
     {
@@ -12037,6 +14198,1046 @@
       }
     },
     {
+      "id": "history-b7e8b5d76dcc30d9faaa",
+      "title": "azoubel",
+      "url": "https://savee.com/azoubel",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-14T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘azoubel’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-d61c15ca8bf0631dd5f8",
+      "title": "bossa",
+      "url": "https://savee.com/bossa",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-14T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘bossa’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-dd27f6194718a7922bb2",
+      "title": "byronho",
+      "url": "https://savee.com/byronho",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-14T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘byronho’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-52d041bb819e6c9ea2f2",
+      "title": "callan",
+      "url": "https://savee.com/callan",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-14T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘callan’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-2eef31805d40f9c7d8d3",
+      "title": "chuck",
+      "url": "https://savee.com/chuck",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-14T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘chuck’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-eec9d80c611fdbfaeb71",
+      "title": "coledorais",
+      "url": "https://savee.com/coledorais",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-14T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘coledorais’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-4d376eff00d70d6fe8c9",
+      "title": "coutinho",
+      "url": "https://savee.com/coutinho",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-14T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘coutinho’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-747b9015b95359210e80",
+      "title": "darrelkennedy",
+      "url": "https://savee.com/darrelkennedy",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-14T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘darrelkennedy’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-fa682651ce7cdd3c4def",
+      "title": "franko 92",
+      "url": "https://savee.com/franko_92",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-14T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘franko 92’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-15f337fd031687d1dae1",
+      "title": "gmutz",
+      "url": "https://savee.com/gmutz",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-14T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘gmutz’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-fa1cd9c5c8b1c8a1aba5",
+      "title": "hayash",
+      "url": "https://savee.com/hayash",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-14T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘hayash’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-7caa9aeccf4ab286ddce",
+      "title": "horhey",
+      "url": "https://savee.com/horhey",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-14T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘horhey’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-6167e2f337be9ee19e8a",
+      "title": "iaah",
+      "url": "https://savee.com/iaah",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-14T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘iaah’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-67c76cf512d8ef9c74ec",
+      "title": "jaderocha",
+      "url": "https://savee.com/jaderocha",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-14T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘jaderocha’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-7f3055b30c1e653b4bad",
+      "title": "laurareschke",
+      "url": "https://savee.com/laurareschke",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-14T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘laurareschke’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-3f477ca6aa2aa73fa16b",
+      "title": "lostandwayward",
+      "url": "https://savee.com/lostandwayward",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-14T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘lostandwayward’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-5567a9cf44be2c5d6153",
+      "title": "mathiaslaurvig",
+      "url": "https://savee.com/mathiaslaurvig",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-14T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘mathiaslaurvig’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-7540caf2b53e73427cc7",
+      "title": "maximkain",
+      "url": "https://savee.com/maximkain",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-14T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘maximkain’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-035f104f9fe715b94099",
+      "title": "mformagpie",
+      "url": "https://savee.com/mformagpie",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-14T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘mformagpie’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-c3c50dc08187f49c23e2",
+      "title": "miumimiau",
+      "url": "https://savee.com/miumimiau",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-14T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘miumimiau’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-b4467009be180657a740",
+      "title": "pedrohassis",
+      "url": "https://savee.com/pedrohassis",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-14T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘pedrohassis’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-05f0ed2dd2056c3cb04c",
+      "title": "reik",
+      "url": "https://savee.com/reik",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-14T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘reik’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-62bbc3ec12278a6e8879",
+      "title": "stavn",
+      "url": "https://savee.com/stavn",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-14T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘stavn’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-c35cc2a7886fac7db1ee",
+      "title": "twhang",
+      "url": "https://savee.com/twhang",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-14T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘twhang’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-7c0b06029e4f12173b6e",
+      "title": "vadim yarmak",
+      "url": "https://savee.com/vadim_yarmak",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-14T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘vadim yarmak’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-13042c8ec2550af94187",
+      "title": "vinist",
+      "url": "https://savee.com/vinist",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-14T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘vinist’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
       "id": "history-5afd6a179af343fb1f70",
       "title": "Small Business AI Platforms - Worker.AI Launches a Free Workspace With Built-In Sales Coaching (TrendHunter.com)",
       "url": "https://trendhunter.com/trends/small-business-ai-platforms",
@@ -13648,6 +16849,246 @@
         "evidence": "",
         "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 사진과 이미지의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
         "creativeUse": "‘introducing in passing a new street photography photozine’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-f00cc654754d2081faef",
+      "title": "adrian roura",
+      "url": "https://savee.com/adrian_roura",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-13T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘adrian roura’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-71bd5ebd44c0030932e2",
+      "title": "artifacts studio",
+      "url": "https://savee.com/artifacts_studio",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-13T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "process",
+        "analysisFocus": "process",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘artifacts studio’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-c39d3a66fa2d4911a26f",
+      "title": "dave schnupp",
+      "url": "https://savee.com/dave_schnupp",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-13T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘dave schnupp’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-ffe041345b3432458eb0",
+      "title": "gui muniz",
+      "url": "https://savee.com/gui_muniz",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-13T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘gui muniz’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-d70b8a20e361f1411f03",
+      "title": "lindlof",
+      "url": "https://savee.com/lindlof",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-13T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘lindlof’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-98f1e7d595b03951a1ab",
+      "title": "yeeeerika",
+      "url": "https://savee.com/yeeeerika",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-13T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘yeeeerika’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
       }
     },
     {
@@ -19344,6 +22785,126 @@
         "evidence": "",
         "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
         "creativeUse": "‘191’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-499cddee14944bf09fc0",
+      "title": "celoschneider",
+      "url": "https://savee.com/celoschneider",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-12T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘celoschneider’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-595155b267b02630b85a",
+      "title": "chasegray",
+      "url": "https://savee.com/chasegray",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-12T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘chasegray’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-eb148ba537d6b1ce1625",
+      "title": "thomaz",
+      "url": "https://savee.com/thomaz",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-12T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘thomaz’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
       }
     },
     {
@@ -25314,6 +28875,46 @@
         "evidence": "",
         "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
         "creativeUse": "‘zoja paskaljevic appointed ceo of dentsu aegis network germany’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-6f7a8e8b8c5303cb14a9",
+      "title": "stevemahn",
+      "url": "https://savee.com/stevemahn",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-11T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘stevemahn’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
       }
     },
     {
@@ -60165,6 +63766,46 @@
       }
     },
     {
+      "id": "history-476740ee1190cea5f306",
+      "title": "alexandrahook",
+      "url": "https://savee.com/alexandrahook",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-09T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘alexandrahook’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
       "id": "history-64926dd2100ef5beada2",
       "title": "469884",
       "url": "https://notefolio.net/mzzborago_art/469884",
@@ -80523,6 +84164,126 @@
       }
     },
     {
+      "id": "history-c176c97cf7eea10ac127",
+      "title": "baranhuk",
+      "url": "https://savee.com/baranhuk",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-06T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘baranhuk’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-7063b22524bc32bdceea",
+      "title": "koryjrdn",
+      "url": "https://savee.com/koryjrdn",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-06T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘koryjrdn’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-2ff8b4194e0e6a5f40c9",
+      "title": "richardrodrigues",
+      "url": "https://savee.com/richardrodrigues",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-06T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘richardrodrigues’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
       "id": "history-a9eefcab33c3d511d1bf",
       "title": "articleView",
       "url": "https://handmk.com/news/articleView.html?idxno=44820",
@@ -88058,6 +91819,46 @@
         "evidence": "",
         "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
         "creativeUse": "‘your brief questions answered’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-ea9239921b10d77183d5",
+      "title": "delreys",
+      "url": "https://savee.com/delreys",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-05T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘delreys’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
       }
     },
     {
@@ -170115,6 +173916,46 @@
       }
     },
     {
+      "id": "history-f269bcce9e5c36c64731",
+      "title": "sebastiangonzales",
+      "url": "https://savee.com/sebastiangonzales",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-10-25T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘sebastiangonzales’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
       "id": "history-cc0dacef9068cf8ac940",
       "title": "south carolina tennesee upset lanorris sellers sec",
       "url": "https://nytimes.com/athletic/7721350/2026/10/24/south-carolina-tennesee-upset-lanorris-sellers-sec",
@@ -224776,6 +228617,46 @@
         "evidence": "",
         "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
         "creativeUse": "‘illuminated wall square lightbox sign psd mockup’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-43c453bfb16129c4f125",
+      "title": "lstnv",
+      "url": "https://savee.com/lstnv",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-10-16T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘lstnv’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
       }
     },
     {
@@ -475522,6 +479403,46 @@
         "evidence": "",
         "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
         "creativeUse": "‘matholiveirart’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-a9841008667d182eba0e",
+      "title": "pcka",
+      "url": "https://savee.com/pcka",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-09-17T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/users-1.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘pcka’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
       }
     },
     {
@@ -1939501,6 +1943422,46 @@
       }
     },
     {
+      "id": "history-7193661e9aec23097528",
+      "title": "workshop",
+      "url": "https://savee.com/workshop",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": null,
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/static.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘workshop’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
       "id": "history-62ca3066261b7cccbea5",
       "title": "articleView",
       "url": "https://slist.kr/news/articleView.html?idxno=770101",
@@ -1955578,6 +1959539,46 @@
         "evidence": "",
         "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
         "creativeUse": "‘guestbook’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-fd19777ed0b799e8a411",
+      "title": "taste.savee.com",
+      "url": "https://taste.savee.com/",
+      "host": "savee.com",
+      "kind": "web",
+      "sourceFolder": "design",
+      "sourceLayer": "history",
+      "sourceCategory": "design",
+      "region": "personal",
+      "path": "북마크바 / design / 사진찾기 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://savee.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": null,
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://savee.com/sitemaps/static.xml",
+      "indexedAt": "2026-11-17T10:39:31.475Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘taste.savee.com’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
       }
     },
     {

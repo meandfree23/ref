@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-17T10:44:04.253Z",
+  "updatedAt": "2026-11-18T03:43:28.194Z",
   "reader": "한국 TVCF(광고 영상) 감독이자 브랜드 전략가 KJ",
   "taste_profile": {
     "summary": "완성된 영화 장면을 모으던 사람에서, 만드는 방법과 그 뒤의 논리를 모으는 사람으로 이동 중. '무엇이 좋은가'보다 '어떻게 만드는가'를 묻는다.",
@@ -308,7 +308,7 @@
       "keepRate": 0.19,
       "avgSharpness": 3.2,
       "lastSeen": "2026-10-19T00:14:19.951Z",
-      "status": "demoted"
+      "status": "watch"
     },
     "Creative Review": {
       "seen": 33,
@@ -572,7 +572,7 @@
       "keepRate": 0.15,
       "avgSharpness": 2.8,
       "lastSeen": "2026-10-19T00:14:19.951Z",
-      "status": "demoted"
+      "status": "watch"
     },
     "mk.co.kr": {
       "seen": 13,
@@ -740,7 +740,7 @@
       "keepRate": 0,
       "avgSharpness": 1.9,
       "lastSeen": "2026-10-19T00:14:19.951Z",
-      "status": "demoted"
+      "status": "watch"
     },
     "wallpaper.com": {
       "seen": 9,

@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-17T10:39:35.206Z",
+  "generatedAt": "2026-11-18T03:41:53.551Z",
   "sourceCount": 258,
-  "itemCount": 50415,
+  "itemCount": 50515,
   "sources": {
     "adweek.com": {
       "host": "adweek.com",
@@ -2013,7 +2013,7 @@
       "sourceBookmarkUrl": "https://www.sinato.jp/en/",
       "sourceFolder": "design",
       "priorityTier": "C",
-      "checkedAt": "2026-11-05T02:22:01.881Z",
+      "checkedAt": "2026-11-18T03:41:29.515Z",
       "status": "empty",
       "discovered": 0,
       "added": 0,
@@ -2029,7 +2029,7 @@
       "sourceBookmarkUrl": "http://smadani.com/",
       "sourceFolder": "design",
       "priorityTier": "C",
-      "checkedAt": "2026-11-05T02:22:07.143Z",
+      "checkedAt": "2026-11-18T03:41:33.494Z",
       "status": "empty",
       "discovered": 0,
       "added": 0,
@@ -2041,7 +2041,7 @@
       "sourceBookmarkUrl": "https://thenationalgrid.com.au/",
       "sourceFolder": "design",
       "priorityTier": "C",
-      "checkedAt": "2026-11-05T02:22:09.168Z",
+      "checkedAt": "2026-11-18T03:41:35.385Z",
       "status": "empty",
       "discovered": 0,
       "added": 0,
@@ -2055,7 +2055,7 @@
       "sourceBookmarkUrl": "http://www.thorstenhayer.com/#start",
       "sourceFolder": "design",
       "priorityTier": "C",
-      "checkedAt": "2026-11-05T02:22:12.901Z",
+      "checkedAt": "2026-11-18T03:41:37.790Z",
       "status": "empty",
       "discovered": 0,
       "added": 0,
@@ -2071,24 +2071,19 @@
       "sourceBookmarkUrl": "http://www.topicphoto.com/",
       "sourceFolder": "design",
       "priorityTier": "C",
-      "checkedAt": "2026-11-05T02:22:13.791Z",
+      "checkedAt": "2026-11-18T03:41:40.021Z",
       "status": "empty",
       "discovered": 0,
       "added": 0,
       "sitemapCount": 2,
-      "errors": [
-        "robots: fetch failed",
-        "home: fetch failed",
-        "sitemap http://www.topicphoto.com/sitemap.xml: fetch failed",
-        "sitemap http://www.topicphoto.com/sitemap_index.xml: fetch failed"
-      ]
+      "errors": []
     },
     "universaleverything.com": {
       "host": "universaleverything.com",
       "sourceBookmarkUrl": "https://www.universaleverything.com/",
       "sourceFolder": "design",
       "priorityTier": "C",
-      "checkedAt": "2026-11-05T02:22:19.131Z",
+      "checkedAt": "2026-11-18T03:41:42.006Z",
       "status": "empty",
       "discovered": 0,
       "added": 0,
@@ -2102,7 +2097,7 @@
       "sourceBookmarkUrl": "https://www.w0w.co.jp/en/#/en/news/press/",
       "sourceFolder": "design",
       "priorityTier": "C",
-      "checkedAt": "2026-11-05T02:22:21.961Z",
+      "checkedAt": "2026-11-18T03:41:45.534Z",
       "status": "empty",
       "discovered": 0,
       "added": 0,
@@ -2118,7 +2113,7 @@
       "sourceBookmarkUrl": "https://wsdia.com/",
       "sourceFolder": "design",
       "priorityTier": "C",
-      "checkedAt": "2026-11-05T02:22:24.251Z",
+      "checkedAt": "2026-11-18T03:41:47.409Z",
       "status": "empty",
       "discovered": 0,
       "added": 0,
@@ -2134,7 +2129,7 @@
       "sourceBookmarkUrl": "https://www.20slab.org/",
       "sourceFolder": "magazine",
       "priorityTier": "C",
-      "checkedAt": "2026-11-05T09:25:10.939Z",
+      "checkedAt": "2026-11-18T03:41:51.117Z",
       "status": "indexed",
       "discovered": 100,
       "added": 100,
@@ -2146,7 +2141,7 @@
       "sourceBookmarkUrl": "http://www.allwallpapersfree.org/",
       "sourceFolder": "magazine",
       "priorityTier": "C",
-      "checkedAt": "2026-11-05T09:25:12.708Z",
+      "checkedAt": "2026-11-18T03:41:52.565Z",
       "status": "empty",
       "discovered": 0,
       "added": 0,
@@ -3699,6 +3694,126 @@
     }
   },
   "items": [
+    {
+      "id": "history-964211dd0307817df1e6",
+      "title": "39179",
+      "url": "https://20slab.org/Archives/39179",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-17T06:51:00.600Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘39179’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-242e5fe991ad79d5f603",
+      "title": "38594",
+      "url": "https://20slab.org/Archives/38594",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-17T05:33:11.220Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘38594’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-40f620bdce2d776d8bdb",
+      "title": "39171",
+      "url": "https://20slab.org/Archives/39171",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-17T00:56:32.603Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘39171’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
     {
       "id": "history-d3ebcbd89b39515b7c59",
       "title": "akin",
@@ -16080,6 +16195,46 @@
       }
     },
     {
+      "id": "history-e2da199db0494dc25c6e",
+      "title": "39181",
+      "url": "https://20slab.org/Archives/39181",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-13T18:14:01.197Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘39181’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
       "id": "history-8a0b8cc3cbd4280971d7",
       "title": "Personalizable Hardshell Travel Luggage - Katie Loxton Adds Its First Hard-Case Range With Avora (TrendHunter.com)",
       "url": "https://trendhunter.com/trends/personalizable-hardshell-travel-luggage",
@@ -16767,6 +16922,46 @@
         "evidence": "끝내지 못한 소설의 엔딩을 탐하다",
         "insight": "남길 이유는 문화와 시대 감각의 반복 가능한 기준이 있기 때문입니다. “끝내지 못한 소설의 엔딩을 탐하다”에서 비평의 판단 근거 하나를 뽑아두세요.",
         "creativeUse": "‘[리뷰 URL 취합] 패러렐 테일즈: 데칼로그’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-9b383b355c9a871b743e",
+      "title": "39180",
+      "url": "https://20slab.org/Archives/39180",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-11-13T00:49:43.660Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘39180’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
       }
     },
     {
@@ -191371,6 +191566,46 @@
         "evidence": "정정본을 직접 확인·검토했다고 서명한 최희남 종근당홀딩스 대표의 검토·승인 절차가 제대로 작동했는지 의문이 제기된다.",
         "insight": "남길 이유는 사진과 이미지의 반복 가능한 기준이 있기 때문입니다. “정정본을 직접 확인·검토했다고 서명한 최희남 종근당홀딩스 대표의 검토·승인 절차가 제대로 작동했는지 의문이 제기된다.”에서 비평의 판단 근거 하나를 뽑아두세요.",
         "creativeUse": "‘[단독] 최희남 대표 '직접 검토' 서명에도…종근당홀딩스 정정 공시 또 오류’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-9141091fe7f4aefcfe19",
+      "title": "38601",
+      "url": "https://20slab.org/Archives/38601",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-10-22T01:38:19.947Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘38601’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
       }
     },
     {
@@ -664758,6 +664993,46 @@
       }
     },
     {
+      "id": "history-2b9305dbbcbec9b0c4ec",
+      "title": "38559",
+      "url": "https://20slab.org/Archives/38559",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-08-05T09:42:53.083Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘38559’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
       "id": "history-817f936119365aa54073",
       "title": "39132",
       "url": "https://20slab.org/Archives/39132",
@@ -666333,6 +666608,46 @@
         "evidence": "Thought Found designed a quiet visual identity for Imogen Oke.",
         "insight": "남길 이유는 디자인 언어의 반복 가능한 기준이 있기 때문입니다. 에서 표면에 드러난 변화 하나를 뽑아두세요.",
         "creativeUse": "‘Imogen Oke Visual Identity Branding by Thought & Found’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-8b09e3b506422b29da53",
+      "title": "38540",
+      "url": "https://20slab.org/Archives/38540",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-08-04T00:43:04.220Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘38540’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
       }
     },
     {
@@ -690401,6 +690716,46 @@
         "evidence": "",
         "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
         "creativeUse": "‘39099’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-e21a0a1d61b975980c3d",
+      "title": "38611",
+      "url": "https://20slab.org/Archives/38611",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-07-24T05:14:18.387Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘38611’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
       }
     },
     {
@@ -747546,6 +747901,206 @@
       }
     },
     {
+      "id": "history-0fb73a7a120e4f794fc5",
+      "title": "38532",
+      "url": "https://20slab.org/Archives/38532",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-05-15T11:39:41.637Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘38532’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-360d8832d60543031058",
+      "title": "38541",
+      "url": "https://20slab.org/Archives/38541",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-05-15T11:38:30.803Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘38541’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-9cc97376f2248e5c40a6",
+      "title": "38574",
+      "url": "https://20slab.org/Archives/38574",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-05-15T11:37:28.503Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘38574’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-924a02600593f5b8df3f",
+      "title": "38590",
+      "url": "https://20slab.org/Archives/38590",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-05-15T11:36:52.400Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘38590’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-98ad0536bf0d32502da9",
+      "title": "38614",
+      "url": "https://20slab.org/Archives/38614",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-05-15T11:35:34.883Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘38614’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
       "id": "history-857e683f9eabc9cd6d79",
       "title": "50 improvements 100 bug fixes",
       "url": "https://vimeo.com/blog/post/50-improvements-100-bug-fixes",
@@ -747583,6 +748138,46 @@
         "evidence": "",
         "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
         "creativeUse": "‘50 improvements 100 bug fixes’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-ce616108dca97103271b",
+      "title": "38628",
+      "url": "https://20slab.org/Archives/38628",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-05-15T11:33:07.837Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘38628’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
       }
     },
     {
@@ -814145,6 +814740,46 @@
         "evidence": "",
         "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
         "creativeUse": "‘38969’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-882f71164b7f422e707d",
+      "title": "38582",
+      "url": "https://20slab.org/Archives/38582",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-01-15T02:36:26.807Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘38582’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
       }
     },
     {
@@ -936356,6 +936991,46 @@
       }
     },
     {
+      "id": "history-3d2ce0209c656d8451e6",
+      "title": "38550",
+      "url": "https://20slab.org/Archives/38550",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-04-23T08:22:09.943Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘38550’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
       "id": "history-a87dbe4189fe12099a2c",
       "title": "38773",
       "url": "https://20slab.org/Archives/38773",
@@ -946030,6 +946705,86 @@
       }
     },
     {
+      "id": "history-682c572ff113d1be5789",
+      "title": "38569",
+      "url": "https://20slab.org/Archives/38569",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-04-03T08:34:50.467Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘38569’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-431e2ccfcd3769018ab7",
+      "title": "38609",
+      "url": "https://20slab.org/Archives/38609",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-04-03T08:32:39.717Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘38609’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
       "id": "history-3d4f688c3f8efa5e5908",
       "title": "38883",
       "url": "https://20slab.org/Archives/38883",
@@ -947231,6 +947986,46 @@
         "evidence": "",
         "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 브랜드와 전략의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
         "creativeUse": "‘inaugural brand of the year award’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-4c662762c9da57f7c869",
+      "title": "38623",
+      "url": "https://20slab.org/Archives/38623",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2025-03-31T11:36:17.517Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘38623’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
       }
     },
     {
@@ -1014610,6 +1015405,86 @@
       }
     },
     {
+      "id": "history-43fcea8660babbdef894",
+      "title": "38622",
+      "url": "https://20slab.org/Archives/38622",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2024-08-19T02:50:29.340Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘38622’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-255bfef48927b0adeee4",
+      "title": "38621",
+      "url": "https://20slab.org/Archives/38621",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2024-08-19T02:50:03.083Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘38621’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
       "id": "history-bdc0c377b8a87ac8088b",
       "title": "street photography needs to stop to be a superficial game",
       "url": "https://alexcoghe.com/journal/street-photography-needs-to-stop-to-be-a-superficial-game",
@@ -1048336,6 +1049211,46 @@
       }
     },
     {
+      "id": "history-9edcf2175a12abc6c211",
+      "title": "38626",
+      "url": "https://20slab.org/Archives/38626",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2024-04-26T08:06:55.860Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘38626’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
       "id": "history-d81a3c8558d4fc9af458",
       "title": "judges takes on 28th webbys",
       "url": "https://webbyawards.com/judges-takes-on-28th-webbys",
@@ -1050357,6 +1051272,46 @@
         "evidence": "",
         "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 디자인 언어의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
         "creativeUse": "‘form editions at solidified milan design week 2024’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-8bf5bf6c396358525160",
+      "title": "38625",
+      "url": "https://20slab.org/Archives/38625",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2024-04-02T09:29:50.980Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘38625’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
       }
     },
     {
@@ -1090580,6 +1091535,206 @@
       }
     },
     {
+      "id": "history-76665dce07b7b951a892",
+      "title": "38606",
+      "url": "https://20slab.org/Archives/38606",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2024-02-06T09:12:57.190Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘38606’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-598ab03ee4eea4d3348f",
+      "title": "38591",
+      "url": "https://20slab.org/Archives/38591",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2024-02-06T09:12:32.820Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘38591’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-5a88368c81b77e73c5a7",
+      "title": "38587",
+      "url": "https://20slab.org/Archives/38587",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2024-02-06T09:12:23.807Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘38587’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-6aabe3d891e17a467030",
+      "title": "38589",
+      "url": "https://20slab.org/Archives/38589",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2024-02-06T09:11:38.850Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘38589’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-64bca131f3bbfef13bb0",
+      "title": "38585",
+      "url": "https://20slab.org/Archives/38585",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2024-02-06T09:11:23.277Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘38585’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
       "id": "history-766f701fd7802acf6bf2",
       "title": "38651",
       "url": "https://20slab.org/Archives/38651",
@@ -1093510,6 +1094665,46 @@
       }
     },
     {
+      "id": "history-e897204f9e0b45f6b785",
+      "title": "38624",
+      "url": "https://20slab.org/Archives/38624",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2024-01-09T09:05:57.660Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘38624’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
       "id": "history-17e20bfc6d8eb27b00ef",
       "title": "38636",
       "url": "https://20slab.org/Archives/38636",
@@ -1093912,6 +1095107,46 @@
       }
     },
     {
+      "id": "history-c33022545fcdfad661a9",
+      "title": "38633",
+      "url": "https://20slab.org/Archives/38633",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2024-01-04T07:36:43.320Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘38633’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
       "id": "history-076121fd542acd8f2b7e",
       "title": "1390",
       "url": "https://nexonhands.tistory.com/1390",
@@ -1094109,6 +1095344,46 @@
         "evidence": "",
         "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
         "creativeUse": "‘andrew thomas huang’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-73d3948de6d2cd968f87",
+      "title": "38632",
+      "url": "https://20slab.org/Archives/38632",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2023-12-27T04:47:29.057Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘38632’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
       }
     },
     {
@@ -1095512,6 +1096787,126 @@
       }
     },
     {
+      "id": "history-4cf79620f2e2878da4ed",
+      "title": "38630",
+      "url": "https://20slab.org/Archives/38630",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2023-12-22T02:13:31.850Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘38630’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-7ffb344bd300042043a7",
+      "title": "38631",
+      "url": "https://20slab.org/Archives/38631",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2023-12-22T01:18:17.623Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘38631’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-cee16b1d7a3e2fbd0adc",
+      "title": "38629",
+      "url": "https://20slab.org/Archives/38629",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2023-12-21T07:22:30.493Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘38629’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
       "id": "history-8379c6a7b610defbba58",
       "title": "the informant",
       "url": "https://film-grab.com/2010/07/12/the-informant",
@@ -1095549,6 +1096944,46 @@
         "evidence": "",
         "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
         "creativeUse": "‘the informant’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-420f2da67c35b98d66cb",
+      "title": "38627",
+      "url": "https://20slab.org/Archives/38627",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2023-12-20T06:09:54.230Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘38627’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
       }
     },
     {
@@ -1097560,6 +1098995,46 @@
       }
     },
     {
+      "id": "history-2e24734437fda3128124",
+      "title": "38619",
+      "url": "https://20slab.org/Archives/38619",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2023-12-07T09:47:31.427Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘38619’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
       "id": "history-24180a59756af43a2e83",
       "title": "84065",
       "url": "https://promonews.tv/interviews/freefolks-marty-mcmullan-theres-hint-video-game-influence-when-i-grade/84065",
@@ -1098124,6 +1099599,86 @@
       }
     },
     {
+      "id": "history-4a52ca04e6dd3f561160",
+      "title": "38618",
+      "url": "https://20slab.org/Archives/38618",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2023-12-05T08:46:02.560Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘38618’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-e0d74adfd88187429bf3",
+      "title": "38617",
+      "url": "https://20slab.org/Archives/38617",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2023-12-05T05:43:44.800Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘38617’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
       "id": "history-a43a5af05ffb4b43f5f4",
       "title": "contact",
       "url": "https://frankschott.com/contact",
@@ -1098445,6 +1100000,86 @@
         "evidence": "",
         "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
         "creativeUse": "‘soundtrack cd’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-61e507ac8d71b1eb54a1",
+      "title": "38615",
+      "url": "https://20slab.org/Archives/38615",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2023-12-01T02:54:02.900Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘38615’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-27d245bd3ba0d961267f",
+      "title": "38616",
+      "url": "https://20slab.org/Archives/38616",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2023-11-30T13:51:15.920Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘38616’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
       }
     },
     {
@@ -1099214,6 +1100849,46 @@
       }
     },
     {
+      "id": "history-a80cec93a187a2198e47",
+      "title": "38613",
+      "url": "https://20slab.org/Archives/38613",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2023-11-24T04:57:41.417Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘38613’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
       "id": "history-919c0a66497c13f43073",
       "title": "maroon optique store kuala lumpur malaysia",
       "url": "https://thecoolhunter.net/maroon-optique-store-kuala-lumpur-malaysia",
@@ -1099291,6 +1100966,166 @@
         "evidence": "",
         "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
         "creativeUse": "‘joey david tiempo’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-90cbf6fc756973d6aca3",
+      "title": "38612",
+      "url": "https://20slab.org/Archives/38612",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2023-11-22T01:00:11.870Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘38612’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-0066b2cdc36adace901e",
+      "title": "38558",
+      "url": "https://20slab.org/Archives/38558",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2023-11-21T23:55:27.537Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘38558’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-79a59b0f5057fb9701a0",
+      "title": "38557",
+      "url": "https://20slab.org/Archives/38557",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2023-11-21T23:55:13.240Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘38557’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-8b7c2b5c137711734206",
+      "title": "38610",
+      "url": "https://20slab.org/Archives/38610",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2023-11-21T08:28:00.443Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘38610’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
       }
     },
     {
@@ -1099496,6 +1101331,86 @@
       }
     },
     {
+      "id": "history-aee1f8663bf615bbd87b",
+      "title": "38543",
+      "url": "https://20slab.org/Archives/38543",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2023-11-17T05:56:25.357Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘38543’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-e786b3c1a94c6e89a5cc",
+      "title": "38542",
+      "url": "https://20slab.org/Archives/38542",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2023-11-17T05:56:03.023Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘38542’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
       "id": "history-c4c2f26f7b06f463a91f",
       "title": "case studies",
       "url": "https://mca.com.au/join-support/partners/case-studies",
@@ -1099533,6 +1101448,46 @@
         "evidence": "",
         "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
         "creativeUse": "‘case studies’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-83d333074f6153eca1ff",
+      "title": "38608",
+      "url": "https://20slab.org/Archives/38608",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2023-11-16T09:47:01.280Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘38608’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
       }
     },
     {
@@ -1100059,6 +1102014,166 @@
         "evidence": "",
         "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
         "creativeUse": "‘article’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-6846a5d28773ed49f278",
+      "title": "38605",
+      "url": "https://20slab.org/Archives/38605",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2023-11-13T09:11:53.770Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘38605’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-fde11d6d2a108bb2b906",
+      "title": "38602",
+      "url": "https://20slab.org/Archives/38602",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2023-11-13T05:28:24.893Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘38602’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-f5beaa07bdc72ec50694",
+      "title": "38604",
+      "url": "https://20slab.org/Archives/38604",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2023-11-13T05:28:12.660Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘38604’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-1b300aace63f7a94a8d9",
+      "title": "38603",
+      "url": "https://20slab.org/Archives/38603",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2023-11-13T04:24:25.277Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘38603’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
       }
     },
     {
@@ -1101420,6 +1103535,46 @@
       }
     },
     {
+      "id": "history-9936bc88ff553335acb9",
+      "title": "38592",
+      "url": "https://20slab.org/Archives/38592",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2023-11-10T09:05:28.103Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘38592’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
       "id": "history-6e942aeca1c0a2c1feee",
       "title": "visitor policies",
       "url": "https://mca.com.au/visitor-information/visitor-policies",
@@ -1101860,6 +1104015,46 @@
       }
     },
     {
+      "id": "history-69eecc5739616ac13ab5",
+      "title": "38599",
+      "url": "https://20slab.org/Archives/38599",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2023-11-03T07:20:35.313Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘38599’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
       "id": "history-93e46d2f0a4e952fc98b",
       "title": "1384",
       "url": "https://nexonhands.tistory.com/1384",
@@ -1102021,6 +1104216,46 @@
         "evidence": "",
         "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 예술과 물성의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
         "creativeUse": "‘tate axa art modern paints project taampp’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-2dead9d4d7222dd2d107",
+      "title": "38598",
+      "url": "https://20slab.org/Archives/38598",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2023-10-31T14:48:24.403Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘38598’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
       }
     },
     {
@@ -1102306,6 +1104541,86 @@
       }
     },
     {
+      "id": "history-9efb6a998ece55ca5035",
+      "title": "38596",
+      "url": "https://20slab.org/Archives/38596",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2023-10-30T02:33:18.290Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘38596’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-c71a049e8c550ac5d94d",
+      "title": "38597",
+      "url": "https://20slab.org/Archives/38597",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2023-10-30T02:21:29.200Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘38597’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
       "id": "history-0928a6eb8f5aa4a51c1d",
       "title": "spikes asia 2024 opens for awards submissions including new gaming",
       "url": "https://spikes.asia/news/spikes-asia-2024-opens-for-awards-submissions-including-new-gaming",
@@ -1102386,6 +1104701,46 @@
       }
     },
     {
+      "id": "history-d16cc53b7109129ff9a3",
+      "title": "38595",
+      "url": "https://20slab.org/Archives/38595",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2023-10-27T06:35:20.767Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘38595’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
       "id": "history-d822a0c229b08d8bf9a7",
       "title": "83813",
       "url": "https://promonews.tv/interviews/myles-bevan-studio-rm-premium-beauty-focussed-approach-has-been-applicable-lot-music/83813",
@@ -1102423,6 +1104778,46 @@
         "evidence": "",
         "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
         "creativeUse": "‘83813’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-cb1ab1fd14c386674d22",
+      "title": "38588",
+      "url": "https://20slab.org/Archives/38588",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2023-10-25T00:24:45.517Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘38588’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
       }
     },
     {
@@ -1103832,6 +1106227,126 @@
       }
     },
     {
+      "id": "history-bf76d90704312ca72585",
+      "title": "38586",
+      "url": "https://20slab.org/Archives/38586",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2023-10-20T02:04:32.733Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘38586’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-053ce626185bca3e232c",
+      "title": "38584",
+      "url": "https://20slab.org/Archives/38584",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2023-10-18T11:21:45.073Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘38584’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-bbc7510da468b91fb240",
+      "title": "38583",
+      "url": "https://20slab.org/Archives/38583",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2023-10-18T09:14:32.587Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘38583’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
       "id": "history-9fa59569c20b7af761c0",
       "title": "on your rubric rachael king ceo of pod people",
       "url": "https://webbyawards.com/on-your-rubric-rachael-king-ceo-of-pod-people",
@@ -1103991,6 +1106506,46 @@
         "evidence": "",
         "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
         "creativeUse": "‘article’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-80e26080d82a23d4dc92",
+      "title": "38581",
+      "url": "https://20slab.org/Archives/38581",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2023-10-16T02:00:58.720Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘38581’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
       }
     },
     {
@@ -1104156,6 +1106711,46 @@
       }
     },
     {
+      "id": "history-1b207b283b8d13550769",
+      "title": "38580",
+      "url": "https://20slab.org/Archives/38580",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2023-10-10T12:15:53.990Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘38580’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
       "id": "history-28219fed6b5c8a09a426",
       "title": "Brass Mono",
       "url": "https://fontsquirrel.com/fonts/brass-mono",
@@ -1104193,6 +1106788,46 @@
         "evidence": "",
         "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
         "creativeUse": "‘Brass Mono’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-b0004a1a5cc27408e6c2",
+      "title": "38579",
+      "url": "https://20slab.org/Archives/38579",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2023-10-09T23:57:24.750Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘38579’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
       }
     },
     {
@@ -1104755,6 +1107390,86 @@
         "evidence": "",
         "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
         "creativeUse": "‘polly on carpet’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-2997a1af96f03a0ce686",
+      "title": "38578",
+      "url": "https://20slab.org/Archives/38578",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2023-10-04T12:13:38.097Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘38578’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-5a41b9aa15124c2dd4a8",
+      "title": "38576",
+      "url": "https://20slab.org/Archives/38576",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2023-10-04T05:17:37.297Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘38576’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
       }
     },
     {
@@ -1105486,6 +1108201,46 @@
       }
     },
     {
+      "id": "history-7a43b552a3010855a114",
+      "title": "38575",
+      "url": "https://20slab.org/Archives/38575",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2023-09-27T09:49:34.913Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘38575’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
       "id": "history-6fcebc593945ea4adf26",
       "title": "nike bunny run",
       "url": "https://giantant.ca/nike-bunny-run",
@@ -1105563,6 +1108318,86 @@
         "evidence": "",
         "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
         "creativeUse": "‘83420’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-6d0fb65d3ffef35e7580",
+      "title": "38573",
+      "url": "https://20slab.org/Archives/38573",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2023-09-26T08:31:18.683Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘38573’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-eae0fc9e0868c1698bd6",
+      "title": "38572",
+      "url": "https://20slab.org/Archives/38572",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2023-09-26T08:31:09.543Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘38572’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
       }
     },
     {
@@ -1105646,6 +1108481,46 @@
       }
     },
     {
+      "id": "history-1708ec61152b01e2d266",
+      "title": "38571",
+      "url": "https://20slab.org/Archives/38571",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2023-09-25T14:19:01.767Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘38571’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
       "id": "history-adcaba39535c788aca99",
       "title": "Gen Namura &#8211; Creative Director and Asami Namura &#8211; Kids Clothing Director with Caede and Coco at home in Tokyo",
       "url": "https://theselby.com/gallery/gen-namura-asami-namura-tokyo",
@@ -1105725,6 +1108600,46 @@
         "evidence": "",
         "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
         "creativeUse": "‘article’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-248bdd602c9cc19aabf1",
+      "title": "38570",
+      "url": "https://20slab.org/Archives/38570",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2023-09-22T12:01:08.263Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘38570’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
       }
     },
     {
@@ -1106048,6 +1108963,86 @@
       }
     },
     {
+      "id": "history-187129952d7ac3bd7399",
+      "title": "38568",
+      "url": "https://20slab.org/Archives/38568",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2023-09-20T05:27:28.340Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘38568’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-cf3e5be7fe8db466e5fa",
+      "title": "38567",
+      "url": "https://20slab.org/Archives/38567",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2023-09-19T01:30:41.360Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘38567’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
       "id": "history-1ca170de09245aa79257",
       "title": "article",
       "url": "https://kr.noxinfluencer.com/article?p=1579",
@@ -1106165,6 +1109160,46 @@
         "evidence": "",
         "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
         "creativeUse": "‘lycabettus theater construction timelapse’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-297c67a7c297bff74726",
+      "title": "38566",
+      "url": "https://20slab.org/Archives/38566",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2023-09-14T07:31:39.570Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘38566’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
       }
     },
     {
@@ -1106367,6 +1109402,46 @@
         "evidence": "",
         "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
         "creativeUse": "‘rise disneyplus bts epk production 1’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-3d1d0015d807d9fdf5e6",
+      "title": "38565",
+      "url": "https://20slab.org/Archives/38565",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2023-09-12T11:44:06.233Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘38565’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
       }
     },
     {
@@ -1106850,6 +1109925,46 @@
       }
     },
     {
+      "id": "history-eae019db60dc51b7ba17",
+      "title": "38564",
+      "url": "https://20slab.org/Archives/38564",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2023-09-08T06:05:38.870Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘38564’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
       "id": "history-9bbdf0a83458258cf060",
       "title": "Paris Mitchell Temple &#8211; co-founder of Paris Georgia and Henry Mitchell Temple &#8211; Restaurateur with their kid Moss at home in Auckland",
       "url": "https://theselby.com/gallery/paris-temple-henry-mitchell-temple",
@@ -1106887,6 +1110002,46 @@
         "evidence": "Paris Mitchell Temple - co-founder of Paris Georgia and Henry Mitchell Temple - Restaurateur with their kid Moss",
         "insight": "남길 이유는 문화와 시대 감각의 반복 가능한 기준이 있기 때문입니다. 에서 표면에 드러난 변화 하나를 뽑아두세요.",
         "creativeUse": "‘Paris Mitchell Temple – co-founder of Paris Georgia and Henry Mitchell Temple – Restaur...’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-c6656e314663210ba597",
+      "title": "38563",
+      "url": "https://20slab.org/Archives/38563",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2023-09-07T07:29:53.083Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘38563’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
       }
     },
     {
@@ -1107010,6 +1110165,46 @@
       }
     },
     {
+      "id": "history-de356b4a7500077c5233",
+      "title": "38562",
+      "url": "https://20slab.org/Archives/38562",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2023-09-01T01:14:35.857Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘38562’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
       "id": "history-5d57522b53ace5fc9888",
       "title": "hybrid events mca",
       "url": "https://mca.com.au/venue-hire/hybrid-events-mca",
@@ -1107130,6 +1110325,46 @@
       }
     },
     {
+      "id": "history-5fbda2cee7ee8b75cb51",
+      "title": "38561",
+      "url": "https://20slab.org/Archives/38561",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2023-08-29T09:01:50.663Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘38561’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
       "id": "history-0f302cecb8cf33cc3f35",
       "title": "cinemin img 1099 mov lines 10 shadows 30 flatness 20 neutral cel 401080p on 2023 08 28 20 06 08 mp4",
       "url": "https://coolhunting.com/cinemin-img_1099-mov-lines-10-shadows-30-flatness-20-neutral-cel-401080p-on-2023-08-28_20-06-08-mp4",
@@ -1107207,6 +1110442,46 @@
         "evidence": "",
         "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
         "creativeUse": "‘cinemin img 0909 mov lines 20 line cleanup 5 shadows 60 flatness 5 bubble cel 401080p o...’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-62b863b7061ab0fa9046",
+      "title": "38560",
+      "url": "https://20slab.org/Archives/38560",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2023-08-28T09:32:31.013Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘38560’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
       }
     },
     {
@@ -1109292,6 +1112567,46 @@
       }
     },
     {
+      "id": "history-cac620165e467bd7bc18",
+      "title": "38556",
+      "url": "https://20slab.org/Archives/38556",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2023-08-25T00:13:34.810Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘38556’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
       "id": "history-33ef2fd910ac7f234efb",
       "title": "portraits of time",
       "url": "https://bckoo.com/portraits-of-time",
@@ -1109732,6 +1113047,86 @@
       }
     },
     {
+      "id": "history-23f44a78019fe420a678",
+      "title": "38547",
+      "url": "https://20slab.org/Archives/38547",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2023-08-24T09:28:38.413Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘38547’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-7df1729d97b367056851",
+      "title": "38555",
+      "url": "https://20slab.org/Archives/38555",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2023-08-24T09:28:26.883Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘38555’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
       "id": "history-42ebdb350405ebc22cbd",
       "title": "sixth year review",
       "url": "https://fototazo.com/2017/02/sixth-year-review.html",
@@ -1109769,6 +1113164,46 @@
         "evidence": "",
         "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
         "creativeUse": "‘sixth year review’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-56f3cb50edfbd42c4df7",
+      "title": "38554",
+      "url": "https://20slab.org/Archives/38554",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2023-08-24T02:22:51.033Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘38554’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
       }
     },
     {
@@ -1112291,6 +1115726,166 @@
         "evidence": "",
         "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
         "creativeUse": "‘argentina notebook q a with marcela magno’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-12b096e62da22008da21",
+      "title": "38553",
+      "url": "https://20slab.org/Archives/38553",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2023-08-21T09:43:02.403Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘38553’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-39d28ab991e261f04378",
+      "title": "38548",
+      "url": "https://20slab.org/Archives/38548",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2023-08-21T09:32:04.660Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘38548’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-daf428c3391ac62d8efc",
+      "title": "38544",
+      "url": "https://20slab.org/Archives/38544",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2023-08-21T09:31:21.363Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘38544’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-cc523089fe35cb02c203",
+      "title": "38552",
+      "url": "https://20slab.org/Archives/38552",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2023-08-21T09:30:52.423Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘38552’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
       }
     },
     {
@@ -1115258,6 +1118853,46 @@
       }
     },
     {
+      "id": "history-54d1aeff8e0e77a38ae3",
+      "title": "38551",
+      "url": "https://20slab.org/Archives/38551",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2023-08-11T05:44:33.580Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘38551’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
       "id": "history-e2189d167c1e28973d09",
       "title": "mexico notebook interview with ramon",
       "url": "https://fototazo.com/2014/08/mexico-notebook-interview-with-ramon.html",
@@ -1115778,6 +1119413,46 @@
       }
     },
     {
+      "id": "history-0af7687ca277d23e6ef7",
+      "title": "38549",
+      "url": "https://20slab.org/Archives/38549",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2023-08-09T05:39:45.463Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘38549’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
       "id": "history-c25d0659a1145c46f26f",
       "title": "81890",
       "url": "https://promonews.tv/interviews/milo-blake-royal-bloods-mountains-midnight-i-dont-know-if-its-been-done/81890",
@@ -1116015,6 +1119690,86 @@
         "evidence": "",
         "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
         "creativeUse": "‘1375’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-0752960f9c4e9ac32728",
+      "title": "38546",
+      "url": "https://20slab.org/Archives/38546",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2023-08-03T04:10:46.797Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘38546’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-5fda8ce8ac419147d7a0",
+      "title": "38545",
+      "url": "https://20slab.org/Archives/38545",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2023-08-02T02:15:30.970Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘38545’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
       }
     },
     {
@@ -1118104,6 +1121859,46 @@
       }
     },
     {
+      "id": "history-a7aa0ead89796366125b",
+      "title": "38539",
+      "url": "https://20slab.org/Archives/38539",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2023-07-26T07:42:29.053Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘38539’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
       "id": "history-09df274c8adb895c60fa",
       "title": "gallery hosts",
       "url": "https://mca.com.au/about-us/who-we-are/gallery-hosts",
@@ -1118223,6 +1122018,126 @@
         "evidence": "온보딩 <a href=\"https://wwit.design//imag",
         "insight": "남길 이유는 디자인 언어의 반복 가능한 기준이 있기 때문입니다. “온보딩 <a href=\"https://wwit.design//imag”에서 표면에 드러난 변화 하나를 뽑아두세요.",
         "creativeUse": "‘플랜핏’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-5e85cbf93edb420e9892",
+      "title": "38538",
+      "url": "https://20slab.org/Archives/38538",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2023-07-20T07:56:08.780Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘38538’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-e9facb81c3c5fa448922",
+      "title": "38537",
+      "url": "https://20slab.org/Archives/38537",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2023-07-19T08:29:16.093Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘38537’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-42f8c5f11e9e58622aee",
+      "title": "38536",
+      "url": "https://20slab.org/Archives/38536",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2023-07-19T06:54:10.007Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘38536’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
       }
     },
     {
@@ -1123543,6 +1127458,86 @@
         "evidence": "",
         "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
         "creativeUse": "‘yuichiro horie 224419’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-7a5924283b61f95400e4",
+      "title": "38534",
+      "url": "https://20slab.org/Archives/38534",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2023-07-14T07:24:03.590Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘38534’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-6388a00b99a4c1c7ec7b",
+      "title": "38533",
+      "url": "https://20slab.org/Archives/38533",
+      "host": "20slab.org",
+      "kind": "web",
+      "sourceFolder": "magazine",
+      "sourceLayer": "history",
+      "sourceCategory": "culture-magazine",
+      "region": "personal",
+      "path": "북마크바 / magazine / 잡학뉴스 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://www.20slab.org/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2023-07-14T04:56:40.703Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://www.20slab.org/sitemap",
+      "indexedAt": "2026-11-18T03:41:51.090Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘38533’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
       }
     },
     {

@@ -1,16 +1,11 @@
 {
-  "runId": "44066751867",
-  "runAt": "2026-11-17T10:40:25.134Z",
+  "runId": "44232144651",
+  "runAt": "2026-11-18T03:44:00.039Z",
   "removedByTab": {
     "updates": 0,
-    "korean-code": 1,
+    "korean-code": 0,
     "cinema": 0
   },
-  "removed": 1,
-  "examples": [
-    {
-      "removed": "korean-code@2026-11-17 https://www.artasiapacific.com/partnerships/kiaf-seoul-announces-175-galleries-for-its-2025-edition-in-september/",
-      "kept": "korean-code@2026-09-02 https://www.artasiapacific.com/kiaf-seoul-announces-175-galleries-for-its-2025-edition-in-september/"
-    }
-  ]
+  "removed": 0,
+  "examples": []
 }

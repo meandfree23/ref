@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-18T10:05:11.015Z",
+  "updatedAt": "2026-11-18T10:09:03.336Z",
   "reader": "한국 TVCF(광고 영상) 감독이자 브랜드 전략가 KJ",
   "taste_profile": {
     "summary": "완성된 영화 장면을 모으던 사람에서, 만드는 방법과 그 뒤의 논리를 모으는 사람으로 이동 중. '무엇이 좋은가'보다 '어떻게 만드는가'를 묻는다.",
@@ -2270,6 +2270,14 @@
       "lastSeen": "2026-11-16T09:35:24.724Z",
       "status": "watch"
     },
+    "스포츠조선": {
+      "seen": 1,
+      "kept": 0,
+      "keepRate": 0,
+      "avgSharpness": 2,
+      "lastSeen": "2026-11-15T14:59:59.000Z",
+      "status": "watch"
+    },
     "미디어파인": {
       "seen": 1,
       "kept": 0,
@@ -3729,6 +3737,33 @@
   },
   "pipeline_health_log": [
     {
+      "at": "2026-11-18T10:06:10.835Z",
+      "agent": "signal",
+      "hypotheses": 3,
+      "clusters": 6,
+      "readings": 180,
+      "requests": 3
+    },
+    {
+      "at": "2026-11-18T10:05:47.797Z",
+      "agent": "deep-insight",
+      "daily": {
+        "candidates": 0,
+        "done": 0,
+        "failed": 0,
+        "fulltext": 0
+      },
+      "backfill": {
+        "candidates": 1,
+        "done": 1,
+        "failed": 0
+      },
+      "remaining": 0,
+      "requests": 1,
+      "failures": 0,
+      "lastError": null
+    },
+    {
       "at": "2026-11-18T03:45:57.575Z",
       "agent": "signal",
       "hypotheses": 4,
@@ -4915,33 +4950,6 @@
       "clusters": 5,
       "readings": 180,
       "requests": 1
-    },
-    {
-      "at": "2026-10-27T01:35:01.490Z",
-      "agent": "deep-insight",
-      "daily": {
-        "candidates": 45,
-        "done": 44,
-        "failed": 1,
-        "fulltext": 40
-      },
-      "backfill": {
-        "candidates": 0,
-        "done": 0,
-        "failed": 0
-      },
-      "remaining": 1,
-      "requests": 87,
-      "failures": 1,
-      "lastError": "all models failed: gemini-3.1-flash-lite: empty response (no candidate) | gemini-3.1-flash-lite: empty response (no candidate) | gemini-3.1-flash-lite-preview: empty response (no candidate) | gemini-3.1-flash-lite-preview: empty response (no candidate)"
-    },
-    {
-      "at": "2026-10-26T07:46:32.840Z",
-      "agent": "signal",
-      "hypotheses": 4,
-      "clusters": 5,
-      "readings": 180,
-      "requests": 1
     }
   ],
   "editorial_decisions": [
@@ -4971,8 +4979,8 @@
     "업데이트 게이트를 35점으로 낮춘 뒤 접히는 비율이 너무 높아지면(60%+) 45점으로 되돌릴 것."
   ],
   "last_deep_run": {
-    "at": "2026-11-18T03:45:50.497Z",
-    "read": 56,
-    "kept": 17
+    "at": "2026-11-18T10:05:47.797Z",
+    "read": 1,
+    "kept": 0
   }
 }

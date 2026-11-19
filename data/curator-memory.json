@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-19T03:27:03.544Z",
+  "updatedAt": "2026-11-19T10:16:29.053Z",
   "reader": "한국 TVCF(광고 영상) 감독이자 브랜드 전략가 KJ",
   "taste_profile": {
     "summary": "완성된 영화 장면을 모으던 사람에서, 만드는 방법과 그 뒤의 논리를 모으는 사람으로 이동 중. '무엇이 좋은가'보다 '어떻게 만드는가'를 묻는다.",
@@ -131,7 +131,7 @@
       "kept": 107,
       "keepRate": 0.99,
       "avgSharpness": 8,
-      "lastSeen": "2026-11-19T03:21:50.301Z",
+      "lastSeen": "2026-11-19T10:16:15.930Z",
       "status": "trusted"
     },
     "It's Nice That": {
@@ -195,7 +195,7 @@
       "kept": 28,
       "keepRate": 0.38,
       "avgSharpness": 4.2,
-      "lastSeen": "2026-11-19T03:21:50.301Z",
+      "lastSeen": "2026-11-19T10:16:15.930Z",
       "status": "watch"
     },
     "ppss.kr": {
@@ -987,7 +987,7 @@
       "kept": 0,
       "keepRate": 0,
       "avgSharpness": 4,
-      "lastSeen": "2026-11-19T03:21:50.301Z",
+      "lastSeen": "2026-11-19T10:16:15.930Z",
       "status": "watch"
     },
     "The Straits Times": {
@@ -1435,7 +1435,7 @@
       "kept": 1,
       "keepRate": 0.5,
       "avgSharpness": 5,
-      "lastSeen": "2026-11-19T03:21:50.301Z",
+      "lastSeen": "2026-11-19T10:16:15.930Z",
       "status": "watch"
     },
     "Inven Global": {
@@ -1443,7 +1443,7 @@
       "kept": 0,
       "keepRate": 0,
       "avgSharpness": 2,
-      "lastSeen": "2026-11-19T03:21:50.301Z",
+      "lastSeen": "2026-11-19T10:16:15.930Z",
       "status": "watch"
     },
     "Businesskorea": {
@@ -2227,7 +2227,7 @@
       "kept": 0,
       "keepRate": 0,
       "avgSharpness": 5,
-      "lastSeen": "2026-11-19T03:21:50.301Z",
+      "lastSeen": "2026-11-19T10:16:15.930Z",
       "status": "watch"
     },
     "Koreabizwire": {
@@ -2235,7 +2235,7 @@
       "kept": 0,
       "keepRate": 0,
       "avgSharpness": 1,
-      "lastSeen": "2026-11-19T03:21:50.301Z",
+      "lastSeen": "2026-11-19T10:16:15.930Z",
       "status": "watch"
     },
     "Taipei Times": {

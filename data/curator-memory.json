@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-20T09:59:35.160Z",
+  "updatedAt": "2026-11-20T10:03:03.632Z",
   "reader": "한국 TVCF(광고 영상) 감독이자 브랜드 전략가 KJ",
   "taste_profile": {
     "summary": "완성된 영화 장면을 모으던 사람에서, 만드는 방법과 그 뒤의 논리를 모으는 사람으로 이동 중. '무엇이 좋은가'보다 '어떻게 만드는가'를 묻는다.",
@@ -191,10 +191,10 @@
       "status": "demoted"
     },
     "ppss.kr": {
-      "seen": 80,
+      "seen": 81,
       "kept": 44,
-      "keepRate": 0.55,
-      "avgSharpness": 5,
+      "keepRate": 0.54,
+      "avgSharpness": 4.9,
       "lastSeen": "2026-11-20T03:09:57.770Z",
       "status": "watch"
     },
@@ -3769,6 +3769,33 @@
   },
   "pipeline_health_log": [
     {
+      "at": "2026-11-20T10:00:30.359Z",
+      "agent": "signal",
+      "hypotheses": 3,
+      "clusters": 6,
+      "readings": 180,
+      "requests": 1
+    },
+    {
+      "at": "2026-11-20T10:00:19.437Z",
+      "agent": "deep-insight",
+      "daily": {
+        "candidates": 0,
+        "done": 0,
+        "failed": 0,
+        "fulltext": 0
+      },
+      "backfill": {
+        "candidates": 1,
+        "done": 1,
+        "failed": 0
+      },
+      "remaining": 0,
+      "requests": 1,
+      "failures": 0,
+      "lastError": null
+    },
+    {
       "at": "2026-11-20T03:13:20.936Z",
       "agent": "signal",
       "hypotheses": 4,
@@ -4955,33 +4982,6 @@
       "clusters": 6,
       "readings": 180,
       "requests": 1
-    },
-    {
-      "at": "2026-10-29T01:51:34.892Z",
-      "agent": "deep-insight",
-      "daily": {
-        "candidates": 46,
-        "done": 45,
-        "failed": 1,
-        "fulltext": 35
-      },
-      "backfill": {
-        "candidates": 0,
-        "done": 0,
-        "failed": 0
-      },
-      "remaining": 1,
-      "requests": 56,
-      "failures": 1,
-      "lastError": "all models failed: gemini-3.1-flash-lite: empty response (no candidate) | gemini-3.1-flash-lite: empty response (no candidate) | gemini-3.1-flash-lite-preview 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 15, model: gemini-3.1-flash-lite, description: Generate content requests per minute limit exceeded on Free Tier. See https://ai.google.dev/gemini-api/docs/rate-limits.\nPlease retry in 48.52012001s. | gemini-3.1-flash-lite-preview: empty response (no candidate)"
-    },
-    {
-      "at": "2026-10-28T08:25:43.627Z",
-      "agent": "signal",
-      "hypotheses": 0,
-      "clusters": 6,
-      "readings": 180,
-      "requests": 1
     }
   ],
   "editorial_decisions": [
@@ -5011,8 +5011,8 @@
     "업데이트 게이트를 35점으로 낮춘 뒤 접히는 비율이 너무 높아지면(60%+) 45점으로 되돌릴 것."
   ],
   "last_deep_run": {
-    "at": "2026-11-20T03:13:13.073Z",
-    "read": 48,
-    "kept": 30
+    "at": "2026-11-20T10:00:19.436Z",
+    "read": 1,
+    "kept": 0
   }
 }

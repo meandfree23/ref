@@ -1,11 +1,16 @@
 {
-  "runId": "44503844771",
-  "runAt": "2026-11-19T10:16:58.638Z",
+  "runId": "44665442204",
+  "runAt": "2026-11-20T03:11:03.372Z",
   "removedByTab": {
     "updates": 0,
-    "korean-code": 0,
+    "korean-code": 1,
     "cinema": 0
   },
-  "removed": 0,
-  "examples": []
+  "removed": 1,
+  "examples": [
+    {
+      "removed": "korean-code@2026-11-19 https://www.designboom.com/design/datecrete-date-pits-design-designboom-special-prize-seoul-design-award-2026/",
+      "kept": "updates@2026-11-12 https://www.designboom.com/design/datecrete-date-pits-design-designboom-special-prize-seoul-design-award-2026/"
+    }
+  ]
 }

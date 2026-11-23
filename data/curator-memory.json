@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-23T02:51:03.171Z",
+  "updatedAt": "2026-11-23T10:42:38.178Z",
   "reader": "한국 TVCF(광고 영상) 감독이자 브랜드 전략가 KJ",
   "taste_profile": {
     "summary": "완성된 영화 장면을 모으던 사람에서, 만드는 방법과 그 뒤의 논리를 모으는 사람으로 이동 중. '무엇이 좋은가'보다 '어떻게 만드는가'를 묻는다.",
@@ -123,7 +123,7 @@
       "kept": 115,
       "keepRate": 0.98,
       "avgSharpness": 8,
-      "lastSeen": "2026-11-23T02:43:57.472Z",
+      "lastSeen": "2026-11-23T10:42:35.513Z",
       "status": "trusted"
     },
     "Film Comment": {
@@ -219,7 +219,7 @@
       "kept": 29,
       "keepRate": 0.46,
       "avgSharpness": 4.4,
-      "lastSeen": "2026-11-23T02:43:57.472Z",
+      "lastSeen": "2026-11-23T10:42:35.513Z",
       "status": "watch"
     },
     "Senses of Cinema": {
@@ -275,7 +275,7 @@
       "kept": 28,
       "keepRate": 0.65,
       "avgSharpness": 5.9,
-      "lastSeen": "2026-11-23T14:59:59.000Z",
+      "lastSeen": "2026-11-23T10:42:35.513Z",
       "status": "trusted"
     },
     "Variety": {
@@ -731,7 +731,7 @@
       "kept": 3,
       "keepRate": 0.33,
       "avgSharpness": 3.9,
-      "lastSeen": "2026-11-23T02:43:57.472Z",
+      "lastSeen": "2026-11-23T10:42:35.513Z",
       "status": "watch"
     },
     "Korea.net": {
@@ -779,7 +779,7 @@
       "kept": 2,
       "keepRate": 0.25,
       "avgSharpness": 3.6,
-      "lastSeen": "2026-11-23T02:43:57.472Z",
+      "lastSeen": "2026-11-23T10:42:35.513Z",
       "status": "watch"
     },
     "Hypebeast": {
@@ -883,7 +883,7 @@
       "kept": 0,
       "keepRate": 0,
       "avgSharpness": 2.3,
-      "lastSeen": "2026-11-23T02:43:57.472Z",
+      "lastSeen": "2026-11-23T10:42:35.513Z",
       "status": "watch"
     },
     "autre.love": {
@@ -915,7 +915,7 @@
       "kept": 1,
       "keepRate": 0.2,
       "avgSharpness": 3.8,
-      "lastSeen": "2026-11-23T02:43:57.472Z",
+      "lastSeen": "2026-11-23T10:42:35.513Z",
       "status": "watch"
     },
     "씨네플레이": {
@@ -1003,7 +1003,7 @@
       "kept": 3,
       "keepRate": 0.75,
       "avgSharpness": 6.3,
-      "lastSeen": "2026-11-23T14:59:59.000Z",
+      "lastSeen": "2026-11-23T10:42:35.513Z",
       "status": "watch"
     },
     "KoreaTechDesk": {
@@ -2243,7 +2243,7 @@
       "kept": 0,
       "keepRate": 0,
       "avgSharpness": 3,
-      "lastSeen": "2026-11-23T02:43:57.472Z",
+      "lastSeen": "2026-11-23T10:42:35.513Z",
       "status": "watch"
     },
     "미주한국일보": {
@@ -2251,7 +2251,7 @@
       "kept": 1,
       "keepRate": 1,
       "avgSharpness": 7,
-      "lastSeen": "2026-11-23T02:43:57.472Z",
+      "lastSeen": "2026-11-23T10:42:35.513Z",
       "status": "watch"
     },
     "Wisevoter": {
@@ -2259,7 +2259,7 @@
       "kept": 0,
       "keepRate": 0,
       "avgSharpness": 2,
-      "lastSeen": "2026-11-23T02:43:57.472Z",
+      "lastSeen": "2026-11-23T10:42:35.513Z",
       "status": "watch"
     },
     "뉴스필드": {
@@ -2267,7 +2267,7 @@
       "kept": 0,
       "keepRate": 0,
       "avgSharpness": 2,
-      "lastSeen": "2026-11-23T02:43:57.472Z",
+      "lastSeen": "2026-11-23T10:42:35.513Z",
       "status": "watch"
     },
     "ET BrandEquity": {

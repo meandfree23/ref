@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-24T12:25:12.532Z",
+  "updatedAt": "2026-11-24T12:29:04.239Z",
   "reader": "한국 TVCF(광고 영상) 감독이자 브랜드 전략가 KJ",
   "taste_profile": {
     "summary": "완성된 영화 장면을 모으던 사람에서, 만드는 방법과 그 뒤의 논리를 모으는 사람으로 이동 중. '무엇이 좋은가'보다 '어떻게 만드는가'를 묻는다.",
@@ -3817,6 +3817,33 @@
   },
   "pipeline_health_log": [
     {
+      "at": "2026-11-24T12:26:34.116Z",
+      "agent": "signal",
+      "hypotheses": 3,
+      "clusters": 6,
+      "readings": 180,
+      "requests": 5
+    },
+    {
+      "at": "2026-11-24T12:25:33.271Z",
+      "agent": "deep-insight",
+      "daily": {
+        "candidates": 0,
+        "done": 0,
+        "failed": 0,
+        "fulltext": 0
+      },
+      "backfill": {
+        "candidates": 0,
+        "done": 0,
+        "failed": 0
+      },
+      "remaining": 0,
+      "requests": 0,
+      "failures": 0,
+      "lastError": null
+    },
+    {
       "at": "2026-11-24T06:05:01.236Z",
       "agent": "signal",
       "hypotheses": 4,
@@ -5003,33 +5030,6 @@
       "clusters": 6,
       "readings": 180,
       "requests": 1
-    },
-    {
-      "at": "2026-11-02T01:34:06.687Z",
-      "agent": "deep-insight",
-      "daily": {
-        "candidates": 45,
-        "done": 45,
-        "failed": 0,
-        "fulltext": 35
-      },
-      "backfill": {
-        "candidates": 0,
-        "done": 0,
-        "failed": 0
-      },
-      "remaining": 0,
-      "requests": 52,
-      "failures": 0,
-      "lastError": null
-    },
-    {
-      "at": "2026-11-01T09:13:32.415Z",
-      "agent": "signal",
-      "hypotheses": 4,
-      "clusters": 6,
-      "readings": 180,
-      "requests": 1
     }
   ],
   "editorial_decisions": [
@@ -5059,8 +5059,8 @@
     "업데이트 게이트를 35점으로 낮춘 뒤 접히는 비율이 너무 높아지면(60%+) 45점으로 되돌릴 것."
   ],
   "last_deep_run": {
-    "at": "2026-11-24T06:04:43.760Z",
-    "read": 45,
-    "kept": 26
+    "at": "2026-11-24T12:25:33.271Z",
+    "read": 0,
+    "kept": 0
   }
 }

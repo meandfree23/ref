@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-26T10:52:02.434Z",
+  "generatedAt": "2026-11-27T04:19:01.854Z",
   "model": "gemini-embedding-001",
   "dimensions": 256,
   "shards": [
     {
       "name": "archive-2026-11",
-      "count": 1170,
-      "vectorised": 1170
+      "count": 1215,
+      "vectorised": 1215
     },
     {
       "name": "archive-2026-10",
@@ -35,7 +35,7 @@
     },
     {
       "name": "history",
-      "count": 54543,
+      "count": 55090,
       "vectorised": 0
     }
   ]

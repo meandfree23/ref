@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-28T03:53:49.061Z",
+  "generatedAt": "2026-11-28T10:18:57.665Z",
   "sourceCount": 258,
-  "itemCount": 57887,
+  "itemCount": 57905,
   "sources": {
     "adweek.com": {
       "host": "adweek.com",
@@ -1332,7 +1332,7 @@
       "sourceBookmarkUrl": "http://www.bckoo.com/",
       "sourceFolder": "작가",
       "priorityTier": "C",
-      "checkedAt": "2026-11-15T09:16:36.788Z",
+      "checkedAt": "2026-11-28T10:18:17.685Z",
       "status": "empty",
       "discovered": 0,
       "added": 0,
@@ -1346,7 +1346,7 @@
       "sourceBookmarkUrl": "http://www.bortolozzo.net/",
       "sourceFolder": "작가",
       "priorityTier": "C",
-      "checkedAt": "2026-11-15T09:16:47.419Z",
+      "checkedAt": "2026-11-28T10:18:30.482Z",
       "status": "empty",
       "discovered": 0,
       "added": 0,
@@ -1358,13 +1358,14 @@
       "sourceBookmarkUrl": "https://cheimread.com/",
       "sourceFolder": "작가",
       "priorityTier": "C",
-      "checkedAt": "2026-11-15T09:16:49.708Z",
+      "checkedAt": "2026-11-28T10:18:33.587Z",
       "status": "indexed",
-      "discovered": 100,
-      "added": 100,
-      "sitemapCount": 2,
+      "discovered": 18,
+      "added": 18,
+      "sitemapCount": 3,
       "errors": [
-        "sitemap /sitemap.xml: Failed to parse URL from /sitemap.xml"
+        "sitemap /sitemap.xml: Failed to parse URL from /sitemap.xml",
+        "sitemap https://cheimread.com/sitemap_index.xml: HTTP 404"
       ]
     },
     "christopherandersonphoto.com": {
@@ -1372,7 +1373,7 @@
       "sourceBookmarkUrl": "https://christopherandersonphoto.com/",
       "sourceFolder": "작가",
       "priorityTier": "C",
-      "checkedAt": "2026-11-15T09:16:51.194Z",
+      "checkedAt": "2026-11-28T10:18:35.691Z",
       "status": "empty",
       "discovered": 0,
       "added": 0,
@@ -1388,7 +1389,7 @@
       "sourceBookmarkUrl": "http://curlytops.deviantart.com/gallery/",
       "sourceFolder": "작가",
       "priorityTier": "C",
-      "checkedAt": "2026-11-15T09:16:52.430Z",
+      "checkedAt": "2026-11-28T10:18:37.165Z",
       "status": "empty",
       "discovered": 0,
       "added": 0,
@@ -1405,24 +1406,19 @@
       "sourceBookmarkUrl": "http://www.danielnoone.com/",
       "sourceFolder": "작가",
       "priorityTier": "C",
-      "checkedAt": "2026-11-15T09:16:55.514Z",
+      "checkedAt": "2026-11-28T10:18:45.753Z",
       "status": "empty",
       "discovered": 0,
       "added": 0,
-      "sitemapCount": 2,
-      "errors": [
-        "robots: fetch failed",
-        "home: fetch failed",
-        "sitemap http://www.danielnoone.com/sitemap.xml: fetch failed",
-        "sitemap http://www.danielnoone.com/sitemap_index.xml: fetch failed"
-      ]
+      "sitemapCount": 4,
+      "errors": []
     },
     "davirusso.com": {
       "host": "davirusso.com",
       "sourceBookmarkUrl": "https://www.davirusso.com/",
       "sourceFolder": "작가",
       "priorityTier": "C",
-      "checkedAt": "2026-11-15T09:16:57.375Z",
+      "checkedAt": "2026-11-28T10:18:47.825Z",
       "status": "empty",
       "discovered": 0,
       "added": 0,
@@ -1436,7 +1432,7 @@
       "sourceBookmarkUrl": "http://folio.patrickhoelck.com/#/",
       "sourceFolder": "작가",
       "priorityTier": "C",
-      "checkedAt": "2026-11-15T09:16:59.498Z",
+      "checkedAt": "2026-11-28T10:18:51.061Z",
       "status": "empty",
       "discovered": 0,
       "added": 0,
@@ -1451,7 +1447,7 @@
       "sourceBookmarkUrl": "http://www.franceskearney.com/",
       "sourceFolder": "작가",
       "priorityTier": "C",
-      "checkedAt": "2026-11-16T01:58:40.296Z",
+      "checkedAt": "2026-11-28T10:18:53.428Z",
       "status": "empty",
       "discovered": 0,
       "added": 0,
@@ -1465,7 +1461,7 @@
       "sourceBookmarkUrl": "http://www.frankschott.com/",
       "sourceFolder": "작가",
       "priorityTier": "C",
-      "checkedAt": "2026-11-16T01:58:44.364Z",
+      "checkedAt": "2026-11-28T10:18:56.334Z",
       "status": "empty",
       "discovered": 0,
       "added": 0,
@@ -427828,6 +427824,732 @@
         "evidence": "",
         "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
         "creativeUse": "‘84 jonathan lasker expressions become things’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-5a2e2b21a276239e6f5e",
+      "title": "85 donald baechler sculpture",
+      "url": "https://cheimread.com/publications/85-donald-baechler-sculpture",
+      "host": "cheimread.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://cheimread.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-10-07T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://cheimread.com/sitemap.xml",
+      "indexedAt": "2026-11-28T10:18:33.578Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "art-material"
+        ],
+        "topicLabels": [
+          "예술과 물성"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 예술과 물성의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘85 donald baechler sculpture’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-156158801d122042cdfe",
+      "title": "86 louise bourgeois the reticent child",
+      "url": "https://cheimread.com/publications/86-louise-bourgeois-the-reticent-child",
+      "host": "cheimread.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://cheimread.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-10-07T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://cheimread.com/sitemap.xml",
+      "indexedAt": "2026-11-28T10:18:33.578Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘86 louise bourgeois the reticent child’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-861a564e5dc4238ddda1",
+      "title": "87 lynda benglish a sculpture survey 1969 2004",
+      "url": "https://cheimread.com/publications/87-lynda-benglish-a-sculpture-survey-1969-2004",
+      "host": "cheimread.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://cheimread.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-10-07T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://cheimread.com/sitemap.xml",
+      "indexedAt": "2026-11-28T10:18:33.578Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "art-material"
+        ],
+        "topicLabels": [
+          "예술과 물성"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 예술과 물성의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘87 lynda benglish a sculpture survey 1969 2004’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-8d80193c14f207eeb1e4",
+      "title": "88 jack pierson self portrait",
+      "url": "https://cheimread.com/publications/88-jack-pierson-self-portrait",
+      "host": "cheimread.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://cheimread.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-10-07T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://cheimread.com/sitemap.xml",
+      "indexedAt": "2026-11-28T10:18:33.578Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "photography",
+          "art-material"
+        ],
+        "topicLabels": [
+          "사진과 이미지",
+          "예술과 물성"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 사진과 이미지의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘88 jack pierson self portrait’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-1abf8c650ca8e2fc9024",
+      "title": "89 adam fuss 1961 1973",
+      "url": "https://cheimread.com/publications/89-adam-fuss-1961-1973",
+      "host": "cheimread.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://cheimread.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-10-07T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://cheimread.com/sitemap.xml",
+      "indexedAt": "2026-11-28T10:18:33.578Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘89 adam fuss 1961 1973’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-1c0ec365e21834dc4713",
+      "title": "9 cheim read twenty one",
+      "url": "https://cheimread.com/publications/9-cheim-read-twenty-one",
+      "host": "cheimread.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://cheimread.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-10-07T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://cheimread.com/sitemap.xml",
+      "indexedAt": "2026-11-28T10:18:33.578Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘9 cheim read twenty one’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-6045c9650ba0085d4378",
+      "title": "90 joan mitchell the presence of absence",
+      "url": "https://cheimread.com/publications/90-joan-mitchell-the-presence-of-absence",
+      "host": "cheimread.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://cheimread.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-10-07T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://cheimread.com/sitemap.xml",
+      "indexedAt": "2026-11-28T10:18:33.578Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘90 joan mitchell the presence of absence’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-11f8e4555a913983d380",
+      "title": "91 louise bourgeois",
+      "url": "https://cheimread.com/publications/91-louise-bourgeois",
+      "host": "cheimread.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://cheimread.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-10-07T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://cheimread.com/sitemap.xml",
+      "indexedAt": "2026-11-28T10:18:33.578Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘91 louise bourgeois’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-b6e700c8bfbc2d409f19",
+      "title": "92 robert mapplethorpe autoportrait",
+      "url": "https://cheimread.com/publications/92-robert-mapplethorpe-autoportrait",
+      "host": "cheimread.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://cheimread.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-10-07T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://cheimread.com/sitemap.xml",
+      "indexedAt": "2026-11-28T10:18:33.578Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘92 robert mapplethorpe autoportrait’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-5403b5759a32a0740760",
+      "title": "93 jack pierson",
+      "url": "https://cheimread.com/publications/93-jack-pierson",
+      "host": "cheimread.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://cheimread.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-10-07T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://cheimread.com/sitemap.xml",
+      "indexedAt": "2026-11-28T10:18:33.578Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘93 jack pierson’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-822a53eb84cb84fb1f5b",
+      "title": "94 richmond burton",
+      "url": "https://cheimread.com/publications/94-richmond-burton",
+      "host": "cheimread.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://cheimread.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-10-07T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://cheimread.com/sitemap.xml",
+      "indexedAt": "2026-11-28T10:18:33.578Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘94 richmond burton’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-c500fd76c1e004d7ced6",
+      "title": "95 louise fishman",
+      "url": "https://cheimread.com/publications/95-louise-fishman",
+      "host": "cheimread.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://cheimread.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-10-07T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://cheimread.com/sitemap.xml",
+      "indexedAt": "2026-11-28T10:18:33.578Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘95 louise fishman’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-764f97a626916ddb8de6",
+      "title": "96 otto zitko",
+      "url": "https://cheimread.com/publications/96-otto-zitko",
+      "host": "cheimread.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://cheimread.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-10-07T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://cheimread.com/sitemap.xml",
+      "indexedAt": "2026-11-28T10:18:33.578Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘96 otto zitko’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-aa5c49ccc6be1c51f195",
+      "title": "97 juan usle",
+      "url": "https://cheimread.com/publications/97-juan-usle",
+      "host": "cheimread.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://cheimread.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-10-07T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://cheimread.com/sitemap.xml",
+      "indexedAt": "2026-11-28T10:18:33.578Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘97 juan usle’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-3e56befa5a8bd81c9fdd",
+      "title": "98 louise bourgeois cinq notes sur l oeuvre de louise bourgeois",
+      "url": "https://cheimread.com/publications/98-louise-bourgeois-cinq-notes-sur-l-oeuvre-de-louise-bourgeois",
+      "host": "cheimread.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://cheimread.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-10-07T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://cheimread.com/sitemap.xml",
+      "indexedAt": "2026-11-28T10:18:33.578Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘98 louise bourgeois cinq notes sur l oeuvre de louise bourgeois’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-71d37ec791bc1f469389",
+      "title": "99 louise fishman",
+      "url": "https://cheimread.com/publications/99-louise-fishman",
+      "host": "cheimread.com",
+      "kind": "web",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://cheimread.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-10-07T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://cheimread.com/sitemap.xml",
+      "indexedAt": "2026-11-28T10:18:33.578Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "culture-signal"
+        ],
+        "topicLabels": [
+          "문화와 시대 감각"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 문화와 시대 감각의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘99 louise fishman’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-b0a7844a7b2b3b497d6f",
+      "title": "video",
+      "url": "https://cheimread.com/video",
+      "host": "cheimread.com",
+      "kind": "video",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://cheimread.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-10-07T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://cheimread.com/sitemap.xml",
+      "indexedAt": "2026-11-28T10:18:33.578Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "moving-image",
+          "art-material"
+        ],
+        "topicLabels": [
+          "영상 언어",
+          "예술과 물성"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 영상 언어의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘video’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
+      }
+    },
+    {
+      "id": "history-2c796b7aaabb19ace895",
+      "title": "1 video style guide do not edit or delete subtitle",
+      "url": "https://cheimread.com/video/1-video-style-guide-do-not-edit-or-delete-subtitle",
+      "host": "cheimread.com",
+      "kind": "video",
+      "sourceFolder": "작가",
+      "sourceLayer": "history",
+      "sourceCategory": "artist",
+      "region": "personal",
+      "path": "북마크바 / 작가 / 과거 아카이브",
+      "trustReason": "Public archive item discovered from a user-bookmarked source.",
+      "sourceBookmarkUrl": "https://cheimread.com/",
+      "description": "",
+      "image": "",
+      "publishedAt": null,
+      "modifiedAt": "2026-10-07T00:00:00.000Z",
+      "discoveryMethod": "sitemap",
+      "discoveryUrl": "https://cheimread.com/sitemap.xml",
+      "indexedAt": "2026-11-28T10:18:33.578Z",
+      "contentInsight": {
+        "version": "role-analysis-v2",
+        "engine": "role-aware-rules",
+        "tone": "friendly-sharp-v1",
+        "role": "history",
+        "roleLabel": "개인 아카이브",
+        "topics": [
+          "moving-image",
+          "fashion-culture"
+        ],
+        "topicLabels": [
+          "영상 언어",
+          "패션과 스타일"
+        ],
+        "method": "observation",
+        "analysisFocus": "observation",
+        "confidence": "title-only",
+        "evidence": "",
+        "insight": "아직 제목과 주소만 확인된 자료입니다. 원문에서 영상 언어의 실제 제작 판단 하나를 찾은 뒤 사용하세요.",
+        "creativeUse": "‘1 video style guide do not edit or delete subtitle’에서 반복할 규칙 하나와 이번 작업에서 바꿀 변수 하나만 카드로 남겨보세요."
       }
     },
     {
